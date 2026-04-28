@@ -2,7 +2,10 @@ import os
 import time
 import argparse
 from qna_batch_processor import BatchProcessor
-from index import IndexProcessor
+try:
+    from index import IndexProcessor
+except ImportError:
+    IndexProcessor = None
 from datetime import datetime, timedelta
 import pandas as pd
 from utils.logger_config import logger

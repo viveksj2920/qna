@@ -23,6 +23,7 @@ try:
     PCL_SENTIMENT_JSON = os.getenv("PCL_SENTIMENT_JSON", os.path.join(_src_dir, "data/input/sentiment_config_pcl.json"))
     MIRA_TOPIC_JSON = os.getenv("MIRA_TOPIC_JSON", os.path.join(_src_dir, "data/input/topic_prompt_mira.json"))
     MIRA_SUBTOPIC_JSON = os.getenv("MIRA_SUBTOPIC_JSON", os.path.join(_src_dir, "data/input/sub_topic_prompt_mira.json"))
+    MIRA_NEW_SUBTOPIC_JSON = os.getenv("MIRA_NEW_SUBTOPIC_JSON", os.path.join(_src_dir, "data/input/new_sub_topic_prompt_mira.json"))
     MIRA_QUESTION_JSON = os.getenv("MIRA_QUESTION_JSON", os.path.join(_src_dir, "data/input/questions_mira.json"))
     MIRA_SENTIMENT_JSON = os.getenv("MIRA_SENTIMENT_JSON", os.path.join(_src_dir, "data/input/sentiment_config_mira.json"))
 

@@ -79,6 +79,7 @@ def load_project_config(project, prompt_name):
         "MIRA": {
             "topic_extraction": config.MIRA_TOPIC_JSON,
             "subtopic_extraction": config.MIRA_SUBTOPIC_JSON,
+            "new_subtopic_extraction": config.MIRA_NEW_SUBTOPIC_JSON,
             "useful_questions": config.MIRA_QUESTION_JSON,
             "sentiment_extraction": config.MIRA_SENTIMENT_JSON
         },

@@ -68,7 +68,7 @@ def main():
         end_date_formatted = datetime_object.strftime('%Y-%m-%dT%H:%M:%SZ')
 
         # Set filter to extract records in the date range and not processed yet
-        date_filter = f"StartTime ge {start_date_formatted} and StartTime lt {end_date_formatted} and qa_processed_time eq null and metadata_processed_time ne null and Text ne ''"
+        date_filter = f"StartTime ge {start_date_formatted} and StartTime lt {end_date_formatted} and metadata_processed_time ne null and Text ne ''"
 
         # create an index processor object
         index_processor = IndexProcessor(index_name=index_dict['source_index'])

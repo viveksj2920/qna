@@ -3,6 +3,7 @@ import concurrent.futures
 import datetime
 import hashlib
 import json
+import logging
 import os
 import re
 import time
@@ -26,7 +27,7 @@ import asyncio
 import nest_asyncio
 import aiohttp
 from openai import AsyncAzureOpenAI
-nest_asyncio.apply()
+# nest_asyncio.apply()
 import traceback
 
 # Import the Prompts
@@ -180,7 +181,7 @@ class qna_extractor:
         sub_topic = None
         if self.question and self.topic:
             topic_cleaned = clean_topic(self.project, self.topic)
-            sub_topic_prompt_dict = load_project_config(self.project, "subtopic_extraction")
+            sub_topic_prompt_dict = load_project_config(self.project, "new_subtopic_extraction")
             
             sub_topic_prompt = sub_topic_prompt_dict[topic_cleaned]
             sub_topic_prompt = prompt_sub_topic_format(self.project, sub_topic_prompt)
@@ -1071,19 +1072,6 @@ class qna_extractor:
                         for result in processed_questions:
                             if not isinstance(result, Exception):
                                 expanded_qna.append(result)
-                                
-                                # Add subtopic grouping logic for MIRA project
-                                if project == "MIRA" and "sub_topic" in result:
-                                    await self.process_subtopic_grouping_async(
-                                        result,
-                                        qnas_with_ungrouped_subtopics,
-                                        all_ungrouped_subtopics,
-                                        input_dict["lookup_index"],
-                                        project,
-                                        input_dict['dry_run']
-                                    )
-                                elif project == "PCL"  and "sub_topic" in result:
-                                    result["grouped_sub_topic"] = result['sub_topic']
                         
                         # Create processed record
                         now = datetime.datetime.utcnow()
@@ -1158,6 +1146,7 @@ class qna_extractor:
                 
                 # Process subtopic result
                 if subtopic_result:
+                    logger.info(f"Raw subtopic result for question '{question}': {subtopic_result}")
                     try:
                         cleaned_subtopic = subtopic_result.strip().replace("```json", "").replace("```", "").strip()
                         cleaned_subtopic = cleaned_subtopic.lstrip('\n').rstrip('\n')
@@ -1315,7 +1304,7 @@ class qna_extractor:
                 await rate_limiter.acquire()
                 
             topic_cleaned = clean_topic(project, topic)
-            sub_topic_prompt_dict = load_project_config(project, "subtopic_extraction")
+            sub_topic_prompt_dict = load_project_config(project, "new_subtopic_extraction")
             
             sub_topic_prompt = sub_topic_prompt_dict[topic_cleaned]
             sub_topic_prompt = prompt_sub_topic_format(project, sub_topic_prompt)
@@ -1428,14 +1417,14 @@ class qna_extractor:
             session = await self.get_session()
      
             client = AsyncAzureOpenAI(
-                azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-                api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
-                api_key=os.getenv("AZURE_OPENAI_KEY"),
+                azure_endpoint=config.AZURE_OPENAI_ENDPOINT,
+                api_version=config.AZURE_OPENAI_API_VERSION,
+                api_key=config.AZURE_OPENAI_KEY,
                 http_client=session
             )
             
             response = await client.chat.completions.create(
-                model=os.getenv("AZURE_OPENAI_DEPLOYMENT"),
+                model=config.AZURE_OPENAI_DEPLOYMENT,
                 messages=messages,
                 max_tokens=max_tokens,
                 temperature=temperature

@@ -1,0 +1,209 @@
+{
+  "General Plan Information": {
+    "plan_identification": "Identifying the member’s current plan name, type, and carrier",
+    "plan_type_explanation": "Explaining Medicare Advantage, Medicare Supplement, PDP, PPO, HMO, POS, SNP plans",
+    "coverage_overview": "High-level overview of what the plan covers and excludes",
+    "additional_benefits_overview": "Non-medical benefits such as dental, vision, hearing, OTC, fitness, transportation",
+    "provider_access_rules": "General rules for using doctors, specialists, and hospitals",
+    "plan_documents_access": "How members receive, view, or request plan documents",
+    "plan_changes_general": "General questions about whether plans change year to year"
+  },
+
+  "Eligibility": {
+    "medicare_eligibility": "Eligibility for Medicare based on age, disability, or medical conditions",
+    "medicaid_eligibility": "Eligibility for Medicaid and Medicaid level determination",
+    "dual_eligibility": "Eligibility for both Medicare and Medicaid (dual status)",
+    "dsnp_eligibility": "Eligibility for Dual Special Needs Plans",
+    "csnp_eligibility": "Eligibility for Chronic Special Needs Plans based on conditions",
+    "extra_help_lis": "Eligibility for Low Income Subsidy (Extra Help)",
+    "eligibility_changes": "Loss, gain, or mismatch of eligibility status",
+    "life_event_eligibility": "Eligibility changes due to move, job loss, aging into Medicare",
+    "verification_requirements": "Documents or proof required to confirm eligibility"
+  },
+
+  "Provider": {
+    "network_status": "Checking if a provider or facility is in-network or out-of-network",
+    "finding_providers": "Locating doctors, specialists, hospitals, pharmacies",
+    "pcp_assignment": "Primary care provider assignment and changes",
+    "referrals_authorizations": "Referral and prior authorization requirements",
+    "out_of_network_rules": "Coverage rules for out-of-network providers",
+    "provider_contract_changes": "Providers leaving or joining the network",
+    "hospital_facility_coverage": "Hospital and facility network coverage",
+    "pharmacy_network": "Retail and mail-order pharmacy participation",
+    "home_health_rehab": "Home health, rehab, and post-acute provider coverage",
+    "provider_verification": "Confirming coverage with provider offices",
+    "appointments_scheduling": "Help with booking, rescheduling, or canceling appointments"
+  },
+
+  "Plan Costs": {
+    "premiums": "Monthly premium amounts and changes",
+    "deductibles": "Medical and prescription deductibles",
+    "copays": "Fixed copay amounts for services",
+    "coinsurance": "Percentage-based cost sharing",
+    "out_of_pocket_maximum": "Annual maximum cost protection",
+    "prescription_costs": "Medication pricing and tiers",
+    "billing_issues": "Unexpected bills, denied charges, balance questions",
+    "payment_methods": "How premiums and bills are paid",
+    "subsidies_assistance": "Medicaid, Extra Help, employer or retiree subsidies",
+    "cost_comparisons": "Comparing plan costs",
+    "cost_changes": "Year-to-year or mid-year cost changes"
+  },
+
+  "Prescription Drug Coverage": {
+    "formulary_coverage": "Which medications are covered",
+    "drug_costs": "Copays, coinsurance, and pricing",
+    "deductible_and_stages": "Part D deductible and coverage phases",
+    "prior_authorization": "PA, step therapy, and exceptions",
+    "extra_help_medicaid": "Impact of Extra Help or Medicaid on drug costs",
+    "pharmacy_access": "Using retail or preferred pharmacies",
+    "mail_order": "OptumRx or other mail-order services",
+    "otc_benefits": "Over-the-counter benefit cards and allowances",
+    "billing_rejections": "Pharmacy claim rejections or errors",
+    "transition_fills": "Temporary medication access during coverage changes",
+    "cost_saving_options": "Generic alternatives and assistance programs",
+    "specialty_drugs": "High-cost or specialty medications",
+    "safety_alerts": "Drug interaction or safety notices"
+  },
+
+  "Drug Coverage Termination": {
+    "plan_termination": "Prescription drug plan cancellation or loss",
+    "no_notification": "Coverage ended without member awareness",
+    "formulary_removal": "Drugs removed from coverage list",
+    "controlled_drug_restrictions": "Restrictions on opioids, benzodiazepines, stimulants",
+    "extra_help_loss": "Loss of LIS causing higher drug costs",
+    "pbm_changes": "Pharmacy benefit manager changes affecting coverage",
+    "coverage_verification": "Confirming current drug coverage or alternatives"
+  },
+
+  "Additional Benefits": {
+    "transportation_eligibility": "Eligibility for medical transportation services",
+    "transportation_limits": "Trip limits and ride allowances",
+    "transportation_scheduling": "Booking, cancellations, and ride issues",
+    "food_benefits_eligibility": "Eligibility for grocery or food allowances",
+    "food_benefits_amounts": "Monthly or quarterly food benefit values",
+    "food_card_usage": "Using food or utility cards",
+    "eligible_food_items": "What can and cannot be purchased",
+    "benefit_verification": "Doctor verification for food benefits",
+    "gym_membership": "Fitness benefits such as SilverSneakers",
+    "gym_activation": "Enrollment and access codes",
+    "benefit_changes": "Loss or reduction of extra benefits"
+  },
+
+  "Digital Friction": {
+    "login_issues": "Problems signing in to online accounts",
+    "registration_issues": "Difficulties creating an online account",
+    "mobile_app_issues": "UnitedHealthcare app problems",
+    "missing_plan_info": "Plan not showing correctly online",
+    "document_delivery": "Electronic vs paper documents",
+    "document_access": "Unable to open or view documents",
+    "notification_problems": "Emails, texts, or alerts missing or confusing",
+    "website_navigation": "Trouble using websites or finding information",
+    "info_lookup": "Difficulty finding benefits, plans, or balances",
+    "tech_support": "Needing escalation or real-person help",
+    "accessibility_needs": "Non-digital or accessibility accommodations"
+  },
+
+  "Medicare ID & Member ID": {
+    "find_medicare_number": "Locating or retrieving Medicare number",
+    "find_member_id": "Locating UnitedHealthcare member ID",
+    "id_confusion": "Medicare number vs member ID confusion",
+    "id_not_found": "ID not recognized by systems",
+    "id_for_verification": "Using ID for enrollment or verification",
+    "pharmacy_id": "IDs required for prescription use",
+    "lookup_without_id": "Finding coverage without ID",
+    "family_ids": "IDs for spouses or dependents",
+    "medicare_contacts": "How to contact Medicare",
+    "update_medicare_info": "Updating name, address, or DOB",
+    "medicare_card_basics": "Understanding the Medicare card"
+  },
+
+  "Plan Comparison": {
+    "plan_type_comparison": "HMO vs PPO vs POS differences",
+    "advantage_vs_supplement": "Medicare Advantage vs Medigap",
+    "supplement_plan_comparison": "Plan F, G, N, K comparisons",
+    "ma_plan_variants": "Essentials vs Extras vs Complete Care",
+    "dual_special_needs_comparison": "DSNP and CSNP comparisons",
+    "extra_benefits_comparison": "Dental, OTC, grocery benefit differences",
+    "drug_plan_comparison": "Prescription drug plan comparisons",
+    "cost_comparison": "Premiums, copays, and OOP differences",
+    "carrier_comparison": "UnitedHealthcare vs other carriers",
+    "old_vs_new_plan": "Comparing previous and current plans",
+    "best_plan_recommendation": "Which plan fits best",
+    "comparison_tools": "Where and how to compare plans"
+  },
+
+  "Plan Changes & Switching": {
+    "upgrade_benefits": "Switching plans to improve benefits",
+    "change_plan_type": "HMO to PPO or Advantage to Supplement",
+    "provider_driven_switch": "Switching due to doctor or medication issues",
+    "move_related_switch": "Switching plans after moving",
+    "enrollment_timing": "Open enrollment and special election periods",
+    "reinstatement": "Returning to a previous plan",
+    "unauthorized_changes": "Plans changed without consent",
+    "cancellation": "Disenrolling from a plan",
+    "coverage_coordination": "Impact on other coverage",
+    "effective_dates": "When plan changes take effect",
+    "decision_support": "Help choosing whether to switch"
+  },
+
+  "Service Area Reduction": {
+    "termination_due_to_move": "Plan ended due to moving",
+    "plan_not_offered": "Plan withdrawn from area",
+    "unexpected_termination": "Coverage ended unexpectedly",
+    "no_notice": "Member not notified",
+    "out_of_area_denials": "Benefits denied due to location",
+    "medicaid_conflicts": "Medicaid active but plan terminated",
+    "csnp_dsnp_termination": "Special needs plan ended",
+    "coverage_after_end": "What coverage remains",
+    "reinstatement_options": "Possibility of reinstating plan",
+    "new_area_options": "Plans available in new location",
+    "nationwide_confusion": "Coverage across states or countries",
+    "plan_history": "Which plan ended and why"
+  },
+
+  "Member Renewal": {
+    "renewal_status": "Whether renewal is required",
+    "plan_expiration": "Coverage expiring",
+    "automatic_vs_manual": "Auto-renewal vs action needed",
+    "medicaid_renewal": "Medicaid redetermination",
+    "renewal_notifications": "Letters, emails, or texts about renewal",
+    "renewal_process": "How to renew coverage",
+    "reenrollment": "Getting back after cancellation",
+    "plan_identity": "Which plan applies after renewal",
+    "medicare_dependencies": "Part B or Extra Help renewal impact",
+    "coverage_confusion": "Unclear or conflicting status"
+  },
+
+  "Dental Coverage": {
+    "coverage_status": "Whether dental coverage exists",
+    "covered_services": "What dental services are covered",
+    "preventive_vs_comprehensive": "Basic vs major dental care",
+    "benefit_limits": "Annual maximums",
+    "cost_sharing": "Copays and coinsurance",
+    "procedure_codes": "Coverage rules by code",
+    "major_services": "Crowns, dentures, implants",
+    "dental_riders": "Optional dental buy-up plans",
+    "network_rules": "In-network vs out-of-network dentists",
+    "claims_appeals": "Denied claims and appeals",
+    "authorizations": "Pre-approvals",
+    "medicare_medicaid_dental": "Coordination with Medicaid",
+    "provider_finding": "Finding dentists",
+    "coverage_changes": "Loss or reduction of benefits",
+    "standalone_dental": "Separate dental plans"
+  },
+
+  "Vision Benefits": {
+    "vision_coverage_status": "Whether vision coverage exists",
+    "covered_services": "Eye exams and vision care",
+    "exam_frequency": "How often exams are covered",
+    "eyeglass_allowance": "Frames and lenses allowance",
+    "plan_type_vision": "Vision by plan type",
+    "coverage_coordination": "Medicare, Medicaid, supplement interaction",
+    "vision_providers": "Finding eye doctors",
+    "specialty_vision": "Medical eye treatments",
+    "ordering_glasses": "Ordering glasses or contacts",
+    "benefit_verification": "Confirming vision benefits",
+    "vision_hearing_bundle": "Combined vision and hearing benefits",
+    "accessibility": "Vision-related communication needs"
+  }
+}

@@ -132,19 +132,13 @@ def prompt_sub_topic_format(project, sub_topic_prompt):
     formatted_output = ""
 
     if project == "MIRA":
-
-        sub_topic_description = sub_topic_prompt["description"]  
-        examples = sub_topic_prompt["examples"]  
-
-        # Format the output for this topic  
-        formatted_output += f"Description: {sub_topic_description}\n"  
-        formatted_output += "\nreturn the output as a list of entities.\n"  
-        formatted_output += "\nexamples:\n\n"  
-
-        for question_entity in examples:  
-            question = question_entity["question"]  
-            sub_topics = question_entity["sub topics"]  
-            formatted_output += f"question: {question}\nsub topics: {sub_topics}\n\n"
+        count = 1
+        for keys, value in sub_topic_prompt.items():
+            formatted_output += f"{count}. {keys}: {value['description']}\n\n"  
+            formatted_output += "examples:\n\n"
+            for example in value["examples"]:
+                formatted_output += f"question: {example}\n"
+            count += 1
 
     if project == "PCL":
 
@@ -181,7 +175,7 @@ def sub_topic_extraction_prompt(question, topic, sub_topic_descriptions):
     prompt = textwrap.dedent(f"""
 
             You are an intelligent knowledge building assistant. 
-            You task is to assign only one sub-topic for a given question asked by customer in transcript.
+            You task is to identify all applicable sub-topics for a given question asked by customer in transcript.
 
             ### Context:
 
@@ -189,22 +183,25 @@ def sub_topic_extraction_prompt(question, topic, sub_topic_descriptions):
             - Portions of the transcript may have personally identifiable information (PII) redacted with asterisks (e.g., ****). **This redaction does NOT affect the usability of the transcript, and should not be called out at any point.**
 
             
-            ## Classify given question into a sub-topic using below sub-topic descriptions for given topic.
+            ## Classify given question into all applicable sub-topics using below sub-topic descriptions for the given topic.
             
-            ## Sub-Topics and Descriptions for Topic: {topic}
+            ## Topic: {topic}
 
+            ## Sub-Topics and Descriptions
+                             
             {sub_topic_descriptions} 
 
             
             ### Instructions:
 
-            1. Each sub-topic should be relevant to the given question.
-            2. Classify each question into only one best possible corresponding sub-topic based on the detailed descriptions provided.
-            3. Format your response like the following JSON:
+            1. Select every sub-topic that is relevant to the given question and consistent with the provided topic.
+            2. A question may belong to multiple sub-topics if more than one description clearly applies.
+            3. If none of the provided sub-topics fit the question, return an empty list for sub_topic.
+            4. Format your response like the following JSON:
 
             ```
 
-            {{ "question": [string], "topic": [string], "sub_topic": [string] }}
+            {{ "question": [string], "topic": [string], "sub_topic": ["sub_topic_1", "sub_topic_2"] }}
 
             ```
 

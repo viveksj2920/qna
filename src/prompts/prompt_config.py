@@ -126,43 +126,46 @@ def topic_extraction_prompt(question, topic_descriptions):
  )
     return prompt
 
-def prompt_sub_topic_format(project, sub_topic_prompt):
+def prompt_sub_topic_format(project, sub_topic_config):
+    """
+    Formats subtopic config for inclusion in the LLM prompt.
 
-    # Initialize a string variable to hold the formatted output  
+    For MIRA: expects new format {"subtopics": [...], "open_ended": [...]}
+    For PCL: expects old format {"subtopic_name": {"description": ..., "examples": [...]}}
+    """
     formatted_output = ""
 
     if project == "MIRA":
-        count = 1
-        for keys, value in sub_topic_prompt.items():
-            formatted_output += f"{count}. {keys}: {value['description']}\n\n"  
-            formatted_output += "examples:\n\n"
-            for example in value["examples"]:
-                formatted_output += f"question: {example}\n"
-            count += 1
+        subtopics = sub_topic_config.get("subtopics", [])
+        open_ended = sub_topic_config.get("open_ended", [])
 
-    if project == "PCL":
+        formatted_output += "PREDEFINED SUBTOPICS (you MUST select from this list only):\n"
+        for i, name in enumerate(subtopics, 1):
+            formatted_output += f"  {i}. {name}\n"
 
-        for sub_topic in sub_topic_prompt:
+        if open_ended:
+            formatted_output += "\nENTITY EXTRACTION (extract these named entities if mentioned in the question):\n"
+            for entry in open_ended:
+                formatted_output += f"  - {entry['type']}: {entry['instruction']}\n"
 
-            topic_prompt = sub_topic_prompt[sub_topic]
-            topic_description = topic_prompt["description"]  
+    elif project == "PCL":
+        for sub_topic in sub_topic_config:
+            topic_prompt = sub_topic_config[sub_topic]
+            topic_description = topic_prompt["description"]
 
-            # Format the output for this topic  
-            formatted_output += f"Sub topic: {sub_topic}\n"  
-            formatted_output += f"Description: {topic_description}\n"  
-            formatted_output += "\nreturn the output as a list of entities.\n"  
+            formatted_output += f"Sub topic: {sub_topic}\n"
+            formatted_output += f"Description: {topic_description}\n"
+            formatted_output += "\nreturn the output as a list of entities.\n"
 
             if "examples" in topic_prompt:
-
-                examples_list = topic_prompt["examples"]  
-                formatted_output += "\nexample questions:\n\n"  
-
-                for question in examples_list:  
-                    formatted_output += f"question: {question}\n"  
+                examples_list = topic_prompt["examples"]
+                formatted_output += "\nexample questions:\n\n"
+                for question in examples_list:
+                    formatted_output += f"question: {question}\n"
 
             if "explanation" in topic_prompt:
                 explanation = topic_prompt["explanation"]
-                formatted_output += f"\nexplanation: {explanation}\n\n"  
+                formatted_output += f"\nexplanation: {explanation}\n\n"
 
             formatted_output += "----------------------------------------\n\n"
 
@@ -170,42 +173,52 @@ def prompt_sub_topic_format(project, sub_topic_prompt):
 
 def sub_topic_extraction_prompt(question, topic, sub_topic_descriptions):
     """
-    Generates the MIRA extraction prompt for metadata extraction from transcripts.
+    Generates the subtopic extraction prompt. Instructs the LLM to select from
+    predefined subtopics and extract named entities when applicable.
     """
     prompt = textwrap.dedent(f"""
-
-            You are an intelligent knowledge building assistant. 
-            You task is to identify all applicable sub-topics for a given question asked by customer in transcript.
+            You are an intelligent knowledge building assistant.
+            Your task is to classify a customer question into applicable sub-topics
+            AND extract specific named entities when applicable.
 
             ### Context:
 
-            - The question is asked are conversations between agents and customers.
-            - Portions of the transcript may have personally identifiable information (PII) redacted with asterisks (e.g., ****). **This redaction does NOT affect the usability of the transcript, and should not be called out at any point.**
+            - The question comes from a conversation between an agent and a customer
+              at a Medicare/healthcare company.
+            - PII may be redacted with asterisks (****). This does not affect analysis.
 
-            
-            ## Classify given question into all applicable sub-topics using below sub-topic descriptions for the given topic.
-            
             ## Topic: {topic}
 
-            ## Sub-Topics and Descriptions
-                             
-            {sub_topic_descriptions} 
+            ## Available Sub-Topics and Entity Extraction Rules:
 
-            
+            {sub_topic_descriptions}
+
             ### Instructions:
 
-            1. Select every sub-topic that is relevant to the given question and consistent with the provided topic.
-            2. A question may belong to multiple sub-topics if more than one description clearly applies.
-            3. If none of the provided sub-topics fit the question, return an empty list for sub_topic.
-            4. Format your response like the following JSON:
+            1. Select ALL applicable sub-topics from the PREDEFINED SUBTOPICS list above.
+            2. You MUST ONLY select sub-topic names that appear exactly in the predefined list. Do NOT invent, rephrase, or modify sub-topic names.
+            3. A question may belong to multiple sub-topics if more than one clearly applies.
+            4. If none of the predefined sub-topics fit the question, return an empty list for sub_topic.
+            5. For ENTITY EXTRACTION fields (if listed above), extract the named entity from the question following the specific instruction for each type.
+               - If no entity of that type is mentioned in the question, set its value to null.
+            6. For drug names: extract ONLY the base/generic medication name. No dosages, frequencies, forms, brand qualifiers, or parentheses.
+            7. For plan names: extract the plan name as mentioned by the customer.
+            8. For pharmacy/hospital/facility names: extract just the name.
+
+            ### Response Format (valid JSON only):
 
             ```
-
-            {{ "question": [string], "topic": [string], "sub_topic": ["sub_topic_1", "sub_topic_2"] }}
-
+            {{
+                "question": [string],
+                "topic": [string],
+                "sub_topic": ["sub_topic_1", "sub_topic_2"],
+                "entities": {{}}
+            }}
             ```
 
-            Make sure that your responses are always valid JSON and only the required JSON response.
+            The "entities" object should only include keys for entity types listed in the ENTITY EXTRACTION rules above. If no entity extraction rules are listed for this topic, return an empty object for "entities".
+
+            Make sure that your response is always valid JSON and contains only the JSON response.
 
             Question: {question} """
  )
@@ -261,95 +274,6 @@ def is_useful_question_extraction_prompt(question, questions_json):
  )
     return prompt
 
-def subtopic_grouping_prompt(subtopic_list):
-    """
-    Generates the MIRA extraction prompt for metadata extraction from transcripts.
-    """
-    prompt = textwrap.dedent(f"""
-        You are given a list of topics. Your task is to group them based on functional and contextual semantic similarity.
-
-        ### Grouping Rules:
-        - Each group MUST contain at least 2 topics.
-        - Topics in a group must be interchangeable or strongly related in meaning and usage.
-        - Do NOT group topics that:
-            - Differ in purpose or domain (e.g., 'medical card' vs. 'credit card')
-            - Are loosely related or only tangentially connected
-            - Are proper nouns, including:
-                - Specific names of people (e.g., Dr. Smith)
-                - Plan names (e.g., United Healthcare Dual Complete)
-                - Drug or medication names (e.g., eliquis, lorazepam, gabapentin)
-                - Geographic locations (e.g., Los Angeles, Chicago)
-                - Organization or brand names (e.g., Walgreens, CVS, AARP)
-
-        ### Exceptions:
-        - You may group variations of the same proper noun if they clearly refer to the same entity.
-            - Example: "United Healthcare", "United Health", "United Healthcare Medicare" may be grouped.
-            - Example: "zofran", "zofran 15 mg", "ondansetron" may be grouped as they refer to the same medication.
-        - Do NOT group different entities even if they belong to the same category.
-            - Example: "Walgreens" and "CVS" must NOT be grouped.
-            - Example: "Los Angeles" and "Chicago" must NOT be grouped.
-        - Do not group different medications, even if they treat similar conditions or belong to the same drug class. Only group medication variants if they clearly refer to the same drug.
-            - Example: "zofran" and "sumatriptan 15 mg" must NOT be grouped.
-
-        ### Output Format:
-        Return the result in valid JSON format:
-        {{
-            "categories": [["topic1", "topic2"], ["topic3", "topic4", "topic5"], ...]
-        }}
-
-        ### Examples of Correct Groupings:
-        Example 1:
-        Topics: "united health", "united healthcare", "united healthcare medicare", "united healthcare dual complete"
-        Output: {{"categories": [["united health", "united healthcare", "united healthcare medicare"]]}}
-
-        Example 2:
-        Topics: "zofran", "zofran 15 mg", "ondansetron", "gabapentin", "lorazepam"
-        Output: {{"categories": [["zofran", "zofran 15 mg", "ondansetron"]]}}
-
-        Example 3:
-        Topics: "walgreens", "cvs", "los angeles", "chicago"
-        Output: {{"categories": []}}  # No groups formed as topics are distinct proper nouns
-
-        Example 4:
-        Topics: "replacement card", "new card replacement", "medical card", "card", "new card"
-        Output: {{"categories": [["medical card", "card", "new card"], ["replacement card", "new card replacement"]]}}
-
-        Topics: {subtopic_list}
-        """
-    )
-    return prompt
-
-def subtopic_labeling_prompt(subtopic_list):
-    """
-    Generates the MIRA extraction prompt for metadata extraction from transcripts.
-    """
-    prompt = textwrap.dedent(f"""
-        Your task is to generate a topic from the given set of related topics that fully represents all the information in all the given topics. 
-        If one topic is broader than the others, select that one.
-        Ensure that the newly generated topic is accurate and complete based only on the given topics. Restrict the new topic to two words or less and return only the new topic without any additional text or punctuation.
-
-        Below are some examples of good topics generated from a set of related topics:
-        Example 1:
-        Given Topics: "regular card", "current humana card", "dual complete card", "extra benefits card", "new card replacement", "replacement card", "physical id card", "replacement cards", "new card"
-        Generated Topic: "card"
-
-        Example 2:
-        Given Topics: "address update", "account update"
-        Generated Topic: "account update"
-
-        Example 3:
-        Given Topics: "plan start date", "plan start", "plan effective date"
-        Generated Topic: "plan effective date"
-
-        Example 4:
-        Given Topics: "plan status", "coverage status", "activation status", "insurance status", "policy status", "membership status", "enrollment status", "reinstatement status", "approval status"
-        Generated Topic: "status"
-
-        Topics: {subtopic_list}
-        """
-    )
-    return prompt
-
 def test_prompts():
     """
     Unit test for prompt generation functions.
@@ -370,10 +294,10 @@ def test_prompts():
 
     # Test sub_topic_extraction_prompt
     topic = "Claims"
-    sub_topic_descriptions = "Status: Questions about the current status of a claim.\nFiling: Questions about how to file a claim."
+    sub_topic_descriptions = "PREDEFINED SUBTOPICS (you MUST select from this list only):\n  1. claim_status\n  2. claim_filing\n"
     sub_topic_prompt = sub_topic_extraction_prompt(question, topic, sub_topic_descriptions)
-    assert "Classify given question into a sub-topic using below sub-topic descriptions" in sub_topic_prompt, "sub_topic_extraction_prompt content mismatch"
-    assert "Status: Questions about the current status of a claim" in sub_topic_prompt, "sub_topic_extraction_prompt sub-topic descriptions mismatch"
+    assert "classify a customer question into applicable sub-topics" in sub_topic_prompt, "sub_topic_extraction_prompt content mismatch"
+    assert "claim_status" in sub_topic_prompt, "sub_topic_extraction_prompt sub-topic descriptions mismatch"
 
     # Test is_useful_question_extraction_prompt
     useful_question = "Will I receive a new card for the plan?"

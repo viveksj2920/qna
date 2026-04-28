@@ -17,7 +17,7 @@ def main():
     parser.add_argument("--dry_run", action="store_true")
     parser.add_argument("--input_type", required=True, help="input_type could be index or csv file")
     parser.add_argument("--source_data_name", required=True, help="source_data_name can take source index name or input csv file path")
-    parser.add_argument("--lookup_data_name", required=True, help="lookup_data_name can take subtopic lookup index name or csv file path")
+    parser.add_argument("--lookup_data_name", required=False, default="", help="lookup_data_name can take subtopic lookup index name or csv file path")
     parser.add_argument("--destination_data_name", required=True, help="destination_data_name can take destination index name or csv file path")
     parser.add_argument("--project", required=True, help="Project name")
     parser.add_argument("--start_date", required=False, help="Start date (YYYY-MM-DDTHH:MM:SSZ)")

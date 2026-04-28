@@ -1,611 +1,542 @@
 {
-  "enrollment": {
-    "Information about Enrollment Assistance": {
-      "description": "Help and guidance available to assist members with enrolling in a health plan.",
-      "examples": [
-        "Can someone help me understand how to enroll in a Medicare plan?",
-        "Is there assistance available to help me enroll in United Healthcare?"
-      ]
-    },
-    "enrollment application process": {
-      "description": "Steps, forms, and methods used to apply for a health insurance plan.",
-      "examples": [
-        "How do I complete the enrollment application?",
-        "What is the process for applying for a Medicare Advantage plan?"
-      ]
-    },
-    "enrollment deadline": {
-      "description": "Important dates by which enrollment must be completed.",
-      "examples": [
-        "When is the deadline to enroll in this plan?",
-        "Do I need to enroll before a certain date to avoid issues?"
-      ]
-    },
-    "late enrollment": {
-      "description": "Questions about enrolling after the standard enrollment period and possible penalties.",
-      "examples": [
-        "What happens if I enroll late?",
-        "Is there a penalty for late enrollment in Medicare?"
-      ]
-    }
-  },
-
-  "general plan information": {
-    "plan coverage scope": {
-      "description": "What services and benefits are included or excluded in the plan.",
-      "examples": [
-        "What does this plan cover?",
-        "What services are included in my current plan?"
-      ]
-    },
-    "current plan inquiry": {
-      "description": "Identifying the member’s currently active plan and benefits.",
-      "examples": [
-        "What plan am I currently on?",
-        "Can you tell me what coverage I have right now?"
-      ]
-    },
-    "specific plan inquiry (already covered in other sheet)": {
-      "description": "Questions about a specific named plan.",
-      "examples": [
-        "What is included in the Dual Complete plan?",
-        "Can you explain the Essentials plan benefits?"
-      ]
-    },
-    "cost inquiry (already covered in other topic)": {
-      "description": "General questions about plan costs.",
-      "examples": [
-        "How much does this plan cost per month?",
-        "What are the costs associated with this plan?"
-      ]
-    }
-  },
-
-  "eligibility": {
-    "general eligibility": {
-      "description": "Basic eligibility requirements for Medicare or plan enrollment.",
-      "examples": [
-        "Am I eligible for this plan?",
-        "Do I qualify for Medicare coverage?"
-      ]
-    },
-    "low income subsidy eligibility": {
-      "description": "Eligibility for Extra Help or low-income subsidies.",
-      "examples": [
-        "Do I qualify for Extra Help?",
-        "How does low income affect my eligibility?"
-      ]
-    },
-    "medical condition based eligibility": {
-      "description": "Eligibility based on specific medical or chronic conditions.",
-      "examples": [
-        "Do my chronic conditions qualify me for a special needs plan?",
-        "Does diabetes make me eligible for additional benefits?"
-      ]
-    },
-    "eligibility for extra benefits": {
-      "description": "Eligibility for non-medical benefits such as food or transportation.",
-      "examples": [
-        "Do I qualify for grocery or food benefits?",
-        "What conditions qualify me for extra benefits?"
-      ]
-    },
-    "location based eligibility": {
-      "description": "Eligibility based on state, county, or service area.",
-      "examples": [
-        "Is this plan available where I live?",
-        "Does my zip code affect my eligibility?"
-      ]
-    },
-    "dual plan eligibility": {
-      "description": "Eligibility for plans requiring both Medicare and Medicaid.",
-      "examples": [
-        "Do I qualify for a dual complete plan?",
-        "Do I need both Medicare and Medicaid to enroll?"
-      ]
-    }
-  },
-
-  "providers": {
-    "provider network status": {
-      "description": "Whether a provider is in-network or out-of-network.",
-      "examples": [
-        "Is my doctor in-network?",
-        "Does this hospital accept my plan?"
-      ]
-    },
-    "finding providers": {
-      "description": "Help locating doctors, hospitals, or specialists.",
-      "examples": [
-        "Can you help me find a doctor near me?",
-        "How do I find an in-network specialist?"
-      ]
-    },
-    "primary care physician related queries": {
-      "description": "Questions about PCP assignment or changes.",
-      "examples": [
-        "Who is my primary care doctor?",
-        "Can I change my primary care physician?"
-      ]
-    },
-    "referral related queries": {
-      "description": "Questions about referrals to specialists.",
-      "examples": [
-        "Do I need a referral to see a specialist?",
-        "How do I get a referral from my PCP?"
-      ]
-    },
-    "out of network provider": {
-      "description": "Coverage rules for providers outside the network.",
-      "examples": [
-        "Can I see an out-of-network doctor?",
-        "Will my plan cover out-of-network services?"
-      ]
-    },
-    "related to provider changes": {
-      "description": "Providers leaving or joining the network.",
-      "examples": [
-        "Why is my doctor no longer accepting my plan?",
-        "What happens if my provider leaves the network?"
-      ]
-    }
-  },
-
-  "plan costs": {
-    "premiums (monthly) for plans": {
-      "description": "Monthly payment required to keep the plan active.",
-      "examples": [
-        "What is my monthly premium?",
-        "Does this plan have a $0 premium?"
-      ]
-    },
-    "deductible/up-front costs": {
-      "description": "Costs paid before coverage begins.",
-      "examples": [
-        "Do I have a deductible?",
-        "How much is my deductible?"
-      ]
-    },
-    "copays (fixed visit costs)": {
-      "description": "Flat fees paid for services like doctor visits.",
-      "examples": [
-        "What is my copay for seeing a specialist?",
-        "Do I have a copay for doctor visits?"
-      ]
-    },
-    "coinsurance related": {
-      "description": "Percentage-based cost sharing for services.",
-      "examples": [
-        "What does 20% coinsurance mean?",
-        "How much coinsurance do I pay for hospital stays?"
-      ]
-    },
-    "prescription drug costs": {
-      "description": "Costs related to prescription medications.",
-      "examples": [
-        "How much will my medications cost?",
-        "Do I have copays for prescriptions?"
-      ]
-    }
-  },
-
-  "prescription drug coverage": {
-    "particular drug coverage": {
-      "description": "Coverage for specific medications.",
-      "examples": [
-        "Is Ozempic covered under my plan?",
-        "Does the plan cover Eliquis?"
-      ]
-    },
-    "drug costs": {
-      "description": "Copays, coinsurance, or pricing for medications.",
-      "examples": [
-        "Why did my medication cost increase?",
-        "What is the copay for this drug?"
-      ]
-    },
-    "doctor approval/verification": {
-      "description": "Prior authorization or doctor verification requirements.",
-      "examples": [
-        "Do I need prior authorization for this medication?",
-        "Why does my doctor need to verify my prescription?"
-      ]
-    },
-    "over the counter drugs": {
-      "description": "Coverage for OTC items and allowances.",
-      "examples": [
-        "Do I have an OTC benefit?",
-        "What can I buy with my OTC card?"
-      ]
-    }
-  },
-
-  "plan changes": {
-    "upgrading": {
-      "description": "Switching plans to get better or additional benefits.",
-      "examples": [
-        "Can I upgrade my plan for better dental coverage?",
-        "Is there a plan with more benefits than my current one?"
-      ]
-    },
-    "switching plan types": {
-      "description": "Changing between HMO, PPO, or Supplement plans.",
-      "examples": [
-        "Can I switch from an HMO to a PPO?",
-        "Is it possible to move from Medicare Advantage to a supplement?"
-      ]
-    },
-    "address / move‑related changes": {
-      "description": "Plan changes required due to relocation.",
-      "examples": [
-        "Do I need to change my plan if I move?",
-        "What happens to my coverage if I move to another state?"
-      ]
-    },
-    "going back to previous plan": {
-      "description": "Reinstating or returning to a former plan.",
-      "examples": [
-        "Can I go back to my old plan?",
-        "Is it possible to reinstate my previous coverage?"
-      ]
-    },
-    "cancellation of plan": {
-      "description": "Ending or disenrolling from a plan.",
-      "examples": [
-        "How do I cancel my plan?",
-        "What happens if I disenroll?"
-      ]
-    },
-    "unwanted plan changes": {
-      "description": "Plans changed without the member’s consent.",
-      "examples": [
-        "Why was my plan changed without my permission?",
-        "I didn’t authorize this plan change—what happened?"
-      ]
-    }
-  },
-
-  "transportation, food and gym benefits": {
-    "transportation coverage": {
-      "description": "Availability of transportation benefits.",
-      "examples": [
-        "Does my plan include transportation?",
-        "Can I get a ride to my doctor appointment?"
-      ]
-    },
-    "transportation trips limit": {
-      "description": "Limits on number of covered rides.",
-      "examples": [
-        "How many transportation trips do I get?",
-        "Is there a limit on rides per year?"
-      ]
-    },
-    "booking, ride issues, and assistance": {
-      "description": "Scheduling rides and resolving ride issues.",
-      "examples": [
-        "How do I book a ride?",
-        "Why was my ride cancelled?"
-      ]
-    },
-    "food benefits coverage": {
-      "description": "Eligibility for grocery or food benefits.",
-      "examples": [
-        "Do I qualify for food benefits?",
-        "Is a food card included with my plan?"
-      ]
-    },
-    "food benefits amount and charges": {
-      "description": "Amounts and deductions related to food benefits.",
-      "examples": [
-        "How much money do I get on my food card?",
-        "Why did my food benefit amount change?"
-      ]
-    },
-    "food card issues": {
-      "description": "Problems using or activating food cards.",
-      "examples": [
-        "Why is my food card not working?",
-        "How do I activate my food card?"
-      ]
-    },
-    "gym membership eligibility": {
-      "description": "Eligibility for fitness programs.",
-      "examples": [
-        "Does my plan include a gym membership?",
-        "Do I qualify for SilverSneakers?"
-      ]
-    },
-    "gym activation and code": {
-      "description": "How to activate gym benefits and get codes.",
-      "examples": [
-        "How do I get my gym access code?",
-        "How do I activate my gym membership?"
-      ]
-    },
-    "gym membership issues": {
-      "description": "Problems accessing gym benefits.",
-      "examples": [
-        "Why can’t the gym find my membership?",
-        "Why did my gym benefit stop working?"
-      ]
-    }
-  },
-
-  "digital friction": {
-    "login, account issues": {
-      "description": "Problems signing into accounts.",
-      "examples": [
-        "I can’t log into my account.",
-        "Why does it say my account is locked?"
-      ]
-    },
-    "registration issues": {
-      "description": "Problems creating an online account.",
-      "examples": [
-        "Why can’t I register my account?",
-        "It says user not found when I try to register."
-      ]
-    },
-    "app issues": {
-      "description": "Problems with the mobile app.",
-      "examples": [
-        "The app keeps logging me out.",
-        "Why doesn’t the app show my benefits?"
-      ]
-    },
-    "website issues": {
-      "description": "Problems navigating or using websites.",
-      "examples": [
-        "Is the website down?",
-        "Why can’t I find my plan information online?"
-      ]
-    },
-    "missing or incorrect plan information online": {
-      "description": "Plan details not displaying correctly.",
-      "examples": [
-        "Why does my plan not show online?",
-        "Why does it say my coverage is inactive?"
-      ]
-    },
-    "communication & notification problems": {
-      "description": "Issues with emails, letters, or texts.",
-      "examples": [
-        "Why didn’t I get notified about this change?",
-        "I’m getting confusing messages about my plan."
-      ]
-    }
-  },
-
-  "plan comparison": {
-    "comparing plan types (HMO vs PPO vs Supplement)": {
-      "description": "Differences between major plan structures.",
-      "examples": [
-        "What is the difference between HMO and PPO?",
-        "Should I choose a supplement or Advantage plan?"
-      ]
-    },
-    "medicare advantage vs medicare supplement": {
-      "description": "Comparing Advantage plans to Medigap plans.",
-      "examples": [
-        "How is Medicare Advantage different from Medigap?",
-        "Which option is better for me?"
-      ]
-    },
-    "comparing specific supplement plans": {
-      "description": "Differences among Medigap plans.",
-      "examples": [
-        "What is the difference between Plan G and Plan N?",
-        "Is Plan F better than Plan G?"
-      ]
-    },
-    "comparing dual plan": {
-      "description": "Comparing dual-eligible plans.",
-      "examples": [
-        "How does the Dual Complete plan compare to others?",
-        "Is a dual plan better for me?"
-      ]
-    },
-    "comparing special needs plan": {
-      "description": "Comparing CSNP or DSNP plans.",
-      "examples": [
-        "What benefits does the chronic special needs plan offer?",
-        "How is it different from a regular plan?"
-      ]
-    },
-    "extra benefits comparison": {
-      "description": "Comparing non-medical benefits.",
-      "examples": [
-        "Which plan has better dental or OTC benefits?",
-        "Do grocery benefits differ by plan?"
-      ]
-    },
-    "cost comparison": {
-      "description": "Comparing premiums and out-of-pocket costs.",
-      "examples": [
-        "Which plan costs less overall?",
-        "How do copays compare between plans?"
-      ]
-    },
-    "prescription drug plan comparisons": {
-      "description": "Comparing drug plans.",
-      "examples": [
-        "Which prescription plan is better for my medications?",
-        "What is the difference between Saver and Preferred?"
-      ]
-    }
-  },
-
-  "medicare id": {
-    "finding medicare number": {
-      "description": "Locating the Medicare number.",
-      "examples": [
-        "Where can I find my Medicare number?",
-        "What if I don’t have my Medicare card?"
-      ]
-    },
-    "finding member id": {
-      "description": "Locating the plan member ID.",
-      "examples": [
-        "What is my member ID number?",
-        "How do I get my member ID?"
-      ]
-    },
-    "medicare number vs member id": {
-      "description": "Clarifying differences between IDs.",
-      "examples": [
-        "Is my Medicare number the same as my member ID?",
-        "Which number do I give to the pharmacy?"
-      ]
-    }
-  },
-
   "dental": {
-    "dental coverage inquiry": {
-      "description": "Whether dental coverage exists.",
-      "examples": [
-        "Do I have dental coverage?",
-        "Is dental included in my plan?"
-      ]
-    },
-    "dental benefit amounts and limits": {
-      "description": "Annual maximums and usage limits.",
-      "examples": [
-        "What is my dental coverage limit?",
-        "How much dental coverage do I have left?"
-      ]
-    },
-    "dental cost": {
-      "description": "Out-of-pocket dental expenses.",
-      "examples": [
-        "How much will I pay for a crown?",
-        "Why was I charged for a cleaning?"
-      ]
-    },
-    "dental code related coverage": {
-      "description": "Coverage rules based on procedure codes.",
-      "examples": [
-        "Is code D7140 covered?",
-        "How often is deep cleaning allowed?"
-      ]
-    },
-    "dental provider related": {
-      "description": "Finding or using dental providers.",
-      "examples": [
-        "Can I use my dentist?",
-        "Is my dentist in-network?"
-      ]
-    },
-    "related to claim and billing problems": {
-      "description": "Denied or incorrect dental claims.",
-      "examples": [
-        "Why was my dental claim denied?",
-        "How do I appeal a dental bill?"
-      ]
-    }
+    "subtopics": [
+      "dental coverage overview",
+      "current coverage status",
+      "coverage changes and reductions",
+      "coverage eligibility and availability",
+      "effective/start dates",
+      "preventive dental coverage",
+      "comprehensive dental coverage",
+      "major dental services coverage",
+      "dental benefit allowance and maximums",
+      "dental copays and coinsurance",
+      "out of pocket dental costs",
+      "dental rider overview",
+      "adding dental rider",
+      "canceling or changing dental rider",
+      "dental rider costs and billing",
+      "dental rider waiting periods",
+      "dental provider network",
+      "in network vs out of network dental",
+      "finding a dentist",
+      "dental claims and billing",
+      "reimbursements",
+      "coverage denial or discrepancy",
+      "dental implants coverage",
+      "dentures and prosthodontics coverage",
+      "periodontal and gum treatment",
+      "oral surgery and medically necessary dental",
+      "dental customer service and contact info",
+      "dental plan documents and booklets"
+    ],
+    "open_ended": [
+      {
+        "type": "dental_plan_name",
+        "instruction": "Extract the specific dental plan name mentioned in the question, if any. Return just the plan name."
+      }
+    ]
   },
-
-  "service area reduction": {
-    "related to moving to different location": {
-      "description": "Coverage issues caused by relocation.",
-      "examples": [
-        "What happens if I move to another state?",
-        "Do I need a new plan after moving?"
-      ]
-    },
-    "plan discontinued": {
-      "description": "Plans no longer offered in an area.",
-      "examples": [
-        "Is my plan discontinued?",
-        "Does this plan still exist?"
-      ]
-    },
-    "unexpected plan termination": {
-      "description": "Plan ending without clear reason.",
-      "examples": [
-        "Why was my plan terminated?",
-        "Why did my coverage suddenly end?"
-      ]
-    },
-    "other termination related questions": {
-      "description": "Miscellaneous termination concerns.",
-      "examples": [
-        "When did my plan end?",
-        "What coverage do I have now?"
-      ]
-    }
-  },
-
-  "member renewal": {
-    "general eligibility related to renewal": {
-      "description": "Whether renewal is required.",
-      "examples": [
-        "Do I need to renew my plan?",
-        "Am I eligible to renew my coverage?"
-      ]
-    },
-    "plan expiration": {
-      "description": "Coverage nearing expiration.",
-      "examples": [
-        "Why did my plan expire?",
-        "When does my coverage end?"
-      ]
-    },
-    "how to renew": {
-      "description": "Steps to renew coverage.",
-      "examples": [
-        "How do I renew my plan?",
-        "Can I renew online?"
-      ]
-    }
-  },
-
-  "vision": {
-    "vision coverage": {
-      "description": "Availability of vision benefits.",
-      "examples": [
-        "Do I have vision coverage?",
-        "What vision benefits are included?"
-      ]
-    },
-    "vision providers & network": {
-      "description": "Finding eye doctors and network rules.",
-      "examples": [
-        "Is my eye doctor in-network?",
-        "How do I find a vision provider?"
-      ]
-    },
-    "eyeglass related": {
-      "description": "Coverage for glasses and lenses.",
-      "examples": [
-        "Do I get coverage for glasses?",
-        "What is my eyeglass allowance?"
-      ]
-    }
-  },
-
   "drug coverage termination": {
-    "general inquiry about drug termination": {
-      "description": "Loss or termination of drug coverage.",
-      "examples": [
-        "Why was my prescription coverage terminated?",
-        "Why does the pharmacy say I’m not covered?"
-      ]
-    },
-    "lack of notification about termination": {
-      "description": "Drug coverage ended without notice.",
-      "examples": [
-        "Why wasn’t I notified about my drug coverage ending?",
-        "I never got a letter—why was my plan stopped?"
-      ]
-    }
+    "subtopics": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry",
+      "notification or communication failure",
+      "drug coverage status"
+    ],
+    "open_ended": [
+      {
+        "type": "drug_names",
+        "instruction": "Extract ONLY the base/generic medication name mentioned in the question. No dosages, frequencies, forms, brand qualifiers, or parentheses. Example: 'zolpidem' not 'zolpidem 10mg tablet' or 'ambien (zolpidem)'."
+      }
+    ]
+  },
+  "digital friction": {
+    "subtopics": [
+      "password or username issue",
+      "trouble verifying identity",
+      "account not found error",
+      "missing account setup details",
+      "accessing plan details",
+      "document and communication delivery preference",
+      "website account registration",
+      "website showing error message",
+      "website hyperlink not working",
+      "website not responding",
+      "website missing benefits",
+      "website navigation",
+      "website claim info incorrect",
+      "website locating or submitting claim",
+      "website card access",
+      "website id card ordering",
+      "app account registration",
+      "app showing error message",
+      "app hyperlink not working",
+      "app not responding",
+      "app missing benefits",
+      "app navigation",
+      "app claim info incorrect",
+      "app locating or submitting claim",
+      "app card access",
+      "app id card ordering"
+    ],
+    "open_ended": []
+  },
+  "eligibility": {
+    "subtopics": [
+      "requirements for plan eligibility",
+      "general eligibility verification",
+      "eligibility reapplication",
+      "plan specific eligibility",
+      "medicare eligibility status",
+      "medicare part enrollment",
+      "medicaid eligibility status",
+      "medicaid level determination",
+      "dual plan eligibility",
+      "dual eligibility maintenance",
+      "chronic special needs eligibility",
+      "low income subsidy eligibility",
+      "extra help status",
+      "income asset eligibility",
+      "location based eligibility",
+      "special election eligibility",
+      "loss of coverage eligibility",
+      "medicaid change eligibility",
+      "residency change eligibility",
+      "disaster event eligibility",
+      "medical condition based eligibility",
+      "chronic condition verification",
+      "military coverage eligibility",
+      "employer coverage eligibility",
+      "employer coverage transition",
+      "other insurance eligibility",
+      "eligibility for extra benefits",
+      "supplemental benefit eligibility"
+    ],
+    "open_ended": []
+  },
+  "enrollment": {
+    "subtopics": [
+      "enrollment requirements",
+      "enrollment deadline",
+      "when to enroll",
+      "enrolling for first time",
+      "late enrollment",
+      "working past 65",
+      "information for enrollment assistance",
+      "enrollment escalation support",
+      "application process",
+      "application submission method",
+      "application status",
+      "application approved",
+      "application denied",
+      "application pending",
+      "application not received",
+      "application missing information",
+      "post application steps",
+      "enrollment confirmation",
+      "enrollment discrepancy",
+      "enrollment consent authorization",
+      "unauthorized enrollment",
+      "enrollment reinstatement",
+      "reenrollment process",
+      "enrollment cancellation",
+      "retroactive enrollment",
+      "enrollment payment issue",
+      "enrollment document delivery",
+      "plan documents",
+      "plan effective/start date",
+      "plan termination/end date",
+      "member id card issuance",
+      "member id card delivery status",
+      "member id card activation",
+      "member id card replacement",
+      "insurance card validity",
+      "insurance card not working",
+      "digital id card access",
+      "insurance card information",
+      "multiple cards confusion",
+      "card address or name update",
+      "benefit card balance issues",
+      "benefit card usage",
+      "coverage access before receiving card"
+    ],
+    "open_ended": []
+  },
+  "general plan information": {
+    "subtopics": [
+      "plan overview",
+      "what plan am i on",
+      "plan type identification",
+      "plan suitability confirmation",
+      "plan effective and termination dates",
+      "plan availability and options",
+      "plan eligibility and qualification",
+      "household and dependent coverage",
+      "chronic condition programs and benefits",
+      "medicare basics and education",
+      "medicare penalties and compliance",
+      "medicaid coverage and coordination",
+      "military and va benefits coordination",
+      "plan costs and cost structure",
+      "plan discounts and financial incentives",
+      "part b give back benefits",
+      "primary care coverage",
+      "specialist visits coverage",
+      "referral requirements",
+      "provider coverage verification",
+      "preventive services coverage",
+      "vaccinations and immunizations coverage",
+      "diagnostic and lab services",
+      "advanced imaging coverage",
+      "outpatient services coverage",
+      "inpatient hospital coverage",
+      "emergency and urgent care coverage",
+      "physical therapy and rehab",
+      "home health and house calls",
+      "skilled nursing and nursing home",
+      "hospice and palliative care",
+      "behavioral and mental health",
+      "prescription drug coverage",
+      "part d overview",
+      "drug formulary overview",
+      "pharmacy access and mail order",
+      "catastrophic and coverage gap",
+      "dental coverage overview",
+      "vision coverage overview",
+      "hearing coverage overview",
+      "over the counter benefits",
+      "healthy food benefits",
+      "transportation benefits",
+      "fitness and gym benefits",
+      "rewards and incentives",
+      "wellness and care support programs",
+      "spending cards and allowances",
+      "durable medical equipment",
+      "medical supplies coverage",
+      "infusion and injection services",
+      "dialysis coverage",
+      "out of network access",
+      "travel and out of area coverage",
+      "authorization and prior approval",
+      "plan documents and evidence of coverage",
+      "member services and contact info",
+      "account access and mobile app",
+      "accessibility and language options",
+      "communications and notifications",
+      "billing and payments",
+      "claims and coverage determinations",
+      "plan changes and updates",
+      "coverage transitions and continuity",
+      "address changes and residency impacts",
+      "plan marketing and fraud awareness"
+    ],
+    "open_ended": [
+      {
+        "type": "plan_names",
+        "instruction": "Extract the specific insurance plan name mentioned in the question, if any. Return just the plan name as stated by the customer."
+      }
+    ]
+  },
+  "medicare id": {
+    "subtopics": [
+      "medicare number basics",
+      "medicare card explanation",
+      "medicare number retrieval",
+      "medicare number verificiation",
+      "medicare vs member id",
+      "lookup without medicare number",
+      "member id number request",
+      "id usage for services"
+    ],
+    "open_ended": []
+  },
+  "member renewal": {
+    "subtopics": [
+      "renewal status verification",
+      "automatic renewal verification",
+      "renewal notice confusion",
+      "renewal notice explanation",
+      "renewal required actions",
+      "renewal deadline timeline",
+      "medicaid renewal requirements",
+      "coverage during renewal",
+      "renewal lapse explanation",
+      "reenrollment after renewal lapse",
+      "keeping current plan",
+      "plan changes at renewal",
+      "renewal communication methods",
+      "renewal effective date"
+    ],
+    "open_ended": []
+  },
+  "plan changes": {
+    "subtopics": [
+      "plan change process",
+      "plan options exploration",
+      "switching plan types",
+      "plan change status verification",
+      "unauthorized plan changes",
+      "return to previous plan process",
+      "return to previous plan eligibility",
+      "plan change eligibility",
+      "plan change due to move",
+      "plan change due to medicaid",
+      "plan change due to diagnosis",
+      "plan change due to disaster",
+      "plan change due to coverage loss",
+      "plan change effective dates",
+      "coverage during plan change",
+      "overlapping coverage after change",
+      "provider access after plan change",
+      "medication coverage after plan change",
+      "plan cost after plan change",
+      "dental benefits after plan change",
+      "vision benefits after plan change",
+      "hearing benefits after plan change",
+      "otc benefits after plan change",
+      "transportation benefit after plan change",
+      "food allowance after plan change",
+      "extra benefits after plan change",
+      "plan cancellation request",
+      "plan cancellation status",
+      "plan termination consequences",
+      "billing after plan change",
+      "plan change communication"
+    ],
+    "open_ended": [
+      {
+        "type": "plan_names",
+        "instruction": "Extract the specific insurance plan name mentioned in the question, if any. Return just the plan name as stated by the customer."
+      }
+    ]
+  },
+  "plan comparison": {
+    "subtopics": [
+      "plan suitability assessment",
+      "plan type comparison",
+      "specific plan comparison",
+      "plan differences by state",
+      "premium comparison",
+      "copay and deductible comparison",
+      "out of pocket maximum comparison",
+      "prescription cost comparison",
+      "prescription coverage comparison",
+      "provider network comparison",
+      "out of network coverage comparison",
+      "referral and authorization comparison",
+      "dental benefit comparison",
+      "vision benefit comparison",
+      "hearing benefit comparison",
+      "otc benefit comparison",
+      "transportation benefit comparison",
+      "gym benefit comparison",
+      "food benefit comparison",
+      "hospital coverage comparison"
+    ],
+    "open_ended": [
+      {
+        "type": "plan_names",
+        "instruction": "Extract the specific insurance plan name mentioned in the question, if any. Return just the plan name as stated by the customer."
+      }
+    ]
+  },
+  "plan costs": {
+    "subtopics": [
+      "plan medical deductible",
+      "plan prescription deductible",
+      "deductible met or remaining",
+      "deductible reset or increase",
+      "deductible versus copay",
+      "primary care copay",
+      "specialist copay",
+      "hospital copay",
+      "urgent care copay",
+      "emergency room copay",
+      "coinsurance explanation",
+      "prescription drug copay",
+      "prescription drug coinsurance",
+      "prescription drug cost increase",
+      "prescription coverage stages",
+      "extra help drug costs",
+      "out of pocket maximum amount",
+      "out of pocket maximum progress",
+      "out of pocket maximum versus deductible",
+      "medical bill explanation",
+      "unexpected medical charge",
+      "billing discrepancy",
+      "claim patient responsibility",
+      "plan cost comparison",
+      "plan affordability concerns",
+      "zero premium or zero copay plans",
+      "medicaid impact on plan costs",
+      "extra help impact on costs"
+    ],
+    "open_ended": [
+      {
+        "type": "plan_names",
+        "instruction": "Extract the specific insurance plan name mentioned in the question, if any. Return just the plan name as stated by the customer."
+      }
+    ]
+  },
+  "prescription drug coverage": {
+    "subtopics": [
+      "prescription coverage inquiry",
+      "prescription coverage eligibility",
+      "prescription plan identification",
+      "specific medication coverage",
+      "prescription drug copays",
+      "prescription drug coinsurance",
+      "prescription drug deductible",
+      "prescription coverage stages",
+      "drug tier classification",
+      "catastrophic coverage",
+      "medicaid impact on prescriptions",
+      "extra help prescription costs",
+      "lis status or level",
+      "prescription insurance billing order",
+      "preferred pharmacy inquiry",
+      "pharmacy network access",
+      "pharmacy change request",
+      "mail order pharmacy setup",
+      "mail order pharmacy issues",
+      "prescription delivery status",
+      "prior authorization requirement",
+      "prior authorization issues",
+      "coverage exception request",
+      "prescription refill and quantity limits",
+      "prescription claim rejection",
+      "otc benefit eligibility",
+      "otc benefit amount",
+      "otc benefit usage",
+      "otc card balance issue",
+      "otc benefit decline or removal",
+      "otc catalog and ordering",
+      "prescription pricing discrepancy",
+      "prescription billing issue",
+      "out of pocket medication costs",
+      "temporary prescription coverage",
+      "medication access during coverage gap",
+      "emergency medication assistance"
+    ],
+    "open_ended": [
+      {
+        "type": "drug_names",
+        "instruction": "Extract ONLY the base/generic medication name mentioned in the question. No dosages, frequencies, forms, brand qualifiers, or parentheses. Example: 'zolpidem' not 'zolpidem 10mg tablet' or 'ambien (zolpidem)'."
+      },
+      {
+        "type": "pharmacy_names",
+        "instruction": "Extract the specific pharmacy name mentioned in the question, if any. Return just the pharmacy name."
+      }
+    ]
+  },
+  "providers": {
+    "subtopics": [
+      "provider network status check",
+      "provider network discrepancy",
+      "out of network coverage rules",
+      "find in network providers",
+      "provider contact information",
+      "primary care provider selection",
+      "primary care provider change request",
+      "primary care provider verification",
+      "referral requirement clarification",
+      "referral submission issues",
+      "referral approval or denial",
+      "keeping current provider",
+      "provider changes or leaving network",
+      "provider eligibility verification",
+      "provider system mismatch or inactive status",
+      "provider demographic or npi errors",
+      "hospital coverage",
+      "urgent care and emergency care coverage",
+      "facility network status",
+      "dental provider coverage",
+      "vision provider coverage",
+      "mental health provider coverage",
+      "home health and nursing facility coverage"
+    ],
+    "open_ended": [
+      {
+        "type": "hospital/facility_names",
+        "instruction": "Extract the specific hospital or medical facility name mentioned in the question, if any. Return just the facility name."
+      }
+    ]
+  },
+  "service area reduction": {
+    "subtopics": [
+      "plan no longer available in area",
+      "service area disenrollment",
+      "out of area error",
+      "address change eligibility impact",
+      "no termination notification",
+      "plan termination reason",
+      "options after plan termination",
+      "carrier leaving region"
+    ],
+    "open_ended": []
+  },
+  "transportation, food and gym benefits": {
+    "subtopics": [
+      "transportation coverage rules",
+      "transportation benefit inquiry",
+      "transportation trip limits",
+      "transportation vendor options",
+      "transportation ride scheduling or cancellation",
+      "transportation ride delays",
+      "transportation ride failure",
+      "community transportation resources",
+      "food benefit eligibility",
+      "food benefit qualification verification",
+      "food benefit amount changes",
+      "food benefit usage",
+      "food card delivery status",
+      "food card replacement",
+      "food card activation",
+      "food card balance issue",
+      "food card transaction errors",
+      "community food resources",
+      "gym membership eligibility",
+      "gym membership issues",
+      "gym activation and code",
+      "gym network and locations"
+    ],
+    "open_ended": []
+  },
+  "vision": {
+    "subtopics": [
+      "vision benefit overview",
+      "eye exam coverage",
+      "eyeglass coverage",
+      "contact lens coverage",
+      "vision allowance amount",
+      "vision copays and charges",
+      "in network vision providers",
+      "out of network vision rules",
+      "vision benefit reductions or changes",
+      "vision claims and billing issues",
+      "vision refunds and replacements",
+      "vision referral requirements",
+      "otc or ucard for vision",
+      "medical eye care coverage",
+      "vision vendor or plan identification"
+    ],
+    "open_ended": []
   },
   "others": {
-    "other": {
-      "description": "Questions that do not fit into the above categories.",
-      "examples": [
-        "I have a question about my plan that I can’t categorize.",
-        "This issue doesn’t seem to fit into any of the other topics."
-      ]
-    }
+    "subtopics": [
+      "identity and verification",
+      "consent and authorization",
+      "contact and communication preferences",
+      "health status and assessment",
+      "underwriting and risk questions",
+      "company verification and legitimacy",
+      "complaints and escalation",
+      "external assistance and social services",
+      "call handling and operational flow",
+      "non-actionable or unintelligible",
+      "non-english call"
+    ],
+    "open_ended": []
   }
 }

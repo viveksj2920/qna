@@ -26,6 +26,7 @@ try:
     MIRA_NEW_SUBTOPIC_JSON = os.getenv("MIRA_NEW_SUBTOPIC_JSON", os.path.join(_src_dir, "data/input/new_sub_topic_prompt_mira.json"))
     MIRA_QUESTION_JSON = os.getenv("MIRA_QUESTION_JSON", os.path.join(_src_dir, "data/input/questions_mira.json"))
     MIRA_SENTIMENT_JSON = os.getenv("MIRA_SENTIMENT_JSON", os.path.join(_src_dir, "data/input/sentiment_config_mira.json"))
+    PLAN_NAMES_CSV = os.getenv("PLAN_NAMES_CSV", os.path.join(_src_dir, "data/input/plan_names.csv"))
 
     # Check for required variables
     required_vars = {

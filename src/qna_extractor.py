@@ -19,7 +19,8 @@ from skillsets.vectorizer import AzureOpenAIVectorizer
 
 # configure the llm
 from llm.llm_config import chat_completion
-from utils.helper import load_project_config, write_to_csv, clean_topic, clean_subtopics
+from utils.helper import load_project_config, write_to_csv, clean_topic
+from utils.entity_postprocessor import process_entities
 from utils.logger_config import logger
 
 import httpx
@@ -38,9 +39,7 @@ from prompts.prompt_config import (
     prompt_sub_topic_format,
     sub_topic_extraction_prompt,
     is_useful_question_extraction_prompt,
-    subtopic_grouping_prompt,
-    subtopic_labeling_prompt, 
-    sentiment_level_1_prompt, 
+    sentiment_level_1_prompt,
     sentiment_level_2_prompt
 )
 
@@ -262,53 +261,7 @@ class qna_extractor:
             
         return sentiment_level_2
     
-    def keyword_search(self, subtopic, index_name):
-        lookup_index_processor = IndexProcessor(index_name=index_name)
-        results = lookup_index_processor.azure_search.search_clients[lookup_index_processor.azure_search.search_region].search(
-            filter=f"subtopic eq '{subtopic}'",
-            select=["subtopic", "grouped_subtopic"]
-        )
-
-        results = [res for res in results]
-
-        if len(results) == 0:
-            return None
-        
-        return results[0]["grouped_subtopic"]
-
-    def semantic_hybrid_search(self, subtopic, index_name):
-        lookup_index_processor = IndexProcessor(index_name=index_name)
-        results = lookup_index_processor.azure_search.search_clients[lookup_index_processor.azure_search.search_region].search(
-            search_text=subtopic,
-            search_fields=["subtopic"],
-            select=["subtopic", "grouped_subtopic"],
-            semantic_configuration_name="my-semantic-config"
-        )
-        
-        threshold = 1.75
-        filtered_results = []
-        for result in results:
-            # Check if the result has semantic reranker score
-            if "@search.rerankerScore" in result and result["@search.rerankerScore"] >= threshold:
-                filtered_results.append(result)
-        
-        if not filtered_results:
-            return None
-
-        return filtered_results[0]["grouped_subtopic"]
-    
-    def group_subtopics(self, subtopics):
-        subtopics = ", ".join([f'"{topic}"' for topic in subtopics])
-
-        prompt = subtopic_grouping_prompt(subtopics)
-
-        message = [{"role": "user", "content": prompt}]
-
-        groupings = chat_completion(messages=message, max_tokens=2000, temperature=1e-9, task_type="subtopic_grouping")
-
-        return groupings
-    
-    def process_index_row(self, index, row, input_dict, qnas_with_ungrouped_subtopics, all_ungrouped_subtopics):
+    def process_index_row(self, index, row, input_dict):
 
         max_retries = 5
         text = row['Text']
@@ -316,9 +269,6 @@ class qna_extractor:
         project = input_dict["project"]
 
         logger.info(f"Processing row {index} with UCID: {ucid}")
-        if input_dict['dry_run']:
-            time_stamp = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
-            lookup_index_filename = f"data/output/{input_dict['lookup_index']}_{time_stamp}.json"
                 
         for attempt in range(max_retries):
             try:
@@ -427,64 +377,24 @@ class qna_extractor:
                         qna_subtopic_data_json = extractor.extract_subtopic()
                         if qna_subtopic_data_json:
                             try:
-                                qna_subtopic_data = json.loads(qna_subtopic_data_json)
+                                cleaned_json = qna_subtopic_data_json.strip().replace("```json", "").replace("```", "").strip()
+                                qna_subtopic_data = json.loads(cleaned_json)
 
-                                if isinstance(qna_subtopic_data['sub_topic'], str):
+                                if isinstance(qna_subtopic_data.get('sub_topic', []), str):
                                     qna_subtopic_data['sub_topic'] = [qna_subtopic_data['sub_topic']]
 
-                                expanded_qna_1["sub_topic"] = qna_subtopic_data['sub_topic']
+                                predefined_subtopics = qna_subtopic_data.get('sub_topic', [])
 
                                 if project == "MIRA":
-                                    subtopics = clean_subtopics(project, qna_subtopic_data['sub_topic'])
-                                    expanded_qna_1["useful_sub_topics"] = subtopics
-                                    grouped_subtopics = set()
-                                    ungrouped_subtopics = []
-                                    for subtopic in subtopics:
-                                        # Do a keyword search first
-                                        label = extractor.keyword_search(subtopic, input_dict["lookup_index"])
-                                        if label:
-                                            logger.info(f"label found from keyword search: {label}")
-                                            grouped_subtopics.add(label)
-                                            continue
-                                        
-                                        # If not found, do a semantic search
-                                        label = extractor.semantic_hybrid_search(subtopic, input_dict["lookup_index"])
-                                        if label:
-                                            logger.info(f"label found from semantic search: {label}")
-                                            grouped_subtopics.add(label)
-                                            # Insert into lookup index
-                                            insert = {
-                                                "id": hashlib.sha256(subtopic.encode()).hexdigest(),
-                                                "subtopic": subtopic,
-                                                "grouped_subtopic": label
-                                            }
-                                            if input_dict['dry_run']:
-                                                logger.info(f"Dry run enabled - skipping upload of batch to {input_dict['lookup_index']}")
-                                                # Save filtered batch to file for review
-                                                with open(lookup_index_filename, 'a') as f:
-                                                    json.dump(insert, f, indent=2)
-                                                logger.info(f"Dry run: saved documents to {lookup_index_filename}")
-                                            else:
-                                                lookup_index_processor = IndexProcessor(index_name=input_dict["lookup_index"])
-                                                lookup_index_processor.update_index(
-                                                    [insert],
-                                                    key_field_name="id",
-                                                    semantic_content_field="subtopic"
-                                                )
-                                            continue
-
-                                        # If still not found, save for later grouping
-                                        logger.info(f"Label not found, saving subtopic for later grouping: {subtopic}")
-                                        ungrouped_subtopics.append(subtopic)
-                                        all_ungrouped_subtopics.append(subtopic)
-
-                                    # If no more subtopics need to be grouped, then processing is finished
-                                    if not ungrouped_subtopics:
-                                        expanded_qna_1["grouped_sub_topic"] = list(grouped_subtopics)
-                                    else:
-                                        qnas_with_ungrouped_subtopics.append({"id": id_hash, "grouped_sub_topic": grouped_subtopics, "ungrouped_sub_topic": ungrouped_subtopics})
+                                    # Process extracted entities (drug names, plan names, etc.)
+                                    entities = qna_subtopic_data.get('entities', {})
+                                    entity_subtopics = process_entities(entities, config.PLAN_NAMES_CSV)
+                                    final_subtopics = predefined_subtopics + entity_subtopics
+                                    expanded_qna_1["sub_topic"] = final_subtopics
+                                    expanded_qna_1["grouped_sub_topic"] = final_subtopics
                                 elif project == "PCL":
-                                    expanded_qna_1["grouped_sub_topic"] = qna_subtopic_data['sub_topic']
+                                    expanded_qna_1["sub_topic"] = predefined_subtopics
+                                    expanded_qna_1["grouped_sub_topic"] = predefined_subtopics
                                 else:
                                     logger.error(f"Unexpected project type: {project}")
                                     raise ValueError("Unsupported project type. Supported projects are: MIRA, PCL.")
@@ -728,10 +638,6 @@ class qna_extractor:
             all_expanded_qna_processed = []
             total_rows = len(df)
             
-            # Add these for subtopic grouping
-            qnas_with_ungrouped_subtopics = []
-            all_ungrouped_subtopics = []
-
             rate_limiter = AdaptiveRateLimiter(initial_qps=40, max_qps=80)
             
             # Create a semaphore to limit concurrent tasks
@@ -748,15 +654,12 @@ class qna_extractor:
                     logger.info(f"Skipping row {index} due to empty text.")
                     continue
                 
-                # Add the task with the semaphore and the subtopic grouping collections
                 task = self.process_index_row_async(
-                    semaphore, 
-                    rate_limiter, 
-                    index, 
-                    row, 
-                    input_dict, 
-                    qnas_with_ungrouped_subtopics, 
-                    all_ungrouped_subtopics
+                    semaphore,
+                    rate_limiter,
+                    index,
+                    row,
+                    input_dict
                 )
                 tasks.append(task)
             
@@ -842,14 +745,6 @@ class qna_extractor:
                         "Ucid"
                     )
             
-            # After processing all rows, handle the ungrouped subtopics for MIRA project
-            if input_dict["project"] == "MIRA" and all_ungrouped_subtopics:
-                await self.process_ungrouped_subtopics_async(
-                    all_ungrouped_subtopics,
-                    qnas_with_ungrouped_subtopics,
-                    input_dict
-                )
-            
         finally:
             # Close the session when done
             if hasattr(self, 'http_session') and self.http_session:
@@ -857,125 +752,9 @@ class qna_extractor:
         
         return processed_rows
 
-    async def process_ungrouped_subtopics_async(self, all_ungrouped_subtopics, qnas_with_ungrouped_subtopics, input_dict):
-        """Process ungrouped subtopics asynchronously"""
-        logger.info(f"Processing {len(all_ungrouped_subtopics)} ungrouped subtopics")
-        
-        try:
-            # Group all ungrouped subtopics
-            batch_size = 100
-            grouped_subtopics = []
-            
-            for i in range(0, len(all_ungrouped_subtopics), batch_size):
-                batch = all_ungrouped_subtopics[i:i + batch_size]
-                max_retries = 5
-                
-                for attempt in range(1, max_retries + 1):
-                    try:
-                        # Run in a thread to avoid blocking
-                        loop = asyncio.get_event_loop()
-                        batch_res = await loop.run_in_executor(
-                            None,
-                            lambda: self.group_subtopics(batch)
-                        )
-                        
-                        if batch_res:
-                            batch_res = json.loads(batch_res)["categories"]
-                            grouped_subtopics.extend(batch_res)
-                            break
-                            
-                    except Exception as e:
-                        logger.error(f"Error during async grouping attempt {attempt} for batch {i//batch_size + 1}: {e}")
-                        if attempt < max_retries:
-                            await asyncio.sleep(60)
-                        else:
-                            logger.error(f"Max retries reached for batch {i//batch_size + 1}. Moving to next batch.")
-            
-            # Label grouped subtopics
-            labeled_groupings = []
-            for group in grouped_subtopics:
-                # Run in a thread to avoid blocking
-                loop = asyncio.get_event_loop()
-                label = await loop.run_in_executor(
-                    None,
-                    lambda: self.label_group(group)
-                )
-                labeled_groupings.append({"subtopics": group, "label": label})
-            
-            # Insert new grouped subtopics into index
-            vectorizer = AzureOpenAIVectorizer()
-            
-            new_grouped_lookup = {
-                subtopic: {
-                    "subtopic": subtopic,
-                    "grouped_subtopic": group["label"],
-                    "vector": await self.vectorize_text_async(subtopic),
-                    "id": hashlib.sha256(subtopic.encode()).hexdigest()
-                }
-                for group in labeled_groupings
-                for subtopic in group["subtopics"]
-                if group["label"]  # Skip if no label was generated
-            }
-            
-            # Upload new grouped subtopics to lookup index
-            if new_grouped_lookup:
-               if input_dict['dry_run']:
-                    # Save filtered batch to file for review
-                    batch_filename = f"data/output/ungrouped_new_grouped_lookup_{input_dict['lookup_index']}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-                    with open(batch_filename, 'w') as f:
-                        json.dump(list(new_grouped_lookup.values()), f, indent=2)
-                    logger.info(f"Dry run: saved batch of {len(list(new_grouped_lookup.values()))} documents to {batch_filename}")
-               else: 
-                    await self.upload_batch_async(
-                        list(new_grouped_lookup.values()),
-                        input_dict["lookup_index"],
-                        "id",
-                        "subtopic"
-                    )
-            
-            # Reprocess QnA documents with previously ungrouped subtopics
-            processed_qnas = []
-            for qna in qnas_with_ungrouped_subtopics:
-                # Loop through the ungrouped subtopics and try to find their new grouping
-                for subtopic in qna["ungrouped_sub_topic"]:
-                    if subtopic in new_grouped_lookup:
-                        qna["grouped_sub_topic"].add(new_grouped_lookup[subtopic]["grouped_subtopic"])
-                    else:
-                        qna["grouped_sub_topic"].add(subtopic)
-                
-                # Once all the subtopics for this QnA are now grouped, add to processed QnAs
-                processed_qnas.append({
-                    "id": qna["id"],
-                    "grouped_sub_topic": list(qna["grouped_sub_topic"])
-                })
-            
-            # Upload the processed QnAs with grouped subtopics
-            if processed_qnas:
-                if input_dict['dry_run']:
-                    # Save filtered batch to file for review
-                    batch_filename = f"data/output/ungrouped_processed_qnas_{input_dict['destination_index']}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-                    with open(batch_filename, 'w') as f:
-                        json.dump(list(new_grouped_lookup.values()), f, indent=2)
-                    logger.info(f"Dry run: saved batch of {len(list(new_grouped_lookup.values()))} documents to {batch_filename}")
-                else: 
-                    await self.upload_batch_async(
-                        processed_qnas,
-                        input_dict["destination_index"],
-                        "id"
-                    )
-                
-        except Exception as e:
-            logger.error(f"Error in async ungrouped subtopics processing: {e}")
+    async def process_index_row_async(self, semaphore, rate_limiter, index, row, input_dict):
+        """Async version of process_index_row"""
 
-
-    async def process_index_row_async(self, semaphore, rate_limiter, index, row, input_dict, qnas_with_ungrouped_subtopics=None, all_ungrouped_subtopics=None):
-        """Async version of process_index_row that processes a single row with subtopic grouping"""
-        
-        if qnas_with_ungrouped_subtopics is None:
-            qnas_with_ungrouped_subtopics = []
-        if all_ungrouped_subtopics is None:
-            all_ungrouped_subtopics = []
-        
         async with semaphore:  # Limit concurrent processing
             max_retries = 5
             text = row['Text']
@@ -1150,12 +929,21 @@ class qna_extractor:
                     try:
                         cleaned_subtopic = subtopic_result.strip().replace("```json", "").replace("```", "").strip()
                         cleaned_subtopic = cleaned_subtopic.lstrip('\n').rstrip('\n')
-                        
+
                         subtopic_data = json.loads(cleaned_subtopic)
 
-                        if isinstance(subtopic_data['sub_topic'], str):
+                        if isinstance(subtopic_data.get('sub_topic', []), str):
                             subtopic_data['sub_topic'] = [subtopic_data['sub_topic']]
-                        expanded_qna_entry["sub_topic"] = subtopic_data['sub_topic']
+
+                        predefined_subtopics = subtopic_data.get('sub_topic', [])
+
+                        # Process extracted entities (drug names, plan names, etc.)
+                        entities = subtopic_data.get('entities', {})
+                        entity_subtopics = process_entities(entities, config.PLAN_NAMES_CSV)
+
+                        final_subtopics = predefined_subtopics + entity_subtopics
+                        expanded_qna_entry["sub_topic"] = final_subtopics
+                        expanded_qna_entry["grouped_sub_topic"] = final_subtopics
                     except Exception as e:
                         logger.error(f"Error processing subtopic: {e}")
                 
@@ -1178,115 +966,6 @@ class qna_extractor:
         
         return None
     
-    async def process_subtopic_grouping_async(self, expanded_qna_entry, qnas_with_ungrouped_subtopics, all_ungrouped_subtopics, lookup_index_name, project,dry_run):
-        """Process subtopic grouping asynchronously"""
-        try:
-            if "sub_topic" not in expanded_qna_entry:
-                return
-                
-            # Clean the subtopics
-            subtopics = clean_subtopics(project, expanded_qna_entry["sub_topic"])
-            
-            if not subtopics:
-                return
-            
-            expanded_qna_entry["useful_sub_topics"] = subtopics
-                
-            # Process grouping
-            grouped_subtopics = set()
-            ungrouped_subtopics = []
-            
-            for subtopic in subtopics:
-                # Do a keyword search first
-                label = await self.keyword_search_async(subtopic, lookup_index_name)
-                
-                if label:
-                    grouped_subtopics.add(label)
-                    continue
-                
-                # If not found, do a semantic search
-                label = await self.semantic_hybrid_search_async(subtopic, lookup_index_name)
-                
-                if label:
-                    grouped_subtopics.add(label)
-                    # Insert into lookup index asynchronously
-                    await self.insert_subtopic_lookup_async(subtopic, label, lookup_index_name,dry_run)
-                    continue
-                
-                # If still not found, save for later grouping
-                ungrouped_subtopics.append(subtopic)
-                all_ungrouped_subtopics.append(subtopic)
-            
-            # If no more subtopics need to be grouped, then processing is finished
-            if not ungrouped_subtopics:
-                expanded_qna_entry["grouped_sub_topic"] = list(grouped_subtopics)
-            else:
-                qnas_with_ungrouped_subtopics.append({
-                    "id": expanded_qna_entry["id"], 
-                    "grouped_sub_topic": grouped_subtopics, 
-                    "ungrouped_sub_topic": ungrouped_subtopics
-                })
-                
-        except Exception as e:
-            logger.error(f"Error in subtopic grouping for {expanded_qna_entry.get('id', 'unknown')}: {e}")
-
-
-    async def keyword_search_async(self, subtopic, lookup_index_name):
-        """Async version of keyword search"""
-        try:
-            # Run the sync method in an executor to avoid blocking
-            loop = asyncio.get_event_loop()
-            result = await loop.run_in_executor(
-                None, 
-                lambda: self.keyword_search(subtopic, lookup_index_name)
-            )
-            return result
-        except Exception as e:
-            logger.error(f"Error in async keyword search for {subtopic}: {e}")
-            return None
-
-    async def semantic_hybrid_search_async(self, subtopic, lookup_index_name):
-        """Async version of semantic hybrid search"""
-        try:
-            # Run the sync method in an executor to avoid blocking
-            loop = asyncio.get_event_loop()
-            result = await loop.run_in_executor(
-                None, 
-                lambda: self.semantic_hybrid_search(subtopic, lookup_index_name)
-            )
-            return result
-        except Exception as e:
-            logger.error(f"Error in async semantic search for {subtopic}: {e}")
-            return None
-            
-    async def insert_subtopic_lookup_async(self, subtopic, label, lookup_index_name,dry_run):
-        """Insert a new subtopic-to-label mapping into the lookup index"""
-        try:
-            # Create the document
-            insert = {
-                "id": hashlib.sha256(subtopic.encode()).hexdigest(),
-                "subtopic": subtopic,
-                "grouped_subtopic": label
-            }
-            if dry_run:
-                logger.info(f"Dry run enabled - skipping insert of subtopic mapping for {subtopic} -> {label}")
-                with open(f"{lookup_index_name}.json", 'w') as f:
-                            json.dump(insert, f, indent=2)
-            else:
-                # Run the update in an executor
-                loop = asyncio.get_event_loop()
-                await loop.run_in_executor(
-                    None,
-                    lambda: IndexProcessor(index_name=lookup_index_name).update_index(
-                        [insert],
-                        key_field_name="id", 
-                        semantic_content_field="subtopic"
-                    )
-                )
-            
-        except Exception as e:
-            logger.error(f"Error inserting subtopic mapping for {subtopic}: {e}")
-
     # Convert the vectorizer to async to avoid blocking
     async def vectorize_text_async(self, text):
         """Async version of vectorize_text"""
@@ -1475,43 +1154,6 @@ class qna_extractor:
             logger.error(f"Failed batch saved to {failed_file}")
             raise
 
-
-    def get_substring_labeling(self, subtopics):
-        for subtopic in subtopics:
-            if all(subtopic in other for other in subtopics):
-                return subtopic
-        return None
-
-    def llm_labeling(self, subtopics):
-        subtopic_list = ", ".join([f'"{subtopic}"' for subtopic in subtopics])
-        
-        prompt = subtopic_labeling_prompt(subtopic_list)
-
-        message = [{"role": "user", "content": prompt}]
-
-        labeled_groups = chat_completion(messages=message, max_tokens=2000, temperature=1e-9, task_type="subtopic_group_labeling")
-
-        return labeled_groups
-
-    def label_group(self, group, max_retries=5, wait_seconds=60):
-        # Try substring match
-        label = self.get_substring_labeling(group)
-        if label:
-            return label
-        
-        # LLM
-        for attempt in range(1, max_retries + 1):
-            try:
-                label = self.llm_labeling(group)
-                label = label.lower().replace("\"", '')
-            except Exception as e:
-                logger.error(f"Error during LLM labeling attempt {attempt}: {e}")
-                if attempt < max_retries:
-                    time.sleep(wait_seconds)
-                else:
-                    logger.error("Max retries reached for LLM labeling")
-                    label = None
-        return label
 
     def extract_batch(self, df, input_dict, max_workers=12):
 

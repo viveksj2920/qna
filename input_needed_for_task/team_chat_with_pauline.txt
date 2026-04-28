@@ -1,0 +1,54 @@
+Hi Vivek, good evening. Hope everything is okay on your end. Just wanted to check in.
+Dinesh also mentioned to me last week that you'd be taking over Vatsyayan's previous task and working with me on it. Has he spoken to you about it yet?
+ 
+hi Qin, Pauline
+ 
+yes i took over the task
+ 
+on Friday i did not start it
+ 
+i was fixing some comments given on pr by dinesh on friday
+ 
+Okay no problem. Do you have all the details you need for the task? Did anyone talk to you about it?
+ 
+if there's anything you need me to clarify, just let me know
+ 
+i am taking a look at code base and the changes he did is there anything any document or something written which i can go through
+ 
+Mmmmm I only have a diagram that goes over logic for the QNA flow
+ 
+Would that help?
+ 
+yes
+ 
+i will see it 
+ 
+then we can connect in 5 - 10 min?
+ 
+Not sure if this is blurry. This is the flow for current day QNA.
+Screenshot 2026-04-27 at 11.04.47 AM.png
+ 
+Vatsyayan's changes affects the blue and green squares (subtopics)
+ 
+noted
+ 
+We used to have three levels for each QNA. L1 is topic, L2 is grouped subtopic, L3 is subtopic.
+L3 subtopic used open ended prompt for LLM to freely extract anything it wanted to, this caused the number of subtopics to blow up to 300,000+ unique subtopics
+Now we are removing grouped subtopic. We will just have topic and subtopic. Subtopic is now a predefined list of subtopics (around 420 subtopics).
+ 
+got it
+ 
+Also, if you go to the shared teams channel, we have General > Design Info > Subtopic Hierarchy.xlsx
+ 
+The first sheet shows the topics mapped to subtopics
+ 
+Hi Vivek, just a couple of more notes. There are a few subtopics that look like "OPEN ENDED: _ name (controlled)". What this means is we want to extract certain named entities from the question, like medication names, plan names, hospital names, etc. but in a controlled way.
+ 
+Our previous issue was that the number of subtopics was blowing up because it would extract many different versions of the same thing. For example, here are 15 different subtopics for the same exact medication.
+Screenshot 2026-04-27 at 6.04.31 PM.png
+ 
+For medications, the LLM should be instructed to only get the base medication name and ignore any dosages, frequencies, or forms. There shouldn't be any parentheses either, we just want the generic form of the medication name.
+ 
+Also, here is a static list of plan names. It wouldn't be feasible to send these into an LLM, but we can probably use it another way
+plan_names.csv
+ 

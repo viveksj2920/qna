@@ -6,7 +6,4 @@ __pycache__/
 *.pyc
 .DS_Store
 logs/
-*.csv
-*.xlsx
-*.txt
 src/data/output/*

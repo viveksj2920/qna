@@ -1,0 +1,3 @@
+Here is another story. Connect with Pauline about this and start the implementation. Vatsyayan had started some changes, so take his latest code from his branch. You can talk to him about. He is going to work on another project for this sprint: https://rally1.rallydev.com/#/794370552705d/teamboard?detail=%2Fuserstory%2F847087110521%2Fdetails
+Rally Login
+ 

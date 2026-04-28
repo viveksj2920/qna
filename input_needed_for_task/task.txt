@@ -1,0 +1,1 @@
+Subtopic extraction has to be updated to use a predefined list of subtopics and the appropriate prompt changes have to be done. Testing iteratively to ensure prompt is working well is part of the dev work.

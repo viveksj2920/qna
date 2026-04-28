@@ -1,0 +1,8 @@
+2026-04-29 02:28:43 - gpd_ai_companion_qna_batch - INFO - Debug mode is disabled
+2026-04-29 02:28:43 - gpd_ai_companion_qna_batch - INFO - Logger configured. Log files will be saved in: C:\Users\vs134\Documents\myrepo\qna\logs
+2026-04-29 02:28:43 - gpd_ai_companion_qna_batch - ERROR - Missing required environment variables: AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_KEY
+2026-04-29 02:28:43 - gpd_ai_companion_qna_batch - ERROR - Error loading configuration: Missing required environment variables: AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_KEY
+Traceback (most recent call last):
+  File "C:\Users\vs134\Documents\myrepo\qna\src\config.py", line 40, in <module>
+    raise EnvironmentError(f"Missing required environment variables: {', '.join(missing)}")
+OSError: Missing required environment variables: AZURE_OPENAI_ENDPOINT, AZURE_OPENAI_KEY

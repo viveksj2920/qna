@@ -14,8 +14,12 @@ from dotenv import load_dotenv
 
 # Local Application Imports
 import config
-from index import IndexProcessor
-from skillsets.vectorizer import AzureOpenAIVectorizer
+try:
+    from index import IndexProcessor
+    from skillsets.vectorizer import AzureOpenAIVectorizer
+except ImportError:
+    IndexProcessor = None
+    AzureOpenAIVectorizer = None
 
 # configure the llm
 from llm.llm_config import chat_completion

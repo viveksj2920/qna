@@ -1,0 +1,709 @@
+{
+  "agent_marketing": {
+    "ASL": {
+      "description": "Support and resources for American Sign Language in agent marketing activities, including interpreter services, ASL-specific marketing materials, and accessibility compliance for deaf and hard of hearing customers.",
+      "examples": [
+        "Where can I find ASL interpreters for my Medicare information session?",
+        "Are there ASL-compatible marketing videos I can use with deaf clients?",
+        "How do I request an ASL interpreter for my upcoming community event?"
+      ],
+      "explanation": "Questions about making marketing accessible to deaf customers through ASL services, including obtaining resources, meeting compliance requirements, and arranging interpreter services."
+    },
+    "Agent Toolkit": {
+      "description": "A comprehensive set of tools and resources designed to assist agents in marketing and sales activities, including templates, calculators, product guides, and presentation materials.",
+      "examples": [
+        "How do I access the latest Medicare Advantage comparison charts in the Agent Toolkit?",
+        "Where can I find the enrollment checklist template in the toolkit?",
+        "Is there a premium calculator in the Agent Toolkit for the new plans?"
+      ],
+      "explanation": "Questions about locating, accessing, or using specific materials or tools within the Agent Toolkit resource center."
+    },
+    "Community Meetings": {
+      "description": "Planning, organizing, managing, and compliance for community-based meetings and events designed to market Medicare products to potential members.",
+      "examples": [
+        "What are the guidelines for hosting a Medicare community meeting at a senior center?",
+        "How many days in advance do I need to submit my community meeting details for approval?",
+        "Can I provide refreshments at my Medicare community meeting?"
+      ],
+      "explanation": "Questions about planning, registering, conducting, or compliance requirements for community marketing events."
+    },
+    "Compliance": {
+      "description": "Ensuring all marketing efforts follow CMS regulations, state laws, and company guidelines for Medicare marketing, including material review processes and marketing activity restrictions.",
+      "examples": [
+        "Is it compliant to offer gift cards at Medicare marketing events?",
+        "What disclaimers must be included on my Medicare Advantage marketing materials?",
+        "How long do I need to retain sign-in sheets from marketing events?"
+      ],
+      "explanation": "Questions about regulatory requirements, limitations on marketing activities, required disclosures, or approval processes for marketing materials."
+    },
+    "HPMS": {
+      "description": "Access, navigation, and utilization of the Health Plan Management System for plan information, compliance reporting, and document submissions to CMS.",
+      "examples": [
+        "How do I access the HPMS system to check the latest CMS guidance?",
+        "Where in HPMS can I find the approved plan benefit details?",
+        "When will the updated plan information be available in HPMS?"
+      ],
+      "explanation": "Questions about using the CMS Health Plan Management System for plan information or regulatory compliance."
+    },
+    "Kiosk": {
+      "description": "Setup, maintenance, compliance, and operation of marketing kiosks in retail or community locations for Medicare sales and information distribution.",
+      "examples": [
+        "What materials are allowed to be displayed at a Medicare information kiosk?",
+        "How do I get approval for setting up a kiosk at a local pharmacy?",
+        "What are the reporting requirements for kiosk marketing activities?"
+      ],
+      "explanation": "Questions about establishing or operating information kiosks in retail or public locations for Medicare marketing."
+    },
+    "Lead": {
+      "description": "Generation, tracking, management, and compliance aspects of sales leads for Medicare products, including lead distribution and follow-up protocols.",
+      "examples": [
+        "How do I import my leads into the CRM system?",
+        "What's the compliant timeframe for following up on Medicare leads?",
+        "Can I purchase lead lists for Medicare marketing?"
+      ],
+      "explanation": "Questions about obtaining, tracking, distributing, or following up on potential sales opportunities."
+    },
+    "Retail Operations Portal": {
+      "description": "Online platform for managing retail store operations related to agent activities, including scheduling, resource allocation, and performance tracking.",
+      "examples": [
+        "How do I update my store hours in the Retail Operations Portal?",
+        "Where in the portal can I request additional marketing materials for my store?",
+        "Can I track walk-in appointments through the Retail Operations Portal?"
+      ],
+      "explanation": "Questions about using the portal specifically designed for managing physical retail locations where Medicare products are marketed."
+    },
+    "Sales Materials Portal": {
+      "description": "Platform for accessing, ordering, customizing, and tracking compliance-approved sales and marketing materials for Medicare products.",
+      "examples": [
+        "How do I order additional Medicare Advantage brochures through the portal?",
+        "When will the 2026 plan year materials be available in the Sales Materials Portal?",
+        "Can I customize the enrollment packets with my contact information?"
+      ],
+      "explanation": "Questions about finding, ordering, or customizing marketing materials through the dedicated sales materials system."
+    },
+	  "Other": {
+		"description": "Miscellaneous sub-topics not covered in the above categories"
+	  }
+  },
+  "application": {
+    "AARP Med Supp": {
+      "description": "Application processes, requirements, and support specific to AARP-branded Medicare Supplement insurance plans, including standard enrollment procedures.",
+      "examples": [
+        "How do I submit an AARP Medicare Supplement application electronically?",
+        "What documentation is needed for an AARP Med Supp application?",
+        "Is there an age limit for applying for AARP Medicare Supplement plans?"
+      ],
+      "explanation": "Questions specifically about applying for AARP Medicare Supplement plans through standard processes, not focused on underwriting exceptions."
+    },
+    "AARP Med Supp UW Only": {
+      "description": "Specialized application processes for AARP Medicare Supplement plans requiring medical underwriting, including health questionnaires and qualification criteria.",
+      "examples": [
+        "What medical conditions automatically disqualify someone for Med Supp outside open enrollment?",
+        "How long does the underwriting process take for an AARP Med Supp application?",
+        "Can a client with diabetes qualify for Med Supp through underwriting?"
+      ],
+      "explanation": "Questions about the medical underwriting process specifically for AARP Medicare Supplement plans, including health requirements and special circumstances."
+    },
+    "Agent of Record": {
+      "description": "Processes and requirements for designating, changing, or updating the agent assigned to a policy or application, including compensation implications.",
+      "examples": [
+        "How do I submit an agent of record change for an existing member?",
+        "What is the effective date of commission payments after an AOR change?",
+        "Does the client need to sign the agent of record change form?"
+      ],
+      "explanation": "Questions about changing which agent is assigned to a policy or who receives credit/commission for an application or existing policy."
+    },
+    "Missing Information": {
+      "description": "Procedures for identifying, obtaining, and submitting missing information or documentation for incomplete applications to ensure processing completion.",
+      "examples": [
+        "How can I check what information is missing from my client's application?",
+        "What's the deadline to submit missing information before an application is rejected?",
+        "Can I submit missing Medicare ID information after the application is submitted?"
+      ],
+      "explanation": "Questions about resolving incomplete applications by providing additional required information or documentation."
+    },
+    "Reinstatement": {
+      "description": "Guidelines, timeframes, and processes for reinstating cancelled or lapsed policies, including payment requirements and documentation needs.",
+      "examples": [
+        "What's the process to reinstate a policy that lapsed due to non-payment?",
+        "How long after termination can a Medicare Advantage plan be reinstated?",
+        "Does my client need to complete a new application for reinstatement?"
+      ],
+      "explanation": "Questions about bringing a terminated or lapsed policy back into active status through specific reinstatement procedures."
+    },
+    "Status": {
+      "description": "Methods for checking, tracking, and receiving updates on the current processing status of submitted applications, including timeline expectations.",
+      "examples": [
+        "How can I check the status of an application I submitted last week?",
+        "Why has my client's application been in pending status for 10 days?",
+        "When will the underwriting decision be made on my client's application?"
+      ],
+      "explanation": "Questions about where an application is in the processing pipeline or when decisions/completion can be expected."
+    },
+    "Withdraw/Cancel": {
+      "description": "Procedures and implications of withdrawing applications before approval or cancelling policies after issuance, including refund policies and documentation requirements.",
+      "examples": [
+        "How do I withdraw my client's application before it's processed?",
+        "What's the process to cancel a policy during the free look period?",
+        "Will my client receive a refund if we cancel within 30 days?"
+      ],
+      "explanation": "Questions about stopping an application from being processed or terminating a recently issued policy."
+    },
+    "Other": {
+      "description": "Miscellaneous sub-topics not covered in the above categories"
+    }
+  },
+  "eligibility_verification": {
+    "Election Period Verification": {
+      "description": "Verification of qualifying election periods that determine when individuals can enroll in, change, or disenroll from Medicare plans, including AEP, IEP, SEP, and OEP circumstances.",
+      "examples": [
+        "Is my client eligible for a Special Election Period after moving to a new county?",
+        "How do I verify if someone qualifies for the 5-star Special Election Period?",
+        "When does my client's Initial Election Period begin if they're turning 65 next month?"
+      ],
+      "explanation": "Questions about confirming whether a client qualifies for a specific enrollment period that would allow them to make Medicare plan changes."
+    },
+    "LIS": {
+      "description": "Verification processes and criteria for the Low Income Subsidy program (Extra Help), including income thresholds, application procedures, and benefit levels.",
+      "examples": [
+        "How do I check if my client qualifies for Low Income Subsidy?",
+        "What documentation is needed to verify LIS eligibility?",
+        "If my client receives partial LIS, what will their copays be?"
+      ],
+      "explanation": "Questions about determining eligibility for Medicare's Extra Help program that reduces prescription drug costs for qualifying individuals."
+    },
+    "Medicaid": {
+      "description": "Verification of Medicaid eligibility status, including dual eligibility with Medicare, application procedures, and coverage implications.",
+      "examples": [
+        "How do I verify if my client has active Medicaid coverage?",
+        "What's the income limit for Medicaid eligibility in Florida?",
+        "Does QMB Medicaid status qualify my client for a Special Election Period?"
+      ],
+      "explanation": "Questions about confirming whether a client has Medicaid coverage or would qualify for Medicaid programs."
+    },
+    "Medicare": {
+      "description": "Verification of Medicare eligibility, enrollment status, effective dates, and coverage details for Parts A, B, C, and D, including premium payment status.",
+      "examples": [
+        "How do I verify my client's Medicare effective dates?",
+        "Is my client enrolled in Medicare Part B according to your records?",
+        "Can you check if my client has met their Part B deductible this year?"
+      ],
+      "explanation": "Questions about confirming a client's enrollment status in Original Medicare (Parts A and B) or checking Medicare coverage details."
+    },
+    "Medicare Medicaid Program": {
+      "description": "Verification and guidance for specialized programs serving dual-eligible individuals who qualify for both Medicare and Medicaid, including enrollment criteria and benefits coordination.",
+      "examples": [
+        "Is my client eligible for the Medicare-Medicaid Alignment Initiative in Illinois?",
+        "How do I verify my client qualifies for a D-SNP plan?",
+        "What Medicare-Medicaid Program options are available for my full dual-eligible client?"
+      ],
+      "explanation": "Questions about specialized programs specifically designed for people who have both Medicare and Medicaid coverage."
+    },
+    "Other": {
+      "description": "Miscellaneous sub-topics not covered in the above categories"
+    }
+  },
+  "sales_assistance": {
+    "Campaign": {
+      "description": "Information, guidance, and support for current sales campaigns, promotional initiatives, and incentive programs for Medicare products.",
+      "examples": [
+        "What are the details of the current AEP enrollment incentive campaign?",
+        "When does the summer MA sales campaign begin?",
+        "How do I track my progress toward the campaign enrollment goal?"
+      ],
+      "explanation": "Questions about specific time-limited sales initiatives, goals, or incentive programs designed to drive enrollments."
+    },
+    "Communication Follow-Up": {
+      "description": "Guidance and protocols for following up with prospective members after initial contact, including compliant communication methods and timelines.",
+      "examples": [
+        "What's the compliant way to follow up with a prospect after a marketing event?",
+        "How many times can I contact a lead who requested information?",
+        "Can I send follow-up emails to prospects who attended my webinar?"
+      ],
+      "explanation": "Questions about appropriate methods, timing, and content for communications after initial contact with potential members."
+    },
+    "Eligibility": {
+      "description": "Assistance with determining eligibility for specific products or plans based on age, residency, Medicare status, and other qualifying factors.",
+      "examples": [
+        "Is my client eligible for this Medicare Advantage plan if they have End-Stage Renal Disease?",
+        "Can someone enroll in this plan if they only have Medicare Part A?",
+        "Is there an age restriction for this Medicare Supplement plan?"
+      ],
+      "explanation": "Questions about whether specific individuals qualify for particular Medicare plans based on their circumstances, different from verifying official program eligibility."
+    },
+    "How to Complete an Application": {
+      "description": "Step-by-step guidance on correctly completing applications for various Medicare products, including required fields, signatures, and supporting documentation.",
+      "examples": [
+        "How do I properly complete Section C of the Medicare Advantage application?",
+        "What's the correct way to indicate my client wants to use autopay?",
+        "Where on the application do I enter the SOA information?"
+      ],
+      "explanation": "Questions about the mechanics of correctly filling out application forms, different from questions about application status or processing."
+    },
+    "Member Escalation-Application": {
+      "description": "Handling escalated member concerns or problems specifically related to applications, including submission issues, delays, and application-related complaints.",
+      "examples": [
+        "My client's application has been pending for three weeks with no updates. How can we escalate this?",
+        "The system keeps rejecting my client's application due to an error. Who can help?",
+        "My client's application was submitted incorrectly by another agent. How do we resolve this?"
+      ],
+      "explanation": "Questions about resolving application-specific problems that require intervention beyond normal processes."
+    },
+    "Member Escalation-Benefits": {
+      "description": "Addressing escalated issues related to member benefits, including coverage disputes, benefit explanations, and clarification of plan provisions.",
+      "examples": [
+        "My client was told their physical therapy would be covered, but now they're getting bills. How do we escalate this?",
+        "The EOB shows different benefits than what's in my client's plan document. Who can resolve this?",
+        "My client's supplemental benefits aren't working when they try to use them. Can you escalate this?"
+      ],
+      "explanation": "Questions about resolving problems or disputes related to what benefits a plan covers or how benefits are being applied."
+    },
+    "Member Escalation-Billing": {
+      "description": "Resolution paths for escalated billing issues, including incorrect premium charges, payment processing errors, and refund requests.",
+      "examples": [
+        "My client has been double-billed for three months. How do we get this escalated and fixed?",
+        "My client's automatic payment wasn't processed, and now they got a termination notice. Who can help?",
+        "The billing department keeps sending bills after my client switched to Social Security deduction. How do we escalate this?"
+      ],
+      "explanation": "Questions about resolving significant or persistent problems with premium billing or payment processing."
+    },
+    "Member Escalation-Claim": {
+      "description": "Processes for escalating problematic claims, including denied claims, incorrect processing, coordination of benefits issues, and appeal support.",
+      "examples": [
+        "My client's hospital claim was denied inappropriately. How do we escalate this for review?",
+        "The claim was processed with the wrong cost-sharing amount. Who can fix this urgently?",
+        "My client has been waiting 60 days for a claim decision. Can you escalate this?"
+      ],
+      "explanation": "Questions about resolving problems with how medical or pharmacy claims have been processed or paid."
+    },
+    "Member Escalation-ID Card": {
+      "description": "Expedited resolution for issues with member ID cards, including incorrect information, non-receipt, replacement needs, and urgent card requests.",
+      "examples": [
+        "My client needs surgery tomorrow but never received their ID card. How do we get one immediately?",
+        "The ID card has the wrong PCP listed. How can we get this corrected urgently?",
+        "It's been 30 days since enrollment and no ID card has arrived. How do we escalate this?"
+      ],
+      "explanation": "Questions about resolving problems with obtaining or correcting member identification cards."
+    },
+    "Member Escalation-Network": {
+      "description": "Addressing escalated concerns regarding provider networks, including network adequacy, provider participation disputes, and network directory errors.",
+      "examples": [
+        "My client's doctor says they don't accept the plan, but your directory shows they're in-network. Who can resolve this?",
+        "There are no nephrologists within 50 miles in your network. How do we escalate this access issue?",
+        "My client's hospital was dropped from the network mid-year. What special rights do they have?"
+      ],
+      "explanation": "Questions about resolving significant problems related to provider participation or network adequacy."
+    },
+    "Member Escalation-OOA": {
+      "description": "Handling escalated issues related to out-of-area coverage, including travel benefits, relocations, and emergency services received outside the service area.",
+      "examples": [
+        "My client was charged out-of-network rates for emergency care while traveling. How do we escalate this?",
+        "My client is moving temporarily for cancer treatment but being told their coverage won't apply. Who can help?",
+        "The plan isn't covering my client's urgent care visit while they were in Florida for the winter. How do we escalate?"
+      ],
+      "explanation": "Questions about resolving problems with coverage when members receive care outside their normal service area."
+    },
+    "Member Escalation-Other": {
+      "description": "Process for escalating member issues that don't fit into standard categories, including complex situations requiring special intervention.",
+      "examples": [
+        "My client has a unique situation involving hospice election and MA plan coverage. Who can help resolve this?",
+        "There seems to be a system error affecting multiple aspects of my client's coverage. How do we get this escalated?",
+        "My client's coverage was terminated due to a death report, but they're very much alive. Who can fix this urgently?"
+      ],
+      "explanation": "Questions about resolving significant member problems that don't clearly fit into other escalation categories."
+    },
+    "Member Escalation-Prescription": {
+      "description": "Escalation paths for resolving prescription drug coverage issues, including prior authorization disputes, formulary exceptions, and pharmacy network problems.",
+      "examples": [
+        "My client's life-saving medication was denied, and the standard appeal will take too long. How do we expedite this?",
+        "The pharmacy says my client's plan is inactive, but we have confirmation of enrollment. Who can resolve this today?",
+        "My client's tier exception request has been pending for 3 weeks. How do we escalate this?"
+      ],
+      "explanation": "Questions about resolving urgent or complex problems related to prescription drug coverage or access."
+    },
+    "Member Escalation-Unable to Enroll": {
+      "description": "Addressing situations where standard enrollment processes have failed or been blocked, requiring special intervention to complete enrollment.",
+      "examples": [
+        "The system won't let me enroll my client who has ESRD but qualifies under the new rules. Who can help?",
+        "My client's enrollment keeps getting rejected due to an error with their Medicare number. How do we escalate this?",
+        "My client is in their IEP but the system says they're not eligible to enroll. Who can override this?"
+      ],
+      "explanation": "Questions about resolving technical or procedural barriers preventing enrollment completion when the client should be eligible."
+    },
+    "Plan Information": {
+      "description": "Assistance with detailed plan benefit information, coverage details, provider access, and plan-specific rules and policies.",
+      "examples": [
+        "Does this plan cover acupuncture services?",
+        "What is the out-of-pocket maximum for this PPO plan?",
+        "How many physical therapy visits does this plan cover annually?"
+      ],
+      "explanation": "Questions seeking specific details about what a particular plan covers or how benefits work."
+    },
+    "Provider Search": {
+      "description": "Assistance with locating in-network providers, checking provider participation status, and understanding provider network details.",
+      "examples": [
+        "Can you check if Dr. Sarah Johnson at Westside Medical Group is in-network for this plan?",
+        "Are there any endocrinologists within 15 miles of my client's zip code?",
+        "Is Memorial Hospital and all its doctors in-network for this Medicare Advantage plan?"
+      ],
+      "explanation": "Questions about finding or verifying specific providers' participation in plan networks."
+    },
+    "Rx Search": {
+      "description": "Support for prescription drug coverage inquiries, including formulary status, tier placement, cost-sharing, restrictions, and pharmacy network information.",
+      "examples": [
+        "Is Eliquis covered under this plan's formulary?",
+        "What tier is Januvia on for this prescription drug plan?",
+        "Does this medication require prior authorization under this plan?"
+      ],
+      "explanation": "Questions about whether specific medications are covered, what restrictions apply, or what the cost-sharing would be."
+    },
+	"Other": {
+		"description": "Miscellaneous sub-topics not covered in the above categories"
+	}
+  },
+  "status": {
+    "AARP Med Supp": {
+      "description": "Information about the status of AARP Medicare Supplement applications, policies, or changes, including processing updates and policy activation confirmation.",
+      "examples": [
+        "What's the status of my client's AARP Plan G application submitted last week?",
+        "Has the underwriting decision been made on my client's AARP Med Supp application?",
+        "When will my client's AARP Medicare Supplement policy be active in the system?"
+      ],
+      "explanation": "Questions specifically about checking the current status of AARP Medicare Supplement applications or policies."
+    },
+    "Authorized to Offer": {
+      "description": "Verification of an agent's authorization status to market and sell specific products, including certification requirements and product-specific permissions.",
+      "examples": [
+        "Am I authorized to sell the AARP Medicare Supplement plans?",
+        "Has my authorization to offer Group Retiree products been approved yet?",
+        "Why does the system say I'm not authorized to offer D-SNP plans when I completed the training?"
+      ],
+      "explanation": "Questions about whether an agent has the necessary permissions and certifications to sell specific products."
+    },
+    "Certifications": {
+      "description": "Status of required agent certifications, including AHIP, product-specific certifications, compliance training, and continuing education requirements.",
+      "examples": [
+        "Has my AHIP certification been processed in your system yet?",
+        "When will my Medicare Advantage certification show as completed?",
+        "Why is my D-SNP certification showing as incomplete when I finished all modules?"
+      ],
+      "explanation": "Questions about the status of required training and certification programs that agents must complete."
+    },
+    "Commissions": {
+      "description": "Information about commission payments, including payment status, calculation inquiries, missing commissions, and commission schedule details.",
+      "examples": [
+        "When will commissions for last month's enrollments be paid?",
+        "Why is the commission amount for my client's plan different than expected?",
+        "Has the commission for Mrs. Smith's policy been processed yet?"
+      ],
+      "explanation": "Questions about the status, amount, or timing of agent compensation payments."
+    },
+    "Contracting": {
+      "description": "Status of agent contracting processes, including new contracts, contract renewals, updates to contracting information, and appointment with carriers.",
+      "examples": [
+        "What's the status of my contract application submitted last week?",
+        "Has my contract been approved to sell in the new county I added?",
+        "When will my carrier appointment be completed?"
+      ],
+      "explanation": "Questions about where an agent's contracting paperwork or process stands in the approval pipeline."
+    },
+    "Demographic Update": {
+      "description": "Status of requested changes to agent demographic information, including address updates, contact information changes, and banking or tax information modifications.",
+      "examples": [
+        "Has my address change been processed in the system yet?",
+        "When will my updated email address be reflected in the portal?",
+        "Is my banking information update complete for direct deposit?"
+      ],
+      "explanation": "Questions about whether changes to an agent's personal or business information have been completed in systems."
+    },
+    "OPSESC": {
+      "description": "Status of Operational Security requirements, clearances, and compliance elements necessary for system access and data handling permissions.",
+      "examples": [
+        "Has my operational security clearance been approved yet?",
+        "When will my OPSESC certification show as completed in the system?",
+        "Why is my operational security status showing as pending when I completed all requirements?"
+      ],
+      "explanation": "Questions about the status of security-related requirements that affect an agent's system access or data handling permissions."
+    },
+    "Premier Service": {
+      "description": "Status of premium service level designations, qualification progress, and special program participation for high-performing agents.",
+      "examples": [
+        "Has my Premier Service status been updated for this quarter?",
+        "When will I know if I've qualified for Premier Agent status?",
+        "What's my current progress toward Premier Service qualification?"
+      ],
+      "explanation": "Questions about an agent's status or progress in special service programs designed for top-performing agents."
+    },
+    "Prospective Agent": {
+      "description": "Status updates for individuals in the process of becoming contracted agents, including application progress, background checks, and onboarding steps.",
+      "examples": [
+        "What's the status of my agent application?",
+        "Has my background check been completed yet?",
+        "When will I receive my agent credentials to start selling?"
+      ],
+      "explanation": "Questions from individuals who are not yet contracted agents but are in the process of becoming one."
+    },
+    "Other": {
+      "description": "Miscellaneous sub-topics not covered in the above categories"
+    }
+  },
+  "system_access_or_navigation": {
+    "Jarvis": {
+      "description": "Assistance with accessing and navigating the Jarvis system, including login issues, interface navigation, search functionality, and general system usage.",
+      "examples": [
+        "I can't log into Jarvis. What should I do?",
+        "How do I access the enrollment dashboard in Jarvis?",
+        "Why does Jarvis keep timing out when I'm entering application information?"
+      ],
+      "explanation": "Questions about using the main Jarvis system platform, excluding the specific enrollment module which has its own category."
+    },
+    "Jarvis Enroll": {
+      "description": "Support specifically for the enrollment module within Jarvis, including enrollment submission, application completion, and enrollment-specific functionality.",
+      "examples": [
+        "How do I start a new enrollment in Jarvis Enroll?",
+        "The enrollment form in Jarvis isn't accepting the Medicare ID format. What should I do?",
+        "How do I save an enrollment application as a draft in Jarvis Enroll?"
+      ],
+      "explanation": "Questions specifically about using the enrollment functionality within Jarvis, rather than general Jarvis usage."
+    },
+    "LEAN": {
+      "description": "Support for accessing and using the LEAN system, including login assistance, navigation help, and functionality guidance for this specific platform.",
+      "examples": [
+        "How do I reset my LEAN password?",
+        "Where in LEAN do I find the commission reports?",
+        "Why am I getting an error when trying to submit through LEAN?"
+      ],
+      "explanation": "Questions about accessing or using the LEAN system platform."
+    },
+    "MIRA": {
+      "description": "Assistance with the MIRA system for Medicare enrollment and plan management, including access issues, navigation guidance, and functionality questions.",
+      "examples": [
+        "How do I access the prescription drug lookup tool in MIRA?",
+        "Why does MIRA keep crashing when I try to run a plan comparison?",
+        "Where in MIRA can I find the provider network directory?"
+      ],
+      "explanation": "Questions about accessing or using the MIRA system platform."
+    },
+    "Online/Offline Enrollment": {
+      "description": "Support for both digital and paper enrollment processes, including electronic submission troubleshooting and paper form procedures.",
+      "examples": [
+        "The online enrollment system is down. How do I submit a paper application instead?",
+        "How do I access the offline enrollment tool when I don't have internet connectivity?",
+        "What's the process for scanning and uploading paper enrollment forms?"
+      ],
+      "explanation": "Questions about submitting enrollments either electronically or via paper forms, including contingency processes."
+    },
+    "SMRT": {
+      "description": "Help with accessing and using the SMRT tool for sales and marketing activities, including feature guidance and technical support.",
+      "examples": [
+        "How do I generate a plan comparison report in the SMRT tool?",
+        "Why can't I access the drug pricing calculator in SMRT?",
+        "Where in the SMRT tool do I find the provider directory?"
+      ],
+      "explanation": "Questions about accessing or using the SMRT system platform."
+    },
+    "Technical Assistance": {
+      "description": "General technical support for hardware, software, connectivity, and other IT-related issues affecting agent systems and tools.",
+      "examples": [
+        "My enrollment platform keeps freezing when I try to upload documents. How do I fix this?",
+        "I'm getting an SSL certificate error when trying to access the agent portal. What should I do?",
+        "Why am I unable to print enrollment forms from my laptop?"
+      ],
+      "explanation": "Questions about technical problems that aren't specific to a particular system but affect the agent's ability to use tools and technology."
+    },
+    "Connected": {
+      "description": "Support for the Connected platform, including access issues, feature navigation, and usage guidance for this communication and collaboration tool.",
+      "examples": [
+        "How do I access the message center in bConnected?",
+        "Why can't I see my team members in the bConnected directory?",
+        "How do I schedule a client follow-up in the bConnected calendar?"
+      ],
+      "explanation": "Questions about accessing or using the bConnected communication platform."
+    },
+    "Other": {
+      "description": "Miscellaneous sub-topics not covered in the above categories"
+    }	
+  },
+  "other": {
+    "General Inquiries": {
+      "description": "Truly miscellaneous questions and requests that don't fit into any established category or represent novel inquiries that may require classification system updates.",
+      "examples": [
+        "How do I get reimbursed for expenses when I had to drive to a client's home in a different city?",
+        "Who should I contact about an error on my W-9 tax form?",
+        "Is there a company policy on agents using their personal vehicles for business travel?"
+      ],
+      "explanation": "Questions that don't clearly align with existing topics but still require assistance from the organization. These may indicate emerging areas that could become their own categories in the future.",
+      "operational_metadata": {
+        "responsible_team": "Agent Relations",
+        "average_handling_time": "10 minutes",
+        "knowledge_base_articles": ["GENERAL-FAQ", "MISC-INQUIRIES", "NEW-TOPICS"],
+        "escalation_path": "Department Coordinator",
+        "compliance_category": "General Assistance",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Cross-departmental Issues": {
+      "description": "Questions or problems that span multiple functional areas, requiring coordination between different departments for complete resolution.",
+      "examples": [
+        "My commissions are incorrect because my application status is wrong, and my system access isn't working to check either one. Who can help?",
+        "I'm having problems with both my certification status and marketing materials access that seem to be connected.",
+        "There's a discrepancy between what the contracting department and the commissions department are telling me about my status."
+      ],
+      "explanation": "Complex situations that involve multiple departments or systems and require coordinated efforts to resolve, rather than falling clearly into any single category.",
+      "operational_metadata": {
+        "responsible_team": "Agent Support Coordination",
+        "average_handling_time": "18 minutes",
+        "knowledge_base_articles": ["CROSS-FUNCTIONAL", "COMPLEX-ISSUES", "COORDINATION-PROTOCOL"],
+        "escalation_path": "Operations Coordinator",
+        "compliance_category": "Cross-functional Support",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Regulatory Questions": {
+      "description": "General questions about healthcare regulations, compliance requirements, and industry standards that aren't specifically related to marketing compliance or application processes.",
+      "examples": [
+        "Can you explain how the new CMS final rule affects agent compensation structures?",
+        "What are the documentation retention requirements for agent-client interactions?",
+        "How do the recent changes to HIPAA affect my communication with clients?"
+      ],
+      "explanation": "Questions about regulatory matters that are more general in nature and don't specifically relate to marketing activities or application processes already covered in other categories.",
+      "operational_metadata": {
+        "responsible_team": "Compliance Department",
+        "average_handling_time": "15 minutes",
+        "knowledge_base_articles": ["REGULATORY-OVERVIEW", "COMPLIANCE-UPDATES", "INDUSTRY-STANDARDS"],
+        "escalation_path": "Compliance Officer",
+        "compliance_category": "General Regulatory",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Feedback and Suggestions": {
+      "description": "Agent input, ideas for improvement, system enhancement requests, and general feedback about processes, tools, or support services.",
+      "examples": [
+        "I have a suggestion for improving the enrollment process in Jarvis that would save agents time.",
+        "The training materials for the new products would be more effective if they included more case studies.",
+        "I'd like to submit feedback about my recent experience with the agent support line."
+      ],
+      "explanation": "Communications that aren't questions requiring immediate answers but rather input or suggestions aimed at improving company processes, tools, or services.",
+      "operational_metadata": {
+        "responsible_team": "Agent Experience",
+        "average_handling_time": "12 minutes",
+        "knowledge_base_articles": ["FEEDBACK-PROCESS", "SUGGESTION-SUBMISSION", "IMPROVEMENT-INITIATIVES"],
+        "escalation_path": "Agent Experience Manager",
+        "compliance_category": "Continuous Improvement",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Agent Resources": {
+      "description": "Questions about general agent support resources, reference materials, job aids, and non-marketing educational content that supports agent activities.",
+      "examples": [
+        "Where can I find the agent handbook that covers all the general policies?",
+        "Is there a glossary of Medicare terms that I can reference when talking to clients?",
+        "Are there any podcasts or webinars about Medicare industry trends that the company provides?"
+      ],
+      "explanation": "Inquiries about general knowledge resources, educational materials, and reference tools that aren't specifically marketing materials or system-specific documentation.",
+      "operational_metadata": {
+        "responsible_team": "Agent Resources",
+        "average_handling_time": "7 minutes",
+        "knowledge_base_articles": ["RESOURCE-LIBRARY", "EDUCATIONAL-MATERIALS", "AGENT-TOOLS"],
+        "escalation_path": "Agent Development Manager",
+        "compliance_category": "Agent Education",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Career Development": {
+      "description": "Questions about career advancement opportunities, mentorship programs, specialized training paths, and professional development resources for agents.",
+      "examples": [
+        "What options do I have for advancing my career within the organization?",
+        "Are there any mentorship programs available for new agents?",
+        "What specialized training do I need to move into the senior markets division?"
+      ],
+      "explanation": "Inquiries related to professional growth, career advancement, and skill development beyond the basic certification and authorization requirements covered in the Status category.",
+      "operational_metadata": {
+        "responsible_team": "Talent Development",
+        "average_handling_time": "14 minutes",
+        "knowledge_base_articles": ["CAREER-PATHS", "PROFESSIONAL-DEVELOPMENT", "ADVANCEMENT-OPPORTUNITIES"],
+        "escalation_path": "Career Development Manager",
+        "compliance_category": "Workforce Development",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Meetings and Events": {
+      "description": "Questions about corporate meetings, agent conferences, webinars, and company events that are not specifically marketing or sales events covered under Agent Marketing.",
+      "examples": [
+        "When is the next quarterly corporate update webinar for agents?",
+        "How do I register for the annual agent recognition ceremony?",
+        "Are there recordings available of the recent Medicare policy update meeting?"
+      ],
+      "explanation": "Inquiries about company-sponsored meetings and events that are intended for agent education, recognition, or corporate communication rather than for marketing to prospects.",
+      "operational_metadata": {
+        "responsible_team": "Corporate Communications",
+        "average_handling_time": "6 minutes",
+        "knowledge_base_articles": ["CORPORATE-EVENTS", "WEBINAR-SCHEDULE", "MEETING-RECORDINGS"],
+        "escalation_path": "Events Coordinator",
+        "compliance_category": "Internal Communications",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Policy and Procedure": {
+      "description": "Questions about internal company policies, standard operating procedures, and business rules not specifically tied to marketing compliance or application processes.",
+      "examples": [
+        "What's the company policy on agents using social media in a personal capacity?",
+        "What procedure should I follow if I need to take an extended leave of absence?",
+        "Is there a dress code policy for agents visiting corporate offices?"
+      ],
+      "explanation": "Inquiries about general corporate policies and procedures that govern agent conduct and operations but aren't specifically related to marketing or sales activities already covered in other categories.",
+      "operational_metadata": {
+        "responsible_team": "Policy Administration",
+        "average_handling_time": "9 minutes",
+        "knowledge_base_articles": ["POLICY-HANDBOOK", "PROCEDURES-GUIDE", "BUSINESS-RULES"],
+        "escalation_path": "Policy Manager",
+        "compliance_category": "Operational Policies",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Technology Support": {
+      "description": "General technology questions related to agent equipment, software, mobile devices, and connectivity that don't specifically involve the company's proprietary systems.",
+      "examples": [
+        "What are the minimum laptop specifications recommended for agents in the field?",
+        "Is there a company discount for purchasing Microsoft Office for my business?",
+        "How do I set up secure email on my smartphone for client communications?"
+      ],
+      "explanation": "Questions about general technology needs and support that aren't specific to the company's internal systems (like Jarvis, LEAN, etc.) but still impact an agent's ability to conduct business.",
+      "operational_metadata": {
+        "responsible_team": "IT Support",
+        "average_handling_time": "10 minutes",
+        "knowledge_base_articles": ["TECH-REQUIREMENTS", "AGENT-EQUIPMENT", "SECURE-COMMUNICATIONS"],
+        "escalation_path": "Field Technology Manager",
+        "compliance_category": "Technology Standards",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    },
+    "Other": {
+      "description": "Truly unique or first-time inquiries that don't align with any existing category and require special handling or the creation of new classification criteria.",
+      "examples": [
+        "I've discovered what seems to be a security vulnerability in one of our systems. Who should I report this to?",
+        "There's a natural disaster affecting my area. What special protocols exist for agents in this situation?",
+        "I've been approached by a competitor to share client information. What's the proper response protocol?"
+      ],
+      "explanation": "Rare, unusual, or unprecedented questions that don't fit any established category and may require special handling, investigation, or the development of new policies or categories.",
+      "operational_metadata": {
+        "responsible_team": "Agent Support Management",
+        "average_handling_time": "20 minutes",
+        "knowledge_base_articles": ["SPECIAL-HANDLING", "UNIQUE-SITUATIONS", "ESCALATION-GUIDE"],
+        "escalation_path": "Operations Director",
+        "compliance_category": "Special Situations",
+        "last_updated": "2025-08-08",
+        "updated_by": "sshar834_uhg"
+      }
+    }
+  }
+}

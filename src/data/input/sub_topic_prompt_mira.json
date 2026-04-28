@@ -1,0 +1,279 @@
+{
+    "providers": {
+        "description": "Extract specific details about providers mentioned. Details like specific process, doctor name, hospital name, network name, doctor type, etc. Generic words like doctor, network, specialist should be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "What's the copay for Doctor Bedingfield?",
+                "sub topics": "[Bedingfield]"
+            },
+            {
+                "question": "Can you help me find a new psychiatrist in network?",
+                "sub topics": "[psychiatrist]"
+            },
+            {
+                "question": "Do you need any referrals for the specialist in network?",
+                "sub topics": "[referrals]"
+            }
+        ]
+    },
+    "enrollment": {
+        "description": "Extract specific details about enrollment mentioned. Details like specific step in the enrollment, specific plan name for the enrollment, channel(online,mobile,etc), status, etc. Generic words like enrollment, plan,etc  should be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "Can I get my plan materials both by e-mail and regular mail?",
+                "sub topics": "[e-mail, regular mail]"
+            },
+            {
+                "question": "Can you check on the status of my new card?",
+                "sub topics": "[card status]"
+            },
+            {
+                "question": "I got a letter saying that I wanted to cancel my enrollment for January 1st, 2025. As far as I know, I didn't do that. Can you check?",
+                "sub topics": "[letter, cancellation]"
+            }
+        ]
+    },
+    "plan costs": {
+        "description": "Extract specific details about plan costs. Details like what type of cost like premium, plan name, out-of-pocket-maximum, surgery cost,equipment cost, etc. Generic words like cost, plan,etc should be ignored. Actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "What is my primary doctor and specialist copay?",
+                "sub topics": "[specialist copay, primary doctor copay]"
+            },
+            {
+                "question": "What is the out-of-pocket maximum for the PPO plan?",
+                "sub topics": "[out-of-pocket maximum, PPO plan]"
+            },
+            {
+                "question": "What are the hospital stay and emergency room costs?",
+                "sub topics": "[hospital stay, emergency room]"
+            }
+        ]
+    },
+    "prescription drug coverage": {
+        "description": "Extract specific details about prescription drug coverage. These include specific drug names, pharmacy names, special benefit names, and specific plan names. Ignore generic terms like \"drug\", \"pharmacy\", \"prescription\", \"medication\", etc. Ignore actual cost amounts (e.g., \"$35\", \"thirty dollars\", etc.). When extracting drug names, remove dosage information (e.g., \"Zofran 15 mg\" -> \"Zofran\"). If there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "What is the donut hole in Medicare drug coverage?",
+                "sub topics": "[donut hole]"
+            },
+            {
+                "question": "I thought the president had changed that where insulin was only supposed to be 35.00 a month. Is that not in effect with the Trulicity?",
+                "sub topics": "[insulin, Trulicity]"
+            },
+            {
+                "question": "How much would I pay for gabapentin 800 mg under the AARP Medicare Prescription Saver plan?",
+                "sub topics": "[gabapentin, AARP Medicare Prescription Saver]"
+            }
+        ]
+    },
+    "dental": {
+        "description": "Extract specific details about dental benefits. Details like specific dental surgery,dental procedure,plan name. Generic words like dental, teeth, dentist, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "Do any of the plans cover dental services like fillings, crowns, root canals, and extractions?",
+                "sub topics": "[fillings, crowns, root canals, extractions]"
+            },
+            {
+                "question": "Can you add the optional platinum dental to my existing 2025 plan?",
+                "sub topics": "[platinum dental]"
+            },
+            {
+                "question": "Can I add the dental rider later if I don't add it now?",
+                "sub topics": "[dental rider]"
+            }
+        ]
+    },
+    "plan changes": {
+        "description": "Extract specific details about plan changes. Details like specific plan name, location,etc. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "Why is Blue Cross Blue Shield dropping me in January?]",
+                "sub topics": "[Blue Cross Blue Shield]"
+            },
+            {
+                "question": "I have WellCare and I wanted you to check on to see if there are any major changes for next year to see if I do want to change.",
+                "sub topics": "[WellCare]"
+            },
+            {
+                "question": "Can I transfer my United Healthcare plan from Kentucky to Arkansas?",
+                "sub topics": "[Kentucky,Arkansas]"
+            }
+        ]
+    },
+    "eligibility": {
+        "description": "Extract specific details about eligibility. Details like specific plan name, benefit, location,etc. Generic words like eligibility, plan, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "How do people qualify for special needs plans?",
+                "sub topics": "[special needs plans]"
+            },
+            {
+                "question": "Can I still qualify for Plan F if I was eligible for Medicare before 2020?",
+                "sub topics": "[Plan F]"
+            },
+            {
+                "question": "Am I eligible to get the food audience benefit?",
+                "sub topics": "[food audience]"
+            }
+        ]
+    },
+    "vision": {
+        "description": "Extract specific details about vision benefits. Details like specific benefit, surgery, procedure, plan name, location,etc. Generic words like vision, plan, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "Does the Advantage plan cover cataract surgery and glasses afterward?",
+                "sub topics": "[cataract,glasses]"
+            },
+            {
+                "question": "What about for a glaucoma eye exam?",
+                "sub topics": "[glaucoma]"
+            },
+            {
+                "question": "Will my United Healthcare plan cover my eye injections and laser surgery?",
+                "sub topics": "[eye injections, laser surgery]"
+            }
+        ]
+    },
+    "transportation, food and gym benefits": {
+        "description": "Extract specific details about transportation, food and gym benefits. Details like specific needs for transportation, business names, food types, plan name, location,etc. Generic words like transportation,food, plan, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "What I need I need to get hip replacement surgery and I need medical transportation and my plan that I have right now doesn't have that.",
+                "sub topics": "[hip replacement surgery]"
+            },
+            {
+                "question": "Are there any other insurance companies that cover Lifetime Fitness?",
+                "sub topics": "[Lifetime Fitness]"
+            },
+            {
+                "question": "What is the correct number for Safe Ride transportation for this plan?",
+                "sub topics": "[Safe Ride transportation]"
+            }
+        ]
+    },
+    "digital friction": {
+        "description": "Extract specific details about digital friction. Details like specific action,confusion,frustration,websites,channel,plan,etc. Generic words like digital, plan, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "Is the comparison online so I can look at them?",
+                "sub topics": "[comparison online]"
+            },
+            {
+                "question": "Why doesn't the new plan show up on the account website even though it's been approved?",
+                "sub topics": "[account website]"
+            },
+            {
+                "question": "Why can't I find my providers in the app when medicare.gov shows they are in network?",
+                "sub topics": "[medicare.gov]"
+            }
+        ]
+    },
+    "plan comparison": {
+        "description": "Extract specific details about plan comparison. Details like specific plan names,benefits being compared,surgery,equipments,labs,drugs,procedures,location. Generic words like comparison, plan, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "Which plan provides more dental, more over the counter, and lower specialist copays?",
+                "sub topics": "[dental, over the counter, specialist copays]"
+            },
+            {
+                "question": "Is there like another plan? It's like a silver plan",
+                "sub topics": "[silver plan]"
+            },
+            {
+                "question": "What are the benefits of switching to a United Healthcare plan compared to her current WellCare plan?",
+                "sub topics": "[WellCare]"
+            }
+        ]
+    },
+    "general plan information": {
+        "description": "Extract specific details about plan information. Details like specific plan names,benefits ,surgery,equipments,labs,drugs,procedures,location. Generic words like benefits,surgery, plan, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "What is it that you like about the Part G coverage?",
+                "sub topics": "[Part G]"
+            },
+            {
+                "question": "What are the benefits of the UHC Complete Care plan?",
+                "sub topics": "[UHC Complete Care]"
+            },
+            {
+                "question": "Is the nurse hotline still covered in 2025?",
+                "sub topics": "[nurse hotline]"
+            }
+        ]
+    },
+    "service area reduction": {
+        "description": "Extract specific details about service area reduction. Details like specific location, plan name, provider,etc. Generic words like service area, plan, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "I'm enrolled in the AARP Medicare Advantage plan in New York, but I don't see it available in my zipcode anymore?",
+                "sub topics": "[AARP Medicare Advantage, New York]"
+            },
+            {
+                "question": "The plan that I enrolled in for 2025 is not available in 2026.",
+                "sub topics": "[2025, 2026]"
+            }
+        ]
+    },
+    "member renewal": {
+        "description": "Extract specific details about plan renewal. Details like specific plan names, renewal dates, renewal methods, renewal notices, or specific renewal issues. Generic words like renewal, plan, etc. should be ignored. Actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "I received a letter saying my AARP Medicare Complete plan will auto-renew in December. Do I need to do anything?",
+                "sub topics": "[AARP Medicare Complete, auto-renew, letter]"
+            },
+            {
+                "question": "How do I know if my 2025 plan will automatically continue for 2026?",
+                "sub topics": "[2025, 2026]"
+            },
+            {
+                "question": "I didn't get my renewal packet in the mail yet. When should I expect it?",
+                "sub topics": "[renewal packet, mail]"
+            }
+        ]
+    },
+    "drug coverage termination": {
+        "description": "Extract specific details about drug coverage termination. Details like drug name,pharmacy name,dosage,special benefit name,specific plan name. Generic words like drug, pharmacy, prescription, medication, etc should be ignored. actual cost amount should also be ignored. if there are no specific relevant details found, return NA.",
+        "examples": [
+            {
+                "question": "Why is noxafil not covered anymore?",
+                "sub topics": "[noxafil]"
+            },
+            {
+                "question": "I was on Perseris for a while and it is not covered any more.",
+                "sub topics": "[Perseris]"
+            }
+        ]
+    },
+    "medicare id": {
+        "description": "Extract specific details about locating, verifying, and using Medicare ID number. Details like what action they tried or steps they are confused about for the medicare id number. if there are no specific relevant details found, return NA. return the output as a list of entities.",
+        "examples": [
+            {
+                "question": "What should I do if I dont have my Medicare number handy?",
+                "sub topics": "[medicare number]"
+            },
+            {
+                "question": "Can you give me my member number or will I receive something in the mail?",
+                "sub topics": "[mail]"
+            }
+        ]
+    },
+    "others": {
+        "description": "Description for others",
+        "examples": [
+            {
+                "question": "What kind of discounted rate are you talking about for the personal emergency response system?",
+                "sub topics": "[personal emergency response system]"
+            },
+            {
+                "question": "Can I get gasoline with my benefit card?",
+                "sub topics": "[gasoline,benefit card]"
+            },
+            {
+                "question": "Can I use the rewards money to pay for my Lifeline care?",
+                "sub topics": "[Lifeline care]"
+            }
+        ]
+    }
+}

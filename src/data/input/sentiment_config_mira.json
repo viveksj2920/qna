@@ -1,0 +1,24 @@
+{
+  "level_1": {
+    "Positive": "Expresses satisfaction, gratitude, or other positive emotions",
+    "Neutral": "Factual, informational, or procedural without emotional tone",
+    "Negative": "Shows dissatisfaction, frustration, anger, or other negative emotions"
+  },
+  "level_2": {
+    "positive": {
+      "Satisfied": "Expresses contentment with service or resolution",
+      "Grateful": "Shows appreciation or thanks",
+      "Other": "Any other positive sentiment"
+    },
+    "neutral": {
+      "Informational": "Factual statements without emotional tone",
+      "Procedural": "Step-by-step or transactional dialogue",
+      "Other": "Any other neutral sentiment"
+    },
+    "negative": {
+      "Frustrated": "Shows irritation or impatience",
+      "Angry": "Strong dissatisfaction or aggression",
+      "Other": "Any other negative sentiment"
+    }
+  }
+}

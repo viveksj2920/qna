@@ -1,0 +1,8 @@
+apiVersion: v1
+metadata:
+  askId: UHGWM110-001171
+  caAgileId: poc
+  projectKey: com.optum.myorg.myapp:component
+  projectFriendlyName: MyApp-component
+  componentType: code
+  targetQG: GATE_00

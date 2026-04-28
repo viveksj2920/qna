@@ -1,0 +1,94 @@
+{
+    "Agent Marketing": {
+        "description": "Resources, tools, and materials related to agent marketing activities",
+        "details": [
+            "Marketing compliance requirements and regulations",
+            "Agent toolkit resources and marketing materials",
+            "Campaign and promotional materials",
+            "Sales presentations and meeting materials",
+            "Social media guidelines and approved content",
+            "Marketing event planning and execution",
+            "Educational materials for clients",
+            "Brochure and flyer requests"
+        ]
+    },
+    "Application": {
+        "description": "All aspects of insurance application processing and management",
+        "details": [
+            "Application status inquiries and updates",
+            "New application submission procedures",
+            "Application reinstatement processes",
+            "Withdrawal requests and cancellations",
+            "Missing information or documentation requests",
+            "Application errors or corrections",
+            "Underwriting questions",
+            "Electronic vs. paper applications",
+            "Application timeframes and deadlines",
+            "Signature requirements and methods"
+        ]
+    },
+    "Eligibility Verification": {
+        "description": "Verification of customer eligibility for various programs",
+        "details": [
+            "Medicare eligibility (Parts A, B, C, D)",
+            "Medicaid qualification and verification",
+            "Low Income Subsidy (LIS) eligibility",
+            "Special Needs Plan (SNP) qualification",
+            "Dual-eligible status verification",
+            "Special Election Periods (SEP) qualification",
+            "Annual Enrollment Period (AEP) questions",
+            "Initial Coverage Election Period (ICEP) verification",
+            "Age-in eligibility transitions",
+            "State-specific eligibility requirements"
+        ]
+    },
+    "Sales Assistance": {
+        "description": "Support for sales activities and customer-facing processes",
+        "details": [
+            "Sales campaign guidance and questions",
+            "Product comparison assistance",
+            "Premium and benefit verification",
+            "Provider network verification",
+            "Prescription drug coverage confirmation",
+            "Sales presentation support",
+            "Escalation procedures for complex sales situations",
+            "Cross-selling opportunities",
+            "Retention strategies",
+            "Competitive analysis requests"
+        ]
+    },
+    "Status": {
+        "description": "Tracking and updating various status-related inquiries",
+        "details": [
+            "Agent certification/licensure status",
+            "Application processing status",
+            "Commission payment status",
+            "Appointment status with carriers",
+            "Background check status",
+            "Training completion status",
+            "Compliance requirement status",
+            "Contract status with organizations",
+            "Credentialing status updates",
+            "Sales goal achievement status"
+        ]
+    },
+    "System Access Or Navigation": {
+        "description": "Technical support for systems and platforms",
+        "details": [
+            "Jarvis access and navigation assistance",
+            "LEAN system troubleshooting",
+            "MIRA platform guidance",
+            "SMRT tool training and support",
+            "Enrollment platform technical issues",
+            "Password resets and account access",
+            "System outage information",
+            "Software updates and compatibility",
+            "Mobile application support",
+            "Browser compatibility issues"
+        ]
+    },
+    "Other": {
+        "description": "Miscellaneous topics not covered in the above categories",
+        "details": []
+    }
+}

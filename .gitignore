@@ -5,4 +5,3 @@ row_run_time.txt
 __pycache__/
 *.pyc
 .DS_Store
-src/data/output/*

@@ -1,0 +1,27 @@
+Ucid,question,topic,sub_topic,is_useful
+,Are you taking any medication?,others,['health status and assessment'],False
+,What is the name and last name?,others,['identity and verification'],False
+,How can I use my U card or find out what the balance is on it?,general plan information,['spending cards and allowances'],True
+,I have a Medigap policy plan and I'm trying to find out what the cost of the policy for 2025 will be.,plan costs,['plan cost comparison'],False
+,Do you understand the benefits we went over earlier?,general plan information,[],False
+,When does this start? I will get my Medicare Advantage card.,enrollment,"['plan effective/start date', 'member id card delivery status']",True
+,Who is your primary provider?,providers,['primary care provider verification'],True
+,What is Medicaid 84?,others,['external assistance and social services'],False
+,Can I use the dental coverage somewhere else aside from the US?,dental,"['dental provider network', 'in network vs out of network dental']",True
+,Can you check to see if my medications are covered?,prescription drug coverage,['specific medication coverage'],True
+,I would like to enroll in the Medicare Advantage and would like to know which one is better among the two.,plan comparison,['specific plan comparison'],False
+,How much money for the gym?,"transportation, food and gym benefits",['gym membership eligibility'],False
+,Did you want your e-mail to come in English?,others,['contact and communication preferences'],False
+,Would you like your mail sent to a different address?,others,['contact and communication preferences'],False
+,Will you have any other insurance that covers medical services when this plan becomes effective?,eligibility,['other insurance eligibility'],False
+,I am shopping for Medicare Advantage plans and my primary doctor has been dropped by Florida Blue. Can you help me find a new insurance company?,providers,"['keeping current provider', 'provider changes or leaving network']",True
+,Are you currently enrolled in Tennessee's Medicaid program?,eligibility,"['medicaid eligibility status', 'location based eligibility']",False
+,What is the name of the plan I am looking at?,general plan information,"['plan overview', 'plan availability and options']",False
+,I checked your website and all my doctors are in your network. Can you confirm this?,providers,['provider network status check'],True
+,Does the plan include everything I am looking for?,general plan information,['plan suitability confirmation'],False
+,What is the monthly premium for this plan?,plan costs,[],False
+,What is the proposed effective date for this plan?,enrollment,['plan effective/start date'],True
+,Are there any other prescription drug coverages when this plan becomes effective?,prescription drug coverage,"['prescription coverage eligibility', 'prescription plan identification']",False
+,Do you understand and agree to the information discussed during this enrollment application?,enrollment,['enrollment consent authorization'],False
+,Will you have any other insurance that covers medical services when this plan becomes effective?,eligibility,['other insurance eligibility'],False
+,Are you ready to enroll in the AARP Medicare Advantage from UHC FL-0021 PPO?,enrollment,['enrolling for first time'],False

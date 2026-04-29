@@ -586,7 +586,14 @@ class qna_extractor:
                             if isinstance(qna_subtopic_data['sub_topic'], str):
                                 qna_subtopic_data['sub_topic'] = [qna_subtopic_data['sub_topic']]
 
-                            expanded_qna_1["sub_topic"] = qna_subtopic_data['sub_topic']
+                            predefined_subtopics = qna_subtopic_data['sub_topic']
+
+                            # Process extracted entities (drug names, plan names, etc.)
+                            entities = qna_subtopic_data.get('entities', {})
+                            entity_subtopics = process_entities(entities, config.PLAN_NAMES_CSV)
+                            final_subtopics = predefined_subtopics + entity_subtopics
+
+                            expanded_qna_1["sub_topic"] = final_subtopics
                         except Exception as e:
                             logger.error(f"Error processing subtopic for Row {index + 1}: {e}")
 

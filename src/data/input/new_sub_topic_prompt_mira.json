@@ -431,7 +431,7 @@
       },
       {
         "type": "pharmacy_names",
-        "instruction": "Extract the specific pharmacy name mentioned in the question, if any. Return just the pharmacy name."
+        "instruction": "Extract only the pharmacy business name mentioned in the question (e.g., CVS, Walgreens, Rite Aid). Do NOT include street addresses, locations, or branch details."
       }
     ]
   },
@@ -464,7 +464,7 @@
     "open_ended": [
       {
         "type": "hospital/facility_names",
-        "instruction": "Extract the specific hospital or medical facility name mentioned in the question, if any. Return just the facility name."
+        "instruction": "Extract only the hospital or facility business name mentioned in the question (e.g., Mayo Clinic, Cleveland Clinic). Do NOT include street addresses, locations, or branch details."
       }
     ]
   },

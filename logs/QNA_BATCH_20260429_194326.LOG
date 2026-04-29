@@ -1,0 +1,91 @@
+2026-04-29 19:43:26 - gpd_ai_companion_qna_batch - INFO - Debug mode is disabled
+2026-04-29 19:43:26 - gpd_ai_companion_qna_batch - INFO - Logger configured. Log files will be saved in: C:\Users\vs134\Documents\myrepo\qna\logs
+2026-04-29 19:43:26 - gpd_ai_companion_qna_batch - INFO - All required environment variables loaded successfully.
+2026-04-29 19:43:28 - gpd_ai_companion_qna_batch - INFO - Processing input_type: file
+2026-04-29 19:43:28 - gpd_ai_companion_qna_batch - INFO - Processing project: MIRA
+2026-04-29 19:43:28 - gpd_ai_companion_qna_batch - INFO - Total records processing: 20
+2026-04-29 19:43:28 - gpd_ai_companion_qna_batch - INFO - Columns in the DataFrame: ['question']
+2026-04-29 19:43:28 - gpd_ai_companion_qna_batch - INFO - Batch processing started
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:45 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:46 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:43:58 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:43:58 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:43:58 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:43:59 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:43:59 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:00 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:00 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:00 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:00 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:00 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:00 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:00 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:01 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:01 - gpd_ai_companion_qna_batch - INFO - Processed 1/20 rows (5.00%)
+2026-04-29 19:44:01 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:01 - gpd_ai_companion_qna_batch - INFO - Processed 2/20 rows (10.00%)
+2026-04-29 19:44:02 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:02 - gpd_ai_companion_qna_batch - INFO - Processed 3/20 rows (15.00%)
+2026-04-29 19:44:02 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:02 - gpd_ai_companion_qna_batch - INFO - Processed 4/20 rows (20.00%)
+2026-04-29 19:44:02 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:02 - gpd_ai_companion_qna_batch - INFO - Processed 5/20 rows (25.00%)
+2026-04-29 19:44:03 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:03 - gpd_ai_companion_qna_batch - INFO - Processed 6/20 rows (30.00%)
+2026-04-29 19:44:10 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:10 - gpd_ai_companion_qna_batch - INFO - Processed 7/20 rows (35.00%)
+2026-04-29 19:44:12 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:12 - gpd_ai_companion_qna_batch - INFO - Processed 8/20 rows (40.00%)
+2026-04-29 19:44:13 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:13 - gpd_ai_companion_qna_batch - INFO - Processed 9/20 rows (45.00%)
+2026-04-29 19:44:13 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:13 - gpd_ai_companion_qna_batch - INFO - Processed 10/20 rows (50.00%)
+2026-04-29 19:44:13 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:13 - gpd_ai_companion_qna_batch - INFO - Processed 11/20 rows (55.00%)
+2026-04-29 19:44:13 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:13 - gpd_ai_companion_qna_batch - INFO - Processed 12/20 rows (60.00%)
+2026-04-29 19:44:14 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:44:14 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:44:15 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:44:15 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:44:15 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:44:15 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:44:15 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:44:17 - gpd_ai_companion_qna_batch - INFO - topic_extraction extraction completed successfully.
+2026-04-29 19:44:18 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:20 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:21 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:22 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:23 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:23 - gpd_ai_companion_qna_batch - INFO - Processed 13/20 rows (65.00%)
+2026-04-29 19:44:23 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:23 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:23 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:23 - gpd_ai_companion_qna_batch - INFO - Processed 14/20 rows (70.00%)
+2026-04-29 19:44:24 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:24 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:24 - gpd_ai_companion_qna_batch - INFO - Processed 15/20 rows (75.00%)
+2026-04-29 19:44:25 - gpd_ai_companion_qna_batch - INFO - sub_topic_extraction extraction completed successfully.
+2026-04-29 19:44:25 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:25 - gpd_ai_companion_qna_batch - INFO - Processed 16/20 rows (80.00%)
+2026-04-29 19:44:26 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:26 - gpd_ai_companion_qna_batch - INFO - Processed 17/20 rows (85.00%)
+2026-04-29 19:44:26 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:26 - gpd_ai_companion_qna_batch - INFO - Processed 18/20 rows (90.00%)
+2026-04-29 19:44:28 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:28 - gpd_ai_companion_qna_batch - INFO - Processed 19/20 rows (95.00%)
+2026-04-29 19:44:29 - gpd_ai_companion_qna_batch - INFO - is_useful_extraction extraction completed successfully.
+2026-04-29 19:44:29 - gpd_ai_companion_qna_batch - INFO - Processed 20/20 rows (100.00%)
+2026-04-29 19:44:29 - gpd_ai_companion_qna_batch - INFO - Total rows in dataframe: 20
+2026-04-29 19:44:29 - gpd_ai_companion_qna_batch - INFO - batch QnA metadata processed
+2026-04-29 19:44:29 - gpd_ai_companion_qna_batch - INFO - Total run time: 1.02 minutes

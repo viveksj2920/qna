@@ -198,12 +198,13 @@ def sub_topic_extraction_prompt(question, topic, sub_topic_descriptions):
             1. Select ALL applicable sub-topics from the PREDEFINED SUBTOPICS list above.
             2. You MUST ONLY select sub-topic names that appear exactly in the predefined list. Do NOT invent, rephrase, or modify sub-topic names.
             3. A question may belong to multiple sub-topics if more than one clearly applies.
-            4. If none of the predefined sub-topics fit the question, return an empty list for sub_topic.
-            5. For ENTITY EXTRACTION fields (if listed above), extract the named entity from the question following the specific instruction for each type.
+            4. Be STRICT: only select a sub-topic if the question is genuinely about that specific sub-topic. Do NOT select a sub-topic just because it is loosely related.
+            5. If none of the predefined sub-topics clearly fit the question, return an empty list [] for sub_topic. An empty list is preferred over a poor match.
+            6. For ENTITY EXTRACTION fields (if listed above), extract the named entity from the question following the specific instruction for each type.
                - If no entity of that type is mentioned in the question, set its value to null.
-            6. For drug names: extract ONLY the base/generic medication name. No dosages, frequencies, forms, brand qualifiers, or parentheses.
-            7. For plan names: extract the plan name as mentioned by the customer.
-            8. For pharmacy/hospital/facility names: extract just the name.
+            6. For drug names: extract ONLY the base/generic medication name. No dosages, frequencies, forms, brand qualifiers, or parentheses. Example: "zolpidem 10mg tablet" → extract "zolpidem".
+            7. For plan names: extract the plan name as mentioned by the customer. Example: "AARP Medicare Advantage Choice Plan 1" → extract "AARP Medicare Advantage Choice Plan 1".
+            8. For pharmacy/hospital/facility names: extract just the name as mentioned.
 
             ### Response Format (valid JSON only):
 

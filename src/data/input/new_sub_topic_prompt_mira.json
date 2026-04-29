@@ -161,7 +161,12 @@
       "benefit card usage",
       "coverage access before receiving card"
     ],
-    "open_ended": []
+    "open_ended": [
+      {
+        "type": "plan_names",
+        "instruction": "Extract the name of the plan mentioned in the question (e.g., AARP Medicare Advantage, UnitedHealthcare Dual Complete). Return only the plan name."
+      }
+    ]
   },
   "general plan information": {
     "subtopics": [

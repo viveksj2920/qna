@@ -1,21 +1,21 @@
 Ucid,question,topic,sub_topic,is_useful
-,Can I fill my prescription at Walgreens instead of my current pharmacy?,prescription drug coverage,"['preferred pharmacy inquiry', 'pharmacy change request']",True
-,Can you compare the UnitedHealthcare Dual Complete plan with my current plan?,plan comparison,['specific plan comparison'],True
-,I want to enroll in the AARP Medicare Advantage Choice Plan 1.,enrollment,['enrolling for first time'],False
-,My doctor prescribed ambien (zolpidem) and I need to know the copay.,prescription drug coverage,"['specific medication coverage', 'prescription drug copays']",True
-,Is my zolpidem 10mg tablet covered under my plan?,prescription drug coverage,['specific medication coverage'],True
-,Can you check if Eliquis is on the formulary?,prescription drug coverage,['specific medication coverage'],True
-,What is the monthly premium for the Medica Prime Solution plan?,plan costs,[],False
-,Is Mayo Clinic covered as an in-network facility?,providers,['facility network status'],True
-,I need a referral to Cleveland Clinic for a specialist visit.,providers,['referral requirement clarification'],True
-,I want to switch from my current plan to the Wellcare Value Script plan.,plan changes,['switching plan types'],False
-,I take metformin hydrochloride 500mg tablets daily. Are they covered?,prescription drug coverage,['specific medication coverage'],True
-,Is the CVS Pharmacy on Oak Street in my network?,providers,['provider network status check'],True
+,What is the monthly premium for the Medica Prime Solution plan?,plan costs,['Medica Prime Solution'],False
+,Can you check if Eliquis is on the formulary?,prescription drug coverage,"['specific medication coverage', 'eliquis']",True
+,I want to enroll in the AARP Medicare Advantage Choice Plan 1.,enrollment,"['enrolling for first time', 'application process', 'Plan A']",False
+,I need a referral to Cleveland Clinic for a specialist visit.,providers,"['referral requirement clarification', 'Cleveland Clinic']",True
+,Is my zolpidem 10mg tablet covered under my plan?,prescription drug coverage,"['specific medication coverage', 'zolpidem']",True
+,Is Mayo Clinic covered as an in-network facility?,providers,"['facility network status', 'Mayo Clinic']",True
+,Can you compare the UnitedHealthcare Dual Complete plan with my current plan?,plan comparison,"['specific plan comparison', 'UnitedHealthcare Dual Complete']",True
+,Is the CVS Pharmacy on Oak Street in my network?,providers,"['provider network status check', 'CVS Pharmacy on Oak Street']",True
+,I take metformin hydrochloride 500mg tablets daily. Are they covered?,prescription drug coverage,"['specific medication coverage', 'metformin']",True
+,Can I fill my prescription at Walgreens instead of my current pharmacy?,prescription drug coverage,"['pharmacy change request', 'preferred pharmacy inquiry', 'Walgreens']",True
+,I want to switch from my current plan to the Wellcare Value Script plan.,plan changes,"['switching plan types', 'Wellcare Value Script']",False
+,My doctor prescribed ambien (zolpidem) and I need to know the copay.,prescription drug coverage,"['prescription drug copays', 'specific medication coverage', 'zolpidem']",True
+,Does my Delta Dental PPO plan cover root canals?,dental,"['comprehensive dental coverage', 'major dental services coverage', 'Delta Dental PPO']",True
 ,What is the status of my prior authorization?,others,['consent and authorization'],True
+,How much money for the gym?,"transportation, food and gym benefits",[],False
 ,Are you taking any medication?,others,['health status and assessment'],False
 ,What is the name and last name?,others,['identity and verification'],False
-,When does the AARP Medicare Advantage from UHC FL-0021 PPO start?,enrollment,['plan effective/start date'],True
-,Can I use my U card at any store?,general plan information,['spending cards and allowances'],True
-,How much money for the gym?,"transportation, food and gym benefits",[],False
+,Can I use my U card at any store?,"transportation, food and gym benefits",['food benefit usage'],True
+,When does the AARP Medicare Advantage from UHC FL-0021 PPO start?,enrollment,"['plan effective/start date', 'AARP Medicare Advantage from UHC FL-0021 (PPO)']",True
 ,How do I get a ride to my doctor using the transportation benefit?,"transportation, food and gym benefits",['transportation ride scheduling or cancellation'],True
-,Does my Delta Dental PPO plan cover root canals?,dental,"['comprehensive dental coverage', 'major dental services coverage']",True

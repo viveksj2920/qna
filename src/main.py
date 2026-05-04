@@ -27,6 +27,7 @@ def main():
     parser.add_argument("--end_date", required=False, help="End date (YYYY-MM-DDTHH:MM:SSZ)")
     parser.add_argument("--file_input", required=False, help="conversations or questions")
     parser.add_argument("--scheduled", action="store_true", help="Run in scheduled mode to process last hour's data")
+    parser.add_argument("--topic_filter", required=False, default="", help="Only process questions matching this topic (e.g., 'dental', 'enrollment'). Leave empty for all topics.")
     args = parser.parse_args()
 
     if args.input_type=="index":
@@ -37,7 +38,8 @@ def main():
             "source_index": args.source_data_name,
             "destination_index": args.destination_data_name,
             "lookup_index": args.lookup_data_name,
-            "project": args.project
+            "project": args.project,
+            "topic_filter": args.topic_filter.lower().strip() if args.topic_filter else ""
         }
 
         # Handle date ranges based on CLI arguments
@@ -103,7 +105,8 @@ def main():
             "source_csv": args.source_data_name,
             "destination_csv": args.destination_data_name,
             "project": args.project,
-            "file_input": args.file_input
+            "file_input": args.file_input,
+            "topic_filter": args.topic_filter.lower().strip() if args.topic_filter else ""
         }
 
         logger.info(f"Processing input_type: {file_dict['input_type']}")

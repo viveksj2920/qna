@@ -572,9 +572,24 @@ class qna_extractor:
 
                         expanded_qna_1["question"] = question_1
                         expanded_qna_1["topic"] = qna_topic_data['topic']
-                        
+
                     except Exception as e:
                         logger.error(f"Error processing topic for Row {index + 1}: {e}")
+
+                    # If topic_filter is set, skip subtopic extraction for non-matching topics
+                    topic_filter = input_dict.get("topic_filter", "")
+                    if topic_filter and expanded_qna_1.get("topic", "").lower() != topic_filter:
+                        logger.info(f"Skipping Row {index + 1}: topic '{expanded_qna_1.get('topic')}' does not match filter '{topic_filter}'")
+                        expanded_qna_1["sub_topic"] = []
+                        expanded_qna_1["is_useful"] = False
+                        df_expanded_qna_1 = pd.DataFrame([expanded_qna_1])
+                        df_expanded_qna_1['Text'] = "NA"
+                        if 'Ucid' in row:
+                            df_expanded_qna_1['Ucid'] = row['Ucid']
+                            df_expanded_qna_1 = df_expanded_qna_1[['Ucid', 'Text', 'question', 'topic', 'sub_topic', 'is_useful']]
+                        else:
+                            df_expanded_qna_1 = df_expanded_qna_1[['Text', 'question', 'topic', 'sub_topic', 'is_useful']]
+                        return df_expanded_qna_1
 
                     # Perform subtopic extraction and add subtopic to doc if available.
                     extractor = qna_extractor(question=question_1, topic=expanded_qna_1["topic"], project=project_1)

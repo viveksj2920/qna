@@ -8,6 +8,7 @@ httpx
 nest_asyncio
 numpy
 openai
+openpyxl
 pandas
 python-dotenv
 rapidfuzz

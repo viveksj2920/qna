@@ -28,6 +28,7 @@ def main():
     parser.add_argument("--file_input", required=False, help="conversations or questions")
     parser.add_argument("--scheduled", action="store_true", help="Run in scheduled mode to process last hour's data")
     parser.add_argument("--topic_filter", required=False, default="", help="Only process questions matching this topic (e.g., 'dental', 'enrollment'). Leave empty for all topics.")
+    parser.add_argument("--max_records", required=False, type=int, default=0, help="Limit number of records to process (0 = no limit). Use for testing with small batches.")
     args = parser.parse_args()
 
     if args.input_type=="index":
@@ -84,6 +85,11 @@ def main():
 
         df = index_processor.fetch_records(date_filter, project)
 
+        # Limit records if --max_records is set
+        if args.max_records > 0 and len(df) > args.max_records:
+            logger.info(f"Limiting records from {len(df)} to {args.max_records} (--max_records)")
+            df = df.head(args.max_records)
+
         logger.info(f"Total records processing: {len(df)}")
         logger.info(f"Columns in the DataFrame: {df.columns.tolist()}")
 
@@ -113,6 +119,12 @@ def main():
         logger.info(f"Processing project: {file_dict['project']}")
 
         df = pd.read_csv(file_dict['source_csv'])
+
+        # Limit records if --max_records is set
+        if args.max_records > 0 and len(df) > args.max_records:
+            logger.info(f"Limiting records from {len(df)} to {args.max_records} (--max_records)")
+            df = df.head(args.max_records)
+
         logger.info(f"Total records processing: {len(df)}")
         logger.info(f"Columns in the DataFrame: {df.columns.tolist()}")
 

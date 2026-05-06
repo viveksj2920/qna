@@ -88,6 +88,7 @@ def generate_report(input_file, output_file, max_per_topic=200):
         })
 
     df = pd.DataFrame(records)
+    df['Topic'] = df['Topic'].replace('', '(No Topic)').fillna('(No Topic)')
 
     with pd.ExcelWriter(output_file, engine='openpyxl') as writer:
 

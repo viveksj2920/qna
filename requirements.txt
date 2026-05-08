@@ -1,5 +1,5 @@
 #-e ../gpd-ai-companion-utility-framework
-#git+https://github.com/uhc-tech-medicare-retiree-common/gpd-ai-companion-utility-framework@develop#egg=util_repo
+git+https://github.com/uhc-tech-medicare-retiree-common/gpd-ai-companion-utility-framework@develop#egg=util_repo
 aiohttp
 azure-core
 azure-identity

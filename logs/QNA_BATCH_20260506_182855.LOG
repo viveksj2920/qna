@@ -1,0 +1,10 @@
+2026-05-06 18:28:55 - gpd_ai_companion_qna_batch - INFO - Debug mode is disabled
+2026-05-06 18:28:55 - gpd_ai_companion_qna_batch - INFO - Logger configured. Log files will be saved in: C:\Users\vs134\Documents\myrepo\qna\logs
+2026-05-06 18:28:55 - gpd_ai_companion_qna_batch - INFO - All required environment variables loaded successfully.
+2026-05-06 18:28:57 - gpd_ai_companion_qna_batch - INFO - Using specified date range: 2025-10-07T00:00:00Z to 2025-10-07T00:00:00Z
+2026-05-06 18:28:57 - gpd_ai_companion_qna_batch - INFO - Processing input_type: index
+2026-05-06 18:28:57 - gpd_ai_companion_qna_batch - INFO - Processing project: MIRA
+2026-05-06 18:28:57 - gpd_ai_companion_qna_batch - INFO - Using date filter: StartTime ge 2025-10-07T00:00:00Z and StartTime lt 2025-10-08T00:00:00Z and metadata_processed_time ne null and Text ne ''
+2026-05-06 18:29:03 - gpd_ai_companion_qna_batch - INFO - Total records processing: 0
+2026-05-06 18:29:03 - gpd_ai_companion_qna_batch - INFO - Columns in the DataFrame: []
+2026-05-06 18:29:03 - gpd_ai_companion_qna_batch - INFO - No records found to process.

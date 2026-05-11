@@ -24,7 +24,6 @@ except ImportError:
 # configure the llm
 from llm.llm_config import chat_completion
 from utils.helper import load_project_config, write_to_csv, clean_topic
-from utils.entity_postprocessor import process_entities
 from utils.logger_config import logger
 
 import httpx
@@ -390,12 +389,8 @@ class qna_extractor:
                                 predefined_subtopics = qna_subtopic_data.get('sub_topic', [])
 
                                 if project == "MIRA":
-                                    # Process extracted entities (drug names, plan names, etc.)
-                                    entities = qna_subtopic_data.get('entities', {})
-                                    entity_subtopics = process_entities(entities, config.PLAN_NAMES_CSV)
-                                    final_subtopics = predefined_subtopics + entity_subtopics
-                                    expanded_qna_1["sub_topic"] = final_subtopics
-                                    expanded_qna_1["grouped_sub_topic"] = final_subtopics
+                                    expanded_qna_1["sub_topic"] = predefined_subtopics
+                                    expanded_qna_1["grouped_sub_topic"] = predefined_subtopics
                                 elif project == "PCL":
                                     expanded_qna_1["sub_topic"] = predefined_subtopics
                                     expanded_qna_1["grouped_sub_topic"] = predefined_subtopics
@@ -603,12 +598,7 @@ class qna_extractor:
 
                             predefined_subtopics = qna_subtopic_data['sub_topic']
 
-                            # Process extracted entities (drug names, plan names, etc.)
-                            entities = qna_subtopic_data.get('entities', {})
-                            entity_subtopics = process_entities(entities, config.PLAN_NAMES_CSV)
-                            final_subtopics = predefined_subtopics + entity_subtopics
-
-                            expanded_qna_1["sub_topic"] = final_subtopics
+                            expanded_qna_1["sub_topic"] = predefined_subtopics
                         except Exception as e:
                             logger.error(f"Error processing subtopic for Row {index + 1}: {e}")
 
@@ -963,13 +953,8 @@ class qna_extractor:
 
                         predefined_subtopics = subtopic_data.get('sub_topic', [])
 
-                        # Process extracted entities (drug names, plan names, etc.)
-                        entities = subtopic_data.get('entities', {})
-                        entity_subtopics = process_entities(entities, config.PLAN_NAMES_CSV)
-
-                        final_subtopics = predefined_subtopics + entity_subtopics
-                        expanded_qna_entry["sub_topic"] = final_subtopics
-                        expanded_qna_entry["grouped_sub_topic"] = final_subtopics
+                        expanded_qna_entry["sub_topic"] = predefined_subtopics
+                        expanded_qna_entry["grouped_sub_topic"] = predefined_subtopics
                     except Exception as e:
                         logger.error(f"Error processing subtopic: {e}")
                 

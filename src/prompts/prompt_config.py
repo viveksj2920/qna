@@ -137,16 +137,9 @@ def prompt_sub_topic_format(project, sub_topic_config):
 
     if project == "MIRA":
         subtopics = sub_topic_config.get("subtopics", [])
-        open_ended = sub_topic_config.get("open_ended", [])
-
         formatted_output += "PREDEFINED SUBTOPICS (you MUST select from this list only):\n"
         for i, name in enumerate(subtopics, 1):
             formatted_output += f"  {i}. {name}\n"
-
-        if open_ended:
-            formatted_output += "\nENTITY EXTRACTION (extract these named entities if mentioned in the question):\n"
-            for entry in open_ended:
-                formatted_output += f"  - {entry['type']}: {entry['instruction']}\n"
 
     elif project == "PCL":
         for sub_topic in sub_topic_config:

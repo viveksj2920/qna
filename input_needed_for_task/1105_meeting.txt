@@ -1,0 +1,815 @@
+Murali, Dinesh
+22 minutes 45 seconds22:45
+Murali, Dinesh 22 minutes 45 seconds
+Alright, alright, let's move on, uh, Vivek, uh.
+Murali, Dinesh 22 minutes 52 seconds
+You have to keep your stories up to date, break at least the progress. I there's nothing in progress for you. The transcript subtopics refactoring is still sitting in define.
+Murali, Dinesh 23 minutes 2 seconds
+It's not even in those.
+SV
+S, Vivekanand
+23 minutes 2 seconds23:02
+S, Vivekanand 23 minutes 2 seconds
+I'm sorry.
+S, Vivekanand 23 minutes 4 seconds
+Yeah, I love it.
+S, Vivekanand 26 minutes 27 seconds
+I just, I'm opening that, just to give me a moment, I'm opening that codebase.
+
+Murali, Dinesh
+26 minutes 33 seconds26:33
+Murali, Dinesh 26 minutes 33 seconds
+Okay, meanwhile, they're opening it. Pauline, what feedback did you provide? Can you summarize it for Vivek? What is he, what changes is he doing? What was your feedback?
+QP
+Qin, Pauline
+26 minutes 49 seconds26:49
+Qin, Pauline 26 minutes 49 seconds
+Well, I think I first mentioned that we're taking out the plan names. Or sorry, we're put, yeah, we're taking out plan name, medication name. Like the subtopic field should only be one of the predefined subtopics.
+
+Murali, Dinesh
+26 minutes 57 seconds26:57
+Murali, Dinesh 26 minutes 57 seconds
+Uh-huh.
+QP
+Qin, Pauline
+27 minutes 4 seconds27:04
+Qin, Pauline 27 minutes 4 seconds
+So, and then based off of that, I think there was like one example where I was just asking Vivek about if descriptions were used.
+
+Murali, Dinesh
+27 minutes 4 seconds27:04
+Murali, Dinesh 27 minutes 4 seconds
+Okay.
+QP
+Qin, Pauline
+27 minutes 16 seconds27:16
+Qin, Pauline 27 minutes 16 seconds
+There was one example that, like, there was just like one example, and then it was, there was two, there were two such topics tagged, but I had questions about about that example.
+
+Murali, Dinesh
+27 minutes 31 seconds27:31
+Murali, Dinesh 27 minutes 31 seconds
+So, what, like, basically...
+Murali, Dinesh 27 minutes 34 seconds
+Well, okay, so then what did you, that's the two subtopics are not correct, you think?
+QP
+Qin, Pauline
+27 minutes 40 seconds27:40
+Qin, Pauline 27 minutes 40 seconds
+I just, there was one question that I felt like, well, it was just, there was only one example. So, like, I guess my, I can pull it up. It just says like, oh, why hasn't my ARP plan started yet? And it was getting tagged as plan.
+
+Murali, Dinesh
+27 minutes 49 seconds27:49
+Murali, Dinesh 27 minutes 49 seconds
+Mm.
+QP
+Qin, Pauline
+27 minutes 58 seconds27:58
+Qin, Pauline 27 minutes 58 seconds
+effective start date and application status, but I don't think that's an application status question.
+
+Murali, Dinesh
+28 minutes 5 seconds28:05
+Murali, Dinesh 28 minutes 5 seconds
+Okay.
+QP
+Qin, Pauline
+28 minutes 6 seconds28:06
+Qin, Pauline 28 minutes 6 seconds
+Right, that's not, I think this person has already enrolled and they're asking why didn't the plan start. So that, I don't think it has anything to do with application status.
+
+Murali, Dinesh
+28 minutes 14 seconds28:14
+Murali, Dinesh 28 minutes 14 seconds
+Yeah, yeah, okay.
+Murali, Dinesh 28 minutes 16 seconds
+Saurabh.
+Murali, Dinesh 28 minutes 20 seconds
+So, yeah.
+Murali, Dinesh 28 minutes 25 seconds
+So, you you didn't give any different feedbacks, possibly nothing much to change. You just said plan names have to be excluded, plan names and stuff like that, OK?
+QP
+Qin, Pauline
+28 minutes 32 seconds28:32
+Qin, Pauline 28 minutes 32 seconds
+Right, right, and then I asked about descriptions and if we're using that, so...
+
+Murali, Dinesh
+28 minutes 42 seconds28:42
+Murali, Dinesh 28 minutes 42 seconds
+Okay.
+Murali, Dinesh 28 minutes 44 seconds
+Wake, are you able to? Are you pulling it up?
+SV
+S, Vivekanand
+28 minutes 46 seconds28:46
+S, Vivekanand 28 minutes 46 seconds
+Yeah.
+
+Murali, Dinesh
+28 minutes 47 seconds28:47
+Murali, Dinesh 28 minutes 47 seconds
+K.
+Murali, Dinesh 28 minutes 59 seconds
+Okay, could see your screen and we can go straight to the subtopic or like the prompt. What like subtopic level, what kind of, what is the prompt look like?
+SV
+S, Vivekanand
+29 minutes29:00
+S, Vivekanand 29 minutes
+Yeah.
+S, Vivekanand 29 minutes 20 seconds
+Dinesh, you wanted me to explain the changes, right? About how, how, how am I going about it?
+
+Murali, Dinesh
+29 minutes 28 seconds29:28
+Murali, Dinesh 29 minutes 28 seconds
+I mean, I, that's okay. I will see the thing I'm we are wondering is exactly how does your sub your prompt look like now with this this kind of hierarchy that we like the subtopics we give us an example of like a prompt like let's just say bricks, sorry, what is digital friction and then inside that there's a list of subtopics the LLM.
+Murali, Dinesh 29 minutes 49 seconds
+Is trying to incorporate, right? So, how are you doing it?
+SV
+S, Vivekanand
+29 minutes 57 seconds29:57
+S, Vivekanand 29 minutes 57 seconds
+Basically, what I did was added a couple of things here. How do you prompt the subtopic format?
+
+Murali, Dinesh
+30 minutes 6 seconds30:06
+Murali, Dinesh 30 minutes 6 seconds
+Okay.
+SV
+S, Vivekanand
+30 minutes 7 seconds30:07
+S, Vivekanand 30 minutes 7 seconds
+You can see here what I basically added is I added the project level specification over here. So before it was different compared to now. I'll just show you how it would look before.
+S, Vivekanand 30 minutes 23 seconds
+I'll come to that point where I explain you how what would be the prompt look like but first.
+S, Vivekanand 30 minutes 59 seconds
+Yeah, so earlier, if you can see here, the way this would work was it would basically have an open-ended variable, which would basically add like an act like an entity and extraction instruction to the entire LLM from. So previously it was telling that LLM to extract.
+S, Vivekanand 31 minutes 19 seconds
+drug names, plain names, pharmacy names. So it would basically work like this, this entire thing. You can see.
+
+Murali, Dinesh
+31 minutes 26 seconds31:26
+Murali, Dinesh 31 minutes 26 seconds
+Thank you.
+
+
+S, Vivekanand
+31 minutes 28 seconds31:28
+S, Vivekanand 31 minutes 28 seconds
+Now, what my prompt does is it basically removes that dependency which says we removed that entire open-ended variable, asking it to basically show the predefined subtopic list.
+
+Murali, Dinesh
+31 minutes 43 seconds31:43
+Murali, Dinesh 31 minutes 43 seconds
+Okay.
+Murali, Dinesh 31 minutes 47 seconds
+UHG.
+Murali, Dinesh 31 minutes 49 seconds
+Sorry, the...
+Murali, Dinesh 31 minutes 52 seconds
+Show, show the sorry, where is the prompt exactly?
+SV
+S, Vivekanand
+31 minutes 58 seconds31:58
+S, Vivekanand 31 minutes 58 seconds
+See, the overall prompt still remains here itself. It's not been changed. The prompts remains here. But the way this particular function was executing, the prompt subtopic format. So here, earlier what used to happen, we used to tell the LLM to extract.
+
+Murali, Dinesh
+32 minutes 1 second32:01
+Murali, Dinesh 32 minutes 1 second
+Okay, okay, okay.
+Murali, Dinesh 32 minutes 5 seconds
+Okay.
+SV
+S, Vivekanand
+32 minutes 16 seconds32:16
+S, Vivekanand 32 minutes 16 seconds
+a specific drug name or a specific plan name or a specific kind of subtopic, either pharmacy names or something. Now what we do is we basically...
+
+Murali, Dinesh
+32 minutes 24 seconds32:24
+Murali, Dinesh 32 minutes 24 seconds
+Fine.
+SV
+S, Vivekanand
+32 minutes 28 seconds32:28
+S, Vivekanand 32 minutes 28 seconds
+Sorry, I got why this keeps, yeah, but now what we do is we tell it to show only those predefined topic lists from the file, rather than picking it only those values.
+
+Murali, Dinesh
+32 minutes 41 seconds32:41
+Murali, Dinesh 32 minutes 41 seconds
+Okay, where is point to me where exactly is happening and where is it pulling it from those five subtopics?
+Murali, Dinesh 32 minutes 51 seconds
+Project is PCL or where is and where is where how are you exactly sending it? That's what we would like to see.
+SV
+S, Vivekanand
+33 minutes 1 second33:01
+S, Vivekanand 33 minutes 1 second
+Sorry, how, how, how am I sending?
+
+Murali, Dinesh
+33 minutes 4 seconds33:04
+Murali, Dinesh 33 minutes 4 seconds
+Yeah, yeah, oh yeah, how are you sending that predefined list of subtopics? Where is it?
+SV
+S, Vivekanand
+33 minutes 10 seconds33:10
+S, Vivekanand 33 minutes 10 seconds
+Alright, just.
+S, Vivekanand 33 minutes 49 seconds
+Instractor of Vijaya.
+S, Vivekanand 33 minutes 56 seconds
+Yeah, so first change basically comes here where what am I doing this at this point?
+
+Murali, Dinesh
+34 minutes 14 seconds34:14
+Murali, Dinesh 34 minutes 14 seconds
+Mm.
+Murali, Dinesh 34 minutes 16 seconds
+The next, OK.
+SV
+S, Vivekanand
+34 minutes 19 seconds34:19
+S, Vivekanand 34 minutes 19 seconds
+Yeah, earlier if you see the way you used to initiate a doc using a question and topic was quite different, especially with respect to this particular thing if you can see here.
+
+Murali, Dinesh
+34 minutes 23 seconds34:23
+Murali, Dinesh 34 minutes 23 seconds
+It's.
+SV
+S, Vivekanand
+34 minutes 33 seconds34:33
+S, Vivekanand 34 minutes 33 seconds
+So what we used to do, we used to basically call this entire process entity as a function with respect to the index mode and the type of Mira branch. So we used to basically call the entities and the CS plain names and then used to merge the entity subtopics with a predefined one.
+S, Vivekanand 34 minutes 53 seconds
+Yeah, this in this entire code, this entire part, if I have to speak up this entire logic, the Q&A extractor would work in this way, so...
+S, Vivekanand 35 minutes 4 seconds
+Where this the entire extraction logic used to work, that it used to 1st merge the entire subtopics with the predefined one, and then it would basically remove the entity processing at line number 604, I guess.
+
+Murali, Dinesh
+35 minutes 4 seconds35:04
+Murali, Dinesh 35 minutes 4 seconds
+Mm.
+SV
+S, Vivekanand
+35 minutes 23 seconds35:23
+S, Vivekanand 35 minutes 23 seconds
+Yeah, even at this point, even at this point, used to extract it by iterating it over a row.
+
+Murali, Dinesh
+35 minutes 30 seconds35:30
+Murali, Dinesh 35 minutes 30 seconds
+K.
+SV
+S, Vivekanand
+35 minutes 31 seconds35:31
+S, Vivekanand 35 minutes 31 seconds
+So now what I did was I simply replaced this logic with.
+S, Vivekanand 35 minutes 37 seconds
+much more predefined topics. If you can see here, I have a function here called predefined subtopics. I mean, I've declared A variable which basically gets the value from here rather than predefining it in a iteration. If you see here, here we used to do it in a very different way.
+S, Vivekanand 35 minutes 55 seconds
+here is to basically initiate it and then basically extract it. If you can see it perform topic extraction and add the topic to doc if available. So it is to basically rely on this conditions to extract and perform that here.
+
+Murali, Dinesh
+36 minutes 14 seconds36:14
+Murali, Dinesh 36 minutes 14 seconds
+Okay.
+Murali, Dinesh 36 minutes 15 seconds
+Uh, so where are the prompts like Pauline? Where did we see the quick go to data?
+Murali, Dinesh 36 minutes 24 seconds
+Where did Pauline, where did we see the old prompt? Did you remove? Okay, input. What is inside data input?
+SV
+S, Vivekanand
+36 minutes 31 seconds36:31
+S, Vivekanand 36 minutes 31 seconds
+I mean, this one, this is this one input is more of files.
+
+Murali, Dinesh
+36 minutes 33 seconds36:33
+Murali, Dinesh 36 minutes 33 seconds
+OK, OK, so, so, we have a key to Jason. Can you expand the what is, what is, what is this one? You created this?
+SV
+S, Vivekanand
+36 minutes 43 seconds36:43
+S, Vivekanand 36 minutes 43 seconds
+Yeah, this was what our first website created, and then I extended this.
+
+Murali, Dinesh
+36 minutes 48 seconds36:48
+Murali, Dinesh 36 minutes 48 seconds
+But.
+Murali, Dinesh 36 minutes 50 seconds
+Excuse me, okay. Subtopic, okay. Now, you're doing this earlier. My understanding was on the left side, data input, subtopic prompt, subtopic prompt, Mira.json. Just open that one.
+Murali, Dinesh 37 minutes 9 seconds
+The website.
+
+
+SV
+S, Vivekanand
+42 minutes 35 seconds42:35
+S, Vivekanand 42 minutes 35 seconds
+Yes.
+S, Vivekanand 42 minutes 37 seconds
+Got it.
+
+Murali, Dinesh
+42 minutes 45 seconds42:45
+Murali, Dinesh 42 minutes 45 seconds
+Okay, fine. That's the main thing I wanted to understand.
+Murali, Dinesh 42 minutes 51 seconds
+How much are you changing?
+Murali, Dinesh 42 minutes 55 seconds
+So the changes are a lot, a lot of changes overall, the code, there's a lot of changes or only some changes basically you are just subtopic description is getting swapped out like to a different format and this is all the same. I'm just trying to get a sense of.
+SV
+S, Vivekanand
+43 minutes 10 seconds43:10
+S, Vivekanand 43 minutes 10 seconds
+the same. This is all the same. As I said, there's only minimalistic changes. One, I'll tell you the exact changes. There are only two.
+
+Murali, Dinesh
+43 minutes 10 seconds43:10
+Murali, Dinesh 43 minutes 10 seconds
+The.
+Murali, Dinesh 43 minutes 16 seconds
+When you say changes, I'm thinking of not the changes that you're putting on top of a chance. I'm thinking of the original subtopic flow versus all the changes.
+SV
+S, Vivekanand
+43 minutes 24 seconds43:24
+S, Vivekanand 43 minutes 24 seconds
+Yeah, then, yeah, then there is good amount of senses.
+
+Murali, Dinesh
+43 minutes 28 seconds43:28
+Murali, Dinesh 43 minutes 28 seconds
+Good amount of changes.
+Murali, Dinesh 43 minutes 31 seconds
+Why would that good amount of changes be needed? Trying to understand. If subtopics are changing, you need just a list and maybe the instructions could change here, right? What are the other changes would be there?
+Murali, Dinesh 43 minutes 44 seconds
+Are you a what?
+SV
+S, Vivekanand
+43 minutes 45 seconds43:45
+S, Vivekanand 43 minutes 45 seconds
+The way entity extraction was building earlier.
+
+Murali, Dinesh
+43 minutes 51 seconds43:51
+Murali, Dinesh 43 minutes 51 seconds
+Mm.
+SV
+S, Vivekanand
+43 minutes 52 seconds43:52
+S, Vivekanand 43 minutes 52 seconds
+In the prompt config file here, the way this subtopic format when this this.
+
+Murali, Dinesh
+43 minutes 55 seconds43:55
+Murali, Dinesh 43 minutes 55 seconds
+Mhm.
+Murali, Dinesh 44 minutes 3 seconds
+We, see, the point is, if you guys are using Copilot to do changes, and it is just spitting out changes and a bunch of changes, it just makes its own decision to change, we need to be, we need to have a grasp of that. Is it really needed? Those kind of things we have to look at. That's what I, that's the point I'm driving towards.
+SV
+S, Vivekanand
+44 minutes 3 seconds44:03
+S, Vivekanand 44 minutes 3 seconds
+Yeah.
+
+Murali, Dinesh
+44 minutes 24 seconds44:24
+Murali, Dinesh 44 minutes 24 seconds
+If the, if the copilot just gave you changes, just don't blindly put everything in, and then for actually you might need only 10 lines of change. Copilot just makes, so let's do, okay, I will modularize it, I will enhance this for future and put a bunch of changes in. You have to be the gatekeeper, so that's what I'm trying to say.
+SV
+S, Vivekanand
+44 minutes 24 seconds44:24
+S, Vivekanand 44 minutes 24 seconds
+Yes.
+
+Murali, Dinesh
+44 minutes 45 seconds44:45
+Murali, Dinesh 44 minutes 45 seconds
+If you have a grasp of that, what is why is there so much changes needed is what I'm trying to think. Yeah.
+SV
+S, Vivekanand
+44 minutes 45 seconds44:45
+S, Vivekanand 44 minutes 45 seconds
+Yeah, but that's the problem is.
+S, Vivekanand 44 minutes 51 seconds
+Yeah, I'll raise the parent show, but the problem is I cannot access GitHub Copilot. I don't know why. It's not like even I raised the request, the request is approved, the approved the request, but yet I cannot have the access for GitHub for Pilot.
+
+Murali, Dinesh
+45 minutes 6 seconds45:06
+Murali, Dinesh 45 minutes 6 seconds
+You're not using, you don't have any coding agent from VS Code.
+SV
+S, Vivekanand
+45 minutes 11 seconds45:11
+S, Vivekanand 45 minutes 11 seconds
+No, like they, I tried installing, but it it blocks, so everything I, if I, it's like only mostly hard coded or mostly I use the co-pilot here. This is where I use, but here at the coding agent level, I don't have anything because...
+
+
+Murali, Dinesh
+45 minutes 30 seconds45:30
+Murali, Dinesh 45 minutes 30 seconds
+Because it looks like your output is all coming from like the Excel file and all that is coming from some coding agent, isn't it?
+SV
+S, Vivekanand
+45 minutes 30 seconds45:30
+S, Vivekanand 45 minutes 30 seconds
+Add.
+S, Vivekanand 45 minutes 35 seconds
+Hi, this, no, no, this Excel file, I'm generating it. I'm using a co-pilot to generate it, and then I run it using my Python. I'll just show you, I have it.
+
+Murali, Dinesh
+45 minutes 43 seconds45:43
+Murali, Dinesh 45 minutes 43 seconds
+Okay.
+SV
+S, Vivekanand
+45 minutes 48 seconds45:48
+S, Vivekanand 45 minutes 48 seconds
+Yeah, if you can see here, I have run toggle benchmark. So this file, I use it, but this all generation, I use GitHub Copilot from Teams to help me write this. And then I paste it here and I do a manual run. All this comes from there itself.
+
+Murali, Dinesh
+46 minutes 6 seconds46:06
+Murali, Dinesh 46 minutes 6 seconds
+Okay, so now you have to start using corporate here because it's an enterprise-wide push for everybody to be using coding agents. Even there are monitoring dashboards which are tracking individual level access and we will get alerts and all that. So.
+SV
+S, Vivekanand
+46 minutes 25 seconds46:25
+S, Vivekanand 46 minutes 25 seconds
+I don't know why I...
+
+Murali, Dinesh
+46 minutes 25 seconds46:25
+Murali, Dinesh 46 minutes 25 seconds
+You want where are you stuck? Like, Kabil had just resolved some of the issues, where are what you have to submit a secure group? Do you know the secure group that you have open and business users?
+SV
+S, Vivekanand
+46 minutes 33 seconds46:33
+S, Vivekanand 46 minutes 33 seconds
+Yeah, that, yes, we have submitted.
+S, Vivekanand 46 minutes 37 seconds
+We have submitted it.
+
+Murali, Dinesh
+46 minutes 37 seconds46:37
+Murali, Dinesh 46 minutes 37 seconds
+But you need, but sorry, there's another step you need to be added to a resource group.
+SV
+S, Vivekanand
+46 minutes 40 seconds46:40
+S, Vivekanand 46 minutes 40 seconds
+Yes.
+
+Murali, Dinesh
+46 minutes 44 seconds46:44
+Murali, Dinesh 46 minutes 44 seconds
+Did you get added in the HCP? There's a platform called HCP. You have to request a resource group to be added in HCP, and then you have to make sure the Covalid business users group is also there.
+SV
+S, Vivekanand
+46 minutes 59 seconds46:59
+S, Vivekanand 46 minutes 59 seconds
+I'm not sure about the resource group, but I had raised twice, one in my last project which was approved by, which was approved by Jeevan, and then once in this project which you approved, but yet both the times I was not able.
+
+Murali, Dinesh
+46 minutes 59 seconds46:59
+Murali, Dinesh 46 minutes 59 seconds
+UHG.
+Murali, Dinesh 47 minutes 1 second
+Ipsit.
+Murali, Dinesh 47 minutes 12 seconds
+Yeah, I think you you you need to grab the the resource H.C.P. if this won't be sufficient, so maybe you right after this, you Kabil, do you mind showing to him?
+VK
+
+V, Kabilruman
+47 minutes 26 seconds47:26
+V, Kabilruman 47 minutes 26 seconds
+Yeah, sure, sure, then.
+
+Murali, Dinesh
+47 minutes 28 seconds47:28
+Murali, Dinesh 47 minutes 28 seconds
+Yeah, so you gotta use that now. Now, Vivek, coming to the overall changes, you know, you're seeing more changes are there. Get a grasp of that, and when it comes to PR, you know, Nishanth and Pauline have to review it, and we have to get a grasp of like why there are so many changes.
+Murali, Dinesh 47 minutes 48 seconds
+In that, and I mean, it's fine. I'm saying you don't need the changes. If there is a grasp of that and we have no reason why we are changing it, then we can go forward with that, but it was just some coding agent spit out, just thinking, you know, you know, let's make some big, like, you know, a future-proofer and these things like that, we have to just.
+Murali, Dinesh 48 minutes 7 seconds
+take it carefully, that's all I'm trying to say, okay? But now I understand your flow. And so now coming back to it, so you're saying you are, Pauline has only asked you to take the plan names, plan name and what, like plan name, drug name, those kind of things out of the subtopic description. You have to just take them out. Every subtopic is now just going to have just a predefined list that Pauline has already given.
+SV
+S, Vivekanand
+48 minutes 10 seconds48:10
+S, Vivekanand 48 minutes 10 seconds
+Gundu.
+
+Murali, Dinesh
+48 minutes 31 seconds48:31
+Murali, Dinesh 48 minutes 31 seconds
+plan names are going to be kept aside. Your plan name is Gellu. Now, your testing is, so now, sorry, now, do you have to rerun all of this and test again because of that?
+SV
+S, Vivekanand
+48 minutes 46 seconds48:46
+S, Vivekanand 48 minutes 46 seconds
+Not because of that, I have to rerun because when I ran the test on last Friday, I guess, yeah, Friday morning, what I kept the date range to very small. I took only last 10 days, I believe, which would not give me sufficient result for analysis.
+S, Vivekanand 49 minutes 4 seconds
+So now I'm increasing that range for at least three months so that I can get maximum records for each subtopic.
+
+Murali, Dinesh
+49 minutes 14 seconds49:14
+Murali, Dinesh 49 minutes 14 seconds
+Okay, I see.
+Murali, Dinesh 49 minutes 17 seconds
+Oh, so okay, so that's just because of the data then volume.
+SV
+S, Vivekanand
+49 minutes 24 seconds49:24
+S, Vivekanand 49 minutes 24 seconds
+Data, yes, yes.
+
+Murali, Dinesh
+49 minutes 27 seconds49:27
+Murali, Dinesh 49 minutes 27 seconds
+Okay.
+Murali, Dinesh 49 minutes 29 seconds
+Alright, now.
+Murali, Dinesh 49 minutes 32 seconds
+Um, that's OK. Um, so OK, so now you have to rerun everything.
+SV
+S, Vivekanand
+49 minutes 40 seconds49:40
+S, Vivekanand 49 minutes 40 seconds
+Yes, to analyze, I'll have to rerun everything. I usually start the run around after this call and next by 4 hours it would be done. Whatever it does in four hours, I stop it there. I save the checkpoint. And the first thing I log in the morning, I start the run.
+S, Vivekanand 49 minutes 59 seconds
+So by evening it completes that entire run to give me that data.
+
+Murali, Dinesh
+49 minutes 59 seconds49:59
+Murali, Dinesh 49 minutes 59 seconds
+Ms.
+Murali, Dinesh 50 minutes 3 seconds
+That's why this is the thing you run for everything and then what else like it just.
+SV
+S, Vivekanand
+50 minutes 7 seconds50:07
+S, Vivekanand 50 minutes 7 seconds
+No, no, no, no. What I do is, let's say one topic runs, I save that result, I analyze it. Now the next topic is running while I'm analyzing the first topic. So I don't wait the result to complete before I start my analysis. First one has happened, let's say enrollment, enrollment is done, it has done this analysis, it has scored the result. Now I keep analyzing that.
+
+Murali, Dinesh
+50 minutes 17 seconds50:17
+
+
+Okay.
+SV
+S, Vivekanand
+50 minutes 28 seconds50:28
+S, Vivekanand 50 minutes 28 seconds
+By the time the second would be complete, so I take turns like this, so I don't wait for the run to complete.
+
+Murali, Dinesh
+50 minutes 35 seconds50:35
+Murali, Dinesh 50 minutes 35 seconds
+Okay.
+Murali, Dinesh 50 minutes 37 seconds
+So now overall, what is left is just running it, verifying, can we wrap this up? Like you have, you know, we have to finish this unit level, then it has to go into the job, you have to run it in a backfill job, you have to think about, or maybe in this case, we're not going to do backfill, we just have to put it on daily job and it should be done.
+Murali, Dinesh 50 minutes 59 seconds
+One needs to run in the daily job in the team that Kabil can just, I mean, I don't think you're doing anything really changes. You just have to commit your changes, go to a develop branch and do a PR and Kabil has to review the changes that are happening. That's probably where you will, okay, that's where Paul and Nishanth, everybody has to be tagged. That review needs to happen, then it goes to daily job and run in team.
+Murali, Dinesh 51 minutes 23 seconds
+So we have those steps before we go to stage. Will you be able to complete, because yeah, we'll complete this before putting into the daily job. Can you be able to complete the rest of it by tomorrow?
+SV
+S, Vivekanand
+51 minutes 36 seconds51:36
+S, Vivekanand 51 minutes 36 seconds
+Yeah, Dinesh, I'll be able to, I'll do one thing. After this call, I'll raise the PR, ask Pauline and Nishanth to review it, and the run would be happening. I'll analyze my run. If there are any comments on the PR, I would fix that first thing in the morning and re-push my code. If there are no comments, by the time we have this meeting tomorrow.
+S, Vivekanand 51 minutes 55 seconds
+I would my analysis complete so that we can proceed with merging for that.
+
+Murali, Dinesh
+52 minutes52:00
+Murali, Dinesh 52 minutes
+Okay, and your output from each topic, subtopic, at least, you know, if you have 200 samples, great, needs to be shared with Pauline, and she has to, you need to do a validation, right, like I already said, quality check, and then she will also have to review that. That's also there. So this all of that by tomorrow, end of the sprint, if we complete, then we put this in.
+Murali, Dinesh 52 minutes 25 seconds
+Into the daily job.
+SV
+S, Vivekanand
+52 minutes 27 seconds52:27
+S, Vivekanand 52 minutes 27 seconds
+Yes, I have only one question before it is appear. Now, when I started this code changes, I had taken a pull from Vatsyayan branch.
+
+Murali, Dinesh
+52 minutes 34 seconds52:34
+Murali, Dinesh 52 minutes 34 seconds
+Mm.
+Murali, Dinesh 52 minutes 41 seconds
+That's funny.
+SV
+S, Vivekanand
+52 minutes 42 seconds52:42
+S, Vivekanand 52 minutes 42 seconds
+topic subtopic changes. I made my changes on top of that branch. Now, when I'm raising the PR, I'll have to raise it from that branch itself, or should I take a fresh branch out of develop and then push add my changes over there and then raise the PR?
+
+Murali, Dinesh
+52 minutes 47 seconds52:47
+Murali, Dinesh 52 minutes 47 seconds
+But.
+Murali, Dinesh 52 minutes 57 seconds
+No, no, no, the changes you are having in your branch now, all the changes that the PR will go against develop.
+SV
+S, Vivekanand
+53 minutes 1 second53:01
+S, Vivekanand 53 minutes 1 second
+Mm.
+S, Vivekanand 53 minutes 5 seconds
+OK, got it, so I'll push it against Nisha, not Nishanth, what sales branch it says.
+
+Murali, Dinesh
+53 minutes 11 seconds53:11
+Murali, Dinesh 53 minutes 11 seconds
+Yeah.
+Murali, Dinesh 53 minutes 13 seconds
+E, yeah.
+SV
+S, Vivekanand
+53 minutes 13 seconds53:13
+S, Vivekanand 53 minutes 13 seconds
+I'll raise the PR and tag and tag Pauline and Nishanth.
+
+Murali, Dinesh
+53 minutes 14 seconds53:14
+Murali, Dinesh 53 minutes 14 seconds
+Yeah.
+Murali, Dinesh 53 minutes 17 seconds
+Mhm.
+Murali, Dinesh 53 minutes 22 seconds
+Okay.
+Murali, Dinesh 53 minutes 24 seconds
+Pauline, that quality check is somewhat important if you can spend some like, Vivek, that step is important to code changes, review has to be done, that's one thing, but like the output topic, sub topic, does it make sense? The quality check is important because, you know, yeah.
+SV
+S, Vivekanand
+53 minutes 29 seconds53:29
+S, Vivekanand 53 minutes 29 seconds
+Yeah.
+
+Murali, Dinesh
+53 minutes 42 seconds53:42
+Murali, Dinesh 53 minutes 42 seconds
+We don't put something in and then realize again, ohh, this is not working well, this type of sub-group topics of grouping, so we have to do that.
+SV
+S, Vivekanand
+53 minutes 50 seconds53:50
+S, Vivekanand 53 minutes 50 seconds
+Got it.
+
+Murali, Dinesh
+53 minutes 51 seconds53:51
+Murali, Dinesh 53 minutes 51 seconds
+Okay, let's, yeah, let's move on. Fine.
+QP
+Qin, Pauline
+53 minutes 53 seconds53:53
+Qin, Pauline 53 minutes 53 seconds
+Quick question: Should we add the descriptions then?
+Qin, Pauline 53 minutes 57 seconds
+I think that maybe would be helpful.
+
+Murali, Dinesh
+53 minutes 59 seconds53:59
+Murali, Dinesh 53 minutes 59 seconds
+Support.
+Murali, Dinesh 54 minutes 2 seconds
+Sorry, say it again.
+QP
+Qin, Pauline
+54 minutes 3 seconds54:03
+Qin, Pauline 54 minutes 3 seconds
+descriptions for the subtopics.
+Qin, Pauline 54 minutes 6 seconds
+I guess that's something that I would need to work on, right?
+
+Murali, Dinesh
+54 minutes 11 seconds54:11
+Murali, Dinesh 54 minutes 11 seconds
+Descriptions with some.
+QP
+Qin, Pauline
+54 minutes 11 seconds54:11
+Qin, Pauline 54 minutes 11 seconds
+To improve the output and improve the output of the subtopics.
+
+Murali, Dinesh
+54 minutes 17 seconds54:17
+Murali, Dinesh 54 minutes 17 seconds
+The sorry, I'm not for the description. What do you mean like the they?
+QP
+Qin, Pauline
+54 minutes 21 seconds54:21
+Qin, Pauline 54 minutes 21 seconds
+Yeah, like I think right now Vivek is just passing in the subtopics, but like based on the one, I mean, I only saw one example today, but...
+
+Murali, Dinesh
+54 minutes 28 seconds54:28
+Murali, Dinesh 54 minutes 28 seconds
+Do you?
+Murali, Dinesh 54 minutes 29 seconds
+No, you do you think a disk apart from the subtopic list of subtopics, do you think a description for that it will be helpful? If you think it will be extra helpful, yeah, yeah, you need to give that to like each of the see.
+
+
+Qin, Pauline
+54 minutes 44 seconds54:44
+Qin, Pauline 54 minutes 44 seconds
+Every subtopic would need one, then.
+
+Murali, Dinesh
+54 minutes 46 seconds54:46
+Murali, Dinesh 54 minutes 46 seconds
+Yeah, every every subtopic level description you're thinking, OK.
+QP
+Qin, Pauline
+54 minutes 50 seconds54:50
+Qin, Pauline 54 minutes 50 seconds
+Right, yeah, that's what I mean.
+
+Murali, Dinesh
+54 minutes 53 seconds54:53
+Murali, Dinesh 54 minutes 53 seconds
+Yeah.
+QP
+Qin, Pauline
+54 minutes 54 seconds54:54
+Qin, Pauline 54 minutes 54 seconds
+Or I don't know if we need to do like based on the results, we can see if we need them or if we should just provide them.
+
+Murali, Dinesh
+54 minutes 57 seconds54:57
+Murali, Dinesh 54 minutes 57 seconds
+Because.
+Murali, Dinesh 54 minutes 59 seconds
+You have to, so this is exactly like, yeah, we discussed some of them will need description, some of them will not, right? So, you have to, yeah, you have to give some of them, like, so, like we talked about prescription drug coverage, right?
+QP
+Qin, Pauline
+55 minutes 7 seconds55:07
+Qin, Pauline 55 minutes 7 seconds
+Oh.
+SV
+S, Vivekanand
+55 minutes 7 seconds55:07
+S, Vivekanand 55 minutes 7 seconds
+Do you look at?
+QP
+Qin, Pauline
+55 minutes 13 seconds55:13
+Qin, Pauline 55 minutes 13 seconds
+Prescription drug coverage.
+
+Murali, Dinesh
+55 minutes 14 seconds55:14
+Murali, Dinesh 55 minutes 14 seconds
+Well, you said like specific drugs to be specific, what did we say? Specific drug names or is it a separate field now we're going to say?
+QP
+Qin, Pauline
+55 minutes 22 seconds55:22
+Qin, Pauline 55 minutes 22 seconds
+But that's, yeah, that's like separate, right, right? We're just talking about subtopics which are predefined.
+
+Murali, Dinesh
+55 minutes 25 seconds55:25
+Murali, Dinesh 55 minutes 25 seconds
+Okay, then, okay, then what?
+Murali, Dinesh 55 minutes 29 seconds
+So why do you just generally think their description for each of topic will be generally helpful?
+QP
+Qin, Pauline
+55 minutes 35 seconds55:35
+Qin, Pauline 55 minutes 35 seconds
+I think that would be based on what the effects of like testing is, right? Because like, I guess I can't say if we need them or don't need them based on one example that I looked at today.
+
+Murali, Dinesh
+55 minutes 45 seconds55:45
+Murali, Dinesh 55 minutes 45 seconds
+Sure, sure, correct. Then we have to look at the quality of the output and then decide, yeah, okay.
+QP
+Qin, Pauline
+55 minutes 47 seconds55:47
+Qin, Pauline 55 minutes 47 seconds
+If.
+Qin, Pauline 55 minutes 49 seconds
+Right, right. So, like, Vivek, I guess if you think it's needed, I will provide them.
+Qin, Pauline 55 minutes 56 seconds
+But if it's like, if it's doing a good job, then it's not, you know, we don't have to put it in.
+SV
+S, Vivekanand
+56 minutes 3 seconds56:03
+S, Vivekanand 56 minutes 3 seconds
+Not at one.
+S, Vivekanand 56 minutes 5 seconds
+I'll share, I'll share up one or two topics in the next couple of hours. You can review it and let me know, so that if this are the description that required, I can add it back.
+QP
+Qin, Pauline
+56 minutes 18 seconds56:18
+Qin, Pauline 56 minutes 18 seconds
+Okay.
+SV
+S, Vivekanand
+56 minutes 23 seconds56:23
+S, Vivekanand 56 minutes 23 seconds
+Yeah, Ganesh, I'll share one or two top subtopics results with Pauline in the next couple of hours, so that she can read it.

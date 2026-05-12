@@ -90,6 +90,12 @@ def generate_report(input_file, output_file, max_per_topic=200):
     df = pd.DataFrame(records)
     df['Topic'] = df['Topic'].replace('', '(No Topic)').fillna('(No Topic)')
 
+    # Deduplicate by Ucid — keep first occurrence (which has subtopics from topic-filtered run)
+    before = len(df)
+    df = df.drop_duplicates(subset='Ucid', keep='first')
+    if len(df) < before:
+        print(f"  Deduplicated: {before} → {len(df)} unique records")
+
     with pd.ExcelWriter(output_file, engine='openpyxl') as writer:
 
         # --- Sheet 1: Summary ---

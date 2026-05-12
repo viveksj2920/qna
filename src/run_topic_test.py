@@ -119,8 +119,22 @@ def merge_results(json_files, output_path):
         except Exception as e:
             print(f"WARNING: Could not read {f}: {e}")
 
-    # Filter to only records that have a topic and subtopic extracted
+    # Filter to only records that have a topic
     filtered = [r for r in all_data if r.get('topic')]
+
+    # Deduplicate by Ucid — keep the record with subtopics if available
+    seen = {}
+    for rec in filtered:
+        ucid = rec.get('Ucid', '')
+        if ucid not in seen:
+            seen[ucid] = rec
+        else:
+            # Keep the one that has subtopics
+            existing = seen[ucid]
+            if not existing.get('sub_topic') and rec.get('sub_topic'):
+                seen[ucid] = rec
+    filtered = list(seen.values())
+    print(f"  Deduplicated: {len(all_data)} total → {len(filtered)} unique records")
 
     with open(output_path, 'w') as fh:
         json.dump(filtered, fh, indent=2)

@@ -130,16 +130,25 @@ def prompt_sub_topic_format(project, sub_topic_config):
     """
     Formats subtopic config for inclusion in the LLM prompt.
 
-    For MIRA: expects new format {"subtopics": [...], "open_ended": [...]}
+    For MIRA: expects new format {"subtopics": [...], "descriptions": {...}}
     For PCL: expects old format {"subtopic_name": {"description": ..., "examples": [...]}}
     """
     formatted_output = ""
 
     if project == "MIRA":
         subtopics = sub_topic_config.get("subtopics", [])
+        descriptions = sub_topic_config.get("descriptions", {})
         formatted_output += "PREDEFINED SUBTOPICS (you MUST select from this list only):\n"
         for i, name in enumerate(subtopics, 1):
-            formatted_output += f"  {i}. {name}\n"
+            desc_info = descriptions.get(name, {})
+            desc = desc_info.get("description", "")
+            examples = desc_info.get("examples", "")
+            line = f"  {i}. {name}"
+            if desc:
+                line += f" — {desc}"
+            if examples:
+                line += f" (e.g., {examples})"
+            formatted_output += line + "\n"
 
     elif project == "PCL":
         for sub_topic in sub_topic_config:
@@ -167,12 +176,11 @@ def prompt_sub_topic_format(project, sub_topic_config):
 def sub_topic_extraction_prompt(question, topic, sub_topic_descriptions):
     """
     Generates the subtopic extraction prompt. Instructs the LLM to select from
-    predefined subtopics and extract named entities when applicable.
+    predefined subtopics only.
     """
     prompt = textwrap.dedent(f"""
             You are an intelligent knowledge building assistant.
-            Your task is to classify a customer question into applicable sub-topics
-            AND extract specific named entities when applicable.
+            Your task is to classify a customer question into applicable sub-topics.
 
             ### Context:
 
@@ -182,7 +190,7 @@ def sub_topic_extraction_prompt(question, topic, sub_topic_descriptions):
 
             ## Topic: {topic}
 
-            ## Available Sub-Topics and Entity Extraction Rules:
+            ## Available Sub-Topics:
 
             {sub_topic_descriptions}
 
@@ -193,11 +201,7 @@ def sub_topic_extraction_prompt(question, topic, sub_topic_descriptions):
             3. A question may belong to multiple sub-topics if more than one clearly applies.
             4. Be STRICT: only select a sub-topic if the question is genuinely about that specific sub-topic. Do NOT select a sub-topic just because it is loosely related.
             5. If none of the predefined sub-topics clearly fit the question, return an empty list [] for sub_topic. An empty list is preferred over a poor match.
-            6. For ENTITY EXTRACTION fields (if listed above), extract the named entity from the question following the specific instruction for each type.
-               - If no entity of that type is mentioned in the question, set its value to null.
-            6. For drug names: extract ONLY the base/generic medication name. No dosages, frequencies, forms, brand qualifiers, or parentheses. Example: "zolpidem 10mg tablet" → extract "zolpidem".
-            7. For plan names: extract the plan name as mentioned by the customer. Example: "AARP Medicare Advantage Choice Plan 1" → extract "AARP Medicare Advantage Choice Plan 1".
-            8. For pharmacy/hospital/facility names: extract just the name as mentioned.
+            6. Use the descriptions and examples provided (where available) to guide your selection.
 
             ### Response Format (valid JSON only):
 
@@ -205,12 +209,9 @@ def sub_topic_extraction_prompt(question, topic, sub_topic_descriptions):
             {{
                 "question": [string],
                 "topic": [string],
-                "sub_topic": ["sub_topic_1", "sub_topic_2"],
-                "entities": {{}}
+                "sub_topic": ["sub_topic_1", "sub_topic_2"]
             }}
             ```
-
-            The "entities" object should only include keys for entity types listed in the ENTITY EXTRACTION rules above. If no entity extraction rules are listed for this topic, return an empty object for "entities".
 
             Make sure that your response is always valid JSON and contains only the JSON response.
 

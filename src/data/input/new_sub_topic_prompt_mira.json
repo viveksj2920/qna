@@ -30,12 +30,32 @@
       "dental customer service and contact info",
       "dental plan documents and booklets"
     ],
-    "open_ended": [
-      {
-        "type": "dental_plan_name",
-        "instruction": "Extract the specific dental plan name mentioned in the question, if any. Return just the plan name."
+    "descriptions": {
+      "dental coverage overview": {
+        "description": "Inquiry is the dental coverage is available",
+        "examples": "Does my current plan have dental coverage?, I went to the dentist and they said I didn\u00e2\u20ac\u2122t have dental coverage anymore. Can you check my dental coverage?, What dental services are covered under my plan?"
+      },
+      "dental benefit allowance and maximums": {
+        "description": "Annual maximums, usage, remaining balance",
+        "examples": "What is the maximum coverage amount for my dental plan?, What is the remaining balance on the dental plan?"
+      },
+      "out of pocket dental costs": {
+        "description": "cost that member ahve to pay",
+        "examples": "If my dental procedure costs about $1800, how much will I pay out of pocket?, How much will a crown cost"
+      },
+      "dental implants coverage": {
+        "description": "Coverage of dental plans based on codes",
+        "examples": "What is the coverage and frequency for simple extraction code 7140?, Can you provide the history and frequency for procedure codes 0150 and 0330?"
+      },
+      "dental provider network": {
+        "description": "asking about dentists in or out of network",
+        "examples": "Can I go to any dentist anywhere with my PPO plan?"
+      },
+      "dental claims and billing": {
+        "description": "Problems with payment, denials, appeals, claims",
+        "examples": "Why was a claim for extraction not paid?, Why did I get a bill for $226 for my cleaning when my plan is supposed to cover routine services?"
       }
-    ]
+    }
   },
   "drug coverage termination": {
     "subtopics": [
@@ -44,12 +64,12 @@
       "notification or communication failure",
       "drug coverage status"
     ],
-    "open_ended": [
-      {
-        "type": "drug_names",
-        "instruction": "Extract ONLY the base/generic medication name mentioned in the question. No dosages, frequencies, forms, brand qualifiers, or parentheses. Example: 'zolpidem' not 'zolpidem 10mg tablet' or 'ambien (zolpidem)'."
+    "descriptions": {
+      "notification or communication failure": {
+        "description": "Information or notice not provided before termination",
+        "examples": "Understand why I wasn t notified about this change because they went to the drugstore and got my stuff where I thought I had 217 and they had to put it all back. I was never notified about this change.,"
       }
-    ]
+    }
   },
   "digital friction": {
     "subtopics": [
@@ -80,7 +100,20 @@
       "app card access",
       "app id card ordering"
     ],
-    "open_ended": []
+    "descriptions": {
+      "missing account setup details": {
+        "examples": "I can't log in to my account., I thought I had an online account set up; how do I access it if I forgot my username or password?"
+      },
+      "app account registration": {
+        "examples": "Can I register for an online account to see my balance?,"
+      },
+      "app missing benefits": {
+        "examples": "I couldn t get into the United Healthcare app after changing my email, how can I fix this?"
+      },
+      "website missing benefits": {
+        "examples": "Why is my coverage not showing up when I try to schedule an appointment?"
+      }
+    }
   },
   "eligibility": {
     "subtopics": [
@@ -113,7 +146,27 @@
       "eligibility for extra benefits",
       "supplemental benefit eligibility"
     ],
-    "open_ended": []
+    "descriptions": {
+      "general eligibility verification": {
+        "examples": "What members are eligible for a Flex card?, Is my spouse eligible for this plan and will she have the same benefits?"
+      },
+      "low income subsidy eligibility": {
+        "examples": "Do you know if there have been any changes to your Medicaid status or your low income subsidy?"
+      },
+      "medical condition based eligibility": {
+        "examples": "Do I qualify for any benefits because of my diabetes?, Can my husband switch to a chronic special needs plan because of his cardiac condition?, Do I qualify for benefits related to diabetes or chronic heart failure?"
+      },
+      "eligibility for extra benefits": {
+        "description": "questions regarding eligibily for transportation, grocery cards,",
+        "examples": "What information do I need to provide to check my eligibility for transportation rides?, How do I find out if I qualify for the United Healthcare Advantage grocery card?"
+      },
+      "location based eligibility": {
+        "examples": "Will Medicare cover me while I am out of the country?, What options do I have if I lose employer coverage or move to a different state or county?"
+      },
+      "dual plan eligibility": {
+        "examples": "Am I eligible for the dual plan that gives dental, visual, and other benefits?, Why am I only eligible for this particular dual plan and not others in my area?"
+      }
+    }
   },
   "enrollment": {
     "subtopics": [
@@ -161,12 +214,17 @@
       "benefit card usage",
       "coverage access before receiving card"
     ],
-    "open_ended": [
-      {
-        "type": "plan_names",
-        "instruction": "Extract the name of the plan mentioned in the question (e.g., AARP Medicare Advantage, UnitedHealthcare Dual Complete). Return only the plan name."
+    "descriptions": {
+      "information for enrollment assistance": {
+        "description": "Call asking for contact information for getting assistance on Enrollment"
+      },
+      "application process": {
+        "examples": "How do I complete the enrollment application?"
+      },
+      "enrollment deadline": {
+        "examples": "What is the deadline to submit the paperwork or request for external review?, What if I miss the Medicare enrollment deadline?"
       }
-    ]
+    }
   },
   "general plan information": {
     "subtopics": [
@@ -236,12 +294,16 @@
       "address changes and residency impacts",
       "plan marketing and fraud awareness"
     ],
-    "open_ended": [
-      {
-        "type": "plan_names",
-        "instruction": "Extract the specific insurance plan name mentioned in the question, if any. Return just the plan name as stated by the customer."
+    "descriptions": {
+      "hearing coverage overview": {
+        "description": "Questions about coverage scope of plans",
+        "examples": "What drug coverage do you have and how does it relate to the plan?"
+      },
+      "what plan am i on": {
+        "description": "Caller asking about currently active plan",
+        "examples": "What plan do I have?, Can you confirm if she is still on Plan F and if it covers the remaining 20% after Medicare?"
       }
-    ]
+    }
   },
   "medicare id": {
     "subtopics": [
@@ -254,7 +316,16 @@
       "member id number request",
       "id usage for services"
     ],
-    "open_ended": []
+    "descriptions": {
+      "medicare number basics": {
+        "description": "Finding and looking for medicare number",
+        "examples": "Is my Medicare number the same as the reference number needed when calling United Healthcare?, What is my Medicare number and where can I find it?"
+      },
+      "medicare vs member id": {
+        "description": "confusion about differnet numbers/ids",
+        "examples": "What number do I need to provide for my United Healthcare Medicare plan?"
+      }
+    }
   },
   "member renewal": {
     "subtopics": [
@@ -273,7 +344,12 @@
       "renewal communication methods",
       "renewal effective date"
     ],
-    "open_ended": []
+    "descriptions": {
+      "renewal lapse explanation": {
+        "description": "Concern that the plan has expired or will expire soon",
+        "examples": "Why did my plan expire?, Do I need to renew my health plan since it expires soon?, When do United Healthcare plans typically change or renew?"
+      }
+    }
   },
   "plan changes": {
     "subtopics": [
@@ -309,12 +385,20 @@
       "billing after plan change",
       "plan change communication"
     ],
-    "open_ended": [
-      {
-        "type": "plan_names",
-        "instruction": "Extract the specific insurance plan name mentioned in the question, if any. Return just the plan name as stated by the customer."
+    "descriptions": {
+      "switching plan types": {
+        "examples": "Can I change my plan from an HMO plan to a PPO plan?"
+      },
+      "return to previous plan process": {
+        "examples": "Can I switch back to my original plan?"
+      },
+      "plan cancellation status": {
+        "examples": "I want both my PPO and HMO plans cancelled. Are they cancelled?"
+      },
+      "unauthorized plan changes": {
+        "examples": "I never signed up or switched to another insurance company, how did this happen?"
       }
-    ]
+    }
   },
   "plan comparison": {
     "subtopics": [
@@ -339,12 +423,17 @@
       "food benefit comparison",
       "hospital coverage comparison"
     ],
-    "open_ended": [
-      {
-        "type": "plan_names",
-        "instruction": "Extract the specific insurance plan name mentioned in the question, if any. Return just the plan name as stated by the customer."
+    "descriptions": {
+      "dental benefit comparison": {
+        "examples": "Are there plans with better benefits or higher dental coverage available?, Is there a better plan through you that includes over the counter benefits?"
+      },
+      "otc benefit comparison": {
+        "examples": "What are the annual out-of-pocket maximums for my current plan and the Essentials plan?"
+      },
+      "prescription coverage comparison": {
+        "examples": "Which United Healthcare prescription drug plan is recommended if I only have one medication?"
       }
-    ]
+    }
   },
   "plan costs": {
     "subtopics": [
@@ -377,12 +466,20 @@
       "medicaid impact on plan costs",
       "extra help impact on costs"
     ],
-    "open_ended": [
-      {
-        "type": "plan_names",
-        "instruction": "Extract the specific insurance plan name mentioned in the question, if any. Return just the plan name as stated by the customer."
+    "descriptions": {
+      "zero premium or zero copay plans": {
+        "examples": "What are the premiums for the enhanced and essential plans?, Will Medicaid cover the premium for this plan?"
+      },
+      "deductible versus copay": {
+        "examples": "Does the $1500 maximum mean we pay $1500 upfront before coverage?, How much do I owe and why am I being billed more after paying $700 upfront?, Do I have to pay the $615 deductible out of pocket first for the $43 plan?"
+      },
+      "coinsurance explanation": {
+        "examples": "If my husband sees a specialist who is not in-network, will he have to pay coinsurance?"
+      },
+      "prescription drug copay": {
+        "examples": "What is the point of the deductible if I still have to pay a percentage of the prescription cost?"
       }
-    ]
+    }
   },
   "prescription drug coverage": {
     "subtopics": [
@@ -424,16 +521,18 @@
       "medication access during coverage gap",
       "emergency medication assistance"
     ],
-    "open_ended": [
-      {
-        "type": "drug_names",
-        "instruction": "Extract ONLY the base/generic medication name mentioned in the question. No dosages, frequencies, forms, brand qualifiers, or parentheses. Example: 'zolpidem' not 'zolpidem 10mg tablet' or 'ambien (zolpidem)'."
+    "descriptions": {
+      "catastrophic coverage": {
+        "description": "Questions about whether a drug is covered or not",
+        "examples": "Are vitamins and over-the-counter medications like Tylenol and Motrin covered?, My doctor prescribed Ozempic and the pharmacy wants $407 for a supply. Is there any way you can help me with this cost?"
       },
-      {
-        "type": "pharmacy_names",
-        "instruction": "Extract only the pharmacy business name mentioned in the question (e.g., CVS, Walgreens, Rite Aid). Do NOT include street addresses, locations, or branch details."
+      "prescription drug copays": {
+        "examples": "Why did the price of Trelegy go from around $120 to over $400?, Can I set up a payment plan for my medication costs?"
+      },
+      "drug tier classification": {
+        "examples": "Can I go to an urgent care or any doctor to get the verification for my OTC benefits?, How often do I need to get the doctor's verification to keep my OTC benefits?, What should we do to get approval for a longer supply of the medication for vacation?"
       }
-    ]
+    }
   },
   "providers": {
     "subtopics": [
@@ -461,12 +560,27 @@
       "mental health provider coverage",
       "home health and nursing facility coverage"
     ],
-    "open_ended": [
-      {
-        "type": "hospital/facility_names",
-        "instruction": "Extract only the hospital or facility business name mentioned in the question (e.g., Mayo Clinic, Cleveland Clinic). Do NOT include street addresses, locations, or branch details."
+    "descriptions": {
+      "provider network status check": {
+        "description": "question regarding if particular providers status: is [provider] covered by my plan?",
+        "examples": "Is Kelsey Seybold in network with my plan or not?, Could you look up if Brooks Rehabilitation is in-network for my plan?"
+      },
+      "find in network providers": {
+        "description": "Questions about using providers outside the network.",
+        "examples": "What happens if my provider is out of network and does not accept the Medicare Advantage plan?, What happens if the oral surgeon is out of network but the dentist is in network?"
+      },
+      "primary care provider change request": {
+        "description": "Questions about PCP selection, changes, or issues.",
+        "examples": "What help is available if I want to change my primary care doctor?,"
+      },
+      "referral requirement clarification": {
+        "description": "Questions about referrals, prior authorizations, and approval workflows. \u201cWhat approvals do I need before seeing this provider?\u201d",
+        "examples": "Can I get an MRI done at urgent care or ER without a referral?, Do I have to be referred to specialists like the hip and knee center?, Is there a primary care provider referral process?"
+      },
+      "dental provider coverage": {
+        "examples": "What help is available if I want to change my primary care doctor?, Do I have to change my dentist and doctor after moving to Missouri?"
       }
-    ]
+    }
   },
   "service area reduction": {
     "subtopics": [
@@ -479,7 +593,16 @@
       "options after plan termination",
       "carrier leaving region"
     ],
-    "open_ended": []
+    "descriptions": {
+      "options after plan termination": {
+        "description": "user asking why their plan got terminated unexpectely or without any notification",
+        "examples": "Why does the provider keep saying my plan is terminated when I try to use dental or vision benefits?, Why did my insurance plan end?, Why didn\u2019t I receive any prior notice about losing my United Healthcare coverage?, Why did her previous United Healthcare Medicare Advantage plan end?"
+      },
+      "plan termination reason": {
+        "description": "user have other questions related to what happens after termination",
+        "examples": "Can we do a reinstatement for the terminated UMM plan?, What happened to my plan after it ended?"
+      }
+    }
   },
   "transportation, food and gym benefits": {
     "subtopics": [
@@ -501,12 +624,35 @@
       "food card balance issue",
       "food card transaction errors",
       "community food resources",
+      "gym cost",
       "gym membership eligibility",
       "gym membership issues",
       "gym activation and code",
       "gym network and locations"
     ],
-    "open_ended": []
+    "descriptions": {
+      "transportation coverage rules": {
+        "examples": "Is there coverage for transportation services under the plan?, Am I still covered for transportation services under my plan?"
+      },
+      "transportation trip limits": {
+        "examples": "Is the 12 trips per year to and from the doctor?, How many transportation trips are covered under the plan that includes this benefit?"
+      },
+      "food benefit usage": {
+        "examples": "I have Medicare; do I qualify for the healthy food benefit?, What chronic conditions qualify me to use the benefit for groceries and utility bills?"
+      },
+      "food benefit amount changes": {
+        "examples": "How much money do we get monthly for healthy food and utilities?,"
+      },
+      "food card balance issue": {
+        "examples": "Is the food card supposed to work with United Healthcare?, Can this department activate or reactivate the healthy food card?"
+      },
+      "gym membership eligibility": {
+        "examples": "Do any plans pay for a gym membership?, Does Silver Sneakers cover the Curves exercise program?"
+      },
+      "gym activation and code": {
+        "examples": "How do I get the code or information to use my gym membership benefit?, I need to get my code for the gym membership when we join the gyms for free. How can I get it?"
+      }
+    }
   },
   "vision": {
     "subtopics": [
@@ -526,7 +672,20 @@
       "medical eye care coverage",
       "vision vendor or plan identification"
     ],
-    "open_ended": []
+    "descriptions": {
+      "vision benefit overview": {
+        "description": "query related to whether vision coverage exist in the plan and what vision services are covered",
+        "examples": "Is vision service available in my plan?, Do I still have vision care coverage?, What vision benefits are included in the plan?"
+      },
+      "in network vision providers": {
+        "description": "Finding eye doctors and network rules",
+        "examples": "How do I find out which eyeglass places accept United Healthcare?, Are there options for seeing out-of-network doctors for vision care?"
+      },
+      "eyeglass coverage": {
+        "description": "related to eyeglasses",
+        "examples": "What happens to my eyeglass coverage if I regain Medicaid?, What eyeglass coverage do I get with this plan?"
+      }
+    }
   },
   "others": {
     "subtopics": [
@@ -542,6 +701,6 @@
       "non-actionable or unintelligible",
       "non-english call"
     ],
-    "open_ended": []
+    "descriptions": {}
   }
 }

@@ -1,0 +1,755 @@
+
+Murali, Dinesh
+10 minutes 23 seconds10:23
+Murali, Dinesh 10 minutes 23 seconds
+Okay, next, Vivek.
+Murali, Dinesh 10 minutes 37 seconds
+Vic.
+SV
+
+S, Vivekanand
+10 minutes 38 seconds10:38
+S, Vivekanand 10 minutes 38 seconds
+Yeah, hi.
+
+Murali, Dinesh
+10 minutes 40 seconds10:40
+Murali, Dinesh 10 minutes 40 seconds
+Yeah, yeah.
+SV
+
+S, Vivekanand
+10 minutes 42 seconds10:42
+S, Vivekanand 10 minutes 42 seconds
+I completed all the, I've shared the findings of Q&A with Pauline and seems like this without description it's giving better results. That's what's the analysis I gave her. I ran it for two particular topics, enrollment and eligibility.
+
+Murali, Dinesh
+10 minutes 50 seconds10:50
+Murali, Dinesh 10 minutes 50 seconds
+Yeah.
+Murali, Dinesh 11 minutes 1 second
+Mhm.
+SV
+
+S, Vivekanand
+11 minutes 1 second11:01
+S, Vivekanand 11 minutes 1 second
+I ran it for the date range of April 1st to May 11th, and the total number of records within this time period was 2,81. And so the problem with this Q&A approach is it first lists all the topics within that time range, which takes a lot of time. Like it does it in a batch of 1000.
+S, Vivekanand 11 minutes 21 seconds
+So first it does it in batch of 1000 and it has to complete all the listing of the record within nine times length. And then it starts assigning the subtopics. So basically, based on that, it took me close to 8 hours to run only for two things.
+
+Murali, Dinesh
+11 minutes 29 seconds11:29
+Murali, Dinesh 11 minutes 29 seconds
+Okay.
+SV
+
+S, Vivekanand
+11 minutes 41 seconds11:41
+S, Vivekanand 11 minutes 41 seconds
+enrollment and eligibility. So enrollment is working fine. Based on my analysis, 95% is totally working fine. Subtopics like application process, member ID card, delivery status, where to enroll, unauthorized enrollment, they all are getting.
+
+Murali, Dinesh
+11 minutes 57 seconds11:57
+Murali, Dinesh 11 minutes 57 seconds
+Mm.
+SV
+
+S, Vivekanand
+12 minutes 1 second12:01
+S, Vivekanand 12 minutes 1 second
+Of fire dot tag correct.
+S, Vivekanand 12 minutes 4 seconds
+Even with eligibility, it's correctly been tagged as well, so that's what I have observed, and...
+
+Murali, Dinesh
+12 minutes 13 seconds12:13
+Murali, Dinesh 12 minutes 13 seconds
+Yeah.
+SV
+
+S, Vivekanand
+12 minutes 14 seconds12:14
+S, Vivekanand 12 minutes 14 seconds
+But the problem is I cannot cap it like, okay, I want to test enrollment, and only test enrollment. It's going to be like, okay, I'm going to test it for this time range, and this will be the cap. And whatever results come, then I tag it based on the subtopic. So based on that, I have shared the results with Pauline.
+S, Vivekanand 12 minutes 34 seconds
+And these are the findings which I got basically. Enrollment eligibility and plans and we are working pretty well so far.
+
+Murali, Dinesh
+12 minutes 44 seconds12:44
+Murali, Dinesh 12 minutes 44 seconds
+Okay.
+SV
+
+S, Vivekanand
+12 minutes 44 seconds12:44
+S, Vivekanand 12 minutes 44 seconds
+Without the description.
+
+Murali, Dinesh
+12 minutes 48 seconds12:48
+Murali, Dinesh 12 minutes 48 seconds
+OK, now the rest, uh, you are continuing to test, or...
+SV
+
+S, Vivekanand
+12 minutes 53 seconds12:53
+S, Vivekanand 12 minutes 53 seconds
+Yes, the test is keep like the test will keep on continuing. It's just that I will have to keep on increasing the date range and testing.
+
+Murali, Dinesh
+12 minutes 54 seconds12:54
+Murali, Dinesh 12 minutes 54 seconds
+It.
+Murali, Dinesh 13 minutes 3 seconds
+You're taking it takes 8 hours for sorry, 8 hours for what? Just say those 3 user eligibility enrollment.
+SV
+S, Vivekanand
+13 minutes 9 seconds13:09
+S, Vivekanand 13 minutes 9 seconds
+Yes, for this three. So as I said, I ran it for two like 81 records from April 1st to May 11th. The problem is it first lists that entire indexing records, batch by batch. It does it in a batch of 1000. And then once it has listed completely, that's when it will basically start.
+S, Vivekanand 13 minutes 32 seconds
+Tagging the this one subtopic, so that listing takes a lot of time.
+S, Vivekanand 13 minutes 38 seconds
+And it's like it, if if first let's say it happens for first record enrollment, next eligibility comes, it will again happen for eligibility, so testing is taking good amount of time.
+
+Murali, Dinesh
+13 minutes 38 seconds13:38
+Murali, Dinesh 13 minutes 38 seconds
+Okay, but.
+Murali, Dinesh 13 minutes 52 seconds
+But isn't there a way, like, why don't you write a script that will just give in as topic, read only the documents for that topic from the Azure index and run through the question topics and topic everything?
+
+
+
+S, Vivekanand 14 minutes 49 seconds
+If I can see here.
+S, Vivekanand 14 minutes 52 seconds
+We have something called Topic Frazier.
+
+Murali, Dinesh
+14 minutes 56 seconds14:56
+Murali, Dinesh 14 minutes 56 seconds
+Okay.
+SV
+S, Vivekanand
+14 minutes 58 seconds14:58
+S, Vivekanand 14 minutes 58 seconds
+Now, this topic filter is responsible for processing only the topic which you have mentioned, but by listing, it will list everything in that two, like it even. Let's say if you want a date range within that range, let's say there are 1000 records for an example, it will list all that 1000 records and then apply this filter.
+
+Murali, Dinesh
+14 minutes 58 seconds14:58
+Murali, Dinesh 14 minutes 58 seconds
+E.
+Murali, Dinesh 15 minutes 5 seconds
+Mm.
+SV
+S, Vivekanand
+15 minutes 17 seconds15:17
+S, Vivekanand 15 minutes 17 seconds
+It will not first apply this filter on the listing.
+S, Vivekanand 15 minutes 21 seconds
+I think, yeah.
+
+Murali, Dinesh
+15 minutes 24 seconds15:24
+Murali, Dinesh 15 minutes 24 seconds
+What do you mean? How, and then apply? It needs to be going to the query itself, right? When it's fetched, it should fetch. Where is this topic filter being used? That's where, that's where it, if it is done correctly, I don't know how what was the purpose, but if it is...
+SV
+S, Vivekanand
+15 minutes 43 seconds15:43
+S, Vivekanand 15 minutes 43 seconds
+Okay.
+
+Murali, Dinesh
+15 minutes 44 seconds15:44
+Murali, Dinesh 15 minutes 44 seconds
+We should just send that directly to the query tree, and so what it retrieves should be only follow that topic when it comes from the index.
+Murali, Dinesh 15 minutes 53 seconds
+Check where it is being.
+SV
+S, Vivekanand
+15 minutes 56 seconds15:56
+S, Vivekanand 15 minutes 56 seconds
+Okay.
+
+Murali, Dinesh
+15 minutes 56 seconds15:56
+Murali, Dinesh 15 minutes 56 seconds
+Used.
+Murali, Dinesh 15 minutes 59 seconds
+How it is applied.
+SV
+S, Vivekanand
+16 minutes 3 seconds16:03
+S, Vivekanand 16 minutes 3 seconds
+Yeah, but the topic right, they don't exist in that source and that's I saw that. So topic basically is created by us.
+
+Murali, Dinesh
+16 minutes 13 seconds16:13
+Murali, Dinesh 16 minutes 13 seconds
+I know that that that field name is you're going to ohh yeah, but no topic in source index if it is going to QQ&AQ&A.
+SV
+S, Vivekanand
+16 minutes 14 seconds16:14
+S, Vivekanand 16 minutes 14 seconds
+Like this, Ent.
+
+Murali, Dinesh
+16 minutes 28 seconds16:28
+Murali, Dinesh 16 minutes 28 seconds
+So, that's what it says again.
+SV
+S, Vivekanand
+16 minutes 28 seconds16:28
+S, Vivekanand 16 minutes 28 seconds
+So, in that data right, page check, we have UCID, text, start time, is digital, plan name, drugs, so...
+S, Vivekanand 16 minutes 39 seconds
+There's not specific like topic.
+
+Murali, Dinesh
+16 minutes 41 seconds16:41
+Murali, Dinesh 16 minutes 41 seconds
+I don't know how this topic is supposed to be applied, yeah, but in your case, so yeah, okay, this problem is the code is doing extracting QN questions, extracting the questions, then tagging it into topics, and then going into subtopics.
+SV
+S, Vivekanand
+16 minutes 59 seconds16:59
+S, Vivekanand 16 minutes 59 seconds
+Yeah.
+S, Vivekanand 17 minutes 2 seconds
+Correct.
+
+Murali, Dinesh
+17 minutes 3 seconds17:03
+Murali, Dinesh 17 minutes 3 seconds
+It should be modular, it should just be, it's doing all of those things because, yeah, it should be modular so that if you want to run only the subtopic piece of it, you should be able to run the subtopic piece of it. Like, what is your main.py? Where is?
+Murali, Dinesh 17 minutes 21 seconds
+Is it logically separated step by step, get these questions, get the transcripts, step one, then extract questions, step 2, then tag the question topics for all the questions, then subtopics. Do you have those big sections in the main.py or how does it, where, how does it?
+SV
+S, Vivekanand
+17 minutes 29 seconds17:29
+S, Vivekanand 17 minutes 29 seconds
+Yes, yes.
+
+Murali, Dinesh
+17 minutes 40 seconds17:40
+Murali, Dinesh 17 minutes 40 seconds
+Was it organized code?
+SV
+S, Vivekanand
+17 minutes 40 seconds17:40
+S, Vivekanand 17 minutes 40 seconds
+See.
+S, Vivekanand 17 minutes 42 seconds
+Yeah, if you can see here, this is where the index processor begins. So this index processor is responsible for indexing at time listing the records. So after this, basically the Q&A comes into the picture.
+
+Murali, Dinesh
+17 minutes 46 seconds17:46
+Murali, Dinesh 17 minutes 46 seconds
+Okay.
+Murali, Dinesh 17 minutes 53 seconds
+K.
+Murali, Dinesh 17 minutes 58 seconds
+OK.
+SV
+S, Vivekanand
+17 minutes 59 seconds17:59
+S, Vivekanand 17 minutes 59 seconds
+And, yeah, if I basically going into this punch.
+
+Murali, Dinesh
+18 minutes 6 seconds18:06
+Murali, Dinesh 18 minutes 6 seconds
+Text processor, and then...
+Murali, Dinesh 18 minutes 15 seconds
+Index processor will only do an index read or something and then it has to do the Q&A extraction.
+SV
+S, Vivekanand
+18 minutes 23 seconds18:23
+S, Vivekanand 18 minutes 23 seconds
+Yeah.
+S, Vivekanand 18 minutes 26 seconds
+It's basically step by step. I'll attend it a few.
+
+
+Murali, Dinesh
+19 minutes 37 seconds19:37
+Murali, Dinesh 19 minutes 37 seconds
+Batch processor, okay, dot process function, going inside this, where is the process function? What is it doing?
+Murali, Dinesh 19 minutes 45 seconds
+Is it organized to our? OK, what is it doing? Again, it is checking index. OK, what is this? It is index, process index record. OK, Q&A extractor. Yeah, so then it goes into Q&A extractor step. OK, then Q&A extractor comes out with Q&A, and then there is a topic step.
+SV
+S, Vivekanand
+19 minutes 53 seconds19:53
+S, Vivekanand 19 minutes 53 seconds
+And then process this.
+
+Murali, Dinesh
+20 minutes 5 seconds20:05
+Murali, Dinesh 20 minutes 5 seconds
+Going topic insert, where is the next step?
+Murali, Dinesh 20 minutes 11 seconds
+Can you scroll down process sentiment batch? What is the if condition?
+Murali, Dinesh 20 minutes 19 seconds
+Where is it?
+SV
+S, Vivekanand
+20 minutes 19 seconds20:19
+S, Vivekanand 20 minutes 19 seconds
+I can iterate here, blue.
+
+Murali, Dinesh
+20 minutes 23 seconds20:23
+Murali, Dinesh 20 minutes 23 seconds
+Okay, batches, process sentiment batch. Why sentiment alone sitting here? I don't understand.
+Murali, Dinesh 20 minutes 34 seconds
+Where is actual?
+SV
+S, Vivekanand
+20 minutes 34 seconds20:34
+S, Vivekanand 20 minutes 34 seconds
+Sorry, this is a file. Sorry, this is a file. Yeah, Q&A batch processor.
+S, Vivekanand 20 minutes 41 seconds
+God, there is just file batch processor dot process.
+S, Vivekanand 20 minutes 48 seconds
+Extract batches, and I remember.
+
+Murali, Dinesh
+20 minutes 50 seconds20:50
+Murali, Dinesh 20 minutes 50 seconds
+Oh, they are in the sentiment processing something, OK?
+SV
+S, Vivekanand
+20 minutes 53 seconds20:53
+S, Vivekanand 20 minutes 53 seconds
+Yeah, this is extract batch.
+
+Murali, Dinesh
+20 minutes 54 seconds20:54
+Murali, Dinesh 20 minutes 54 seconds
+Yes.
+SV
+S, Vivekanand
+20 minutes 59 seconds20:59
+S, Vivekanand 20 minutes 59 seconds
+Yeah, this function, this is a function.
+
+Murali, Dinesh
+21 minutes 7 seconds21:07
+Murali, Dinesh 21 minutes 7 seconds
+Okay, scroll down.
+Murali, Dinesh 21 minutes 10 seconds
+Where, basically, where is it easy to read and understand? It's first Q&A extraction, next is topics, tagging for the any subtopics, process index async.
+Murali, Dinesh 21 minutes 23 seconds
+Q&As with ungrouped. We have gone, now you've jumped somewhere. We didn't, we you, I don't know where we are now. So we start, where was the batch process? You have to read the code and see if it is modular and then if there is a for you for you for a way to like there is a.
+SV
+S, Vivekanand
+21 minutes 32 seconds21:32
+S, Vivekanand 21 minutes 32 seconds
+Okay, I'll tell it like this.
+
+Murali, Dinesh
+21 minutes 43 seconds21:43
+Murali, Dinesh 21 minutes 43 seconds
+For you, is there a way for you to start from the step where you are given a topic where it, I mean, this is this, this, yeah, if, if, if the Q&A is available and topics are available, can you send that in to subtopic processing? Is there a step where you can, you know, stop start from that step, basically?
+Murali, Dinesh 22 minutes 2 seconds
+Given a Q&A with their topics, can we?
+SV
+S, Vivekanand
+22 minutes 4 seconds22:04
+S, Vivekanand 22 minutes 4 seconds
+No, there is no.
+S, Vivekanand 22 minutes 7 seconds
+No, we cannot do that because here, right in main, so we basically have this index processor, so which is...
+S, Vivekanand 22 minutes 23 seconds
+Yeah, so this is basically responsible for querying into our transcript mirror.
+
+Murali, Dinesh
+22 minutes 29 seconds22:29
+Murali, Dinesh 22 minutes 29 seconds
+So, so that is fine, that's fine. Scroll down here, batch processor is where you have to go into and understand batch processor dot process line number one, yeah, 100, 100 inside that, how is it organized? That's where we are losing track now, which batch process is this?
+SV
+S, Vivekanand
+22 minutes 37 seconds22:37
+S, Vivekanand 22 minutes 37 seconds
+Yes.
+S, Vivekanand 22 minutes 43 seconds
+Yeah, I'll tell you that QMA batch processor dot.
+
+Murali, Dinesh
+22 minutes 46 seconds22:46
+Murali, Dinesh 22 minutes 46 seconds
+G.
+SV
+S, Vivekanand
+22 minutes 51 seconds22:51
+S, Vivekanand 22 minutes 51 seconds
+Yeah, yeah, so basically this.
+S, Vivekanand 22 minutes 55 seconds
+This particular thing, yeah, yeah.
+
+Murali, Dinesh
+22 minutes 56 seconds22:56
+Murali, Dinesh 22 minutes 56 seconds
+Q&A batch process, sir. Okay, dot process, then inside that there is a Q&A extract batch. Yeah, what is the, what is that doing? Is it step, how is it broken down there? So, here you have a data frame that you can pass, and what data frame self dot data frame? I don't know what that is, but...
+SV
+S, Vivekanand
+23 minutes 1 second23:01
+S, Vivekanand 23 minutes 1 second
+The extract batch, now this Q and extract batch is.
+S, Vivekanand 23 minutes 6 seconds
+Yeah.
+S, Vivekanand 23 minutes 9 seconds
+Yeah, so this QNX.
+
+Murali, Dinesh
+23 minutes 15 seconds23:15
+Murali, Dinesh 23 minutes 15 seconds
+Extra batch, what does it do? Where is the Q&A coming from? First, what Q&A extractions?
+SV
+S, Vivekanand
+23 minutes 19 seconds23:19
+S, Vivekanand 23 minutes 19 seconds
+This Q&A comes from this.
+S, Vivekanand 23 minutes 22 seconds
+You an extractor.
+
+Murali, Dinesh
+23 minutes 22 seconds23:22
+Murali, Dinesh 23 minutes 22 seconds
+Jun.
+Murali, Dinesh 23 minutes 25 seconds
+You need starters right there, it will be above line number 17, right? So extracting you.
+SV
+S, Vivekanand
+23 minutes 28 seconds23:28
+S, Vivekanand 23 minutes 28 seconds
+Yeah, yeah, here, so it we have declared here and this is here, so it's basically coming from to an extractor.py.
+S, Vivekanand 23 minutes 37 seconds
+To an extractor.ty, and there's a function here been written for that, yeah, right, corporate extract that.
+
+
+
+Murali, Dinesh
+23 minutes 50 seconds23:50
+Murali, Dinesh 23 minutes 50 seconds
+Okay, so scroll down. This is an async. Okay, fine. Go down. Now it is extracting the queue. First it is extracting Q&A, I think.
+Murali, Dinesh 24 minutes 6 seconds
+So, keep scrolling down, uh, little bit.
+SV
+S, Vivekanand
+24 minutes 11 seconds24:11
+S, Vivekanand 24 minutes 11 seconds
+It basically processes a car somewhere here.
+S, Vivekanand 24 minutes 17 seconds
+A process index row for each as in this gets basically called here. Yeah, when you basically call this function, it's calling this function which basically processes each transcript row.
+
+Murali, Dinesh
+24 minutes 21 seconds24:21
+Murali, Dinesh 24 minutes 21 seconds
+Yep.
+Murali, Dinesh 24 minutes 34 seconds
+Uh, okay, so answering is extracting questions, question and answers, and the next step is topics. This is where is it like, what is the next step? That's then it goes to a topic assignment for each question, and then comes subtopic. Uh, so yeah, we maybe you're right, like if...
+SV
+S, Vivekanand
+24 minutes 36 seconds24:36
+S, Vivekanand 24 minutes 36 seconds
+Ipsit.
+
+Murali, Dinesh
+24 minutes 53 seconds24:53
+Murali, Dinesh 24 minutes 53 seconds
+You need to check if there is a point where you can start this processing. If it seems like you are looking at this flow the first time with me.
+Murali, Dinesh 25 minutes 7 seconds
+You should have done this by yourself.
+Murali, Dinesh 25 minutes 11 seconds
+And then check, I mean, maybe you just overall you didn't like, overall you saw it, it's not easy. Let me just run it the whole thing. Maybe you did that way, but yeah, I think, maybe, maybe you're right, but I'm saying you, you do this step and if there is no way to, you know, start giving a question topics.
+SV
+S, Vivekanand
+25 minutes 11 seconds25:11
+S, Vivekanand 25 minutes 11 seconds
+No, this.
+
+Murali, Dinesh
+25 minutes 32 seconds25:32
+Murali, Dinesh 25 minutes 32 seconds
+Maybe it is, there is no way the code seems like very intertwined, and I feel like code also there's an opportunity to improve this code also, it's just so much going on, it should be easy to seem a little bit more modular, but anyways.
+SV
+S, Vivekanand
+25 minutes 45 seconds25:45
+S, Vivekanand 25 minutes 45 seconds
+Yeah, so the reason I didn't go deep level is I should have gone there, but when I when I looked at the index of transcript Mira right, I didn't see the topic filter, so that's where I stopped. Okay, we cannot query it at that level, else my initial plan was to query it at that level itself, looking at the topic filter.
+
+Murali, Dinesh
+26 minutes 4 seconds26:04
+Murali, Dinesh 26 minutes 4 seconds
+Okay.
+Murali, Dinesh 26 minutes 7 seconds
+Yeah, this code itself can be, but because now we still have 13, I don't know, 14 or 15 topics to cover.
+Murali, Dinesh 26 minutes 18 seconds
+and you got 8 hours like this, I don't know how we are going to do. So even if you spend half an hour on this, you might be totally worth the time. Like, and I'm not saying revamp this code, see if there is a way to at least.
+Murali, Dinesh 26 minutes 40 seconds
+bring in a step where existing, like given a topic, the subtopic portion alone, can it be like executed in a modular way? So you read the index with a given topic and questions yourself in the script and pass it into a subtopic and see if you can do that.
+Murali, Dinesh 26 minutes 59 seconds
+What you can how much how much data also like when you're saying increasing the data like you're going up to one month like time framewise how much data are you like how many dates or how many how many days are you using data?
+SV
+S, Vivekanand
+27 minutes 13 seconds27:13
+S, Vivekanand 27 minutes 13 seconds
+Like if you want a wide variety of analysis, some good number of analysis, then we literally require a good time frame. I actually tested, so this is one of the subtopic which I tested today afternoon, after my initial run was completed. This was only for May 1st, May 6th to May 11th.
+
+Murali, Dinesh
+27 minutes 13 seconds27:13
+Murali, Dinesh 27 minutes 13 seconds
+Mmh.
+Murali, Dinesh 27 minutes 28 seconds
+Mhm.
+SV
+S, Vivekanand
+27 minutes 34 seconds27:34
+S, Vivekanand 27 minutes 34 seconds
+That is five days. There were total 731 records.
+
+Murali, Dinesh
+27 minutes 35 seconds27:35
+Murali, Dinesh 27 minutes 35 seconds
+Okay.
+Murali, Dinesh 27 minutes 40 seconds
+Okay.
+Murali, Dinesh 27 minutes 41 seconds
+It seems very nice, but yeah, OK.
+SV
+S, Vivekanand
+27 minutes 41 seconds27:41
+S, Vivekanand 27 minutes 41 seconds
+And it basically split up like this.
+S, Vivekanand 27 minutes 49 seconds
+So it gave me analysis like this.
+S, Vivekanand 27 minutes 54 seconds
+But if you want a wider frame, we need to increase that time. If I test it on a smaller sample scale, let's say as I tested now for 1000, overall 1000, it happens in max of one hour. But the moment I want overall 1000, but at the moment I wanted to specify 200 each, this one,
+S, Vivekanand 28 minutes 12 seconds
+That's when it's taking much a lot of time for me to run.
+
+Murali, Dinesh
+28 minutes 16 seconds28:16
+Murali, Dinesh 28 minutes 16 seconds
+Yeah, that's why.
+SV
+S, Vivekanand
+28 minutes 16 seconds28:16
+S, Vivekanand 28 minutes 16 seconds
+Yeah, but as you said, I'll just add some traces in between and see where I can make it better.
+
+Murali, Dinesh
+28 minutes 26 seconds28:26
+Murali, Dinesh 28 minutes 26 seconds
+Yeah, I would say that think if you can call, you know, the subtopic step alone in that code and focus on that and fetch your. So this is why what will help us for you also, if you look for your numbers also here, like if you're able to query all Q&A for a given topic, go by topic by topic.
+Murali, Dinesh 28 minutes 48 seconds
+So first you take eligibility, next enrollment, plan changes. If you are able to do that in your own script, then you're getting those Q&A and see if there is a interjecting point in the code and you pass it into this, you know, subtopic step and see the output coming out. Then you may.
+Murali, Dinesh 29 minutes 7 seconds
+like eligibility, you know, check like you have done, it'll go more focused and faster because you're reading only for eligibility, the batch, control the date. If you for eligibility you need only 100, you might get it in two weeks of data, you might need three weeks, but you can control the for eligibility and access enrollment.
+Murali, Dinesh 29 minutes 27 seconds
+Let's say you are able to get that in just three, four days of data, whatever, but you keep focusing only on that topic by topic. If at all, there is an easy, you know, interjection point for you in the code, do that. If it is not.
+Murali, Dinesh 29 minutes 47 seconds
+Then it is just check, just check if there is a point where you can call the subtopics given, you know, maybe it is taking in a data frame, then then jump in point for use that, but you write your own script, take in the in the same repository, call the class, pass in that data frame.
+Murali, Dinesh 30 minutes 6 seconds
+the way it is, you know, fill the data frame in the fields that it expects and see, then you can keep running that for a topic by topic. So I would say check if it is possible. Maybe it is, maybe it is, maybe it is not. Spend a little time and check.
+SV
+S, Vivekanand
+30 minutes 25 seconds30:25
+S, Vivekanand 30 minutes 25 seconds
+Prasad.
+S, Vivekanand 30 minutes 39 seconds
+Okay.
+
+Murali, Dinesh
+30 minutes 44 seconds30:44
+Murali, Dinesh 30 minutes 44 seconds
+Okay, and then the other story that is enhancing the others category, performance testing.
+Murali, Dinesh 30 minutes 53 seconds
+Anything on that?
+SV
+S, Vivekanand
+30 minutes 54 seconds30:54
+S, Vivekanand 30 minutes 54 seconds
+That I've already shared the report, Ganesh, yesterday, too.
+S, Vivekanand 30 minutes 59 seconds
+Like, as I said, or...
+
+
+Murali, Dinesh 31 minutes 3 seconds
+Um, and uh, I mean, you...
+SV
+S, Vivekanand
+31 minutes 6 seconds31:06
+S, Vivekanand 31 minutes 6 seconds
+I, I need to test it on 30 day window that I'll do it today, some since my time went on this, but yesterday's report says that if increase the time range, the time has significantly improved. I mean, it it increases because of that external number, yeah, yep.
+
+Murali, Dinesh
+31 minutes 22 seconds31:22
+Murali, Dinesh 31 minutes 22 seconds
+OK, so...
+SV
+S, Vivekanand
+31 minutes 26 seconds31:26
+S, Vivekanand 31 minutes 26 seconds
+If I open this, it has jumped because of the number of records we are trying, number of days taking close to three months.
+
+Murali, Dinesh
+31 minutes 36 seconds31:36
+Murali, Dinesh 31 minutes 36 seconds
+Three months is okay, not needed because you have, I think, Kabil had loaded the entire month or something in team environment, right? Okay, one month.
+SV
+S, Vivekanand
+31 minutes 45 seconds31:45
+S, Vivekanand 31 minutes 45 seconds
+From March, yeah. So what I did was I took from March to present yesterday and when I did that I saw significant jump in time, but others have definitely reduced. Others goes by significant if we can see here from 75.6 to.
+
+Murali, Dinesh
+31 minutes 51 seconds31:51
+Murali, Dinesh 31 minutes 51 seconds
+Mhm.
+SV
+S, Vivekanand
+32 minutes 5 seconds32:05
+S, Vivekanand 32 minutes 5 seconds
+8.2.
+
+Murali, Dinesh
+32 minutes 8 seconds32:08
+Murali, Dinesh 32 minutes 8 seconds
+Yeah, but this, yeah, but that, that, that's the tricky thing with this introducing, you know, LLMs, every step you add latency is the, that's the trade-off here, if it jumps so much, if the solution is won't work, right? This is the thing from right from the beginning, the balance, so...
+SV
+S, Vivekanand
+32 minutes 10 seconds32:10
+S, Vivekanand 32 minutes 10 seconds
+But then.
+
+Murali, Dinesh
+32 minutes 27 seconds32:27
+Murali, Dinesh 32 minutes 27 seconds
+30 seconds to 200 seconds. Wow.
+Murali, Dinesh 32 minutes 30 seconds
+It's a lot of, that's a huge jump.
+Murali, Dinesh 32 minutes 33 seconds
+You will start seeing time marks because of this.
+SV
+S, Vivekanand
+32 minutes 34 seconds32:34
+S, Vivekanand 32 minutes 34 seconds
+Everywhere.
+S, Vivekanand 32 minutes 37 seconds
+Yes, so everywhere it's 2 to 3 minutes of jump.
+
+Murali, Dinesh
+32 minutes 41 seconds32:41
+Murali, Dinesh 32 minutes 41 seconds
+Oh, wow.
+SV
+S, Vivekanand
+32 minutes 43 seconds32:43
+S, Vivekanand 32 minutes 43 seconds
+So what one thing observers as your FAQs increases, this increases, time increases.
+
+Murali, Dinesh
+32 minutes 51 seconds32:51
+Murali, Dinesh 32 minutes 51 seconds
+As what increases if it number of, yeah, yeah.
+SV
+S, Vivekanand
+32 minutes 52 seconds32:52
+S, Vivekanand 32 minutes 52 seconds
+I GOT.
+S, Vivekanand 32 minutes 53 seconds
+FAQ, the number of FAQ increases, the time increases, for example, here.
+S, Vivekanand 33 minutes
+It's 472. It has jumped to 4139.
+S, Vivekanand 33 minutes 4 seconds
+The time is increased. This all this old one are on team, which is currently where the current attribute is set to false.
+
+Murali, Dinesh
+33 minutes 4 seconds33:04
+Murali, Dinesh 33 minutes 4 seconds
+Yeah.
+SV
+S, Vivekanand
+33 minutes 17 seconds33:17
+S, Vivekanand 33 minutes 17 seconds
+And if you see it for 470.
+
+Murali, Dinesh
+33 minutes 21 seconds33:21
+Murali, Dinesh 33 minutes 21 seconds
+Okay, so what we can do is, what I would like you to do is, you did this through your, not through the UI, right? These, of course, you did it through your code directly through the API, right?
+SV
+S, Vivekanand
+33 minutes 35 seconds33:35
+S, Vivekanand 33 minutes 35 seconds
+Yeah.
+S, Vivekanand 33 minutes 36 seconds
+Yeah.
+
+Murali, Dinesh
+33 minutes 37 seconds33:37
+Murali, Dinesh 33 minutes 37 seconds
+UHG.
+Murali, Dinesh 33 minutes 38 seconds
+I'm pretty sure this is all going to time out in the UI, but I want to just double check. So you have a separate branch with all the changes for this, and like you have a separate branch, or you need maybe a branch so you can turn it on, your dynamic grouping, turn your logic on, and then deploy your branch directly. Make sure your branch is still in sync with the latest feature integration.
+SV
+S, Vivekanand
+33 minutes 49 seconds33:49
+S, Vivekanand 33 minutes 49 seconds
+Yes.
+S, Vivekanand 33 minutes 55 seconds
+Yes.
+
+Murali, Dinesh
+34 minutes 1 second34:01
+Murali, Dinesh 34 minutes 1 second
+and then deploy yours directly to the team and then send a message to the group and you also verify it from there. I will also want to run it from the team and check what's happening.
+SV
+S, Vivekanand
+34 minutes 15 seconds34:15
+S, Vivekanand 34 minutes 15 seconds
+But, Bob.
+
+Murali, Dinesh
+34 minutes 18 seconds34:18
+Murali, Dinesh 34 minutes 18 seconds
+One last time, I feel like the solutions are going to work as it is. This is was the thing I thought right from the beginning is like anytime that has been a very, very tricky.
+Murali, Dinesh 34 minutes 30 seconds
+challenge to solve that that how do you change the grouping and dynamic like or grouping such that the latency is not a problem. Only thing is we have to do pre-processing overnight in the back end steps we have to do the processing which which we tried that also.
+Murali, Dinesh 34 minutes 50 seconds
+I think somewhere we ended up, we did, we tried that also. I think the data mismatch started happening there for some reason. We have to look into it. But I think that's maybe we can take the code that you have and then do something in the back end processing. We process this so that it runs in a daily job in the back end.
+Murali, Dinesh 35 minutes 11 seconds
+And then we just will retrieve that pre-processed data instead of grouping everything on the fly.
+Murali, Dinesh 35 minutes 20 seconds
+That's the next thing we have to do here, Hari.
+Murali, Dinesh 35 minutes 25 seconds
+Okay, anyway, yeah, try the put it in the team window. Okay.
+
+
+
+S, Vivekanand
+35 minutes 26 seconds35:26
+S, Vivekanand 35 minutes 26 seconds
+I will deploy my branch and test it on UWLiT once.
+
+Murali, Dinesh
+35 minutes 35 seconds35:35
+Murali, Dinesh 35 minutes 35 seconds
+All right.
+Murali, Dinesh 35 minutes 42 seconds
+Anything else from Vivek?
+SV
+S, Vivekanand
+35 minutes 45 seconds35:45
+S, Vivekanand 35 minutes 45 seconds
+On that.
+
+Murali, Dinesh
+35 minutes 46 seconds35:46
+Murali, Dinesh 35 minutes 46 seconds
+Okay.
+Murali, Dinesh 35 minutes 48 seconds
+Abdul.

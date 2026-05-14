@@ -41,13 +41,13 @@ QNA_INDEX = "transcript-index-test-qna-v1"
 PROJECT = "MIRA"
 
 
-def fetch_questions_by_topic(topic, max_records=200):
+def fetch_questions_by_topic(topic, max_records=200, index_name=QNA_INDEX):
     """Fetch questions from the QnA destination index that already have a topic assigned."""
     if IndexProcessor is None:
         logger.error("IndexProcessor not available. Cannot query index.")
         return []
 
-    index_processor = IndexProcessor(index_name=QNA_INDEX)
+    index_processor = IndexProcessor(index_name=index_name)
 
     # Query for records with this topic that have questions
     topic_filter = f"topic eq '{topic}' and question ne ''"
@@ -99,11 +99,11 @@ def extract_subtopic_sync(question, topic, project="MIRA"):
     return []
 
 
-def run_topic(topic, max_records, output_dir):
+def run_topic(topic, max_records, output_dir, index_name=QNA_INDEX):
     """Run subtopic extraction for all questions under a given topic."""
     logger.info(f"Processing topic: {topic} (max {max_records} records)")
 
-    records = fetch_questions_by_topic(topic, max_records)
+    records = fetch_questions_by_topic(topic, max_records, index_name)
     if not records:
         logger.info(f"No records found for topic '{topic}'")
         return []
@@ -140,11 +140,10 @@ def main():
     parser = argparse.ArgumentParser(description="Subtopic-only extraction from QnA index")
     parser.add_argument("--topic", required=True, help="Topic to process ('all' for all topics, or comma-separated)")
     parser.add_argument("--max_records", type=int, default=200, help="Max records per topic (default: 200)")
-    parser.add_argument("--index", default=QNA_INDEX, help=f"QnA index name (default: {QNA_INDEX})")
+    parser.add_argument("--index", default=QNA_INDEX, help="QnA index name")
     args = parser.parse_args()
 
-    global QNA_INDEX
-    QNA_INDEX = args.index
+    qna_index = args.index
 
     output_dir = "data/output"
     os.makedirs(output_dir, exist_ok=True)
@@ -158,7 +157,7 @@ def main():
 
     print(f"Topics to process: {', '.join(topics)}")
     print(f"Max records per topic: {args.max_records}")
-    print(f"Index: {QNA_INDEX}")
+    print(f"Index: {qna_index}")
 
     all_results = []
     summary = {}
@@ -167,7 +166,7 @@ def main():
         print(f"\n[{i}/{len(topics)}] Processing: {topic}")
         start = time.time()
 
-        results = run_topic(topic, args.max_records, output_dir)
+        results = run_topic(topic, args.max_records, output_dir, qna_index)
         all_results.extend(results)
 
         elapsed = time.time() - start

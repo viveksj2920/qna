@@ -1,24 +1,25 @@
 """
 Subtopic-only extraction script.
 
-Reads questions that already have topics assigned from the destination QnA index,
-runs ONLY the subtopic extraction step (skips Q&A extraction and topic assignment),
-and generates a report.
+Reads questions that already have topics assigned from either:
+  1. A previous dry_run JSON output file (--input)
+  2. An Azure Search QnA index (--index)
 
-This is much faster than the full pipeline since it skips LLM calls #1 (Q&A extraction)
-and #2 (topic assignment), only doing LLM call #3 (subtopic) per question.
+Runs ONLY the subtopic extraction step (skips Q&A extraction and topic assignment),
+and saves results. Much faster than the full pipeline.
 
 Usage:
-  python run_subtopic_only.py --topic "enrollment" --max_records 200
-  python run_subtopic_only.py --topic "all" --max_records 200
-  python run_subtopic_only.py --topic "enrollment,eligibility" --max_records 200
+  # From a previous dry_run JSON file (recommended)
+  python run_subtopic_only.py --input data/output/merged_all_topics_20260512.json --topic "enrollment" --max_records 200
+  python run_subtopic_only.py --input data/output/merged_all_topics_20260512.json --topic "all" --max_records 200
+
+  # From an Azure Search index (if QnA index exists)
+  python run_subtopic_only.py --index "qna-index-name" --topic "enrollment" --max_records 200
 """
 
 import argparse
-import asyncio
 import json
 import os
-import sys
 import time
 from datetime import datetime
 
@@ -29,36 +30,66 @@ from utils.logger_config import logger
 from utils.helper import load_project_config, clean_topic
 from prompts.prompt_config import prompt_sub_topic_format, sub_topic_extraction_prompt
 from llm.llm_config import chat_completion
+
 try:
     from index import IndexProcessor
 except ImportError:
     IndexProcessor = None
 
 
-QNA_INDEX = "transcript-index-test-qna-v1"
 PROJECT = "MIRA"
 
 
-def fetch_questions_by_topic(topic, max_records=200, index_name=QNA_INDEX):
-    """Fetch questions from the QnA destination index that already have a topic assigned."""
+def load_questions_from_json(filepath, topic, max_records=200):
+    """Load questions for a given topic from a dry_run JSON file."""
+    with open(filepath) as f:
+        content = f.read()
+
+    data = []
+    # Handle concatenated JSON arrays
+    for chunk in content.split(']['):
+        chunk = chunk.strip()
+        if not chunk.startswith('['):
+            chunk = '[' + chunk
+        if not chunk.endswith(']'):
+            chunk = chunk + ']'
+        try:
+            data.extend(json.loads(chunk))
+        except json.JSONDecodeError:
+            continue
+
+    if not data:
+        try:
+            data = json.loads(content)
+        except json.JSONDecodeError:
+            pass
+
+    # Filter by topic
+    filtered = [
+        r for r in data
+        if r.get('topic', '').lower() == topic.lower() and r.get('question')
+    ]
+
+    logger.info(f"Loaded {len(filtered)} '{topic}' records from JSON (out of {len(data)} total)")
+    return filtered[:max_records]
+
+
+def load_questions_from_index(index_name, topic, max_records=200):
+    """Load questions for a given topic from an Azure Search index."""
     if IndexProcessor is None:
         logger.error("IndexProcessor not available. Cannot query index.")
         return []
 
     index_processor = IndexProcessor(index_name=index_name)
-
-    # Query for records with this topic that have questions
     topic_filter = f"topic eq '{topic}' and question ne ''"
     fields = ["Ucid", "question", "answer", "topic", "sub_topic", "is_useful"]
 
     try:
         documents = index_processor.azure_search.search(
-            filter=topic_filter,
-            select=fields,
-            top=max_records
+            filter=topic_filter, select=fields, top=max_records
         )
         records = list(documents)
-        logger.info(f"Fetched {len(records)} records for topic '{topic}'")
+        logger.info(f"Fetched {len(records)} records for topic '{topic}' from index")
         return records[:max_records]
     except Exception as e:
         logger.error(f"Error fetching records for topic '{topic}': {e}")
@@ -97,15 +128,8 @@ def extract_subtopic_sync(question, topic, project="MIRA"):
     return []
 
 
-def run_topic(topic, max_records, output_dir, index_name=QNA_INDEX):
-    """Run subtopic extraction for all questions under a given topic."""
-    logger.info(f"Processing topic: {topic} (max {max_records} records)")
-
-    records = fetch_questions_by_topic(topic, max_records, index_name)
-    if not records:
-        logger.info(f"No records found for topic '{topic}'")
-        return []
-
+def run_topic(records, topic):
+    """Run subtopic extraction for all records under a given topic."""
     results = []
     total = len(records)
 
@@ -134,28 +158,60 @@ def run_topic(topic, max_records, output_dir, index_name=QNA_INDEX):
     return results
 
 
+def get_available_topics(filepath):
+    """Get list of unique topics from a JSON file."""
+    with open(filepath) as f:
+        content = f.read()
+
+    data = []
+    for chunk in content.split(']['):
+        chunk = chunk.strip()
+        if not chunk.startswith('['):
+            chunk = '[' + chunk
+        if not chunk.endswith(']'):
+            chunk = chunk + ']'
+        try:
+            data.extend(json.loads(chunk))
+        except json.JSONDecodeError:
+            continue
+
+    topics = set()
+    for r in data:
+        t = r.get('topic', '')
+        if t:
+            topics.add(t)
+    return sorted(topics)
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Subtopic-only extraction from QnA index")
+    parser = argparse.ArgumentParser(description="Subtopic-only extraction")
+    parser.add_argument("--input", required=False, help="Path to dry_run JSON file with Q&A + topics")
+    parser.add_argument("--index", required=False, help="Azure Search QnA index name")
     parser.add_argument("--topic", required=True, help="Topic to process ('all' for all topics, or comma-separated)")
     parser.add_argument("--max_records", type=int, default=200, help="Max records per topic (default: 200)")
-    parser.add_argument("--index", default=QNA_INDEX, help="QnA index name")
     args = parser.parse_args()
 
-    qna_index = args.index
+    if not args.input and not args.index:
+        parser.error("Either --input (JSON file) or --index (Azure Search index) is required")
 
     output_dir = "data/output"
     os.makedirs(output_dir, exist_ok=True)
 
+    source_type = "JSON" if args.input else "index"
+
     # Determine which topics to run
     if args.topic.lower() == "all":
-        sub_topic_config = load_project_config(PROJECT, "new_subtopic_extraction")
-        topics = list(sub_topic_config.keys())
+        if args.input:
+            topics = get_available_topics(args.input)
+        else:
+            sub_topic_config = load_project_config(PROJECT, "new_subtopic_extraction")
+            topics = list(sub_topic_config.keys())
     else:
         topics = [t.strip() for t in args.topic.split(",")]
 
+    print(f"Source: {source_type} ({args.input or args.index})")
     print(f"Topics to process: {', '.join(topics)}")
     print(f"Max records per topic: {args.max_records}")
-    print(f"Index: {qna_index}")
 
     all_results = []
     summary = {}
@@ -164,7 +220,19 @@ def main():
         print(f"\n[{i}/{len(topics)}] Processing: {topic}")
         start = time.time()
 
-        results = run_topic(topic, args.max_records, output_dir, qna_index)
+        # Load records
+        if args.input:
+            records = load_questions_from_json(args.input, topic, args.max_records)
+        else:
+            records = load_questions_from_index(args.index, topic, args.max_records)
+
+        if not records:
+            print(f"  -> 0 records found, skipping")
+            summary[topic] = {"total": 0, "with_subtopics": 0, "time_sec": 0}
+            continue
+
+        # Run subtopic extraction
+        results = run_topic(records, topic)
         all_results.extend(results)
 
         elapsed = time.time() - start

@@ -29,8 +29,6 @@ from utils.logger_config import logger
 from utils.helper import load_project_config, clean_topic
 from prompts.prompt_config import prompt_sub_topic_format, sub_topic_extraction_prompt
 from llm.llm_config import chat_completion
-from qna_extractor import QnAExtractor
-
 try:
     from index import IndexProcessor
 except ImportError:

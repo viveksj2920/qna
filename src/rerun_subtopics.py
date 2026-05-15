@@ -172,38 +172,83 @@ def save_results(data, output_dir):
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     os.makedirs(output_dir, exist_ok=True)
 
-    # JSON
+    # ── Per-topic JSON files ──
+    topics_dir = os.path.join(output_dir, f"subtopic_rerun_{timestamp}")
+    os.makedirs(topics_dir, exist_ok=True)
+
+    by_topic = defaultdict(list)
+    for r in data:
+        topic = r.get('topic', 'others').lower().strip()
+        by_topic[topic].append(r)
+
+    print(f"\nPer-topic JSON files ({topics_dir}/):")
+    for topic in sorted(by_topic.keys()):
+        records = by_topic[topic]
+        # Deduplicate within topic
+        seen = set()
+        deduped = []
+        for r in records:
+            key = r.get('question', '').strip().lower()[:100]
+            if key not in seen:
+                seen.add(key)
+                deduped.append(r)
+        safe_name = topic.replace(' ', '_').replace(',', '').replace('/', '_')
+        path = os.path.join(topics_dir, f"{safe_name}.json")
+        with open(path, 'w') as f:
+            json.dump(deduped, f, indent=2)
+        print(f"  {topic}: {len(deduped)} records -> {safe_name}.json")
+
+    # Also save combined JSON
     json_path = os.path.join(output_dir, f"subtopic_rerun_{timestamp}.json")
     with open(json_path, 'w') as f:
         json.dump(data, f, indent=2)
-    print(f"JSON: {json_path}")
+    print(f"\nCombined JSON: {json_path}")
 
-    # Excel
+    # ── Per-topic Excel files ──
     try:
         import pandas as pd
-        excel_path = os.path.join(output_dir, f"subtopic_rerun_{timestamp}.xlsx")
 
-        for r in data:
+        keep = ['Ucid', 'question', 'answer', 'topic', 'sub_topic', 'is_useful',
+                'plan_name', 'state_processed', 'region_processed']
+
+        print(f"\nPer-topic Excel files ({topics_dir}/):")
+        for topic in sorted(by_topic.keys()):
+            records = by_topic[topic]
+            # Flatten sub_topic
+            for r in records:
+                st = r.get('sub_topic', [])
+                if isinstance(st, list):
+                    r['sub_topic'] = ", ".join(st)
+                elif not st:
+                    r['sub_topic'] = ""
+
+            df = pd.DataFrame(records)
+            cols = [c for c in keep if c in df.columns]
+            df = df[cols].fillna('').replace('nan', '')
+            df = df.drop_duplicates(subset=['question'], keep='first')
+
+            safe_name = topic.replace(' ', '_').replace(',', '').replace('/', '_')
+            excel_path = os.path.join(topics_dir, f"{safe_name}.xlsx")
+            df.to_excel(excel_path, index=False, engine='openpyxl')
+            print(f"  {topic}: {len(df)} records -> {safe_name}.xlsx")
+
+        # Also save combined summary Excel
+        summary_path = os.path.join(output_dir, f"subtopic_rerun_summary_{timestamp}.xlsx")
+        all_records = []
+        for records in by_topic.values():
+            all_records.extend(records)
+        for r in all_records:
             st = r.get('sub_topic', [])
             if isinstance(st, list):
-                r['sub_topic_display'] = ", ".join(st)
-            else:
-                r['sub_topic_display'] = str(st) if st else ""
+                r['sub_topic'] = ", ".join(st)
 
-        df = pd.DataFrame(data)
-        keep = ['Ucid', 'question', 'answer', 'topic', 'sub_topic_display', 'is_useful',
-                'plan_name', 'state_processed', 'region_processed']
+        df = pd.DataFrame(all_records)
         cols = [c for c in keep if c in df.columns]
-        df = df[cols].rename(columns={'sub_topic_display': 'sub_topic'})
-        df = df.fillna('').replace('nan', '')
-
-        # Deduplicate
-        before = len(df)
+        df = df[cols].fillna('').replace('nan', '')
         df = df.drop_duplicates(subset=['question', 'topic'], keep='first')
-        print(f"Deduped: {before} -> {len(df)}")
 
-        with pd.ExcelWriter(excel_path, engine='openpyxl') as writer:
-            # Summary
+        with pd.ExcelWriter(summary_path, engine='openpyxl') as writer:
+            # Summary sheet
             summary = df.groupby('topic').agg(
                 total=('question', 'count'),
                 with_subtopic=('sub_topic', lambda x: (x != '').sum()),
@@ -213,12 +258,6 @@ def save_results(data, output_dir):
             summary['useful_pct'] = (summary['useful'] / summary['total'] * 100).round(1)
             summary = summary.sort_values('total', ascending=False)
             summary.to_excel(writer, sheet_name='Summary', index=False)
-
-            # Per-topic sheets
-            for topic in sorted(df['topic'].unique()):
-                topic_df = df[df['topic'] == topic]
-                sheet = topic[:28].replace('/', '-')
-                topic_df.to_excel(writer, sheet_name=sheet, index=False)
 
             # Subtopic distribution
             st_rows = []
@@ -233,7 +272,7 @@ def save_results(data, output_dir):
                     st_rows.append({'Topic': topic, 'Subtopic': sub, 'Count': cnt})
             pd.DataFrame(st_rows).to_excel(writer, sheet_name='Subtopic Distribution', index=False)
 
-        print(f"Excel: {excel_path}")
+        print(f"\nSummary Excel: {summary_path}")
     except ImportError:
         print("openpyxl not installed, skipping Excel")
 

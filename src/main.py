@@ -112,7 +112,11 @@ def main():
             "destination_csv": args.destination_data_name,
             "project": args.project,
             "file_input": args.file_input,
-            "topic_filter": args.topic_filter.lower().strip() if args.topic_filter else ""
+            "topic_filter": args.topic_filter.lower().strip() if args.topic_filter else "",
+            "dry_run": args.dry_run,
+            "source_index": os.path.basename(args.source_data_name).replace('.csv', ''),
+            "destination_index": os.path.basename(args.destination_data_name).replace('.csv', ''),
+            "lookup_index": args.lookup_data_name if args.lookup_data_name else "",
         }
 
         logger.info(f"Processing input_type: {file_dict['input_type']}")

@@ -1168,7 +1168,8 @@ class qna_extractor:
 
     def extract_batch(self, df, input_dict, max_workers=50):
 
-        if input_dict['input_type'] == "index":
+        # Use async path for both index mode and file conversations mode (much faster)
+        if input_dict['input_type'] == "index" or (input_dict['input_type'] == "file" and input_dict.get('file_input') == "conversations"):
 
             return asyncio.run(self.extract_batch_async(df, input_dict, max_workers))
 

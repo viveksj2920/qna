@@ -30,23 +30,25 @@ class IndexProcessor:
 
     def fetch_records(self, date_filter, project, max_records=0):
         df = pd.DataFrame()
-        search_kwargs = {"filter": date_filter}
-        if max_records > 0:
-            search_kwargs["top"] = max_records
         if project == "MIRA":
             fields = ["Ucid", "Text", "StartTime", "Is_Digital", "Is_Enrollment", "plan_name", "drugs", "providers", "zip", "county_processed", "state_processed", "region_processed", "subregion_processed"]
-            search_kwargs["select"] = fields
-            documents = self.azure_search.search(**search_kwargs)
-            print(f"Processing fields: {fields}")
-            df = pd.DataFrame(documents)
         elif project == "PCL":
             fields = ["Ucid", "Text", "StartTime", "sales_market", "business_market", "region", "subregion", "state"]
-            search_kwargs["select"] = fields
-            documents = self.azure_search.search(**search_kwargs)
-            print(f"Processing fields: {fields}")
-            df = pd.DataFrame(documents)
         else:
             raise ValueError("Unsupported project type. Supported projects are: MIRA, PCL.")
+
+        documents = self.azure_search.search(filter=date_filter, select=fields)
+        print(f"Processing fields: {fields}")
+
+        if max_records > 0:
+            limited = []
+            for doc in documents:
+                limited.append(doc)
+                if len(limited) >= max_records:
+                    break
+            df = pd.DataFrame(limited)
+        else:
+            df = pd.DataFrame(documents)
         return df
 
 

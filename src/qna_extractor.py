@@ -654,7 +654,7 @@ class qna_extractor:
             all_expanded_qna_processed = []
             total_rows = len(df)
             
-            rate_limiter = AdaptiveRateLimiter(initial_qps=40, max_qps=80)
+            rate_limiter = AdaptiveRateLimiter(initial_qps=60, max_qps=120)
             
             # Create a semaphore to limit concurrent tasks
             semaphore = asyncio.Semaphore(max_concurrent)
@@ -1166,7 +1166,7 @@ class qna_extractor:
             raise
 
 
-    def extract_batch(self, df, input_dict, max_workers=12):
+    def extract_batch(self, df, input_dict, max_workers=50):
 
         if input_dict['input_type'] == "index":
 

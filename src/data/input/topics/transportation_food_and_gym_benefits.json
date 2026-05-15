@@ -1,0 +1,100 @@
+{
+  "transportation, food and gym benefits": {
+    "subtopics": [
+      "transportation coverage rules",
+      "transportation benefit inquiry",
+      "transportation trip limits",
+      "transportation vendor options",
+      "transportation ride scheduling or cancellation",
+      "transportation ride delays",
+      "transportation ride failure",
+      "community transportation resources",
+      "food benefit eligibility",
+      "food benefit qualification verification",
+      "food benefit amount changes",
+      "food benefit usage",
+      "food card delivery status",
+      "food card replacement",
+      "food card activation",
+      "food card balance issue",
+      "food card transaction errors",
+      "community food resources",
+      "gym cost",
+      "gym membership eligibility",
+      "gym membership issues",
+      "gym activation and code",
+      "gym network and locations"
+    ],
+    "descriptions": {
+      "transportation coverage rules": {
+        "description": "Questions about how transportation benefits work, including eligibility, limits, and allowed uses."
+      },
+      "transportation benefit inquiry": {
+        "description": "General questions about whether transportation benefits are included in the plan."
+      },
+      "transportation trip limits": {
+        "description": "Questions about the number of trips, mileage limits, or usage caps for transportation."
+      },
+      "transportation vendor options": {
+        "description": "Questions about available transportation providers, vendors, or services that can be used."
+      },
+      "transportation ride scheduling or cancellation": {
+        "description": "Requests or issues related to booking, modifying, or canceling transportation rides."
+      },
+      "transportation ride delays": {
+        "description": "Issues where a scheduled ride is late, delayed, or not arriving on time."
+      },
+      "transportation ride failure": {
+        "description": "Issues where a ride did not occur as expected, including no-shows, missed pickups, or dropped service."
+      },
+      "community transportation resources": {
+        "description": "Questions about external or community-based transportation support (non-plan services)."
+      },
+      "food benefit eligibility": {
+        "description": "Questions about whether a member qualifies for food or grocery-related benefits."
+      },
+      "food benefit qualification verification": {
+        "description": "Questions about confirming qualification criteria, including income, Medicaid status, or chronic conditions."
+      },
+      "food benefit amount changes": {
+        "description": "Questions about increases, decreases, or changes to food benefit amounts."
+      },
+      "food benefit usage": {
+        "description": "Questions about how to use food benefits, including eligible items, stores, or spending rules."
+      },
+      "food card delivery status": {
+        "description": "Questions about when or whether a food benefit card has been mailed or received."
+      },
+      "food card replacement": {
+        "description": "Requests for replacing a lost, stolen, or damaged food benefit card."
+      },
+      "food card activation": {
+        "description": "Questions about activating or setting up a food benefit card before use."
+      },
+      "food card balance issue": {
+        "description": "Issues with checking, missing, or incorrect benefit balances on the card."
+      },
+      "food card transaction errors": {
+        "description": "Problems when the card is declined, not accepted, or does not work at checkout."
+      },
+      "community food resources": {
+        "description": "Questions about external food assistance programs (e.g., food banks, SNAP, local services)."
+      },
+      "gym cost": {
+        "description": "Questions about fees, charges, or out-of-pocket costs related to gym memberships."
+      },
+      "gym membership eligibility": {
+        "description": "Questions about whether gym or fitness benefits are included or available under the plan."
+      },
+      "gym membership issues": {
+        "description": "Problems using gym benefits, including access issues, billing errors, or denied usage."
+      },
+      "gym activation and code": {
+        "description": "Questions about how to activate gym benefits or obtain required access codes."
+      },
+      "gym network and locations": {
+        "description": "Questions about which gyms, fitness centers, or locations are included in the network."
+      }
+    }
+  }
+}

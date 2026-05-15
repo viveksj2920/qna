@@ -1,0 +1,112 @@
+{
+  "digital friction": {
+    "subtopics": [
+      "password or username issue",
+      "trouble verifying identity",
+      "account not found error",
+      "missing account setup details",
+      "accessing plan details",
+      "document access or delivery issues",
+      "website account registration",
+      "website showing error message",
+      "website hyperlink not working",
+      "website not responding",
+      "website missing benefits",
+      "website navigation",
+      "website claim info incorrect",
+      "website locating or submitting claim",
+      "website card access",
+      "website id card ordering",
+      "app account registration",
+      "app showing error message",
+      "app hyperlink not working",
+      "app not responding",
+      "app missing benefits",
+      "app navigation",
+      "app claim info incorrect",
+      "app locating or submitting claim",
+      "app card access",
+      "app id card ordering"
+    ],
+    "descriptions": {
+      "password or username issue": {
+        "description": "Problems with passwords, usernames, login credentials, or account lockouts."
+      },
+      "trouble verifying identity": {
+        "description": "Issues with identity verification, including not receiving codes or failing authentication steps."
+      },
+      "account not found error": {
+        "description": "Cases where the system cannot locate a user account, member record, or enrollment."
+      },
+      "missing account setup details": {
+        "description": "Questions about required information or missing details needed to create or access an account."
+      },
+      "accessing plan details": {
+        "description": "Questions about how to view benefits, balances, plan information, or documents online or in an app."
+      },
+      "document access or delivery issues": {
+        "description": "Problems receiving, opening, or accessing plan documents or communications through email, links, or digital platforms."
+      },
+      "website account registration": {
+        "description": "Problems or questions related to creating or registering an account on the website."
+      },
+      "website showing error message": {
+        "description": "Errors encountered while using the website, including failed submissions or invalid input messages."
+      },
+      "website hyperlink not working": {
+        "description": "Problems with links on the website that are broken, looping, expired, or not opening correctly."
+      },
+      "website not responding": {
+        "description": "Cases where the website is slow, frozen, crashing, or not loading properly."
+      },
+      "website missing benefits": {
+        "description": "Cases where expected benefits, plan details, or information are missing from the website."
+      },
+      "website navigation": {
+        "description": "Difficulty finding information or completing tasks on the website."
+      },
+      "website claim info incorrect": {
+        "description": "Cases where claim information displayed on the website is incorrect, inconsistent, or does not match expectations."
+      },
+      "website locating or submitting claim": {
+        "description": "Problems finding, submitting, or tracking claims on the website."
+      },
+      "website card access": {
+        "description": "Issues accessing, viewing, or retrieving a digital ID or benefits card on the website."
+      },
+      "website id card ordering": {
+        "description": "Problems ordering, requesting, or receiving an ID card through the website."
+      },
+      "app account registration": {
+        "description": "Problems or questions related to creating or registering an account in the mobile app."
+      },
+      "app showing error message": {
+        "description": "Errors encountered while using the mobile app, including failed actions or invalid input messages."
+      },
+      "app hyperlink not working": {
+        "description": "Problems with links within the mobile app that are broken, looping, or not working properly."
+      },
+      "app not responding": {
+        "description": "Cases where the mobile app is slow, frozen, crashing, or not functioning properly."
+      },
+      "app missing benefits": {
+        "description": "Cases where expected benefits, plan details, or information are missing from the mobile app."
+      },
+      "app navigation": {
+        "description": "Difficulty finding information or completing tasks within the mobile app."
+      },
+      "app claim info incorrect": {
+        "description": "Cases where claim information displayed in the app is incorrect, inconsistent, or does not match expectations."
+      },
+      "app locating or submitting claim": {
+        "description": "Problems finding, submitting, or tracking claims in the mobile app."
+      },
+      "app card access": {
+        "description": "Issues accessing, viewing, or retrieving a digital ID or benefits card in the mobile app."
+      },
+      "app id card ordering": {
+        "description": "Problems ordering, requesting, or receiving an ID card through the mobile app."
+      }
+    }
+  }
+}

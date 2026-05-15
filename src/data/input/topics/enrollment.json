@@ -1,0 +1,180 @@
+{
+  "enrollment": {
+    "subtopics": [
+      "enrollment requirements",
+      "enrollment deadline",
+      "when to enroll",
+      "enrolling for first time",
+      "late enrollment",
+      "working past 65",
+      "information for enrollment assistance",
+      "enrollment escalation support",
+      "application process",
+      "application submission method",
+      "application status",
+      "application approved",
+      "application denied",
+      "application pending",
+      "application not received",
+      "application missing information",
+      "post application steps",
+      "enrollment confirmation",
+      "enrollment discrepancy",
+      "enrollment consent authorization",
+      "unauthorized enrollment",
+      "enrollment reinstatement",
+      "reenrollment process",
+      "enrollment cancellation",
+      "retroactive enrollment",
+      "enrollment payment issue",
+      "enrollment document delivery",
+      "plan documents",
+      "plan effective/start date",
+      "plan termination/end date",
+      "member id card issuance",
+      "member id card delivery status",
+      "member id card activation",
+      "member id card replacement",
+      "insurance card validity",
+      "insurance card not working",
+      "digital id card access",
+      "insurance card information",
+      "multiple cards confusion",
+      "card address or name update",
+      "benefit card balance issues",
+      "benefit card usage",
+      "coverage access before receiving card"
+    ],
+    "descriptions": {
+      "enrollment requirements": {
+        "description": "Eligibility criteria required to enroll, such as Medicare Parts A/B status, age, location, employment, Medicaid status, or qualifying conditions."
+      },
+      "enrollment deadline": {
+        "description": "Questions about cutoff dates to enroll, switch, or make changes, including open enrollment and special enrollment period deadlines."
+      },
+      "when to enroll": {
+        "description": "Guidance on the appropriate time to enroll based on age, life events, coverage changes, or upcoming eligibility."
+      },
+      "enrolling for first time": {
+        "description": "Questions from individuals enrolling for the first time who need end\u2011to\u2011end guidance on starting coverage."
+      },
+      "late enrollment": {
+        "description": "Questions about enrolling after eligibility, including penalties, consequences, exemptions, or waiver options."
+      },
+      "working past 65": {
+        "description": "Enrollment questions for individuals continuing employer coverage past age 65 and how that affects Medicare or plan enrollment."
+      },
+      "information for enrollment assistance": {
+        "description": "Requests for help resources such as agents, counselors, customer support, or guidance tools to assist with enrollment."
+      },
+      "enrollment escalation support": {
+        "description": "Requests to urgently escalate enrollment issues due to deadlines, errors, missing coverage, or unresolved prior attempts."
+      },
+      "application process": {
+        "description": "Questions about how the enrollment application works, required steps, required information, or overall workflow."
+      },
+      "application submission method": {
+        "description": "How or where an application is submitted, including online, phone, email, text, fax, mail, or electronic signature methods."
+      },
+      "application status": {
+        "description": "General inquiries about the current state of an application without a specific outcome (e.g., \u201cbeing reviewed\u201d)."
+      },
+      "application approved": {
+        "description": "Confirmation or questions after an application has been accepted or approved."
+      },
+      "application denied": {
+        "description": "Questions about reasons for denial, rejection notices, appeals, or next steps after a rejection."
+      },
+      "application pending": {
+        "description": "Applications under review that have not yet been approved or denied. Includes underwriting or Medicare review periods."
+      },
+      "application not received": {
+        "description": "Situations where a submitted application cannot be found or acknowledged by the system or Medicare."
+      },
+      "application missing information": {
+        "description": "Requests for additional documents, signatures, corrections, or clarification needed to complete processing."
+      },
+      "post application steps": {
+        "description": "Questions about what to do after submission or approval, including next actions, waiting periods, or follow\u2011up steps."
+      },
+      "enrollment confirmation": {
+        "description": "Requests for proof or verification that enrollment is complete, such as confirmation numbers or letters."
+      },
+      "enrollment discrepancy": {
+        "description": "Conflicts between enrollment records (e.g., Medicare vs carrier systems, card vs system showing inactive)."
+      },
+      "enrollment consent authorization": {
+        "description": "Questions about permissions needed to enroll or manage enrollment for someone else, including power of attorney or verbal consent."
+      },
+      "unauthorized enrollment": {
+        "description": "Concerns that enrollment occurred without the member\u2019s knowledge or permission, or receipt of cards/documents for a plan they did not choose."
+      },
+      "enrollment reinstatement": {
+        "description": "Requests to restore coverage after it was canceled, terminated, or lost unintentionally."
+      },
+      "reenrollment process": {
+        "description": "How to enroll again after previous coverage ended, including annual re\u2011enrollment."
+      },
+      "enrollment cancellation": {
+        "description": "Requests to cancel, withdraw, or opt out of an enrollment or pending application."
+      },
+      "retroactive enrollment": {
+        "description": "Questions about backdating coverage to an earlier effective date."
+      },
+      "enrollment payment issue": {
+        "description": "Problems related to initial premiums, payment setup, missed payments, or enrollment\u2011related billing issues."
+      },
+      "enrollment document delivery": {
+        "description": "Questions about receiving enrollment letters, notices, confirmation mail, or welcome packages."
+      },
+      "plan documents": {
+        "description": "Requests for evidence of coverage, summaries of benefits, plan booklets, or policy documents."
+      },
+      "plan effective/start date": {
+        "description": "Questions about when coverage begins after enrollment or approval."
+      },
+      "plan termination/end date": {
+        "description": "Questions about when coverage ends and why, including voluntary or system\u2011initiated termination."
+      },
+      "member id card issuance": {
+        "description": "Questions about whether a card has been generated for a new or renewed enrollment."
+      },
+      "member id card delivery status": {
+        "description": "Tracking, delays, or missing physical ID cards after issuance."
+      },
+      "member id card activation": {
+        "description": "Whether activation is required and how to activate a card before use."
+      },
+      "member id card replacement": {
+        "description": "Requests for new cards due to loss, damage, expiration, or incorrect information."
+      },
+      "insurance card validity": {
+        "description": "Questions about whether a card is current, active, or usable."
+      },
+      "insurance card not working": {
+        "description": "Issues where providers or pharmacies cannot use or accept the card."
+      },
+      "digital id card access": {
+        "description": "Accessing or using an electronic or mobile version of the ID card."
+      },
+      "insurance card information": {
+        "description": "Understanding fields printed on the card such as member ID, group number, or plan name."
+      },
+      "multiple cards confusion": {
+        "description": "Confusion caused by receiving multiple cards and uncertainty about which to use."
+      },
+      "card address or name update": {
+        "description": "Updating personal information to ensure correct card delivery or accuracy."
+      },
+      "benefit card balance issues": {
+        "description": "Questions about missing funds, incorrect balances, or benefit amounts on spending cards."
+      },
+      "benefit card usage": {
+        "description": "How and where benefit or allowance cards can be used."
+      },
+      "coverage access before receiving card": {
+        "description": "How to access care, prescriptions, or benefits before the physical ID card arrives."
+      }
+    }
+  }
+}

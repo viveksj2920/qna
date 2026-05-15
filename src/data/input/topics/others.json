@@ -1,0 +1,52 @@
+{
+  "others": {
+    "subtopics": [
+      "identity and verification",
+      "consent and authorization",
+      "contact and communication preferences",
+      "health status and assessment",
+      "underwriting and risk questions",
+      "company verification and legitimacy",
+      "complaints and escalation",
+      "external assistance and social services",
+      "call handling and operational flow",
+      "non-actionable or unintelligible",
+      "non-english call"
+    ],
+    "descriptions": {
+      "identity and verification": {
+        "description": "Questions related to confirming or validating personal information such as name, date of birth, address, or identity for security or record\u2011matching purposes."
+      },
+      "consent and authorization": {
+        "description": "Questions about permissions required to discuss, manage, or access information on behalf of another individual, including authorized representatives or power of attorney."
+      },
+      "contact and communication preferences": {
+        "description": "Preferences or updates regarding how communications are delivered, including phone, email, text, language, print format, or consent to future contact."
+      },
+      "health status and assessment": {
+        "description": "Questions related to general health information, conditions, medications, providers, or health assessments that are not directly tied to enrollment status."
+      },
+      "underwriting and risk questions": {
+        "description": "Questions about how medical history, conditions, treatments, or health disclosures affect eligibility, approval, pricing, or underwriting outcomes."
+      },
+      "company verification and legitimacy": {
+        "description": "Questions about the legitimacy, affiliation, or authorization of a company, plan, caller, advertisement, or outreach communication."
+      },
+      "complaints and escalation": {
+        "description": "Concerns or issues related to dissatisfaction with service, unresolved problems, repeated contacts, or requests to escalate or file a complaint."
+      },
+      "external assistance and social services": {
+        "description": "Requests for information or help involving organizations or programs outside the plan, such as Medicaid, Social Security, utilities, food, housing, or caregiving resources."
+      },
+      "call handling and operational flow": {
+        "description": "Questions about call routing, transfers, callbacks, departments, recordings, availability, or difficulty reaching the appropriate team."
+      },
+      "non-actionable or unintelligible": {
+        "description": "Statements or questions that are incomplete, unclear, nonsensical, or do not express a specific, actionable intent."
+      },
+      "non-english call": {
+        "description": "Interactions primarily conducted in a language other than English, including requests for translation or language\u2011specific support."
+      }
+    }
+  }
+}

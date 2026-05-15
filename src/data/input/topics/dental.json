@@ -1,0 +1,116 @@
+{
+  "dental": {
+    "subtopics": [
+      "dental coverage overview",
+      "current coverage status",
+      "coverage changes and reductions",
+      "coverage eligibility and availability",
+      "effective/start dates",
+      "preventive dental coverage",
+      "comprehensive dental coverage",
+      "dental benefit allowance and maximums",
+      "dental copays and coinsurance",
+      "out of pocket dental costs",
+      "dental rider overview",
+      "adding dental rider",
+      "canceling or changing dental rider",
+      "dental rider costs and billing",
+      "dental rider waiting periods",
+      "dental provider network",
+      "in network vs out of network dental",
+      "finding a dentist",
+      "dental claims and billing",
+      "reimbursements",
+      "coverage issues and denials",
+      "dental implants coverage",
+      "dentures and prosthodontics coverage",
+      "periodontal and gum treatment",
+      "oral surgery and extractions",
+      "dental customer service and contact info",
+      "dental plan documents and booklets"
+    ],
+    "descriptions": {
+      "dental coverage overview": {
+        "description": "Questions about what dental coverage is included in a plan, including general benefits, services, and overall scope of coverage."
+      },
+      "current coverage status": {
+        "description": "Questions about whether dental coverage is active, inactive, or recognized by providers."
+      },
+      "coverage changes and reductions": {
+        "description": "Questions about changes, reductions, or removal of dental benefits, including differences from prior years or plans."
+      },
+      "coverage eligibility and availability": {
+        "description": "Questions about whether dental coverage is included, offered, or can be added to a plan or option."
+      },
+      "effective/start dates": {
+        "description": "Questions about when dental coverage begins, becomes usable, or takes effect after enrollment or changes."
+      },
+      "preventive dental coverage": {
+        "description": "Questions about coverage for routine dental services such as exams, cleanings, X\u2011rays, and other preventive care."
+      },
+      "comprehensive dental coverage": {
+        "description": "Questions about general coverage for dental services beyond routine preventive care, including scope and availability of advanced services."
+      },
+      "dental benefit allowance and maximums": {
+        "description": "Questions about annual limits, allowance amounts, benefit caps, or how much the plan will pay for dental services."
+      },
+      "dental copays and coinsurance": {
+        "description": "Questions about fixed copay amounts or percentage-based cost sharing (coinsurance) for dental services."
+      },
+      "out of pocket dental costs": {
+        "description": "Questions about total costs paid by the member for dental services after coverage, including deductibles, remaining balances, and costs beyond benefit limits."
+      },
+      "dental rider overview": {
+        "description": "Questions about optional dental add\u2011ons, including what a dental rider is and what it covers."
+      },
+      "adding dental rider": {
+        "description": "Questions about how to add dental coverage to an existing plan."
+      },
+      "canceling or changing dental rider": {
+        "description": "Questions about removing, modifying, or switching dental rider coverage."
+      },
+      "dental rider costs and billing": {
+        "description": "Questions about premiums, payment methods, and billing details for dental riders."
+      },
+      "dental rider waiting periods": {
+        "description": "Questions about delays before certain dental services become covered after adding a rider."
+      },
+      "dental provider network": {
+        "description": "Questions about which dentists or providers participate in the plan\u2019s network."
+      },
+      "in network vs out of network dental": {
+        "description": "Questions comparing coverage, costs, or rules for in\u2011network versus out\u2011of\u2011network dental providers."
+      },
+      "finding a dentist": {
+        "description": "Requests for help locating or selecting a dentist within the plan."
+      },
+      "dental claims and billing": {
+        "description": "Questions about claim submission, billing processes, or how dental providers charge for services."
+      },
+      "reimbursements": {
+        "description": "Questions about repayment for out\u2011of\u2011network services or previously paid dental expenses."
+      },
+      "coverage issues and denials": {
+        "description": "Issues where dental services are denied, partially covered, incorrectly processed, or inconsistent with expected benefits or plan rules."
+      },
+      "dental implants coverage": {
+        "description": "Coverage for dental implant procedures, including placement, restoration, and related services."
+      },
+      "dentures and prosthodontics coverage": {
+        "description": "Coverage for tooth replacement services such as full or partial dentures, bridges, and other prosthetic dental treatments."
+      },
+      "periodontal and gum treatment": {
+        "description": "Coverage for treatment of gum disease and related conditions, including deep cleanings, scaling, and periodontal maintenance."
+      },
+      "oral surgery and extractions": {
+        "description": "Coverage for surgical dental procedures such as tooth extractions, impacted teeth removal, and other oral surgical treatments."
+      },
+      "dental customer service and contact info": {
+        "description": "Requests for phone numbers, departments, or support channels related to dental services."
+      },
+      "dental plan documents and booklets": {
+        "description": "Requests for official materials describing dental benefits, coverage details, or plan rules."
+      }
+    }
+  }
+}

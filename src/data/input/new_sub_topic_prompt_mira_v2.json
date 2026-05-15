@@ -1,0 +1,1146 @@
+{
+  "dental": {
+    "subtopics": [
+      "dental coverage overview",
+      "current coverage status",
+      "coverage changes and reductions",
+      "coverage eligibility and availability",
+      "effective/start dates",
+      "preventive dental coverage",
+      "comprehensive dental coverage",
+      "dental benefit allowance and maximums",
+      "dental copays and coinsurance",
+      "out of pocket dental costs",
+      "dental rider overview",
+      "adding dental rider",
+      "canceling or changing dental rider",
+      "dental rider costs and billing",
+      "dental rider waiting periods",
+      "dental provider network",
+      "in network vs out of network dental",
+      "finding a dentist",
+      "dental claims and billing",
+      "reimbursements",
+      "coverage issues and denials",
+      "dental implants coverage",
+      "dentures and prosthodontics coverage",
+      "periodontal and gum treatment",
+      "oral surgery and extractions",
+      "dental customer service and contact info",
+      "dental plan documents and booklets"
+    ],
+    "descriptions": {
+      "dental coverage overview": {
+        "description": "Questions about what dental coverage is included in a plan, including general benefits, services, and overall scope of coverage."
+      },
+      "current coverage status": {
+        "description": "Questions about whether dental coverage is active, inactive, or recognized by providers."
+      },
+      "coverage changes and reductions": {
+        "description": "Questions about changes, reductions, or removal of dental benefits, including differences from prior years or plans."
+      },
+      "coverage eligibility and availability": {
+        "description": "Questions about whether dental coverage is included, offered, or can be added to a plan or option."
+      },
+      "effective/start dates": {
+        "description": "Questions about when dental coverage begins, becomes usable, or takes effect after enrollment or changes."
+      },
+      "preventive dental coverage": {
+        "description": "Questions about coverage for routine dental services such as exams, cleanings, X\u2011rays, and other preventive care."
+      },
+      "comprehensive dental coverage": {
+        "description": "Questions about general coverage for dental services beyond routine preventive care, including scope and availability of advanced services."
+      },
+      "dental benefit allowance and maximums": {
+        "description": "Questions about annual limits, allowance amounts, benefit caps, or how much the plan will pay for dental services."
+      },
+      "dental copays and coinsurance": {
+        "description": "Questions about fixed copay amounts or percentage-based cost sharing (coinsurance) for dental services."
+      },
+      "out of pocket dental costs": {
+        "description": "Questions about total costs paid by the member for dental services after coverage, including deductibles, remaining balances, and costs beyond benefit limits."
+      },
+      "dental rider overview": {
+        "description": "Questions about optional dental add\u2011ons, including what a dental rider is and what it covers."
+      },
+      "adding dental rider": {
+        "description": "Questions about how to add dental coverage to an existing plan."
+      },
+      "canceling or changing dental rider": {
+        "description": "Questions about removing, modifying, or switching dental rider coverage."
+      },
+      "dental rider costs and billing": {
+        "description": "Questions about premiums, payment methods, and billing details for dental riders."
+      },
+      "dental rider waiting periods": {
+        "description": "Questions about delays before certain dental services become covered after adding a rider."
+      },
+      "dental provider network": {
+        "description": "Questions about which dentists or providers participate in the plan\u2019s network."
+      },
+      "in network vs out of network dental": {
+        "description": "Questions comparing coverage, costs, or rules for in\u2011network versus out\u2011of\u2011network dental providers."
+      },
+      "finding a dentist": {
+        "description": "Requests for help locating or selecting a dentist within the plan."
+      },
+      "dental claims and billing": {
+        "description": "Questions about claim submission, billing processes, or how dental providers charge for services."
+      },
+      "reimbursements": {
+        "description": "Questions about repayment for out\u2011of\u2011network services or previously paid dental expenses."
+      },
+      "coverage issues and denials": {
+        "description": "Issues where dental services are denied, partially covered, incorrectly processed, or inconsistent with expected benefits or plan rules."
+      },
+      "dental implants coverage": {
+        "description": "Coverage for dental implant procedures, including placement, restoration, and related services."
+      },
+      "dentures and prosthodontics coverage": {
+        "description": "Coverage for tooth replacement services such as full or partial dentures, bridges, and other prosthetic dental treatments."
+      },
+      "periodontal and gum treatment": {
+        "description": "Coverage for treatment of gum disease and related conditions, including deep cleanings, scaling, and periodontal maintenance."
+      },
+      "oral surgery and extractions": {
+        "description": "Coverage for surgical dental procedures such as tooth extractions, impacted teeth removal, and other oral surgical treatments."
+      },
+      "dental customer service and contact info": {
+        "description": "Requests for phone numbers, departments, or support channels related to dental services."
+      },
+      "dental plan documents and booklets": {
+        "description": "Requests for official materials describing dental benefits, coverage details, or plan rules."
+      }
+    }
+  },
+  "drug coverage termination": {
+    "subtopics": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry",
+      "notification or communication failure",
+      "drug coverage status"
+    ],
+    "descriptions": {
+      "coverage discrepancy or denial": {
+        "description": "Issues where a medication is denied, no longer covered, or inconsistently processed despite prior coverage or expectations."
+      },
+      "coverage termination inquiry": {
+        "description": "Questions about the cancellation, termination, or ending of prescription drug coverage or a drug plan, including reasons, timing, and next steps."
+      },
+      "notification or communication failure": {
+        "description": "Questions about missing, unclear, delayed, or conflicting communication regarding drug coverage changes, terminations, or denials."
+      },
+      "drug coverage status": {
+        "description": "Questions about whether prescription drug coverage or a specific medication is currently active, inactive, or covered under the plan."
+      }
+    }
+  },
+  "digital friction": {
+    "subtopics": [
+      "password or username issue",
+      "trouble verifying identity",
+      "account not found error",
+      "missing account setup details",
+      "accessing plan details",
+      "document access or delivery issues",
+      "website account registration",
+      "website showing error message",
+      "website hyperlink not working",
+      "website not responding",
+      "website missing benefits",
+      "website navigation",
+      "website claim info incorrect",
+      "website locating or submitting claim",
+      "website card access",
+      "website id card ordering",
+      "app account registration",
+      "app showing error message",
+      "app hyperlink not working",
+      "app not responding",
+      "app missing benefits",
+      "app navigation",
+      "app claim info incorrect",
+      "app locating or submitting claim",
+      "app card access",
+      "app id card ordering"
+    ],
+    "descriptions": {
+      "password or username issue": {
+        "description": "Problems with passwords, usernames, login credentials, or account lockouts."
+      },
+      "trouble verifying identity": {
+        "description": "Issues with identity verification, including not receiving codes or failing authentication steps."
+      },
+      "account not found error": {
+        "description": "Cases where the system cannot locate a user account, member record, or enrollment."
+      },
+      "missing account setup details": {
+        "description": "Questions about required information or missing details needed to create or access an account."
+      },
+      "accessing plan details": {
+        "description": "Questions about how to view benefits, balances, plan information, or documents online or in an app."
+      },
+      "document access or delivery issues": {
+        "description": "Problems receiving, opening, or accessing plan documents or communications through email, links, or digital platforms."
+      },
+      "website account registration": {
+        "description": "Problems or questions related to creating or registering an account on the website."
+      },
+      "website showing error message": {
+        "description": "Errors encountered while using the website, including failed submissions or invalid input messages."
+      },
+      "website hyperlink not working": {
+        "description": "Problems with links on the website that are broken, looping, expired, or not opening correctly."
+      },
+      "website not responding": {
+        "description": "Cases where the website is slow, frozen, crashing, or not loading properly."
+      },
+      "website missing benefits": {
+        "description": "Cases where expected benefits, plan details, or information are missing from the website."
+      },
+      "website navigation": {
+        "description": "Difficulty finding information or completing tasks on the website."
+      },
+      "website claim info incorrect": {
+        "description": "Cases where claim information displayed on the website is incorrect, inconsistent, or does not match expectations."
+      },
+      "website locating or submitting claim": {
+        "description": "Problems finding, submitting, or tracking claims on the website."
+      },
+      "website card access": {
+        "description": "Issues accessing, viewing, or retrieving a digital ID or benefits card on the website."
+      },
+      "website id card ordering": {
+        "description": "Problems ordering, requesting, or receiving an ID card through the website."
+      },
+      "app account registration": {
+        "description": "Problems or questions related to creating or registering an account in the mobile app."
+      },
+      "app showing error message": {
+        "description": "Errors encountered while using the mobile app, including failed actions or invalid input messages."
+      },
+      "app hyperlink not working": {
+        "description": "Problems with links within the mobile app that are broken, looping, or not working properly."
+      },
+      "app not responding": {
+        "description": "Cases where the mobile app is slow, frozen, crashing, or not functioning properly."
+      },
+      "app missing benefits": {
+        "description": "Cases where expected benefits, plan details, or information are missing from the mobile app."
+      },
+      "app navigation": {
+        "description": "Difficulty finding information or completing tasks within the mobile app."
+      },
+      "app claim info incorrect": {
+        "description": "Cases where claim information displayed in the app is incorrect, inconsistent, or does not match expectations."
+      },
+      "app locating or submitting claim": {
+        "description": "Problems finding, submitting, or tracking claims in the mobile app."
+      },
+      "app card access": {
+        "description": "Issues accessing, viewing, or retrieving a digital ID or benefits card in the mobile app."
+      },
+      "app id card ordering": {
+        "description": "Problems ordering, requesting, or receiving an ID card through the mobile app."
+      }
+    }
+  },
+  "eligibility": {
+    "subtopics": [
+      "requirements for plan eligibility",
+      "general eligibility verification",
+      "eligibility reapplication",
+      "plan specific eligibility",
+      "medicare eligibility status",
+      "medicare part enrollment",
+      "medicaid eligibility status",
+      "medicaid level determination",
+      "dual plan eligibility",
+      "dual eligibility maintenance",
+      "chronic special needs eligibility",
+      "low income subsidy eligibility",
+      "extra help status",
+      "income asset eligibility",
+      "location based eligibility",
+      "special election eligibility",
+      "loss of coverage eligibility",
+      "medicaid change eligibility",
+      "residency change eligibility",
+      "disaster event eligibility",
+      "medical condition based eligibility",
+      "chronic condition verification",
+      "military coverage eligibility",
+      "employer coverage eligibility",
+      "employer coverage transition",
+      "other insurance eligibility",
+      "eligibility for extra benefits",
+      "supplemental benefit eligibility"
+    ],
+    "descriptions": {
+      "requirements for plan eligibility": {
+        "description": "Questions about baseline criteria that must be met to qualify for a plan, such as age, program participation, health status, income, or coverage prerequisites."
+      },
+      "general eligibility verification": {
+        "description": "Requests to confirm whether an individual currently meets eligibility criteria for a plan or benefit."
+      },
+      "eligibility reapplication": {
+        "description": "Questions about reapplying for eligibility after a prior denial, termination, or loss of qualifying status."
+      },
+      "plan specific eligibility": {
+        "description": "Eligibility questions tied to the requirements of a specific named plan rather than general program rules."
+      },
+      "medicare eligibility status": {
+        "description": "Questions about whether an individual is eligible for Medicare or currently has Medicare coverage."
+      },
+      "medicare part enrollment": {
+        "description": "Questions about eligibility for, or enrollment in, Medicare Parts A, B, C, or D."
+      },
+      "medicaid eligibility status": {
+        "description": "Questions about whether Medicaid coverage is active, terminated, pending, or never established."
+      },
+      "medicaid level determination": {
+        "description": "Questions about the type or level of Medicaid coverage (e.g., full Medicaid, partial Medicaid, QMB, SLMB)."
+      },
+      "dual plan eligibility": {
+        "description": "Questions about eligibility for plans requiring both Medicare and Medicaid."
+      },
+      "dual eligibility maintenance": {
+        "description": "Questions about maintaining eligibility for dual plans when Medicaid or Medicare status changes."
+      },
+      "chronic special needs eligibility": {
+        "description": "Questions about eligibility for Chronic Special Needs Plans (C\u2011SNP) based on qualifying medical conditions."
+      },
+      "low income subsidy eligibility": {
+        "description": "Questions about eligibility for the Medicare Part D Low Income Subsidy (LIS), including whether an individual qualifies based on income, assets, or program participation."
+      },
+      "extra help status": {
+        "description": "Questions about eligibility for, approval of, or changes to the Medicare Part D Extra Help program."
+      },
+      "income asset eligibility": {
+        "description": "Eligibility questions based on income, assets, spend\u2011down rules, or financial thresholds."
+      },
+      "location based eligibility": {
+        "description": "Questions about eligibility that depend on geographic factors such as state, county, ZIP code, service area, or plan availability in a specific location."
+      },
+      "special election eligibility": {
+        "description": "Questions about eligibility triggered by qualifying events such as coverage loss or status changes."
+      },
+      "loss of coverage eligibility": {
+        "description": "Eligibility tied to losing employer, private, or government coverage."
+      },
+      "medicaid change eligibility": {
+        "description": "Eligibility impacts resulting from a change in Medicaid status, level, or approval outcome."
+      },
+      "residency change eligibility": {
+        "description": "Eligibility questions related to moving to a different state, county, or service area and how that affects state\u2011based programs."
+      },
+      "disaster event eligibility": {
+        "description": "Questions about special eligibility provisions following natural disasters or declared emergencies."
+      },
+      "medical condition based eligibility": {
+        "description": "Eligibility questions where health conditions affect plan access, benefits, or qualification."
+      },
+      "chronic condition verification": {
+        "description": "Questions about documentation or confirmation required to prove a qualifying chronic condition."
+      },
+      "military coverage eligibility": {
+        "description": "Questions about eligibility involving VA benefits, Tricare, or military service."
+      },
+      "employer coverage eligibility": {
+        "description": "Eligibility questions related to current or prior employer\u2011sponsored coverage."
+      },
+      "employer coverage transition": {
+        "description": "Questions about eligibility changes when moving from employer insurance to Medicare."
+      },
+      "other insurance eligibility": {
+        "description": "Questions about eligibility when other insurance is present, such as VA, Tricare, Marketplace, or retiree plans."
+      },
+      "eligibility for extra benefits": {
+        "description": "Questions about qualifying for additional benefits such as food, utilities, transportation, or allowance cards."
+      },
+      "supplemental benefit eligibility": {
+        "description": "Questions about eligibility for Medicare supplements, Medigap plans, or secondary coverage options."
+      }
+    }
+  },
+  "enrollment": {
+    "subtopics": [
+      "enrollment requirements",
+      "enrollment deadline",
+      "when to enroll",
+      "enrolling for first time",
+      "late enrollment",
+      "working past 65",
+      "information for enrollment assistance",
+      "enrollment escalation support",
+      "application process",
+      "application submission method",
+      "application status",
+      "application approved",
+      "application denied",
+      "application pending",
+      "application not received",
+      "application missing information",
+      "post application steps",
+      "enrollment confirmation",
+      "enrollment discrepancy",
+      "enrollment consent authorization",
+      "unauthorized enrollment",
+      "enrollment reinstatement",
+      "reenrollment process",
+      "enrollment cancellation",
+      "retroactive enrollment",
+      "enrollment payment issue",
+      "enrollment document delivery",
+      "plan documents",
+      "plan effective/start date",
+      "plan termination/end date",
+      "member id card issuance",
+      "member id card delivery status",
+      "member id card activation",
+      "member id card replacement",
+      "insurance card validity",
+      "insurance card not working",
+      "digital id card access",
+      "insurance card information",
+      "multiple cards confusion",
+      "card address or name update",
+      "benefit card balance issues",
+      "benefit card usage",
+      "coverage access before receiving card"
+    ],
+    "descriptions": {
+      "enrollment requirements": {
+        "description": "Eligibility criteria required to enroll, such as Medicare Parts A/B status, age, location, employment, Medicaid status, or qualifying conditions."
+      },
+      "enrollment deadline": {
+        "description": "Questions about cutoff dates to enroll, switch, or make changes, including open enrollment and special enrollment period deadlines."
+      },
+      "when to enroll": {
+        "description": "Guidance on the appropriate time to enroll based on age, life events, coverage changes, or upcoming eligibility."
+      },
+      "enrolling for first time": {
+        "description": "Questions from individuals enrolling for the first time who need end\u2011to\u2011end guidance on starting coverage."
+      },
+      "late enrollment": {
+        "description": "Questions about enrolling after eligibility, including penalties, consequences, exemptions, or waiver options."
+      },
+      "working past 65": {
+        "description": "Enrollment questions for individuals continuing employer coverage past age 65 and how that affects Medicare or plan enrollment."
+      },
+      "information for enrollment assistance": {
+        "description": "Requests for help resources such as agents, counselors, customer support, or guidance tools to assist with enrollment."
+      },
+      "enrollment escalation support": {
+        "description": "Requests to urgently escalate enrollment issues due to deadlines, errors, missing coverage, or unresolved prior attempts."
+      },
+      "application process": {
+        "description": "Questions about how the enrollment application works, required steps, required information, or overall workflow."
+      },
+      "application submission method": {
+        "description": "How or where an application is submitted, including online, phone, email, text, fax, mail, or electronic signature methods."
+      },
+      "application status": {
+        "description": "General inquiries about the current state of an application without a specific outcome (e.g., \u201cbeing reviewed\u201d)."
+      },
+      "application approved": {
+        "description": "Confirmation or questions after an application has been accepted or approved."
+      },
+      "application denied": {
+        "description": "Questions about reasons for denial, rejection notices, appeals, or next steps after a rejection."
+      },
+      "application pending": {
+        "description": "Applications under review that have not yet been approved or denied. Includes underwriting or Medicare review periods."
+      },
+      "application not received": {
+        "description": "Situations where a submitted application cannot be found or acknowledged by the system or Medicare."
+      },
+      "application missing information": {
+        "description": "Requests for additional documents, signatures, corrections, or clarification needed to complete processing."
+      },
+      "post application steps": {
+        "description": "Questions about what to do after submission or approval, including next actions, waiting periods, or follow\u2011up steps."
+      },
+      "enrollment confirmation": {
+        "description": "Requests for proof or verification that enrollment is complete, such as confirmation numbers or letters."
+      },
+      "enrollment discrepancy": {
+        "description": "Conflicts between enrollment records (e.g., Medicare vs carrier systems, card vs system showing inactive)."
+      },
+      "enrollment consent authorization": {
+        "description": "Questions about permissions needed to enroll or manage enrollment for someone else, including power of attorney or verbal consent."
+      },
+      "unauthorized enrollment": {
+        "description": "Concerns that enrollment occurred without the member\u2019s knowledge or permission, or receipt of cards/documents for a plan they did not choose."
+      },
+      "enrollment reinstatement": {
+        "description": "Requests to restore coverage after it was canceled, terminated, or lost unintentionally."
+      },
+      "reenrollment process": {
+        "description": "How to enroll again after previous coverage ended, including annual re\u2011enrollment."
+      },
+      "enrollment cancellation": {
+        "description": "Requests to cancel, withdraw, or opt out of an enrollment or pending application."
+      },
+      "retroactive enrollment": {
+        "description": "Questions about backdating coverage to an earlier effective date."
+      },
+      "enrollment payment issue": {
+        "description": "Problems related to initial premiums, payment setup, missed payments, or enrollment\u2011related billing issues."
+      },
+      "enrollment document delivery": {
+        "description": "Questions about receiving enrollment letters, notices, confirmation mail, or welcome packages."
+      },
+      "plan documents": {
+        "description": "Requests for evidence of coverage, summaries of benefits, plan booklets, or policy documents."
+      },
+      "plan effective/start date": {
+        "description": "Questions about when coverage begins after enrollment or approval."
+      },
+      "plan termination/end date": {
+        "description": "Questions about when coverage ends and why, including voluntary or system\u2011initiated termination."
+      },
+      "member id card issuance": {
+        "description": "Questions about whether a card has been generated for a new or renewed enrollment."
+      },
+      "member id card delivery status": {
+        "description": "Tracking, delays, or missing physical ID cards after issuance."
+      },
+      "member id card activation": {
+        "description": "Whether activation is required and how to activate a card before use."
+      },
+      "member id card replacement": {
+        "description": "Requests for new cards due to loss, damage, expiration, or incorrect information."
+      },
+      "insurance card validity": {
+        "description": "Questions about whether a card is current, active, or usable."
+      },
+      "insurance card not working": {
+        "description": "Issues where providers or pharmacies cannot use or accept the card."
+      },
+      "digital id card access": {
+        "description": "Accessing or using an electronic or mobile version of the ID card."
+      },
+      "insurance card information": {
+        "description": "Understanding fields printed on the card such as member ID, group number, or plan name."
+      },
+      "multiple cards confusion": {
+        "description": "Confusion caused by receiving multiple cards and uncertainty about which to use."
+      },
+      "card address or name update": {
+        "description": "Updating personal information to ensure correct card delivery or accuracy."
+      },
+      "benefit card balance issues": {
+        "description": "Questions about missing funds, incorrect balances, or benefit amounts on spending cards."
+      },
+      "benefit card usage": {
+        "description": "How and where benefit or allowance cards can be used."
+      },
+      "coverage access before receiving card": {
+        "description": "How to access care, prescriptions, or benefits before the physical ID card arrives."
+      }
+    }
+  },
+  "general plan information": {
+    "subtopics": [
+      "plan overview",
+      "what plan am i on",
+      "plan type identification",
+      "plan suitability confirmation",
+      "plan effective and termination dates",
+      "plan availability and options",
+      "plan eligibility and qualification",
+      "household and dependent coverage",
+      "chronic condition programs and benefits",
+      "medicare basics and education",
+      "medicare penalties and compliance",
+      "medicaid coverage and coordination",
+      "military and va benefits coordination",
+      "plan costs and cost structure",
+      "plan discounts and financial incentives",
+      "part b give back benefits",
+      "primary care coverage",
+      "specialist visits coverage",
+      "referral requirements",
+      "provider coverage verification",
+      "preventive services coverage",
+      "vaccinations and immunizations coverage",
+      "diagnostic and lab services",
+      "advanced imaging coverage",
+      "outpatient services coverage",
+      "inpatient hospital coverage",
+      "emergency and urgent care coverage",
+      "physical therapy and rehab",
+      "home health and house calls",
+      "skilled nursing and nursing home",
+      "hospice and palliative care",
+      "behavioral and mental health",
+      "prescription drug coverage",
+      "part d overview",
+      "drug formulary overview",
+      "pharmacy access and mail order",
+      "catastrophic and coverage gap",
+      "dental coverage overview",
+      "vision coverage overview",
+      "hearing coverage overview",
+      "over the counter benefits",
+      "healthy food benefits",
+      "transportation benefits",
+      "fitness and gym benefits",
+      "rewards and incentives",
+      "wellness and care support programs",
+      "spending cards and allowances",
+      "durable medical equipment",
+      "medical supplies coverage",
+      "infusion and injection services",
+      "dialysis coverage",
+      "out of network access",
+      "travel and out of area coverage",
+      "authorization and prior approval",
+      "plan documents and evidence of coverage",
+      "member services and contact info",
+      "account access and mobile app",
+      "accessibility and language options",
+      "communications and notifications",
+      "billing and payments",
+      "claims and coverage determinations",
+      "plan changes and updates",
+      "coverage transitions and continuity",
+      "address changes and residency impacts",
+      "plan marketing and fraud awareness"
+    ],
+    "descriptions": {}
+  },
+  "medicare id": {
+    "subtopics": [
+      "medicare number basics",
+      "medicare card explanation",
+      "medicare number retrieval",
+      "medicare number verificiation",
+      "medicare vs member id",
+      "lookup without medicare number",
+      "member id number request",
+      "id usage for services"
+    ],
+    "descriptions": {}
+  },
+  "member renewal": {
+    "subtopics": [
+      "renewal status verification",
+      "automatic renewal verification",
+      "renewal notice confusion",
+      "renewal notice explanation",
+      "renewal required actions",
+      "renewal deadline timeline",
+      "medicaid renewal requirements",
+      "coverage during renewal",
+      "renewal lapse explanation",
+      "reenrollment after renewal lapse",
+      "keeping current plan",
+      "plan changes at renewal",
+      "renewal communication methods",
+      "renewal effective date"
+    ],
+    "descriptions": {}
+  },
+  "plan changes": {
+    "subtopics": [
+      "plan change process",
+      "plan options exploration",
+      "switching plan types",
+      "plan change status verification",
+      "unauthorized plan changes",
+      "return to previous plan process",
+      "return to previous plan eligibility",
+      "plan change eligibility",
+      "plan change due to move",
+      "plan change due to medicaid",
+      "plan change due to diagnosis",
+      "plan change due to disaster",
+      "plan change due to coverage loss",
+      "plan change effective dates",
+      "coverage during plan change",
+      "overlapping coverage after change",
+      "provider access after plan change",
+      "medication coverage after plan change",
+      "plan cost after plan change",
+      "dental benefits after plan change",
+      "vision benefits after plan change",
+      "hearing benefits after plan change",
+      "otc benefits after plan change",
+      "transportation benefit after plan change",
+      "food allowance after plan change",
+      "extra benefits after plan change",
+      "plan cancellation request",
+      "plan cancellation status",
+      "plan termination consequences",
+      "billing after plan change",
+      "plan change communication"
+    ],
+    "descriptions": {}
+  },
+  "plan comparison": {
+    "subtopics": [
+      "plan suitability assessment",
+      "plan type comparison",
+      "specific plan comparison",
+      "plan differences by state",
+      "premium comparison",
+      "copay and deductible comparison",
+      "out of pocket maximum comparison",
+      "prescription cost comparison",
+      "prescription coverage comparison",
+      "provider network comparison",
+      "out of network coverage comparison",
+      "referral and authorization comparison",
+      "dental benefit comparison",
+      "vision benefit comparison",
+      "hearing benefit comparison",
+      "otc benefit comparison",
+      "transportation benefit comparison",
+      "gym benefit comparison",
+      "food benefit comparison",
+      "hospital coverage comparison"
+    ],
+    "descriptions": {}
+  },
+  "plan costs": {
+    "subtopics": [
+      "plan medical deductible",
+      "plan prescription deductible",
+      "deductible met or remaining",
+      "deductible reset or increase",
+      "deductible versus copay",
+      "primary care copay",
+      "specialist copay",
+      "hospital copay",
+      "urgent care copay",
+      "emergency room copay",
+      "coinsurance explanation",
+      "prescription drug copay",
+      "prescription drug coinsurance",
+      "prescription drug cost increase",
+      "prescription coverage stages",
+      "extra help drug costs",
+      "out of pocket maximum amount",
+      "out of pocket maximum progress",
+      "out of pocket maximum versus deductible",
+      "medical bill explanation",
+      "unexpected medical charge",
+      "billing discrepancy",
+      "claim patient responsibility",
+      "plan cost comparison",
+      "plan affordability concerns",
+      "zero premium or zero copay plans",
+      "medicaid impact on plan costs",
+      "extra help impact on costs"
+    ],
+    "descriptions": {
+      "plan medical deductible": {
+        "description": "Questions about the deductible amount for medical services and when it applies."
+      },
+      "plan prescription deductible": {
+        "description": "Questions about the deductible for prescription drug coverage and how it applies."
+      },
+      "deductible met or remaining": {
+        "description": "Questions about whether the deductible has been met or how much remains."
+      },
+      "deductible reset or increase": {
+        "description": "Questions about deductible resets (e.g., yearly) or increases in deductible amounts."
+      },
+      "deductible versus copay": {
+        "description": "Questions comparing how deductibles differ from copays and how each applies."
+      },
+      "primary care copay": {
+        "description": "Questions about copay amounts for primary care doctor visits."
+      },
+      "specialist copay": {
+        "description": "Questions about copay amounts for specialist visits."
+      },
+      "hospital copay": {
+        "description": "Questions about copay amounts for inpatient hospital stays."
+      },
+      "urgent care copay": {
+        "description": "Questions about copay amounts for urgent care visits."
+      },
+      "emergency room copay": {
+        "description": "Questions about copay amounts for emergency room visits."
+      },
+      "coinsurance explanation": {
+        "description": "Questions about how coinsurance works and how costs are calculated as a percentage."
+      },
+      "prescription drug copay": {
+        "description": "Questions about fixed copay amounts for prescription medications."
+      },
+      "prescription drug coinsurance": {
+        "description": "Questions about percentage-based costs for prescription medications."
+      },
+      "prescription drug cost increase": {
+        "description": "Questions about rising or changing prescription drug costs."
+      },
+      "prescription coverage stages": {
+        "description": "Questions about drug coverage phases (e.g., deductible, initial coverage, donut hole, catastrophic)."
+      },
+      "extra help drug costs": {
+        "description": "Questions about how Extra Help (Low Income Subsidy) affects prescription costs."
+      },
+      "out of pocket maximum amount": {
+        "description": "Questions about the maximum amount a member may pay out of pocket in a plan year."
+      },
+      "out of pocket maximum progress": {
+        "description": "Questions about how much has been spent toward the out-of-pocket maximum."
+      },
+      "out of pocket maximum versus deductible": {
+        "description": "Questions comparing out-of-pocket maximums and deductibles."
+      },
+      "medical bill explanation": {
+        "description": "Requests to explain charges on a bill or statement."
+      },
+      "unexpected medical charge": {
+        "description": "Questions about unexpected or unusually high medical charges."
+      },
+      "billing discrepancy": {
+        "description": "Issues where a bill appears incorrect, inconsistent, or duplicated."
+      },
+      "claim patient responsibility": {
+        "description": "Questions about why a member owes a certain amount after insurance processing."
+      },
+      "plan cost comparison": {
+        "description": "Questions comparing costs across different plans, including premiums and out-of-pocket expenses."
+      },
+      "plan affordability concerns": {
+        "description": "Concerns about the plan being too expensive or difficult to afford."
+      },
+      "zero premium or zero copay plans": {
+        "description": "Questions about plans advertised as $0 premium or $0 copay and how those work."
+      },
+      "medicaid impact on plan costs": {
+        "description": "Questions about how Medicaid affects premiums, copays, or out-of-pocket costs."
+      },
+      "extra help impact on costs": {
+        "description": "Questions about how Extra Help or subsidies affect overall plan costs."
+      }
+    }
+  },
+  "prescription drug coverage": {
+    "subtopics": [
+      "prescription coverage inquiry",
+      "prescription coverage eligibility",
+      "prescription plan identification",
+      "specific medication coverage",
+      "prescription drug copays",
+      "prescription drug coinsurance",
+      "prescription drug deductible",
+      "prescription coverage stages",
+      "drug tier classification",
+      "catastrophic coverage",
+      "medicaid impact on prescriptions",
+      "extra help prescription costs",
+      "lis status or level",
+      "prescription insurance billing order",
+      "preferred pharmacy inquiry",
+      "pharmacy network access",
+      "pharmacy change request",
+      "mail order pharmacy setup",
+      "mail order pharmacy issues",
+      "prescription delivery status",
+      "prior authorization requirement",
+      "prior authorization issues",
+      "coverage exception request",
+      "prescription refill and quantity limits",
+      "prescription claim rejection",
+      "otc benefit eligibility",
+      "otc benefit amount",
+      "otc benefit usage",
+      "otc card balance issue",
+      "otc benefit decline or removal",
+      "otc catalog and ordering",
+      "prescription pricing discrepancy",
+      "prescription billing issue",
+      "out of pocket medication costs",
+      "temporary prescription coverage",
+      "medication access during coverage gap",
+      "emergency medication assistance"
+    ],
+    "descriptions": {}
+  },
+  "providers": {
+    "subtopics": [
+      "provider network status check",
+      "provider network discrepancy",
+      "out of network coverage rules",
+      "find in network providers",
+      "provider contact information",
+      "primary care provider selection",
+      "primary care provider change request",
+      "primary care provider verification",
+      "referral requirement clarification",
+      "referral submission issues",
+      "referral approval or denial",
+      "keeping current provider",
+      "provider changes or leaving network",
+      "provider eligibility verification",
+      "provider system mismatch or inactive status",
+      "provider demographic or npi errors",
+      "hospital coverage",
+      "urgent care and emergency care coverage",
+      "facility network status",
+      "dental provider coverage",
+      "vision provider coverage",
+      "mental health provider coverage",
+      "home health and nursing facility coverage"
+    ],
+    "descriptions": {
+      "provider network status check": {
+        "description": "Questions about whether a specific provider, doctor, or facility is in-network or out-of-network."
+      },
+      "provider network discrepancy": {
+        "description": "Issues where provider network status is inconsistent, unclear, or conflicting across sources."
+      },
+      "out of network coverage rules": {
+        "description": "Questions about coverage, costs, or rules for using out-of-network providers."
+      },
+      "find in network providers": {
+        "description": "Requests for help locating or identifying in-network doctors, specialists, or providers."
+      },
+      "provider contact information": {
+        "description": "Requests for phone numbers, addresses, or contact details for providers or facilities."
+      },
+      "primary care provider selection": {
+        "description": "Questions about choosing or assigning a primary care provider."
+      },
+      "primary care provider change request": {
+        "description": "Requests to change or update the assigned primary care provider."
+      },
+      "primary care provider verification": {
+        "description": "Questions about confirming the assigned primary care provider or their details."
+      },
+      "referral requirement clarification": {
+        "description": "Questions about whether referrals are required and how they work."
+      },
+      "referral submission issues": {
+        "description": "Problems submitting or initiating a referral through the system or provider."
+      },
+      "referral approval or denial": {
+        "description": "Questions or issues related to referral approvals, denials, or status."
+      },
+      "keeping current provider": {
+        "description": "Questions about whether a member can continue seeing their current doctor or provider."
+      },
+      "provider changes or leaving network": {
+        "description": "Questions about providers leaving the network or changes affecting provider availability."
+      },
+      "provider eligibility verification": {
+        "description": "Questions about confirming whether a provider accepts the plan or is eligible for coverage."
+      },
+      "provider system mismatch or inactive status": {
+        "description": "Issues where a provider appears missing, inactive, or not recognized in the system."
+      },
+      "provider demographic or npi errors": {
+        "description": "Issues with incorrect provider details such as name, location, specialty, or NPI information."
+      },
+      "hospital coverage": {
+        "description": "Questions about whether hospitals or inpatient services are covered under the plan."
+      },
+      "urgent care and emergency care coverage": {
+        "description": "Questions about coverage for urgent care, emergency services, or situations outside normal care."
+      },
+      "facility network status": {
+        "description": "Questions about whether a facility (hospital, clinic, center) is in-network."
+      },
+      "dental provider coverage": {
+        "description": "Questions about coverage for dentists or dental providers."
+      },
+      "vision provider coverage": {
+        "description": "Questions about coverage for eye care providers or vision services."
+      },
+      "mental health provider coverage": {
+        "description": "Questions about coverage for therapists, psychiatrists, or mental health services."
+      },
+      "home health and nursing facility coverage": {
+        "description": "Questions about coverage for home health services, nursing homes, or long-term care facilities."
+      }
+    }
+  },
+  "service area reduction": {
+    "subtopics": [
+      "plan no longer available in area",
+      "service area disenrollment",
+      "out of area error",
+      "address change eligibility impact",
+      "no termination notification",
+      "plan termination reason",
+      "options after plan termination",
+      "carrier leaving region"
+    ],
+    "descriptions": {}
+  },
+  "transportation, food and gym benefits": {
+    "subtopics": [
+      "transportation coverage rules",
+      "transportation benefit inquiry",
+      "transportation trip limits",
+      "transportation vendor options",
+      "transportation ride scheduling or cancellation",
+      "transportation ride delays",
+      "transportation ride failure",
+      "community transportation resources",
+      "food benefit eligibility",
+      "food benefit qualification verification",
+      "food benefit amount changes",
+      "food benefit usage",
+      "food card delivery status",
+      "food card replacement",
+      "food card activation",
+      "food card balance issue",
+      "food card transaction errors",
+      "community food resources",
+      "gym cost",
+      "gym membership eligibility",
+      "gym membership issues",
+      "gym activation and code",
+      "gym network and locations"
+    ],
+    "descriptions": {
+      "transportation coverage rules": {
+        "description": "Questions about how transportation benefits work, including eligibility, limits, and allowed uses."
+      },
+      "transportation benefit inquiry": {
+        "description": "General questions about whether transportation benefits are included in the plan."
+      },
+      "transportation trip limits": {
+        "description": "Questions about the number of trips, mileage limits, or usage caps for transportation."
+      },
+      "transportation vendor options": {
+        "description": "Questions about available transportation providers, vendors, or services that can be used."
+      },
+      "transportation ride scheduling or cancellation": {
+        "description": "Requests or issues related to booking, modifying, or canceling transportation rides."
+      },
+      "transportation ride delays": {
+        "description": "Issues where a scheduled ride is late, delayed, or not arriving on time."
+      },
+      "transportation ride failure": {
+        "description": "Issues where a ride did not occur as expected, including no-shows, missed pickups, or dropped service."
+      },
+      "community transportation resources": {
+        "description": "Questions about external or community-based transportation support (non-plan services)."
+      },
+      "food benefit eligibility": {
+        "description": "Questions about whether a member qualifies for food or grocery-related benefits."
+      },
+      "food benefit qualification verification": {
+        "description": "Questions about confirming qualification criteria, including income, Medicaid status, or chronic conditions."
+      },
+      "food benefit amount changes": {
+        "description": "Questions about increases, decreases, or changes to food benefit amounts."
+      },
+      "food benefit usage": {
+        "description": "Questions about how to use food benefits, including eligible items, stores, or spending rules."
+      },
+      "food card delivery status": {
+        "description": "Questions about when or whether a food benefit card has been mailed or received."
+      },
+      "food card replacement": {
+        "description": "Requests for replacing a lost, stolen, or damaged food benefit card."
+      },
+      "food card activation": {
+        "description": "Questions about activating or setting up a food benefit card before use."
+      },
+      "food card balance issue": {
+        "description": "Issues with checking, missing, or incorrect benefit balances on the card."
+      },
+      "food card transaction errors": {
+        "description": "Problems when the card is declined, not accepted, or does not work at checkout."
+      },
+      "community food resources": {
+        "description": "Questions about external food assistance programs (e.g., food banks, SNAP, local services)."
+      },
+      "gym cost": {
+        "description": "Questions about fees, charges, or out-of-pocket costs related to gym memberships."
+      },
+      "gym membership eligibility": {
+        "description": "Questions about whether gym or fitness benefits are included or available under the plan."
+      },
+      "gym membership issues": {
+        "description": "Problems using gym benefits, including access issues, billing errors, or denied usage."
+      },
+      "gym activation and code": {
+        "description": "Questions about how to activate gym benefits or obtain required access codes."
+      },
+      "gym network and locations": {
+        "description": "Questions about which gyms, fitness centers, or locations are included in the network."
+      }
+    }
+  },
+  "vision": {
+    "subtopics": [
+      "vision benefit overview",
+      "eye exam coverage",
+      "eyeglass coverage",
+      "contact lens coverage",
+      "vision allowance amount",
+      "vision copays and charges",
+      "in network vision providers",
+      "out of network vision rules",
+      "vision benefit reductions or changes",
+      "vision claims and billing issues",
+      "vision refunds and replacements",
+      "vision referral requirements",
+      "otc or ucard for vision",
+      "medical eye care coverage",
+      "vision vendor or plan identification"
+    ],
+    "descriptions": {}
+  },
+  "others": {
+    "subtopics": [
+      "identity and verification",
+      "consent and authorization",
+      "contact and communication preferences",
+      "health status and assessment",
+      "underwriting and risk questions",
+      "company verification and legitimacy",
+      "complaints and escalation",
+      "external assistance and social services",
+      "call handling and operational flow",
+      "non-actionable or unintelligible",
+      "non-english call"
+    ],
+    "descriptions": {
+      "identity and verification": {
+        "description": "Questions related to confirming or validating personal information such as name, date of birth, address, or identity for security or record\u2011matching purposes."
+      },
+      "consent and authorization": {
+        "description": "Questions about permissions required to discuss, manage, or access information on behalf of another individual, including authorized representatives or power of attorney."
+      },
+      "contact and communication preferences": {
+        "description": "Preferences or updates regarding how communications are delivered, including phone, email, text, language, print format, or consent to future contact."
+      },
+      "health status and assessment": {
+        "description": "Questions related to general health information, conditions, medications, providers, or health assessments that are not directly tied to enrollment status."
+      },
+      "underwriting and risk questions": {
+        "description": "Questions about how medical history, conditions, treatments, or health disclosures affect eligibility, approval, pricing, or underwriting outcomes."
+      },
+      "company verification and legitimacy": {
+        "description": "Questions about the legitimacy, affiliation, or authorization of a company, plan, caller, advertisement, or outreach communication."
+      },
+      "complaints and escalation": {
+        "description": "Concerns or issues related to dissatisfaction with service, unresolved problems, repeated contacts, or requests to escalate or file a complaint."
+      },
+      "external assistance and social services": {
+        "description": "Requests for information or help involving organizations or programs outside the plan, such as Medicaid, Social Security, utilities, food, housing, or caregiving resources."
+      },
+      "call handling and operational flow": {
+        "description": "Questions about call routing, transfers, callbacks, departments, recordings, availability, or difficulty reaching the appropriate team."
+      },
+      "non-actionable or unintelligible": {
+        "description": "Statements or questions that are incomplete, unclear, nonsensical, or do not express a specific, actionable intent."
+      },
+      "non-english call": {
+        "description": "Interactions primarily conducted in a language other than English, including requests for translation or language\u2011specific support."
+      }
+    }
+  }
+}

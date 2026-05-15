@@ -1,0 +1,38 @@
+{
+  "plan changes": {
+    "subtopics": [
+      "plan change process",
+      "plan options exploration",
+      "switching plan types",
+      "plan change status verification",
+      "unauthorized plan changes",
+      "return to previous plan process",
+      "return to previous plan eligibility",
+      "plan change eligibility",
+      "plan change due to move",
+      "plan change due to medicaid",
+      "plan change due to diagnosis",
+      "plan change due to disaster",
+      "plan change due to coverage loss",
+      "plan change effective dates",
+      "coverage during plan change",
+      "overlapping coverage after change",
+      "provider access after plan change",
+      "medication coverage after plan change",
+      "plan cost after plan change",
+      "dental benefits after plan change",
+      "vision benefits after plan change",
+      "hearing benefits after plan change",
+      "otc benefits after plan change",
+      "transportation benefit after plan change",
+      "food allowance after plan change",
+      "extra benefits after plan change",
+      "plan cancellation request",
+      "plan cancellation status",
+      "plan termination consequences",
+      "billing after plan change",
+      "plan change communication"
+    ],
+    "descriptions": {}
+  }
+}

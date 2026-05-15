@@ -1,0 +1,24 @@
+{
+  "drug coverage termination": {
+    "subtopics": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry",
+      "notification or communication failure",
+      "drug coverage status"
+    ],
+    "descriptions": {
+      "coverage discrepancy or denial": {
+        "description": "Issues where a medication is denied, no longer covered, or inconsistently processed despite prior coverage or expectations."
+      },
+      "coverage termination inquiry": {
+        "description": "Questions about the cancellation, termination, or ending of prescription drug coverage or a drug plan, including reasons, timing, and next steps."
+      },
+      "notification or communication failure": {
+        "description": "Questions about missing, unclear, delayed, or conflicting communication regarding drug coverage changes, terminations, or denials."
+      },
+      "drug coverage status": {
+        "description": "Questions about whether prescription drug coverage or a specific medication is currently active, inactive, or covered under the plan."
+      }
+    }
+  }
+}

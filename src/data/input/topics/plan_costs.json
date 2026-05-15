@@ -1,0 +1,120 @@
+{
+  "plan costs": {
+    "subtopics": [
+      "plan medical deductible",
+      "plan prescription deductible",
+      "deductible met or remaining",
+      "deductible reset or increase",
+      "deductible versus copay",
+      "primary care copay",
+      "specialist copay",
+      "hospital copay",
+      "urgent care copay",
+      "emergency room copay",
+      "coinsurance explanation",
+      "prescription drug copay",
+      "prescription drug coinsurance",
+      "prescription drug cost increase",
+      "prescription coverage stages",
+      "extra help drug costs",
+      "out of pocket maximum amount",
+      "out of pocket maximum progress",
+      "out of pocket maximum versus deductible",
+      "medical bill explanation",
+      "unexpected medical charge",
+      "billing discrepancy",
+      "claim patient responsibility",
+      "plan cost comparison",
+      "plan affordability concerns",
+      "zero premium or zero copay plans",
+      "medicaid impact on plan costs",
+      "extra help impact on costs"
+    ],
+    "descriptions": {
+      "plan medical deductible": {
+        "description": "Questions about the deductible amount for medical services and when it applies."
+      },
+      "plan prescription deductible": {
+        "description": "Questions about the deductible for prescription drug coverage and how it applies."
+      },
+      "deductible met or remaining": {
+        "description": "Questions about whether the deductible has been met or how much remains."
+      },
+      "deductible reset or increase": {
+        "description": "Questions about deductible resets (e.g., yearly) or increases in deductible amounts."
+      },
+      "deductible versus copay": {
+        "description": "Questions comparing how deductibles differ from copays and how each applies."
+      },
+      "primary care copay": {
+        "description": "Questions about copay amounts for primary care doctor visits."
+      },
+      "specialist copay": {
+        "description": "Questions about copay amounts for specialist visits."
+      },
+      "hospital copay": {
+        "description": "Questions about copay amounts for inpatient hospital stays."
+      },
+      "urgent care copay": {
+        "description": "Questions about copay amounts for urgent care visits."
+      },
+      "emergency room copay": {
+        "description": "Questions about copay amounts for emergency room visits."
+      },
+      "coinsurance explanation": {
+        "description": "Questions about how coinsurance works and how costs are calculated as a percentage."
+      },
+      "prescription drug copay": {
+        "description": "Questions about fixed copay amounts for prescription medications."
+      },
+      "prescription drug coinsurance": {
+        "description": "Questions about percentage-based costs for prescription medications."
+      },
+      "prescription drug cost increase": {
+        "description": "Questions about rising or changing prescription drug costs."
+      },
+      "prescription coverage stages": {
+        "description": "Questions about drug coverage phases (e.g., deductible, initial coverage, donut hole, catastrophic)."
+      },
+      "extra help drug costs": {
+        "description": "Questions about how Extra Help (Low Income Subsidy) affects prescription costs."
+      },
+      "out of pocket maximum amount": {
+        "description": "Questions about the maximum amount a member may pay out of pocket in a plan year."
+      },
+      "out of pocket maximum progress": {
+        "description": "Questions about how much has been spent toward the out-of-pocket maximum."
+      },
+      "out of pocket maximum versus deductible": {
+        "description": "Questions comparing out-of-pocket maximums and deductibles."
+      },
+      "medical bill explanation": {
+        "description": "Requests to explain charges on a bill or statement."
+      },
+      "unexpected medical charge": {
+        "description": "Questions about unexpected or unusually high medical charges."
+      },
+      "billing discrepancy": {
+        "description": "Issues where a bill appears incorrect, inconsistent, or duplicated."
+      },
+      "claim patient responsibility": {
+        "description": "Questions about why a member owes a certain amount after insurance processing."
+      },
+      "plan cost comparison": {
+        "description": "Questions comparing costs across different plans, including premiums and out-of-pocket expenses."
+      },
+      "plan affordability concerns": {
+        "description": "Concerns about the plan being too expensive or difficult to afford."
+      },
+      "zero premium or zero copay plans": {
+        "description": "Questions about plans advertised as $0 premium or $0 copay and how those work."
+      },
+      "medicaid impact on plan costs": {
+        "description": "Questions about how Medicaid affects premiums, copays, or out-of-pocket costs."
+      },
+      "extra help impact on costs": {
+        "description": "Questions about how Extra Help or subsidies affect overall plan costs."
+      }
+    }
+  }
+}

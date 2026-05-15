@@ -1,0 +1,120 @@
+{
+  "eligibility": {
+    "subtopics": [
+      "requirements for plan eligibility",
+      "general eligibility verification",
+      "eligibility reapplication",
+      "plan specific eligibility",
+      "medicare eligibility status",
+      "medicare part enrollment",
+      "medicaid eligibility status",
+      "medicaid level determination",
+      "dual plan eligibility",
+      "dual eligibility maintenance",
+      "chronic special needs eligibility",
+      "low income subsidy eligibility",
+      "extra help status",
+      "income asset eligibility",
+      "location based eligibility",
+      "special election eligibility",
+      "loss of coverage eligibility",
+      "medicaid change eligibility",
+      "residency change eligibility",
+      "disaster event eligibility",
+      "medical condition based eligibility",
+      "chronic condition verification",
+      "military coverage eligibility",
+      "employer coverage eligibility",
+      "employer coverage transition",
+      "other insurance eligibility",
+      "eligibility for extra benefits",
+      "supplemental benefit eligibility"
+    ],
+    "descriptions": {
+      "requirements for plan eligibility": {
+        "description": "Questions about baseline criteria that must be met to qualify for a plan, such as age, program participation, health status, income, or coverage prerequisites."
+      },
+      "general eligibility verification": {
+        "description": "Requests to confirm whether an individual currently meets eligibility criteria for a plan or benefit."
+      },
+      "eligibility reapplication": {
+        "description": "Questions about reapplying for eligibility after a prior denial, termination, or loss of qualifying status."
+      },
+      "plan specific eligibility": {
+        "description": "Eligibility questions tied to the requirements of a specific named plan rather than general program rules."
+      },
+      "medicare eligibility status": {
+        "description": "Questions about whether an individual is eligible for Medicare or currently has Medicare coverage."
+      },
+      "medicare part enrollment": {
+        "description": "Questions about eligibility for, or enrollment in, Medicare Parts A, B, C, or D."
+      },
+      "medicaid eligibility status": {
+        "description": "Questions about whether Medicaid coverage is active, terminated, pending, or never established."
+      },
+      "medicaid level determination": {
+        "description": "Questions about the type or level of Medicaid coverage (e.g., full Medicaid, partial Medicaid, QMB, SLMB)."
+      },
+      "dual plan eligibility": {
+        "description": "Questions about eligibility for plans requiring both Medicare and Medicaid."
+      },
+      "dual eligibility maintenance": {
+        "description": "Questions about maintaining eligibility for dual plans when Medicaid or Medicare status changes."
+      },
+      "chronic special needs eligibility": {
+        "description": "Questions about eligibility for Chronic Special Needs Plans (C\u2011SNP) based on qualifying medical conditions."
+      },
+      "low income subsidy eligibility": {
+        "description": "Questions about eligibility for the Medicare Part D Low Income Subsidy (LIS), including whether an individual qualifies based on income, assets, or program participation."
+      },
+      "extra help status": {
+        "description": "Questions about eligibility for, approval of, or changes to the Medicare Part D Extra Help program."
+      },
+      "income asset eligibility": {
+        "description": "Eligibility questions based on income, assets, spend\u2011down rules, or financial thresholds."
+      },
+      "location based eligibility": {
+        "description": "Questions about eligibility that depend on geographic factors such as state, county, ZIP code, service area, or plan availability in a specific location."
+      },
+      "special election eligibility": {
+        "description": "Questions about eligibility triggered by qualifying events such as coverage loss or status changes."
+      },
+      "loss of coverage eligibility": {
+        "description": "Eligibility tied to losing employer, private, or government coverage."
+      },
+      "medicaid change eligibility": {
+        "description": "Eligibility impacts resulting from a change in Medicaid status, level, or approval outcome."
+      },
+      "residency change eligibility": {
+        "description": "Eligibility questions related to moving to a different state, county, or service area and how that affects state\u2011based programs."
+      },
+      "disaster event eligibility": {
+        "description": "Questions about special eligibility provisions following natural disasters or declared emergencies."
+      },
+      "medical condition based eligibility": {
+        "description": "Eligibility questions where health conditions affect plan access, benefits, or qualification."
+      },
+      "chronic condition verification": {
+        "description": "Questions about documentation or confirmation required to prove a qualifying chronic condition."
+      },
+      "military coverage eligibility": {
+        "description": "Questions about eligibility involving VA benefits, Tricare, or military service."
+      },
+      "employer coverage eligibility": {
+        "description": "Eligibility questions related to current or prior employer\u2011sponsored coverage."
+      },
+      "employer coverage transition": {
+        "description": "Questions about eligibility changes when moving from employer insurance to Medicare."
+      },
+      "other insurance eligibility": {
+        "description": "Questions about eligibility when other insurance is present, such as VA, Tricare, Marketplace, or retiree plans."
+      },
+      "eligibility for extra benefits": {
+        "description": "Questions about qualifying for additional benefits such as food, utilities, transportation, or allowance cards."
+      },
+      "supplemental benefit eligibility": {
+        "description": "Questions about eligibility for Medicare supplements, Medigap plans, or secondary coverage options."
+      }
+    }
+  }
+}

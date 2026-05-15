@@ -1,0 +1,100 @@
+{
+  "providers": {
+    "subtopics": [
+      "provider network status check",
+      "provider network discrepancy",
+      "out of network coverage rules",
+      "find in network providers",
+      "provider contact information",
+      "primary care provider selection",
+      "primary care provider change request",
+      "primary care provider verification",
+      "referral requirement clarification",
+      "referral submission issues",
+      "referral approval or denial",
+      "keeping current provider",
+      "provider changes or leaving network",
+      "provider eligibility verification",
+      "provider system mismatch or inactive status",
+      "provider demographic or npi errors",
+      "hospital coverage",
+      "urgent care and emergency care coverage",
+      "facility network status",
+      "dental provider coverage",
+      "vision provider coverage",
+      "mental health provider coverage",
+      "home health and nursing facility coverage"
+    ],
+    "descriptions": {
+      "provider network status check": {
+        "description": "Questions about whether a specific provider, doctor, or facility is in-network or out-of-network."
+      },
+      "provider network discrepancy": {
+        "description": "Issues where provider network status is inconsistent, unclear, or conflicting across sources."
+      },
+      "out of network coverage rules": {
+        "description": "Questions about coverage, costs, or rules for using out-of-network providers."
+      },
+      "find in network providers": {
+        "description": "Requests for help locating or identifying in-network doctors, specialists, or providers."
+      },
+      "provider contact information": {
+        "description": "Requests for phone numbers, addresses, or contact details for providers or facilities."
+      },
+      "primary care provider selection": {
+        "description": "Questions about choosing or assigning a primary care provider."
+      },
+      "primary care provider change request": {
+        "description": "Requests to change or update the assigned primary care provider."
+      },
+      "primary care provider verification": {
+        "description": "Questions about confirming the assigned primary care provider or their details."
+      },
+      "referral requirement clarification": {
+        "description": "Questions about whether referrals are required and how they work."
+      },
+      "referral submission issues": {
+        "description": "Problems submitting or initiating a referral through the system or provider."
+      },
+      "referral approval or denial": {
+        "description": "Questions or issues related to referral approvals, denials, or status."
+      },
+      "keeping current provider": {
+        "description": "Questions about whether a member can continue seeing their current doctor or provider."
+      },
+      "provider changes or leaving network": {
+        "description": "Questions about providers leaving the network or changes affecting provider availability."
+      },
+      "provider eligibility verification": {
+        "description": "Questions about confirming whether a provider accepts the plan or is eligible for coverage."
+      },
+      "provider system mismatch or inactive status": {
+        "description": "Issues where a provider appears missing, inactive, or not recognized in the system."
+      },
+      "provider demographic or npi errors": {
+        "description": "Issues with incorrect provider details such as name, location, specialty, or NPI information."
+      },
+      "hospital coverage": {
+        "description": "Questions about whether hospitals or inpatient services are covered under the plan."
+      },
+      "urgent care and emergency care coverage": {
+        "description": "Questions about coverage for urgent care, emergency services, or situations outside normal care."
+      },
+      "facility network status": {
+        "description": "Questions about whether a facility (hospital, clinic, center) is in-network."
+      },
+      "dental provider coverage": {
+        "description": "Questions about coverage for dentists or dental providers."
+      },
+      "vision provider coverage": {
+        "description": "Questions about coverage for eye care providers or vision services."
+      },
+      "mental health provider coverage": {
+        "description": "Questions about coverage for therapists, psychiatrists, or mental health services."
+      },
+      "home health and nursing facility coverage": {
+        "description": "Questions about coverage for home health services, nursing homes, or long-term care facilities."
+      }
+    }
+  }
+}

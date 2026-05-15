@@ -76,6 +76,11 @@ def main():
         # Set filter to extract records in the date range and not processed yet
         date_filter = f"StartTime ge {start_date_formatted} and StartTime lt {end_date_formatted} and metadata_processed_time ne null and Text ne ''"
 
+        # Add topic filter if specified (topic is a StringCollection field)
+        if args.topic_filter:
+            topic_val = args.topic_filter.lower().strip()
+            date_filter += f" and topic/any(t: t eq '{topic_val}')"
+
         # create an index processor object
         index_processor = IndexProcessor(index_name=index_dict['source_index'])
         project = index_dict['project']

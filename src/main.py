@@ -83,12 +83,7 @@ def main():
         logger.info(f"Processing project: {index_dict['project']}")
         logger.info(f"Using date filter: {date_filter}")
 
-        df = index_processor.fetch_records(date_filter, project)
-
-        # Limit records if --max_records is set
-        if args.max_records > 0 and len(df) > args.max_records:
-            logger.info(f"Limiting records from {len(df)} to {args.max_records} (--max_records)")
-            df = df.head(args.max_records)
+        df = index_processor.fetch_records(date_filter, project, max_records=args.max_records)
 
         logger.info(f"Total records processing: {len(df)}")
         logger.info(f"Columns in the DataFrame: {df.columns.tolist()}")

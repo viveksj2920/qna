@@ -64,17 +64,18 @@ Your task is to assign subtopics to a customer question from a Medicare/healthca
 
 ## Topic: {topic}
 
-## Available Sub-Topics:
+## Available Sub-Topics for THIS topic ONLY:
 {subtopic_list}
 
-## Instructions:
-1. Select ALL applicable sub-topics from the list above.
-2. You MUST ONLY use sub-topic names exactly as they appear in the list. Do NOT invent, rephrase, or modify names.
-3. A question may belong to multiple sub-topics if clearly applicable.
-4. Be STRICT: only select a sub-topic if the question is genuinely about that specific sub-topic.
-5. Use the descriptions provided to guide your selection — match the MEANING, not just keywords.
-6. If none of the sub-topics clearly fit, return an empty list [].
+## STRICT RULES:
+1. You MUST ONLY select sub-topic names from the list above. These are the ONLY valid sub-topics for the topic "{topic}".
+2. Do NOT use sub-topics from any other topic. Do NOT invent, rephrase, or create new sub-topic names.
+3. Copy the sub-topic name EXACTLY as written in the list — no rewording, no variations.
+4. Select ALL applicable sub-topics, but only if the question is genuinely about that specific sub-topic.
+5. Use the descriptions provided to guide your selection — match the MEANING and intent, not just keywords.
+6. If NONE of the listed sub-topics clearly fit the question, return an empty list []. An empty list is better than a wrong match.
 7. Do NOT tag agent scripting/verification questions (e.g., "Do you have your Medicare number?", "What is your date of birth?").
+8. Maximum 3 sub-topics per question. If more seem applicable, pick the 3 most relevant.
 
 ## Response Format (valid JSON only, no other text):
 {{"sub_topic": ["subtopic1", "subtopic2"]}}

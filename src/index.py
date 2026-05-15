@@ -37,7 +37,10 @@ class IndexProcessor:
         else:
             raise ValueError("Unsupported project type. Supported projects are: MIRA, PCL.")
 
-        documents = self.azure_search.search(filter=date_filter, select=fields)
+        search_kwargs = {"filter": date_filter, "select": fields}
+        if max_records > 0:
+            search_kwargs["top"] = max_records
+        documents = self.azure_search.search(**search_kwargs)
         print(f"Processing fields: {fields}")
 
         if max_records > 0:

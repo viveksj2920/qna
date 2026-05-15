@@ -1,0 +1,1287 @@
+[
+  {
+    "Ucid": "67051111775677778",
+    "question": "Does my United Healthcare plan cover the prescription Wegovy?",
+    "answer": "Wegovy is not covered under any of our plans.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T19:52:28.7Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": "Wegovy, Ozempic, Mounjaro",
+    "providers": "doctor's office",
+    "zip": "71601",
+    "state_processed": "AR",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67051111775677778",
+    "question": "What happens if I don't have diabetes but have sleep apnea?",
+    "answer": "For sleep apnea, medications like Wegovy and Zepbound could be prescribed, but they are not covered under your plan.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T19:52:28.7Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": "Wegovy, Ozempic, Mounjaro",
+    "providers": "doctor's office",
+    "zip": "71601",
+    "state_processed": "AR",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66352201775574655",
+    "question": "What changed with my prescription? I am now paying a copayment for Baclofen, which was previously $0 with Humana.",
+    "answer": "Different providers have different formularies, and it appears that Baclofen is classified as Tier 2 under UnitedHealthcare's plan, resulting in a $1.60 copayment. Humana may have classified it as Tier 1, which could explain the previous $0 cost.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T15:13:03.631Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealth",
+    "drugs": "Baclofen, Meloxicam, Famotidine",
+    "providers": NaN,
+    "zip": "53211",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67045001775650772",
+    "question": "Is there a way to appeal the decision made on the medication formulary exception for Wegovy?",
+    "answer": "The agent explained that the customer tried getting the medication approved through insurance, but it was denied. They suggested starting the process to set up a formulary exception to assist the customer.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T12:52:44.298Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Cardiac Specialty Advantage plan",
+    "drugs": "Wegovy",
+    "providers": "cardiologist",
+    "zip": "78620",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66265121776458498",
+    "question": "Why was my father's medication denied?",
+    "answer": "The medication was denied because your father lost his LIS, so he no longer receives the discounts he used to get.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T20:50:33.908Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "alfuzosin",
+    "providers": NaN,
+    "zip": "06067",
+    "state_processed": "CT",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66037441776286838",
+    "question": "Why was the injection for my bones no longer covered?",
+    "answer": "The injection may not be covered due to its high cost, but there is a generic alternative available. Coverage decisions are based on plan guidelines and cost considerations.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T21:03:29.871Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC dual complete V001",
+    "drugs": "Neopoly optic solution, Clonazepam (generic)",
+    "providers": "doctor's office",
+    "zip": "74361",
+    "state_processed": "OK",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66373681776883747",
+    "question": "Is Tresiba covered by the plan?",
+    "answer": "Tresiba is not covered by the plan in Washington, and it does not appear to be covered by any of our plans in the state.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T19:07:41.422Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Complete care Washington 13 HMO POS chronic special needs plan",
+    "drugs": "Tresiba",
+    "providers": "Michael Fu, PeaceHealth Southwest, Fishers Landing Primary Care",
+    "zip": "98663",
+    "state_processed": "WA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66373681776883747",
+    "question": "Why am I getting Tresiba covered on my current plan but not on the new plan?",
+    "answer": "It might be due to a formulary exception on your current plan, but I cannot confirm if that exception exists.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T19:07:41.422Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Complete care Washington 13 HMO POS chronic special needs plan",
+    "drugs": "Tresiba",
+    "providers": "Michael Fu, PeaceHealth Southwest, Fishers Landing Primary Care",
+    "zip": "98663",
+    "state_processed": "WA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66373681776883747",
+    "question": "What am I supposed to do now since Tresiba is not covered?",
+    "answer": "You may need to explore alternative medications or file for a formulary exception if applicable.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T19:07:41.422Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Complete care Washington 13 HMO POS chronic special needs plan",
+    "drugs": "Tresiba",
+    "providers": "Michael Fu, PeaceHealth Southwest, Fishers Landing Primary Care",
+    "zip": "98663",
+    "state_processed": "WA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66004721776874038",
+    "question": "Why is the medication no longer covered when it was in the past?",
+    "answer": "The agent suggested that the medication might have been removed from the formulary for the current plan year.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T16:18:57.046Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "fluticasone propionate / salmeterol (generic Advair)",
+    "providers": NaN,
+    "zip": "80005",
+    "state_processed": "CO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66033281776722077",
+    "question": "When does the prescription drug coverage get terminated?",
+    "answer": "The prescription drug coverage under the terminated plan has a different member ID, and we can check the exact termination details.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T21:57:38.885Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Ozempic, albuterol, Losartan, Metformin, Simvastatin, Pioglitazone, Benzonatate",
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66384501776873334",
+    "question": "I went to pick up a prescription at the drug store and they told me I was not covered. Why is that?",
+    "answer": "Your prescription drug plan through WellCare ended because they said you didn't pay, and they removed you from the plan.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T16:01:56.164Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Rx Preferred",
+    "drugs": "levothyroxine, atorvastatin, amlodipine",
+    "providers": NaN,
+    "zip": "11792",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66384501776873334",
+    "question": "Why did WellCare send me an explanation of benefits if I wasn\u2019t covered?",
+    "answer": "It seems there was a miscommunication or error, as they believed you were not paying, but the explanation of benefits does not indicate coverage status.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "notification or communication failure",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T16:01:56.164Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Rx Preferred",
+    "drugs": "levothyroxine, atorvastatin, amlodipine",
+    "providers": NaN,
+    "zip": "11792",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66394501777320409",
+    "question": "Why did I have to pay for my oxycodone the last two times?",
+    "answer": "You were with a different insurance company before, and I am not sure of their policy. Under this United Healthcare plan, oxycodone is covered with a $0.00 copay.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T20:16:41.211Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Medicare Advance HVAC0001 (PPO)",
+    "drugs": "oxycodone HCL 10 milligrams, vitamin D, folic acid",
+    "providers": "Doctor Schroff, Dr. Manish Shaw",
+    "zip": "71348",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66572981777317829",
+    "question": "She got an e-mail saying that her prescriptions were cancelled. When we called the pharmacy, they said it's because her AARP membership had expired. Can you help us figure out what's going on?",
+    "answer": "Everything looks good on her Medicare RX Preferred Plan, and it is still active. I am not sure why the pharmacy would have told you otherwise.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "notification or communication failure",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T19:25:34.049Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Medicare RX Preferred",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "85739",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66572981777317829",
+    "question": "They sent something saying she needed to renew the membership, but her membership doesn't expire until later. Could this be why the pharmacy said it showed not active?",
+    "answer": "The agent did not provide a direct answer to this question in the transcript.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "notification or communication failure",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T19:25:34.049Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Medicare RX Preferred",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "85739",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66176581777409635",
+    "question": "What is this notice of denial of Medicare Part D prescription drug coverage from Optum RX?",
+    "answer": "I will check what they have on file for you regarding this notice of denial.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "notification or communication failure"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-28T20:56:03.822Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "67037",
+    "state_processed": "KS",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66025231776369195",
+    "question": "Why is my prescription not being filled or paid for?",
+    "answer": "Your prescription is not covered on your plan currently.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T19:55:35.832Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Community Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66025231776369195",
+    "question": "What should I do if my prescription is not covered?",
+    "answer": "You should contact the State of Ohio United Healthcare Community Plan at the provided phone number for assistance.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T19:55:35.832Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Community Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66117751777648287",
+    "question": "How much will the estradiol patch cost under my plan?",
+    "answer": "The estradiol patch is not covered under your plan.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-01T15:32:41.792Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "A or AP Medicare Advantage essentials united healthcare Texas",
+    "drugs": "estradiol patch, estradiol tablet, Wegovy (semaglutide), Manjaro (tirzepatide)",
+    "providers": NaN,
+    "zip": "78732",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66117751777648287",
+    "question": "Does my plan cover any estradiol solutions or gels?",
+    "answer": "Estradiol solutions and gels are not covered under your plan.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-01T15:32:41.792Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "A or AP Medicare Advantage essentials united healthcare Texas",
+    "drugs": "estradiol patch, estradiol tablet, Wegovy (semaglutide), Manjaro (tirzepatide)",
+    "providers": NaN,
+    "zip": "78732",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66199871775762200",
+    "question": "Why isn't insurance covering Vyvanse, and why does it still cost $87?",
+    "answer": "The agent did not provide a direct answer but attempted to gather more information and connect the customer to the appropriate representative for assistance.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T19:19:02.607Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Vyvanse",
+    "providers": NaN,
+    "zip": "65501",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66269811777669224",
+    "question": "Is Zebound covered under your plans, even with a doctor's authorization?",
+    "answer": "Zebound is not covered under our formulary, and even with a preauthorization, it is unlikely to be approved.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-01T21:02:16.27Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Rx Preferred, Rx Saver",
+    "drugs": "Zepbound, Ozempic, Manjaro",
+    "providers": NaN,
+    "zip": "91362",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66269811777669224",
+    "question": "Would the coverage for Zebound be the same across both RX Preferred and RX Saver plans?",
+    "answer": "Yes, the coverage for Zebound would be the same across both plans as it is not covered under either.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-01T21:02:16.27Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Rx Preferred, Rx Saver",
+    "drugs": "Zepbound, Ozempic, Manjaro",
+    "providers": NaN,
+    "zip": "91362",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66451151775076036",
+    "question": "Why would the prescription go through the first time and then not the second time when I needed a renewal?",
+    "answer": "The agent suggested that the issue might be related to needing a formulary exception or prior approval again, and recommended contacting Member Services to resolve the issue.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-01T20:51:32.12Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66451151775076036",
+    "question": "Why was my prescription renewal rejected by United Healthcare?",
+    "answer": "The agent mentioned that the rejection might be due to needing prior approval or a formulary exception and advised contacting Member Services for further assistance.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-01T20:51:32.12Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66502711776485682",
+    "question": "If I were to return to United Healthcare and the Part D that I used to have, would the drug Iyuza be affordable?",
+    "answer": "The drug Iyuza is not covered under the formulary for United Healthcare's Part D plan. An alternative solution, latanoprost, is covered and is classified as a Tier 1 medication.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-18T04:20:45.963Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "latanoprost, Iuza (alternative to latanoprost)",
+    "providers": NaN,
+    "zip": "92260",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66555931776810349",
+    "question": "Why is my medication, Mounjaro, being denied even though nothing has changed with my medical diagnosis?",
+    "answer": "The medication is covered under your plan, but it may require pre-authorization. I will transfer you to the pharmacy department to resolve this issue.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-21T22:31:55.773Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UTH door complete HMO plan",
+    "drugs": "Mounjaro",
+    "providers": "doctor",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67106311776284275",
+    "question": "What is the last date that he no longer received UnitedHealthcare?",
+    "answer": "For the prescription drug plan, it looks like December 2023.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T20:19:40.629Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "D************",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "77901",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67105691776287052",
+    "question": "Is the brand-name Depakote covered under the plan?",
+    "answer": "No, the brand-name Depakote is not covered under any of our plans, but the generic version is covered.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T21:10:26.124Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "UnitedHealthcare Dual Complete Wisconsin HMO Dual Special Needs Plan",
+    "drugs": "Fanapt (3 mg morning and night), Depakote (generic covered, 200 mg morning and night), Thorazine (chlorpromazine, 150 mg morning and night), Devil Pro X (generic covered, 425 mg morning and night)",
+    "providers": "Ascension Medical Group (Brooke Burling), Brown County Community Treatment Center (Lolita Hanson), Affinity Medical Group",
+    "zip": "54944",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67145261775164932",
+    "question": "Why was I removed from my Medicare prescription payment plan?",
+    "answer": "The agent noted that the customer was removed due to non-payment, but further details would need to be addressed by the claims department.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-02T21:28:58.796Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Medicare Advantage",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67153321775142575",
+    "question": "I received a letter in the mail about one of my pain medications. I'm trying to see are they still going to fill it at United or do I need to do something different with my doctor?",
+    "answer": "The agent did not provide a clear answer in the transcript.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "notification or communication failure",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-02T15:12:14.774Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "oxycodone 15, Xtampa 13.5",
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67147671775254224",
+    "question": "I have severe dry eyes and we have been trying to get the Nihilo prescription approved. Has it been long enough for y'all to approve it to where I could afford it?",
+    "answer": "Your prescription drug coverage is now directly through Optum RX due to a plan split. Any questions or concerns about your prescription drug coverage should be directed to Optum RX.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T22:17:29.728Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UAW Trust split plan",
+    "drugs": NaN,
+    "providers": "United Healthcare",
+    "zip": "76006",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67147671775254224",
+    "question": "Y'all approved it once and gave me some of it, and then you canceled it. Why was it canceled?",
+    "answer": "Your plan split at the end of the year, and your prescription drug coverage is now handled by Optum RX. United Healthcare no longer manages your prescription drug coverage.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T22:17:29.728Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UAW Trust split plan",
+    "drugs": NaN,
+    "providers": "United Healthcare",
+    "zip": "76006",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67147671775254224",
+    "question": "I called Optum, but you're not Optum. Why is the phone number on the bottle not yours anymore?",
+    "answer": "The phone number on the bottle has changed due to the plan split, and your prescription drug coverage is now managed by Optum RX. I can provide you with the updated phone number for Optum RX.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "notification or communication failure"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T22:17:29.728Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UAW Trust split plan",
+    "drugs": NaN,
+    "providers": "United Healthcare",
+    "zip": "76006",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67147671775254224",
+    "question": "Can you provide me with the phone number for Optum RX?",
+    "answer": "The phone number for Optum RX is 855-****-0219. I can also connect you directly to their department for further assistance.",
+    "topic": "drug coverage termination",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T22:17:29.728Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UAW Trust split plan",
+    "drugs": NaN,
+    "providers": "United Healthcare",
+    "zip": "76006",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67154701775162950",
+    "question": "Is my mom's insulin, Novolin, covered under her plan?",
+    "answer": "Novolin is not on the formulary or drug list for the plan. To receive this medication, the doctor must submit a formulary exception form stating why it is medically necessary, or the alternative insulin, Humulin, which is covered, can be used.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-02T20:50:19.369Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "UHC dual complete TXS, 003 HMO POS, the SMP plan",
+    "drugs": "Novolin, Humulin",
+    "providers": "Doctor Lucina Tran",
+    "zip": "77511",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67259091777300922",
+    "question": "Hi I had a question about my prescription not being covered.",
+    "answer": "I will have to transfer you to the Medicaid department to assist with this issue.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T14:44:25.746Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67301301776109511",
+    "question": "Why am I getting denied for a weight loss shot prescription when the plan lists Wegovy and Zepbound as approved products?",
+    "answer": "You definitely want to speak with the Member Services team about that prior authorization information.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T19:47:48.616Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Vantage FL-0010",
+    "drugs": "Wegovy, Zepbound",
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67272531777301541",
+    "question": "Why is my medication, Pitavastatin, showing as not covered?",
+    "answer": "Pitavastatin is not covered under your current plan or the dual plan, but if it was covered when you picked it up, it may depend on the specific form or method of dispensing.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T14:53:30.742Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete OKV 001 HMO POS Dual Special Needs plan",
+    "drugs": "Aimovig, Amlodipine, Aripiprazole, Budesonide-formoterol, Bupropion, Nortriptyline, Omeprazole, Rosuvastatin, Potassium chloride, Sertraline, Solifenacin, Torsemide, Ubrelvy",
+    "providers": "Doctor Caleb King",
+    "zip": "73003",
+    "state_processed": "OK",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67272531777301541",
+    "question": "Is my new inhaler, Budesonide-Formoterol, covered?",
+    "answer": "No, Budesonide-Formoterol is not covered under your current plan or the dual plan, but it may have been covered depending on the specific form or dispensing method.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T14:53:30.742Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete OKV 001 HMO POS Dual Special Needs plan",
+    "drugs": "Aimovig, Amlodipine, Aripiprazole, Budesonide-formoterol, Bupropion, Nortriptyline, Omeprazole, Rosuvastatin, Potassium chloride, Sertraline, Solifenacin, Torsemide, Ubrelvy",
+    "providers": "Doctor Caleb King",
+    "zip": "73003",
+    "state_processed": "OK",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67308401775154262",
+    "question": "Why can't I get my medication?",
+    "answer": "It appears you enrolled into a different plan with another company, so you might need to reach out to Medicare for further assistance.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-02T18:31:12.55Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67363801775599251",
+    "question": "Why was my husband's prescription drug coverage terminated?",
+    "answer": "The prescription drug coverage was terminated because the premium was not paid.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T22:02:44.552Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Rx Preferred",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "37205",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67508901776716350",
+    "question": "Is Oxycontin covered under the plan?",
+    "answer": "The agent confirmed that Oxycontin is not covered under the formulary of the current plan.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T20:31:07.418Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Oxycontin",
+    "providers": "Doctor Richard Torreslli",
+    "zip": "33972",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67508901776716350",
+    "question": "Could it be covered under a generic name?",
+    "answer": "The agent clarified that the alternatives to Oxycontin, such as morphine sulfate or fentanyl patches, are covered under the formulary.",
+    "topic": "drug coverage termination",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T20:31:07.418Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Oxycontin",
+    "providers": "Doctor Richard Torreslli",
+    "zip": "33972",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67508901776716350",
+    "question": "When did they stop covering Oxycontin?",
+    "answer": "The agent stated they were unsure about when Oxycontin was removed from the formulary.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T20:31:07.418Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Oxycontin",
+    "providers": "Doctor Richard Torreslli",
+    "zip": "33972",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67508901776716350",
+    "question": "How can I get the pay for the medications?",
+    "answer": "The agent explained that medications covered under the formulary would be eligible for LIS extra help costs, but Oxycontin is not covered.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T20:31:07.418Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Oxycontin",
+    "providers": "Doctor Richard Torreslli",
+    "zip": "33972",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67508901776716350",
+    "question": "Is Oxycontin not covered because I don\u2019t have Medicaid?",
+    "answer": "The agent clarified that the lack of coverage for Oxycontin is not related to Medicaid but because it is not included in the plan's formulary.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T20:31:07.418Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Oxycontin",
+    "providers": "Doctor Richard Torreslli",
+    "zip": "33972",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67572441775232136",
+    "question": "Why was I cancelled for the RX plan?",
+    "answer": "It appears there was a payment issue, but I will escalate this to review the situation further.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T16:23:56.823Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP prescription drug plan",
+    "drugs": NaN,
+    "providers": "United Healthcare",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67590781776091319",
+    "question": "Why has my prescription medical been deactivated?",
+    "answer": "It looks like it was deactivated due to nonpayment of premium.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T14:44:33.812Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67599211775597747",
+    "question": "Why did they cancel my drug plan?",
+    "answer": "Your plan was canceled because you were set up for paperless billing, and the bills were sent via email instead of mail, which led to non-payment.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry",
+      "notification or communication failure"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T21:36:56.378Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "32086",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68005061775260234",
+    "question": "Why is the medication my son was taking not covered?",
+    "answer": "I am on the Medicare side and do not have access to your plan, but I will transfer you to the customer service department who can assist you further.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T23:53:55.699Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68043891777925775",
+    "question": "I'm supposed to have prescription drug coverage through your company, but it says the plan has termed. Why is that?",
+    "answer": "The agent explained that the plan showing as termed is the customer's old plan, which ended due to the plan no longer continuing. The prescription drug plan is currently active as of the effective date provided.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry",
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-04T20:18:13.198Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Vantage plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68059591775827223",
+    "question": "Why was I paying $12 before, and what happened?",
+    "answer": "You were paying $12 because you had an LIS (Low-Income Subsidy), but it ended in March.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T13:22:53.689Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Ozempic",
+    "providers": NaN,
+    "zip": "14209",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68082791777649709",
+    "question": "I need medication Wegovy, but my pharmacy says I need to pay $200 out of pocket. Can the insurer cover it?",
+    "answer": "We do not cover Wegovy under any of our plans. Your doctor would need to fill out a formulary exception to prove that the medication is medically necessary for us to consider covering it.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-01T15:37:42.321Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": "Wegovy",
+    "providers": "doctor",
+    "zip": "11230",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68082791777649709",
+    "question": "What does my doctor need to do to get Wegovy covered?",
+    "answer": "Your doctor needs to fill out a formulary exception and send it to United Healthcare, stating that the medication is medically necessary.",
+    "topic": "drug coverage termination",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-05-01T15:37:42.321Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": "Wegovy",
+    "providers": "doctor",
+    "zip": "11230",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68082791777649709",
+    "question": "Can you repeat the name of the form my doctor needs to fill out?",
+    "answer": "The form is called a formulary exception, and your doctor will have the information to complete and send it to United Healthcare.",
+    "topic": "drug coverage termination",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-05-01T15:37:42.321Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": "Wegovy",
+    "providers": "doctor",
+    "zip": "11230",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68082791777649709",
+    "question": "Can you spell the name of the form for me?",
+    "answer": "The form is spelled F-O-R-M-U-L-A-R-Y E-X-C-E-P-T-I-O-N.",
+    "topic": "drug coverage termination",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-05-01T15:37:42.321Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": "Wegovy",
+    "providers": "doctor",
+    "zip": "11230",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68075981776720126",
+    "question": "Why did the cost of Dupixent increase?",
+    "answer": "The cost increased because the member lost extra help with medications at the end of the previous year.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T21:34:25.381Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Dupixent, Adderall, Lisinopril, Trintellix (discontinued), Metformin (mentioned as not taken)",
+    "providers": NaN,
+    "zip": "14218",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68075981776720126",
+    "question": "Why did my Adderall copay increase?",
+    "answer": "The copay increased due to the loss of extra help with medications.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T21:34:25.381Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Dupixent, Adderall, Lisinopril, Trintellix (discontinued), Metformin (mentioned as not taken)",
+    "providers": NaN,
+    "zip": "14218",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68188391775421315",
+    "question": "Why is the diclofenac gel not covered under United Healthcare when it was covered under Anthem?",
+    "answer": "The diclofenac gel is not covered under United Healthcare because it is not part of their formulary, which differs from Anthem's formulary. However, other percentages of the gel, like the 1.5% solution and 3%, are covered.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-05T20:37:58.953Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Vicodin, diclofenac sodium topical gel",
+    "providers": "doctor (unspecified)",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68188391775421315",
+    "question": "Why did the worker say the issue was related to CVS being out of network?",
+    "answer": "The issue is not related to CVS being out of network; the medication is simply not covered under the plan's formulary.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage discrepancy or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-05T20:37:58.953Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Vicodin, diclofenac sodium topical gel",
+    "providers": "doctor (unspecified)",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68152041776265984",
+    "question": "Why didn't CVS accept my Medicare RX plan card?",
+    "answer": "You do not have an active prescription drug plan with United Healthcare; you were auto-assigned by CMS to a different company, WellCare.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T15:15:27.692Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP RX plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "10965",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68152041776265984",
+    "question": "Why did I receive AARP Medicare RX plan cards if I don\u2019t have coverage?",
+    "answer": "You were previously with United Healthcare, but CMS auto-assigned you to WellCare, and the cards were sent before this change took effect.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "notification or communication failure",
+      "coverage termination inquiry"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T15:15:27.692Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP RX plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "10965",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68152041776265984",
+    "question": "Why didn\u2019t I receive a letter saying I no longer had coverage?",
+    "answer": "It appears there was no notification sent regarding the change in your prescription drug coverage.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "notification or communication failure"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T15:15:27.692Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP RX plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "10965",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68152041776265984",
+    "question": "What company is my RX plan with now?",
+    "answer": "Your prescription drug plan is currently with WellCare, not United Healthcare.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "drug coverage status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T15:15:27.692Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP RX plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "10965",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68152041776265984",
+    "question": "What do I do with the AARP Medicare RX cards I received?",
+    "answer": "The AARP Medicare RX cards are no longer valid since you do not have an active plan with United Healthcare.",
+    "topic": "drug coverage termination",
+    "sub_topic": [
+      "coverage termination inquiry",
+      "drug coverage status"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-15T15:15:27.692Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP RX plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "10965",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  }
+]

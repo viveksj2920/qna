@@ -1,0 +1,3662 @@
+[
+  {
+    "Ucid": "66324681777503251",
+    "question": "What will you need when I call back?",
+    "answer": "We will need your Medicare number and Medicaid number to verify your information.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-29T22:56:09.033Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Preferred",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "23061",
+    "state_processed": "VA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207431775840990",
+    "question": "What if I don't have my Medicare card?",
+    "answer": "The Medicare card is a white, blue, and red card with a combination of letters and numbers. If you don't have it, we can try to locate your account using other information.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T17:14:27.83Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "89501",
+    "state_processed": "NV",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "3064171100374166",
+    "question": "I don't know my Medicare number. Can you help?",
+    "answer": "Most people don't need their Medicare number, but it will be provided in the confirmation documents you receive.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T20:05:25.14Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete Connecticut PPO DSMP",
+    "drugs": "Prilosec",
+    "providers": "Doctor Heather Bauer, Megan Garcia, HSC Neighborhood Health",
+    "zip": "0678",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66414281775764424",
+    "question": "Is that the Medicare RX card?",
+    "answer": "No, it is not the Medicare RX card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-09T19:59:17.145Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "43078",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66111761775829928",
+    "question": "How can I get a replacement for my red, white, and blue Medicare card?",
+    "answer": "You can order a replacement card directly through Medicare by contacting them.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T14:13:47.199Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Texas 3P",
+    "drugs": "Metformin",
+    "providers": "Dr. Ken Park",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67047841775694415",
+    "question": "Why don\u2019t I have any cards for my Medicare coverage?",
+    "answer": "You need to contact Medicare directly to address the issue of not having your Medicare card. You can also check your Medicare details on medicare.gov.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T00:29:57.118Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete plan",
+    "drugs": NaN,
+    "providers": "primary care doctor",
+    "zip": "*****",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66370951775569923",
+    "question": "Do you need a Medicare number to check his plan information?",
+    "answer": "Yes, I need his Medicare number from the red, white, and blue card to check his plan information.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services",
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T13:59:12.633Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete D 007",
+    "drugs": NaN,
+    "providers": "Barnes Hill Hospital",
+    "zip": "78040",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66276781775658639",
+    "question": "I'm calling because I'm going to the pharmacy. They don't accept to get the medication without insurance card.",
+    "answer": "You need your ID number, and I can assist you with that.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T14:33:58.417Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare community plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66214821775579716",
+    "question": "Can you help me verify my Medicare ID number? It seems there\u2019s an issue.",
+    "answer": "Yes, I can verify your Medicare ID number and resolve any issues with it in the system.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T16:37:08.206Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Chronic Special Needs Plan",
+    "drugs": "Lantus, lisinopril, Humalog, clopidogrel",
+    "providers": "Doctor Roland, Specialist Cronan (vascular surgeon), Wellmont Cardiology Services",
+    "zip": "4234340642",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66117781775656395",
+    "question": "What number am I looking at on my Medicare card?",
+    "answer": "You are looking for the number that has both numbers and letters.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T13:54:55.679Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "Individual UHC Dual Complete North Carolina HMO POS MAPD",
+    "drugs": "metformin, atorvastatin, calcium tablets",
+    "providers": "Doctor Gajani (primary care doctor, Westchester Dr., High Point, NC)",
+    "zip": "27260",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66453481775747565",
+    "question": "I haven't received my Medicare card yet. Do I need it?",
+    "answer": "Your Medicare card comes from Social Security and is the red, white, and blue card. You also have a UCard, which you can use for doctors and prescriptions.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T15:15:16.987Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "U card",
+    "drugs": NaN,
+    "providers": "Patricia Hall, Anna Memorial",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66024011775914832",
+    "question": "He no longer has insurance through you and may not have the card with his member ID. Can you look up the number for us?",
+    "answer": "I don't have access to that information as I only handle Medicare policies. You may need to use the Social Security number to access his account or contact customer service.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-11T13:43:05.572Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67033941776087589",
+    "question": "Do I need to notify my healthcare provider about my new Medicare number?",
+    "answer": "No, you don't need to notify your healthcare provider about your new Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T13:42:09.534Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67033941776087589",
+    "question": "Why would Medicare issue me a new Medicare number?",
+    "answer": "Medicare may issue a new Medicare number to protect your identity and prevent fraud.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T13:42:09.534Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66522811776434456",
+    "question": "I don\u2019t have my Medicare card; how can I get a new one?",
+    "answer": "The agent acknowledged the issue and suggested obtaining a replacement Medicare card since the original was lost.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T14:17:29.49Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Patriot plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "92705",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66344231776092218",
+    "question": "When will I get my Medicare number?",
+    "answer": "You will likely receive your Medicare number in the month prior to your effective date, which is tied to your birthday.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T14:58:37.181Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "ERS Medicare Advantage plan",
+    "drugs": NaN,
+    "providers": "Adventist Health",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66306791776350054",
+    "question": "I see I lost my wallet here a while back. I don't know if I got that one replaced or not.",
+    "answer": "If you don't have your Medicare card, you can provide your Social Security number and state to retrieve the information.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T14:36:01.618Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "McLaren Medicare Inspire",
+    "drugs": NaN,
+    "providers": "McLaren",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66306791776350054",
+    "question": "What was the number you had? Is it correct?",
+    "answer": "Yes, the Medicare number provided was confirmed as correct.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-16T14:36:01.618Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "McLaren Medicare Inspire",
+    "drugs": NaN,
+    "providers": "McLaren",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66537971776086770",
+    "question": "Do you need my Medicare number?",
+    "answer": "Yes, I need your Medicare number from your red, white, and blue card to proceed.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T13:27:50.012Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials from United Healthcare TX-21, HMO, POS",
+    "drugs": NaN,
+    "providers": "Dr. Catherine Villarreal, 5210 Thousand Oaks Drive, Suite 1203, San Antonio, TX 78233",
+    "zip": "78217",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67054411776453940",
+    "question": "Where would I look to find my Medicare number? I got three different cards.",
+    "answer": "It should be on a red, white, and blue card and is a combination of numbers and letters.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T19:27:30.081Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete Michigan",
+    "drugs": "Lyrica, Flexeril (mentioned as generics)",
+    "providers": "Missy Powell (nurse practitioner)",
+    "zip": "49038",
+    "state_processed": "MI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66543771776287497",
+    "question": "Do you have my Medicare ID number?",
+    "answer": "I need your Medicare ID number from your Medicare health insurance card to verify your account.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "medicare number verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-15T21:12:57.741Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare GEHA Medicare Advantage plan",
+    "drugs": NaN,
+    "providers": "Saint Thomas hospital",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66034331776286666",
+    "question": "Does she have the red, white, and blue Medicare card?",
+    "answer": "She should have a Medicare card, which is the red, white, and blue card, containing an alphanumeric Medicare number along with Part A and Part B effective dates.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T21:03:27.005Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Humana",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66353111776467624",
+    "question": "Do you have your Medicare card, the red, white, and blue card?",
+    "answer": "Yes, I have it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T23:16:59.382Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "chronic special needs plan",
+    "drugs": NaN,
+    "providers": "primary doctor's office",
+    "zip": "62226",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66353111776467624",
+    "question": "What is Medicare's telephone number?",
+    "answer": "Medicare's telephone number is on your red, white, and blue card; it is 1-800-MEDICARE.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T23:16:59.382Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "chronic special needs plan",
+    "drugs": NaN,
+    "providers": "primary doctor's office",
+    "zip": "62226",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66131151776116454",
+    "question": "Do I have a letter from Social Security?",
+    "answer": "You get your Medicare information before you turn 65, and it should be in a letter from Social Security.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T21:42:28.071Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "76036",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66131151776116454",
+    "question": "What do I do to get a Medicare number?",
+    "answer": "You need to call the Social Security Administration or 1-800-Medicare to sign up for Medicare and obtain your Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T21:42:28.071Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "76036",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67062691776193498",
+    "question": "Does my member ID on my United Healthcare card?",
+    "answer": "The agent clarified that the Medicare number is usually a mix of numbers and letters and asked the customer to provide it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-14T19:18:06.516Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Dual-complete MI Dash ** HMO",
+    "drugs": "Metformin, Jardiance, CR IAMTERENE (likely Triamterene), Zyrtec, Vitamin D",
+    "providers": "Dr. Linda Dubuque (primary care doctor)",
+    "zip": "48219",
+    "state_processed": "MI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67044301776113930",
+    "question": "They haven't sent my red, white, and blue Medicare card yet.",
+    "answer": "You need the red, white, and blue Medicare card to verify your Medicare number, and it should have been sent to you previously.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T21:02:21.614Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Dual Complete Georgia Dash **",
+    "drugs": "muscle relaxer, sleep aid",
+    "providers": "Doctor Cody (nurse practitioner at Atrium Health Florida Urgent Care), Doctor Kayla Benton (primary care doctor), Doctor Willis (deceased primary care doctor), Jerry Benjamin (primary care recommendation)",
+    "zip": "3147",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66179511776185795",
+    "question": "Is this number on my health insurance card correct: 7233NH3 K CO2?",
+    "answer": "That number is not associated with United Healthcare; it is likely your Medicare ID number from the red, white, and blue card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation",
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-14T16:58:56.36Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "84404",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66179511776185795",
+    "question": "Will Medicare mail me a new card?",
+    "answer": "You would need to contact Medicare directly to confirm if they will mail you a new card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-14T16:58:56.36Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "84404",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66049511776181824",
+    "question": "What if I don't have my Medicare number? Can you still do it?",
+    "answer": "You can always call back and provide other information to set up your account.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-14T15:53:14.904Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Advantage AARP Part D",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66167171776180711",
+    "question": "I do not have my Medicare number. When I spoke with Social Security, they told me I would get both cards once everything is set for Part B. Is that correct?",
+    "answer": "Yes, once everything is set for Part B, you will receive both cards.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-14T15:34:37.381Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Plan G, Plan N",
+    "drugs": NaN,
+    "providers": "Preventive heart specialist, dentist, eye doctor",
+    "zip": "30324",
+    "state_processed": "GA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66011081777483173",
+    "question": "I do not have my Medicare number right now.",
+    "answer": "I would need your Medicare number to create a profile and provide the requested information.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-29T17:21:10.266Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Medicare Plan G",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66172161777498700",
+    "question": "Did they give you a Medicaid ID number?",
+    "answer": "It wasn't showing any valid Medicaid when I ran the real-time verification; I want to see if the Medicaid ID number is different than what we had previously.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T21:40:00.531Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34436",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66043181776691528",
+    "question": "What number do I need to provide for my wife to get insurance?",
+    "answer": "You need to provide her Medicare number, which is found on her Medicare card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T13:30:32.147Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66043181776691528",
+    "question": "Do I need my wife's Social Security number for Medicare?",
+    "answer": "No, you need her Medicare number, which she will receive after applying for Medicare.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T13:30:32.147Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66136891777493501",
+    "question": "Can I use my Medicare number to set up my account online?",
+    "answer": "Yes, you can use your Medicare number to create an account on uhc.com and access your digital card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T20:13:21.681Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Plan G",
+    "drugs": "prescription drug plan",
+    "providers": "Adventist",
+    "zip": "93304",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66618451777402617",
+    "question": "What member number do you need?",
+    "answer": "The agent clarifies that the Medicare number is needed, which can be found on your Medicare card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number basics"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-28T19:00:04.668Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "32054",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66613681776797564",
+    "question": "It's Medicare. It's like, uh, it's a white card. I think it's in 98 United Healthcare.",
+    "answer": "The agent confirmed that they could not locate the account and suggested that the account might not yet be active or properly updated.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-21T18:55:47.607Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66027141776885148",
+    "question": "Do I need to provide my Medicare ID number?",
+    "answer": "Yes, your Medicare ID number is required to build your profile and proceed with the process.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-22T19:14:37.067Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "saver plan",
+    "drugs": NaN,
+    "providers": "daycare clinic",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66358411776959650",
+    "question": "Do you have your Medicare number?",
+    "answer": "The agent clarified that Medicaid is different from Medicare and asked if the customer has Medicare on top of Medicaid.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-23T15:58:41.212Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66543811776972134",
+    "question": "Is there someone I can speak with to see if that's what I'm supposed to be doing regarding Medicare through disability?",
+    "answer": "Social Security is the only entity that can provide Medicare through disability, including the red, white, and blue card with Part A and Part B.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T19:25:45.474Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66178841776711764",
+    "question": "Where is my golden Medicare card?",
+    "answer": "The agent did not provide a clear response regarding the golden Medicare card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T19:04:44.694Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66416911776781090",
+    "question": "Do you have my Medicare number?",
+    "answer": "No, you would need to provide your Medicare number for us to proceed.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-21T14:22:29.263Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "38012",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66453111776969474",
+    "question": "Can I get a Medicare number even if I don\u2019t know the start date for my insurance?",
+    "answer": "Yes, you can obtain a Medicare number before knowing the start date by contacting Medicare or Social Security directly.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T18:39:43.291Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "AARP UAC plan",
+    "drugs": "Prolia",
+    "providers": "infusion center",
+    "zip": "32903",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66453111776969474",
+    "question": "How do people get their Medicare number outside of open enrollment without having a start date for insurance?",
+    "answer": "People can obtain their Medicare number by calling Medicare directly or communicating with Social Security.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T18:39:43.291Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "AARP UAC plan",
+    "drugs": "Prolia",
+    "providers": "infusion center",
+    "zip": "32903",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66453111776969474",
+    "question": "Is it possible to get a Medicare number online?",
+    "answer": "It may be possible to get a Medicare number online, but it is not evident as an option on the website.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T18:39:43.291Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "AARP UAC plan",
+    "drugs": "Prolia",
+    "providers": "infusion center",
+    "zip": "32903",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66581311776883282",
+    "question": "What is the insured ID?",
+    "answer": "The agent explained that the insured ID should be labeled as 'member ID number' on the card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "member id number request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T18:44:30.997Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67049581776961727",
+    "question": "What should I do if I suspect my Medicare card was sent to my old address?",
+    "answer": "You should contact Social Security to confirm your address is updated and follow up with Medicare to ensure the card is sent to the correct address.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T16:34:41.358Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Washington Public Employees Plan (Advantage Plan)",
+    "drugs": NaN,
+    "providers": "Johns Hopkins",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66162991776720589",
+    "question": "I just called you guys earlier to get my number but the doctor's office did not write down my numbers that I need.",
+    "answer": "I do work with United Healthcare in their Medicare department, but I will transfer you to the correct line for Medicaid assistance and provide you with a direct phone number if needed.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T21:32:02.578Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66094201777050418",
+    "question": "Would you happen to have your Medicare number?",
+    "answer": "The agent asked for the customer's Medicare number to verify their information but the customer stated they do not have a red, white, and blue Medicare card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-24T17:08:47.513Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna Medicare HMO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67062291777058228",
+    "question": "Is this Medicare ID sufficient for arranging transportation?",
+    "answer": "No, I need the member's ID card or their first and last name along with their date of birth to proceed.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-24T19:18:31.061Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "dialysis unit nurse",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66433151777296875",
+    "question": "Can you check if this member ID for my wife has the correct Medicare number tied to it?",
+    "answer": "Yes, the Medicare number tied to her member ID is correct and matches her information.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation",
+      "medicare vs member id"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T13:41:32.861Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "10950",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66171431777318767",
+    "question": "Did you get the red, white, and blue card from Medicare already or not yet?",
+    "answer": "Yes, I have it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-27T19:42:40.523Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Doctor Doresa Bayes",
+    "zip": "74401",
+    "state_processed": "OK",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66214041777221906",
+    "question": "What is your Medicare number from your red, white and blue card or your member ID?",
+    "answer": "The customer stated they do not have their Medicare card or member ID yet.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number",
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-26T16:47:42.659Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "35466",
+    "state_processed": "AL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67031751777313619",
+    "question": "I can't find my health insurance card. How can I get a replacement Medicare card?",
+    "answer": "You can get a replacement Medicare card either through medicare.gov or by calling 1-800-633-4227.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T18:14:51.01Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Plan F",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34227",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66473541777315257",
+    "question": "Do you have Medicare number?",
+    "answer": "Let me look the number up. The state Medicaid program number for Louisiana is ************.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T18:42:39.213Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66529351776813591",
+    "question": "Can you verify if my membership ID number is correct on my card?",
+    "answer": "The agent recommended contacting the member services team to verify the membership ID number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-21T23:24:39.611Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care Alabama 5",
+    "drugs": "metformin",
+    "providers": "Doctor Davis",
+    "zip": "36116",
+    "state_processed": "AL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66454641777306137",
+    "question": "Can you check the status of my Medicare number?",
+    "answer": "I can check its current status using your Medicare number or Social Security number, but it is currently not active.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T16:10:37.656Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "33016",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66537481777318954",
+    "question": "Should I ask Social Security about my own Medicare card while I\u2019m on the phone with them?",
+    "answer": "Yes, you can talk to them about your Medicare card while you're getting information for your husband.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T20:00:15.43Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66537481777318954",
+    "question": "Why haven\u2019t I received my Medicare card yet?",
+    "answer": "It could be that Social Security hasn\u2019t processed it yet; you should contact them to inquire further.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T20:00:15.43Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66439151777302916",
+    "question": "Do I get a red, white, and blue Medicare card when I turn **?",
+    "answer": "Yes, you would typically receive a red, white, and blue Medicare card unless you are still receiving insurance through your job.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T15:17:18.373Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66439151777302916",
+    "question": "Why didn\u2019t I get a Medicare card?",
+    "answer": "You may not have received it because you are still getting insurance through your job.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T15:17:18.373Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66439151777302916",
+    "question": "Do I get the red, white, and blue card from Social Security?",
+    "answer": "Yes, you will receive the red, white, and blue Medicare card from Social Security.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T15:17:18.373Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66439151777302916",
+    "question": "Once I get the Medicare card, should I call back and provide the numbers on it?",
+    "answer": "Yes, once you receive your Medicare card, you can call back and provide the numbers on it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T15:17:18.373Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66233691777470229",
+    "question": "Do you have your Medicare number there?",
+    "answer": "It should be numbers and letters and says Part A and Part B. If not, I can log on to Medicare's website and get it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T13:45:29.623Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "America's Choice",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "38201",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66233691777470229",
+    "question": "Where's the Medicare ID number located?",
+    "answer": "It should be on your red, white, and blue Medicare card and consist of numbers and letters.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T13:45:29.623Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "America's Choice",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "38201",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66007551776363999",
+    "question": "Would having their Medicare number be more helpful?",
+    "answer": "Yes, if they have their Medicare number, that would be more helpful.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T18:34:53.416Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66357191777411452",
+    "question": "Why is the Medicare number not working?",
+    "answer": "The Medicare number might be correct, but it could be an issue with the system or missing information like the physical address.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-28T21:30:06.39Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66006211777298532",
+    "question": "Do you have your Medicare number with you?",
+    "answer": "Yes, I do. Here it is: 18-66NH1-EC65.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-27T14:04:18.297Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "UMM",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "03046",
+    "state_processed": "NH",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66068561777330113",
+    "question": "I don't have a red, white, and blue Medicare card, only a white and blue card. Will that work?",
+    "answer": "Yes, the pharmacy should be able to look you up with your current card. If they have any issues, they can call 800-783-1307 for assistance.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T23:06:49.534Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Li Net",
+    "drugs": NaN,
+    "providers": "Westview Healthcare Clinic",
+    "zip": "95453",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66130531776197948",
+    "question": "Do I need my Medicare number to send in the application?",
+    "answer": "Yes, you need your Medicare number to submit the application, but the agent can locate it using your Social Security number if it has been generated.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-14T20:20:49.412Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "Plan N",
+    "drugs": "Lumigan eye drops",
+    "providers": NaN,
+    "zip": "18940",
+    "state_processed": "PA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66129991776196248",
+    "question": "Does she need her Medicare number to contact CMS?",
+    "answer": "CMS should be able to locate her information using her Social Security number if the Medicare number is unavailable.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-14T20:11:19.655Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Healthspring",
+    "drugs": "medications for high blood pressure, diabetes (implied metformin or similar)",
+    "providers": "primary care physician, ophthalmologist",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66167121777915426",
+    "question": "Do you have my Medicare number handy off of my red, white, and blue card?",
+    "answer": "If you don't have your Medicare number, I can look it up for you or you can call back with it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "lookup without medicare number"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-05-04T17:26:12.019Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "64660",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66189731777743732",
+    "question": "Would you happen to have your Medicare number with you?",
+    "answer": "The agent can look up the Medicare number using the customer's Social Security number if it is not available.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-02T17:44:25.838Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "HMO-POSD-SNP Dual Complete Plan",
+    "drugs": NaN,
+    "providers": "First One Medical Clinic",
+    "zip": "85051",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66157811777902703",
+    "question": "What is the Medicaid member ID number?",
+    "answer": "The Medicaid member ID number is *********.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-05-04T13:53:25.25Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete FL Y5HMO POSD snip *****-003-000",
+    "drugs": NaN,
+    "providers": "Dedicated Seniors Medical, Sharonda Sileus (Nurse Practitioner)",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66275051777652486",
+    "question": "What\u2019s the member ID?",
+    "answer": "We can still find her information even if you don\u2019t have the member ID.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "member id number request",
+      "lookup without medicare number"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-05-01T16:31:31.026Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66384381777927787",
+    "question": "I need my plan number. What do I need?",
+    "answer": "I can give you your member ID, which starts with ****.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "member id number request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-04T20:52:12.755Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Monjero",
+    "providers": NaN,
+    "zip": "84037",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66384381777927787",
+    "question": "Hey, well, I got a. You can't tell me what Bob's is, could you?",
+    "answer": "If you're on file for him, then I could tell you what his is.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-05-04T20:52:12.755Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "Monjero",
+    "providers": NaN,
+    "zip": "84037",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66358881775050931",
+    "question": "What is your Medicare ID number, the red, white, and blue card?",
+    "answer": "You provided your Medicare ID number for verification.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-01T13:46:10.645Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "35810",
+    "state_processed": "AL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66364771777906712",
+    "question": "Can I use the first Medicare card I found since I don't know where I put the other one?",
+    "answer": "Yes, you can use the first card you found as long as it is active. You can also access your card online through our app if needed.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-04T15:00:54.657Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "People's Health Choices 65",
+    "drugs": "CPAP machine (medical equipment mentioned, no specific drug named)",
+    "providers": "eye specialist",
+    "zip": "73187",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66449041776206797",
+    "question": "I'm actually looking for a ID number.",
+    "answer": "The agent did not provide a specific answer to this question and redirected the customer.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-14T22:49:06.958Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66420011775247464",
+    "question": "So the red, white and blue card, does it pay for me to go see a doctor?",
+    "answer": "The red, white, and blue Medicare card pays 80% of doctor and hospitalization costs, leaving you responsible for the remaining 20%. However, it does not cover prescriptions.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T20:22:07.542Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "complete care plan",
+    "drugs": "high blood pressure pills",
+    "providers": "Doctor Manisha Ogali",
+    "zip": "60827",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66420361775836469",
+    "question": "Do you have his Medicare ID number handy on the red, white, and blue card?",
+    "answer": "The Medicare ID should start with a number and alternate between letters and numbers. If you only have the Medicaid card, we can still proceed with verifying his information.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-10T15:57:04.521Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "14305",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66489871776283428",
+    "question": "Do you have my Medicare number on file?",
+    "answer": "If you provide your Social Security number, I can look up your Medicare number on the government website.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T20:06:55.376Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "38761",
+    "state_processed": "MS",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66458951775252012",
+    "question": "Can you help me with the member ID?",
+    "answer": "There is no member ID generated yet because the plan has not gone into effect. I can provide the Medicare number instead.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T21:36:31.474Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "dual special needs plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "48101",
+    "state_processed": "MI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66560541777331158",
+    "question": "What Medicare number are you talking about? Is it the one on the UCard?",
+    "answer": "The agent clarified that they needed the Medicare number for verification purposes.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation",
+      "medicare vs member id"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-27T23:09:21.313Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "77022",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66544081775919136",
+    "question": "Is my Forward Health card the same as a Medicare ID number?",
+    "answer": "No, the Medicare card is a separate card issued by the government, typically for those who are disabled or meet other Medicare eligibility criteria.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-11T14:58:35.545Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "Dual Complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "54403",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66596301776906684",
+    "question": "Could you provide me with her Medicare number?",
+    "answer": "The agent clarified that they do not have the Medicare number and suggested checking the card that says Humana Gold Plus HMO.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T01:15:58.39Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Humana Gold Plus HMO",
+    "drugs": NaN,
+    "providers": "Kaiser",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66649401777911899",
+    "question": "Do you need my number for the United Healthcare?",
+    "answer": "The agent clarified that they needed the customer's Medicare number to check eligibility.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics",
+      "id usage for services"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-05-04T16:28:08.611Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "410",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66630011777154894",
+    "question": "Oh, sorry, my Medicare number, so that would that would be on my card, wouldn't it?",
+    "answer": "Yes, it is usually on your red, white, and blue Medicare card, the one that says Parts A & B.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-25T22:10:06.066Z",
+    "Is_Digital": true,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare RX preferred",
+    "drugs": "atorvastatin, metoprolol succinate, folic acid, methotrexate, aspirin, latanoprost",
+    "providers": NaN,
+    "zip": "23223",
+    "state_processed": "VA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67019981775146426",
+    "question": "Has she gotten the Medicare number yet?",
+    "answer": "No, she has not.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-02T16:18:02.631Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Tennessee 0003 HMO POS",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "38347",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67043731776371418",
+    "question": "Can the middle initial in the member's name be removed?",
+    "answer": "We don't edit names as they are directly uploaded from Medicare. The name that Medicare has on file is automatically passed to us.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T20:47:54.341Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67043731776371418",
+    "question": "Do you have Medicare's phone number?",
+    "answer": "Yes, Medicare's phone number is 1-800-633-4227.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T20:47:54.341Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67037351777651088",
+    "question": "Yeah, but I don't have my Medicare card.",
+    "answer": "I don't have your Medicare number either, but you can try using another option if available.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-01T16:00:54.847Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "13207",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67009311777470782",
+    "question": "What is the confirmation number for this?",
+    "answer": "Your Medicare number on your red, white, and blue card serves as your confirmation number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T13:54:56.953Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete SC-**** PPO",
+    "drugs": "metformin, pravastatin, acyclovir, carvedilol",
+    "providers": "Doctor Rachel Gadget, Doctor Merchant (eye doctor), Nurse Practitioner Donna Wolf, Doctor Maureen Quinlan (podiatrist), Doctor Edwin Powell Mitchell (eye doctor), cardiologist (name redacted)",
+    "zip": "29204",
+    "state_processed": "SC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67009311777470782",
+    "question": "I don't have a red, white, and blue card. What do I need to do?",
+    "answer": "You need to call Medicare to request a new red, white, and blue card, which contains your Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T13:54:56.953Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete SC-**** PPO",
+    "drugs": "metformin, pravastatin, acyclovir, carvedilol",
+    "providers": "Doctor Rachel Gadget, Doctor Merchant (eye doctor), Nurse Practitioner Donna Wolf, Doctor Maureen Quinlan (podiatrist), Doctor Edwin Powell Mitchell (eye doctor), cardiologist (name redacted)",
+    "zip": "29204",
+    "state_processed": "SC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67065031775057681",
+    "question": "Do you need my Medicare number to start the process?",
+    "answer": "Yes, we need your Medicare number as it helps us determine your eligibility and the type of plans you can enroll in.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-01T15:38:10.895Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "aspirin",
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67047151775838720",
+    "question": "Can I put down for somebody to mail me another red, white, and blue card?",
+    "answer": "You would need to contact Medicare directly to request a replacement red, white, and blue card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T16:33:41.901Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "29053",
+    "state_processed": "SC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67098601776958495",
+    "question": "Do I need to have my Medicare card and number?",
+    "answer": "Yes, you will need your Medicare card or number when applying for programs or verifying your coverage.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T15:36:37.71Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67105791775324860",
+    "question": "I don\u2019t have the red, white, and blue Medicare card. What should I do?",
+    "answer": "If you need a copy of the original Medicare card, you will need to contact Medicare directly and request a replacement. The Medicare phone number is 800-633-4227.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-04T17:50:52.323Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Doctor Lou Zhang",
+    "zip": "12302",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67135291775850242",
+    "question": "Do you have my old member ID or Medicare number?",
+    "answer": "No, I don't have it that way because I didn't have the insurance anymore.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-10T19:45:48.181Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67137861776263561",
+    "question": "Have you gotten your Medicare card yet?",
+    "answer": "I haven't got the card, but I do have the number. I talked to them, and they said they sent it a couple of weeks ago, but I've got the number, and that was the important part I needed, right?",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T14:37:08.644Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "AT&T Plus Plan, AT&T Base Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "53551",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67137861776263561",
+    "question": "Can I find my Medicare number on medicare.gov?",
+    "answer": "Yes, you can find your Medicare number on medicare.gov.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T14:37:08.644Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "AT&T Plus Plan, AT&T Base Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "53551",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67154861776721897",
+    "question": "Can you verify if the Medicare number on my card is correct?",
+    "answer": "Yes, the Medicare number you provided matches what we have in our system.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T21:58:37.613Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage from UHC ID 0006",
+    "drugs": "hydrocodone acetaminophen",
+    "providers": "Doctor Nathan Winder",
+    "zip": "83539",
+    "state_processed": "ID",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67168141776088109",
+    "question": "Do you need the Medicare card to verify the insurance?",
+    "answer": "Yes, the Medicare card with the red, white, and blue design and the Medicare number is needed for verification.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number verification",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T13:51:24.023Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67168141776088109",
+    "question": "What does Part A and Part B mean on the Medicare card?",
+    "answer": "Part A and Part B refer to the different parts of Medicare coverage, but it seems you may not have the correct card for verification.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T13:51:24.023Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67168361775679708",
+    "question": "Do I need to provide my Medicare information to my doctor before the new plan starts?",
+    "answer": "Yes, you will need to provide your Medicare information to your doctor and update them with the new plan information once it starts.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T20:33:38.911Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "TC-0002",
+    "drugs": "Keflex",
+    "providers": "Family Medicine West of Wartburg, Dr. Thakur",
+    "zip": "37872",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67189211775438253",
+    "question": "What insurance should I use for my upcoming doctor visit?",
+    "answer": "You should use your red, white, and blue Medicare card, as it is your currently active insurance. If you cannot find the card, a copy or the number will suffice for billing purposes.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services",
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T01:20:20.242Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UMSLNP",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "37080",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67189211775438253",
+    "question": "Does my Medicare card work for showing coverage at the clinic?",
+    "answer": "Yes, your Medicare card will work for showing coverage at the clinic.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-06T01:20:20.242Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UMSLNP",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "37080",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67210391777925972",
+    "question": "Would you be able to help me out with the Medicaid look up in New Mexico?",
+    "answer": "Yes, I can assist with that. Let me confirm the details and provide the Medicaid ID number.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-05-04T20:24:45.666Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67207081775234699",
+    "question": "Does he need a red, white, and blue card to get Medicaid?",
+    "answer": "The agent confirmed that the red, white, and blue card is required.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T16:47:53.965Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67207771776802865",
+    "question": "Can you find her Medicare number with her social security number?",
+    "answer": "Yes, we can try to locate her Medicare number using her social security number, but this would only work if her account exists in our system.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-21T20:28:09.31Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67223781776368050",
+    "question": "My dad just traveled from Indiana to New Jersey and forgot his Medicare insurance card. Can you provide his member ID and group number so we can go to urgent care?",
+    "answer": "The agent initially attempted to pull up the account but found it inactive and later transferred the call to the supplement team for further assistance.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "member id number request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T19:38:01.076Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare Medicare Supplement plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "46614",
+    "state_processed": "IN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67223781776368050",
+    "question": "Can you help us get the ID number and other details since we just switched to this plan?",
+    "answer": "The agent confirmed that the member was on a supplement policy and transferred the call to the supplement team for assistance with retrieving the ID number and other details.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T19:38:01.076Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare Medicare Supplement plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "46614",
+    "state_processed": "IN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67221171776100720",
+    "question": "Do you have my Medicaid number?",
+    "answer": "Your Medicaid number is not on file; the number you provided is your Medicare number. Medicaid numbers are issued by the state.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T17:21:15.01Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC dual complete GA PPL",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67221171776100720",
+    "question": "What is the difference between my Medicare and Medicaid numbers?",
+    "answer": "Your Medicare number is associated with your federal Medicare benefits, while your Medicaid number is issued by the state for Medicaid services.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T17:21:15.01Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC dual complete GA PPL",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67198971776100053",
+    "question": "Do I need my Medicare health insurance card to sign up for the plan?",
+    "answer": "Yes, you need your Medicare number to sign up for the United Healthcare plan.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:11:21.949Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Group Medicare Advantage PPO MAPD Plus plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "03860",
+    "state_processed": "NH",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67235001776370796",
+    "question": "I don't have my member ID.",
+    "answer": "We can assist you with your account without the member ID by verifying other details.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T20:22:39.203Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67241761776264720",
+    "question": "I was trying to schedule an appointment using my insurance but I didn't have my member ID number.",
+    "answer": "Let me connect you to the correct department for customer service so they can help you further.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T14:54:33.7Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare commercial plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67198341776812153",
+    "question": "Will my Medicare number change with the new plan?",
+    "answer": "No, your Medicare number will remain the same as it is for life and does not change with plan transitions.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T00:12:20.703Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Complete Care",
+    "drugs": NaN,
+    "providers": "Doctor Rodney Schaefer at PeaceHealth in Florence",
+    "zip": "97439",
+    "state_processed": "OR",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67227171775054018",
+    "question": "What is the red, white, and blue card for?",
+    "answer": "The red, white, and blue card is your Medicare card, while the United Healthcare card is the one you will use for your plan benefits.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare vs member id"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-01T14:38:32.053Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "SCS 001 dual plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "72150",
+    "state_processed": "AR",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67238971777478879",
+    "question": "What is the purpose of providing my Medicare number if I still have to wait to enroll in the dual plan?",
+    "answer": "Providing your Medicare number allows us to verify your eligibility and prepare for enrollment once your Pathways for Aging plan becomes active.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T16:10:24.611Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "Pathways for Aging",
+    "drugs": "cholesterol medicine",
+    "providers": "James Williams, Steven Dali, Alicia Grove (eye doctor)",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67240971775485240",
+    "question": "Did you get your Medicare card already?",
+    "answer": "No, you technically don't have your Medicare number yet. You can go to medicare.gov to create an account and retrieve your Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T14:22:08.547Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Group, Medicare Advantage",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "64831",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67240971775485240",
+    "question": "How do I retrieve my Medicare number if I don\u2019t have my card?",
+    "answer": "You can retrieve your Medicare number by logging into your Social Security account or creating an account on medicare.gov.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T14:22:08.547Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Group, Medicare Advantage",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "64831",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67253201775680387",
+    "question": "Do you happen to have the member ID number for the account?",
+    "answer": "The customer stated they do not have their card on them, and the agent offered to connect them to the correct line for further assistance.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-08T20:36:20.443Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67284821776362668",
+    "question": "Can you tell me if my Medicare health insurance coverage has expired?",
+    "answer": "Your Medicare coverage has not expired; it is still active.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-16T18:05:59.787Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare dual complete, Blue Cross Blue Shield Advantage plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "80917",
+    "state_processed": "CO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67267351776543033",
+    "question": "How did you find me in your system without knowing my Medicare number?",
+    "answer": "We found your account using your name and date of birth, which were already in our system from a previous account you had with us.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-18T20:12:32.111Z",
+    "Is_Digital": true,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Dual Complete Pennsylvania",
+    "drugs": "albuterol, Lexapro, Abilify",
+    "providers": "Michael Tavi (provider in Brooklyn, NY), Jefferson Hospital, Lincoln Hospital",
+    "zip": "19121",
+    "state_processed": "PA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67312261775587617",
+    "question": "When they send me the blue and white, red, white and blue card.",
+    "answer": "Whenever you receive your Medicare number, you can call us to update your profile with the correct information.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T18:48:42.364Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "My Health United",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67303551777041454",
+    "question": "Can I verify my Medicare number and get it on file?",
+    "answer": "Yes, I can take your Medicare number and verify it for eligibility. If you're not listed as eligible yet, I will submit an eligibility request to confirm your status.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-24T14:39:13.605Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "GEHA enhanced level of benefits",
+    "drugs": "Part D drug coverage",
+    "providers": NaN,
+    "zip": "83705",
+    "state_processed": "ID",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67311661775510300",
+    "question": "Do I need a card for Original Medicare?",
+    "answer": "Yes, you need to show your red, white, and blue Medicare card for Original Medicare services.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T21:21:02.112Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Advantage Complete plan",
+    "drugs": NaN,
+    "providers": "doctor",
+    "zip": "32608",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67324661775342573",
+    "question": "Is this a Medicare number?",
+    "answer": "This is the Medicare department for United Healthcare.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-04T22:46:07.425Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67346861776948478",
+    "question": "I need my member ID number for my highway doctor. Is there any type of way that you can send me to my e-mail?",
+    "answer": "We can send that to you, but I only handle the over 65 for senior citizens. Let me see if I can get you to the right place.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "member id number request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T12:50:54.431Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67317701777049114",
+    "question": "Could you give me the Medicare ID number?",
+    "answer": "The Medicare ID number is provided as #1N********8V********.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-24T16:59:48.826Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Medicare PPO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "85615",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67345241775159089",
+    "question": "What is the confirmation number for the enrollment?",
+    "answer": "The confirmation number is your Medicare number, which will be included in the welcome information package.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-02T19:59:31.018Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "preferred plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "29650",
+    "state_processed": "SC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67346831775674608",
+    "question": "I had written down my application confirmation number, but I\u2019m not sure if it\u2019s my Medicaid, Medicare, or United ID number. Can you help?",
+    "answer": "Let me check your application details and confirm which ID number is associated with your application.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T19:11:04.909Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67379541776872046",
+    "question": "Do I need to provide my Medicare ID card to proceed?",
+    "answer": "Yes, you will need your Medicare ID card to proceed with enrollment and verification.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T15:50:26.826Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC New Jersey PPO",
+    "drugs": NaN,
+    "providers": "Dr. Cherie Shah, Saint Peter's Hospital",
+    "zip": "08901",
+    "state_processed": "NJ",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67379541776872046",
+    "question": "What should I do if I don\u2019t have my Medicare ID card yet?",
+    "answer": "You will need to wait until you receive your Medicare ID card to proceed with enrollment.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T15:50:26.826Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC New Jersey PPO",
+    "drugs": NaN,
+    "providers": "Dr. Cherie Shah, Saint Peter's Hospital",
+    "zip": "08901",
+    "state_processed": "NJ",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67362261776097725",
+    "question": "Do I need to activate my Medicare card?",
+    "answer": "No, you do not need to activate your Medicare card. However, you will need to activate the Medicare Advantage plan card when it is sent to you.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T16:30:21.224Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "GEHA High Option",
+    "drugs": "atorvastatin (implied as 'our restaurant' unclear), Baclofen, Dicyclomine, Enbrel (Etanercept), Tramadol, Levalbuterol",
+    "providers": NaN,
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67411761776714124",
+    "question": "I want a red, white and blue card sent to me at my new address. I don't have a card.",
+    "answer": "The red, white and blue card is with Medicare, not United Healthcare. You can call Medicare directly at 1-800-633-4227 to request a new card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T19:45:10.145Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "72046",
+    "state_processed": "AR",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67411761776714124",
+    "question": "Every time I order a red, white and blue card, it never comes. I don't ever get one.",
+    "answer": "You need to contact Medicare directly at 1-800-633-4227 to request the card, as they are responsible for issuing it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T19:45:10.145Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "72046",
+    "state_processed": "AR",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67411761776714124",
+    "question": "How come I gave you all this information if you're not the right one?",
+    "answer": "The red, white and blue card is handled by Medicare, not United Healthcare. I provided you with the Medicare contact number to request the card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number retrieval"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-20T19:45:10.145Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "72046",
+    "state_processed": "AR",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67398291777903648",
+    "question": "Oh, I don't have the red, blue, and white card. Can I do it with my social?",
+    "answer": "Yes, we can use your social security number to look you up in the Medicare database.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-04T14:08:35.75Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "37206",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67405351777321776",
+    "question": "Do you have my Medicare number? Is it current?",
+    "answer": "The agent confirmed the Medicare number provided and verified the customer has Medicare Part A and B.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-27T20:31:14.75Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "64124",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67402591776279105",
+    "question": "What is my confirmation number for the enrollment application?",
+    "answer": "The confirmation number for the enrollment application is the customer's Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-15T18:57:57.769Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare RX Preferred",
+    "drugs": "Synthroid, lisinopril, verapamil, diclofenac, diphenoxylate and atropine, betirizine, ketoconazole shampoo, nasal spray",
+    "providers": NaN,
+    "zip": "32779",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67429271776443448",
+    "question": "Does the letter I received give you a Medicaid number?",
+    "answer": "The agent asked for the Medicaid number to verify it in the system but noted that nothing showed up yet, possibly because it is too early.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verificiation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T16:35:28.483Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Complete plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "27030",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67407101775057883",
+    "question": "Do I need my Medicare number to proceed?",
+    "answer": "I can look up your information using your name, date of birth, and Social Security number if you do not have your Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-01T15:39:59.246Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "2 doctors, new eye doctor",
+    "zip": "62702",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67417181777471068",
+    "question": "Will my Medicare number or member ID number change with the new plan?",
+    "answer": "No, your Medicare number and member ID number will remain the same even after switching to the new plan.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T14:26:32.067Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AR S2 (PPO)",
+    "drugs": NaN,
+    "providers": "UAMS Medical Center",
+    "zip": "72114",
+    "state_processed": "AR",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67443511775746753",
+    "question": "Do I have my Medicare number yet?",
+    "answer": "No, you mentioned that Medicare will send it to you around your birthday.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T15:00:59.158Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "95624",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67457221775506311",
+    "question": "Do you need the Medicaid ID number or something like that?",
+    "answer": "Let me first check if it is Medicare; if not, then it is likely Medicaid.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-06T20:18:14.228Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "77014",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67472771777329379",
+    "question": "Does Annie have her Medicare card already?",
+    "answer": "She does not have the physical Medicare card, but she has been provided with her Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T22:47:25.718Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "32901",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67469461775076407",
+    "question": "Is there a Medicare number I can call about this?",
+    "answer": "Yes, the Medicare contact number is on the back of your Medicare card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-01T20:52:41.325Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "personal choices 65 medical plan",
+    "drugs": NaN,
+    "providers": "providers (general references to doctors and appointments, no specific names)",
+    "zip": "*****-2525",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67455451775754628",
+    "question": "Can United Healthcare send me a red, white, and blue Medicare card?",
+    "answer": "United Healthcare does not send out red, white, and blue Medicare cards. You need to request that from Medicare or Social Security.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T17:11:37.21Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials plan",
+    "drugs": "metformin, atorvastatin",
+    "providers": NaN,
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67455451775754628",
+    "question": "Do I need the red, white, and blue Medicare card right now?",
+    "answer": "You do not need the red, white, and blue Medicare card for current medical or prescription services, but it is good to have for future use.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T17:11:37.21Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials plan",
+    "drugs": "metformin, atorvastatin",
+    "providers": NaN,
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67473871776804619",
+    "question": "What identification will CMS need when I call them?",
+    "answer": "CMS will need your Medicare number, name, or Social Security number to assist you.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-21T21:05:43.634Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Medicare prescription preferred from UHC, PDP",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "92878",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67499651775672251",
+    "question": "Do I need to get a Medicare ID number now?",
+    "answer": "Yes, you need to apply for Medicare first to get your Medicare ID number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T18:19:20.738Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "9X004",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67499651775672251",
+    "question": "How can I apply for a Medicare ID number?",
+    "answer": "You can apply by calling the Social Security Administration at 1-800-772-1213 or visiting their website at www.ssa.gov.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T18:19:20.738Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "9X004",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67491121777940215",
+    "question": "Do you have my Medicare card information?",
+    "answer": "Yes, we have your Medicare number, so we should be fine.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-05-05T00:28:50.975Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "Chronic plan",
+    "drugs": "Insulin, medications for nausea, nerve pain, cholesterol",
+    "providers": "Stephanie Zamora (primary care physician), Cynthia Alexander, Steven Eggleston (orthopedic surgeon, out of network), Doctor Vega (out of network), Kelsey C Boyd Clinic",
+    "zip": "77566",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67476721776882880",
+    "question": "Do I need to call Social Security to update my address for Medicare?",
+    "answer": "Yes, you need to call Social Security to update your address for Medicare.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-22T18:36:35.815Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "complete care plan",
+    "drugs": "metformin, lisinopril, hydroxyzine, gabapentin, rosuvastatin, verapamil",
+    "providers": "Dana Harden (PCP, Bluff St., Saint George)",
+    "zip": "84770",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67506401775218516",
+    "question": "Why haven\u2019t I received a Medicare card or any information about Extra Help?",
+    "answer": "Extra Help is built into your plan and does not require a separate card. You should already be paying very low copays for prescriptions under this benefit.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T12:16:37.021Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete",
+    "drugs": "Prozac",
+    "providers": "Highland Rivers, Oral surgeon Dr. Sharon Harrison, Franklin Dental, Smile Center of Dalton, Primary care doctor (not named)",
+    "zip": "30721",
+    "state_processed": "GA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67514281776371638",
+    "question": "How do I find my Medicare number?",
+    "answer": "The agent asked the customer to locate their Medicare number and confirmed they could not proceed without it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T20:39:39.915Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "70769",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67572911775665882",
+    "question": "I called and requested my Medicare card and I still haven't received it.",
+    "answer": "This is United Healthcare, so we wouldn't be able to send Medicare cards. You can contact Medicare directly at 800-633-4227 for assistance.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T16:33:39.662Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67559921775589110",
+    "question": "When did the Part A and B become effective on his Medicare card?",
+    "answer": "The effective date for both Part A and B is listed on the card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-07T19:31:05.68Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Plan N",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67559921775589110",
+    "question": "Do you have his Medicare card with you?",
+    "answer": "Yes, I have his Medicare card with me.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-07T19:31:05.68Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Plan N",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67572061775769639",
+    "question": "I want to know if you have my Medicaid ID on file?",
+    "answer": "I don't see the Medicaid ID, but I see that Medicaid is active. You can contact the Medicaid office to obtain the number or check your Medicaid card.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T21:25:11.12Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Duo Complete Utah PPO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "84081",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67572061775769639",
+    "question": "Why can\u2019t they put my Medicaid ID information there?",
+    "answer": "The Medicaid office can provide the number, and you can ensure it is updated in their system.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-09T21:25:11.12Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Duo Complete Utah PPO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "84081",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67573791776292704",
+    "question": "Is it, it's $1100. I did it one time and I'm like, wait ********, how come it didn't go off my Medicare?",
+    "answer": "It seems they didn't have your Medicare number initially, but after you provided it, they resubmitted the bill and Medicare paid it.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T22:40:07.619Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Patriot PPO plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "85747",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67595421776103343",
+    "question": "Do you have my new Medicare number on file?",
+    "answer": "Yes, we already have your new Medicare number on file, and I have updated it in the system to ensure everything is accurate.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "medicare number verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T18:05:14.78Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "prescription plan",
+    "drugs": NaN,
+    "providers": "Ascension hospital",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67599601777309899",
+    "question": "Can I give you the MBI instead of the member ID number?",
+    "answer": "Yes, you can provide the MBI instead.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare vs member id"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-27T17:13:52.704Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67604081777413224",
+    "question": "Do you need her Medicare number to check the application status?",
+    "answer": "Yes, it would be easiest if you have her Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-28T21:56:08.042Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67609061777130616",
+    "question": "Is there any other information I can provide to you? I would like to find those.",
+    "answer": "What I'd recommend is reaching out to, or not reaching out, but finding that Medicare or member ID. Give us a call back.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "member id number request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-25T15:25:27.027Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67609061777130616",
+    "question": "I don't even know how to find it right now.",
+    "answer": "Look up your member ID with United Healthcare because I can't even transfer you to that department unless I have that.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-25T15:25:27.027Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67616371777483030",
+    "question": "I can't see the document without knowing what my ID number is and I have no idea what that is.",
+    "answer": "I don't have access to the employer benefits, but if you reach out to the provided number, it will ask you to type in your zip code, and they will direct you to an agent who can pull it up for you.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T17:20:05.992Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67618081775678671",
+    "question": "Can you provide the insurance card number for Kenneth Wilson so the doctor\u2019s office can bill the insurance company?",
+    "answer": "Nothing is coming up under the provided first and last name, date of birth, or other details. You may need to provide additional information or check with the doctor\u2019s office.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T20:07:07.839Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "David Wood from Christ Community Center",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67624051776957160",
+    "question": "I need my member's ID number because I prefer to get into my app and I can't get into it.",
+    "answer": "Your member ID is 134-973-887. You can try using this to access your app, and if you need further assistance, customer service can help.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "member id number request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T15:15:15.198Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "80013",
+    "state_processed": "CO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67642421775766222",
+    "question": "Do you need her Medicare number?",
+    "answer": "Yes, I need her Medicare number to proceed with checking her eligibility and benefits.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-09T20:33:06.548Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "77388",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "68008141777655721",
+    "question": "Do you already have your Medicare ID number?",
+    "answer": "The customer stated they had applied for it but canceled because they were not retiring yet and still had good healthcare coverage.",
+    "topic": "medicare id",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-05-01T17:17:01.947Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "University of Cincinnati",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67651061776381050",
+    "question": "Will I get a new Medicare card after I fix this issue?",
+    "answer": "Yes, once you resolve the issue with Medicare, they will send you a new card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T23:29:05.986Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "85254",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67651061776381050",
+    "question": "Will my current Medicare card work again after I call Medicare?",
+    "answer": "No, the current card will not work; you will need to get a new card after resolving the issue with Medicare.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T23:29:05.986Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "85254",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67630361776955423",
+    "question": "Do I need to keep my red, white, and blue Medicare card?",
+    "answer": "Yes, you need to keep your Medicare card to remain on this plan, but you will show your United Healthcare card at the doctor.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "id usage for services"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T14:53:03.348Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete NCS 3 HMO POS",
+    "drugs": "ADHD medication",
+    "providers": "Doctor Lorenzo, Doctor Chu, Laura Clark",
+    "zip": "28645",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67651901777924224",
+    "question": "I don't have my Medicare card. What should I do?",
+    "answer": "If you don't have your Medicare card, you can call Medicare to retrieve your Medicare number and request a new card to be mailed to you.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-04T19:52:06.316Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Doctor Rodriguez, cardiologist",
+    "zip": "60651",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67651901777924224",
+    "question": "Am I in the system with my red, white, and blue Medicare card?",
+    "answer": "Yes, you are in the system with your red, white, and blue Medicare card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation",
+      "medicare number verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-05-04T19:52:06.316Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Doctor Rodriguez, cardiologist",
+    "zip": "60651",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68059861776099401",
+    "question": "I need that identification number if I can get it.",
+    "answer": "Right now, you don't have a plan with us, but let me contact you with the correct department to assist further.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T16:59:01.419Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "84404",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "68072501775137883",
+    "question": "Do you want my Medicare card too?",
+    "answer": "No, no problem, I do have the Medicare number.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-02T13:56:16.098Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": NaN,
+    "providers": "David E Gaskin, Bassam Arodak, Viral K Doshi, Jessica M Johnson",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68076861775587916",
+    "question": "I don't know if I have Medicare Parts A and B. How can I check?",
+    "answer": "The agent asked if the customer had received a red, white, and blue Medicare card from Social Security, which would confirm enrollment in Medicare Parts A and B.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T18:53:48.732Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68078581775836485",
+    "question": "I need to get my Part D ID number and the PCN.",
+    "answer": "To get all of those numbers, I'll need to transfer you to our Member Services department who can assist further.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "member id number request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:59:23.439Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Community Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68078581775836485",
+    "question": "Can you help me find the Medicare number?",
+    "answer": "The Medicare number is on the red, white, and blue card, and it is required for this department to assist.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number retrieval",
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:59:23.439Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Community Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68078581775836485",
+    "question": "What if the Medicare number is not available?",
+    "answer": "If the Medicare number is not available, you can try looking it up using the Social Security number, name, and date of birth.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "lookup without medicare number"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:59:23.439Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Community Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68078581775836485",
+    "question": "What is the Medicare number format?",
+    "answer": "The Medicare number is not just numbers; it includes letters and is found on the red, white, and blue card.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number basics",
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:59:23.439Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Community Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68069321776123277",
+    "question": "Do you have your Medicare number handy?",
+    "answer": "The customer provided their Medicare number for verification.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare number verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T23:35:45.123Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "80229",
+    "state_processed": "CO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "68077611776094863",
+    "question": "Does my sister need to apply for the red, white, and blue card (Medicare card)?",
+    "answer": "Medicare is represented by the red, white, and blue card, and eligibility is typically automatic at age 65 or for those receiving Social Security Disability Insurance. If she hasn\u2019t received the card, she should contact Social Security to confirm her eligibility and application status.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T15:42:41.625Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United dual plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "32264",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68077611776094863",
+    "question": "What should I do if I haven\u2019t received my Medicare card?",
+    "answer": "If you haven\u2019t received your Medicare card, you should contact Social Security to verify your eligibility and request the card if applicable.",
+    "topic": "medicare id",
+    "sub_topic": [
+      "medicare card explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T15:42:41.625Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United dual plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "32264",
+    "state_processed": NaN,
+    "region_processed": NaN
+  }
+]

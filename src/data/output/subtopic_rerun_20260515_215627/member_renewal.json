@@ -1,0 +1,896 @@
+[
+  {
+    "Ucid": "66515011775738355",
+    "question": "Does this plan renew in May?",
+    "answer": "Yes, the plan will renew in May.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal effective date"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-09T12:41:15.06Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare RX preferred",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34202",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66014781775568854",
+    "question": "She's mentioning something that his Flex card got expired in *******. Do you see any of that history or something like that?",
+    "answer": "The member's plan renewed, and there is no record of a flex card being issued or expired. The benefits are tied to the U card, and no separate flex card exists for this plan.",
+    "topic": "member renewal",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T13:43:14.312Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Care Flex plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "7230",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66535101775506968",
+    "question": "I recently received a letter stating that my plan was cancelled. Can you verify that everything is intact and my plan is currently active?",
+    "answer": "Yes, you are active on the United Healthcare Dual Complete Plan. There is no pending termination or anything under your account.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal status verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T20:31:18.419Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34471",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66535101775506968",
+    "question": "I have something here from United that says Medicare has told us that you've cancelled your enrollment with UHC Dual Complete Florida D 003. Is this true?",
+    "answer": "No, that letter was automatically generated when the application with Humana was submitted. Your enrollment with United Healthcare is still active, and there is no pending termination.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal status verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T20:31:18.419Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34471",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66535101775506968",
+    "question": "Do I need to call customer service to confirm that I want to keep my United Healthcare plan?",
+    "answer": "No, it is not necessary to call customer service. Your application with Humana has already been cancelled, and you are active with United Healthcare.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T20:31:18.419Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34471",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66535101775506968",
+    "question": "For some reason, they said that I've cancelled my enrollment with UHC Dual Complete Florida. Should I let them know I want to stay with United?",
+    "answer": "You are already active with United Healthcare, and there is no need to notify anyone unless you submit an application with another company.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T20:31:18.419Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34471",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66535101775506968",
+    "question": "If this information is wrong and I want to keep my plan, should I call the number provided?",
+    "answer": "No, you do not need to call the number. Your enrollment with United Healthcare is still active, and the letter was automatically generated due to the Humana application, which has been cancelled.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T20:31:18.419Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34471",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66535101775506968",
+    "question": "What happens if I don't want to have any problems with my plan?",
+    "answer": "As long as you do not submit any applications with another company, your plan with United Healthcare will remain active.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "keeping current plan"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-06T20:31:18.419Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "34471",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66597491775501359",
+    "question": "Her plan practically shouldn't have been lapsed anyway because the chronic care for was fit in by the deadline, but I guess y'all didn't get it before then?",
+    "answer": "Yes, we would need to speak with her in order to open up the account, unfortunately.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal lapse explanation",
+      "reenrollment after renewal lapse"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T18:55:37.033Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "doctor",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66276781775658639",
+    "question": "If you've recently received a mailing asking you to renew your Medicaid status with the state, it's important to respond by the date given or you may lose coverage.",
+    "answer": "It is important to respond to the renewal notice by the given date to avoid losing coverage.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "medicaid renewal requirements",
+      "renewal deadline timeline",
+      "coverage during renewal"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T14:33:58.417Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare community plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67203291776258998",
+    "question": "Do I need to do anything to stay on my current plan?",
+    "answer": "No, everything looks like it's back to how it was, so there's nothing else you need to do.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "keeping current plan",
+      "renewal required actions"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T13:19:04.978Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "28098",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66384351776691052",
+    "question": "I haven't received anything like I usually get yearly to recertify. Can you check the status of my insurance?",
+    "answer": "Let me transfer you to the right place to check the status of your insurance and ensure everything is in order.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal status verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T13:20:11.617Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67091351776773081",
+    "question": "Well, it's not going to get interrupted, is it?",
+    "answer": "No, I don't see an end date on where your plan is going to be interrupted.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "coverage during renewal"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-21T12:07:10.773Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC dual complete Ohio **** HMO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "43204",
+    "state_processed": "OH",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66311491776971807",
+    "question": "Do you think the storm affected you in any way that prevented you from switching your insurance during open enrollment?",
+    "answer": "The customer clarified that they let their plan roll over and did not switch their insurance.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-23T19:21:12.368Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Medicare Signature PPO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "06460",
+    "state_processed": "CT",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66074711776979567",
+    "question": "If you've recently received a mailing asking you to renew your New Jersey Family Care status, what should you do?",
+    "answer": "It is important to respond by the date given in the mailing to avoid losing coverage.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal required actions",
+      "renewal notice explanation"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-23T21:46:11.622Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "New Jersey Family Care",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "941",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66016821775073383",
+    "question": "Will I receive a notification about any changes to my benefits or plan for the next year?",
+    "answer": "Yes, you will receive a notification explaining any changes to your benefits, premiums, or copays for the next year.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal communication methods",
+      "plan changes at renewal"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-01T20:06:45.684Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare Dual Choice DC",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "00000",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66187371775218709",
+    "question": "Oh, because they sent me a thing saying nothing needed to do that. It was automatically going to be renewed.",
+    "answer": "Automatic renewal applies unless there are changes to your eligibility or plan. Let me check if there was an issue with your renewal.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "renewal notice confusion"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-03T12:20:58.572Z",
+    "Is_Digital": true,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Medicare Advantage HMO POS MAPD",
+    "drugs": "warfarin, atorvastatin, glimepiride, lisinopril, metformin",
+    "providers": "Kathleen McCoy Goldstein (primary care doctor), Jonathan Zim (dermatologist, no longer needed), Paul Burchard (foot doctor, no longer needed)",
+    "zip": "06810",
+    "state_processed": "CT",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66255621776361843",
+    "question": "Do I need to recertify or renew my UnitedHealthcare plan?",
+    "answer": "You don't need to recertify or renew your plan. If you don't make any changes during the fall enrollment period, your plan will automatically renew for the next year.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T17:53:37.507Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "60640",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66255621776361843",
+    "question": "When do I need to review or make changes to my plan?",
+    "answer": "The fall enrollment period, typically between October and December, is when you can review your plan and make changes for the following year.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal deadline timeline",
+      "plan changes at renewal"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T17:53:37.507Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "60640",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66255621776361843",
+    "question": "What happens if I don't do anything during the enrollment period?",
+    "answer": "If you don't take any action during the enrollment period, your plan will automatically renew for the next year.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T17:53:37.507Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "60640",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66197091775762114",
+    "question": "Will my current plan carry over if I don\u2019t make any changes?",
+    "answer": "Yes, your current plan will automatically carry over unless you make changes during the enrollment period.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T19:21:21.14Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "PPO Medicare Advantage plan",
+    "drugs": NaN,
+    "providers": "MD Anderson Cancer Center, Doctor Chaplin, Doctor Bree",
+    "zip": "78550",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66389421775086696",
+    "question": "Do I need to re-enroll in my plan? I haven't received any information in the mail.",
+    "answer": "Your plan is still active, and there are no issues with it. Both your Medicare and Medicaid are fine, so you do not need to re-enroll.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "renewal notice confusion"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-01T23:40:42.951Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": "iron pills",
+    "providers": NaN,
+    "zip": "33414",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66541911775143293",
+    "question": "I'd like to renew my coverage for MassHealth.",
+    "answer": "You need to contact MassHealth directly to renew your coverage and find out why your level of MassHealth benefits changed from standard to senior buy-in.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "medicaid renewal requirements"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-02T15:26:19.357Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare senior care option plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66541911775143293",
+    "question": "What do I tell them when I call MassHealth?",
+    "answer": "You should tell them that you want to renew your coverage with MassHealth.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "medicaid renewal requirements"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-02T15:26:19.357Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare senior care option plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66632101777583965",
+    "question": "If we don't change the plan or call to cancel, will my father's plan automatically re-enroll him into the same plan?",
+    "answer": "Yes, the plan will automatically re-enroll him into the same plan unless it is no longer available, but it is recommended to call during the enrollment period to confirm its availability.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-30T21:22:53.557Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "AARP #12 PPO",
+    "drugs": "Eliquis",
+    "providers": NaN,
+    "zip": "11364",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67071831777409719",
+    "question": "Can you change the Medicare plan since it auto-renews?",
+    "answer": "There are two kinds of plans: Medicare Advantage, which has a specific enrollment window, and true supplement plans that cover what Medicare doesn't. Medicare Advantage plans typically cover medical, hospital, and drugs under one plan and are often zero-cost plans.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "plan changes at renewal"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-28T20:57:04.588Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP",
+    "drugs": "Part D",
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67081431775479558",
+    "question": "I was calling to see about either renewing or trying to figure out about my kids' health care plan.",
+    "answer": "You can contact the customer service and sales team for the Healthy Louisiana plan at 866-675-1607 for assistance with your healthcare plan.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "medicaid renewal requirements"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T12:47:05.392Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "Healthy Louisiana Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67068981776094692",
+    "question": "Does this renew automatically or do I have to contact you guys anytime?",
+    "answer": "The agent explained that the plan would renew automatically unless the customer makes changes.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T15:58:22.581Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage Extras from United Healthcare Nebraska #5",
+    "drugs": "Alendronate sodium, Felbamate, Rufinamide",
+    "providers": "UNMC Physicians, Darby J Lucky, Nebraska Medicine, Village Point Health Center, Doctor Ivy Thornton",
+    "zip": "68116",
+    "state_processed": "NE",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67047151775838720",
+    "question": "I was calling to see what's the status on it because I just did the renewal or whatever.",
+    "answer": "Your plan terminated because your Medicaid is not currently active. Once Medicaid is verified and active again, we can reinstate your plan.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal status verification",
+      "medicaid renewal requirements",
+      "reenrollment after renewal lapse"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T16:33:41.901Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "29053",
+    "state_processed": "SC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67088011775773947",
+    "question": "Why didn\u2019t I get a call about my benefits or plan renewal?",
+    "answer": "Generally, calls are made to review plans, but it\u2019s unclear why you didn\u2019t receive one; you may need to follow up with Medicaid or Medicare for clarification.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal communication methods"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T22:43:19.396Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "63138",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67229741777055839",
+    "question": "What do you have? He has to go to the neurology appointment, and they're saying our insurance ends.",
+    "answer": "This is the United Healthcare Medicare department, but I can provide you with the correct phone number for assistance.",
+    "topic": "member renewal",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-24T18:40:45.095Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare community plan",
+    "drugs": NaN,
+    "providers": "neurology provider (unspecified)",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67226681775168354",
+    "question": "Have you got to renew it? You gotta renew it?",
+    "answer": "The agent did not directly address renewal but confirmed the member is already on the best plan and no changes are needed.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal required actions",
+      "keeping current plan"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-02T22:21:50.523Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "28472",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67241551776694627",
+    "question": "Do I have to re-enroll in this plan every year like with traditional Medicare?",
+    "answer": "No, you do not have to re-enroll every year. If you are comfortable with your current plan, it will automatically roll over for the next plan year unless you decide to make changes during open enrollment.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-20T14:18:39.186Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Group Medicare Advantage PPO",
+    "drugs": NaN,
+    "providers": "VA",
+    "zip": "65804",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67362261776097725",
+    "question": "Can I change my GEHA plan during re-enrollment if I decide later?",
+    "answer": "Yes, you have the option to change your GEHA plan during the annual re-enrollment period.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "plan changes at renewal"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T16:30:21.224Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "GEHA High Option",
+    "drugs": "atorvastatin (implied as 'our restaurant' unclear), Baclofen, Dicyclomine, Enbrel (Etanercept), Tramadol, Levalbuterol",
+    "providers": NaN,
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67430271776198658",
+    "question": "I'm not too sure, I was just trying to renew my insurance.",
+    "answer": "I see that you're terminated from your plan, but I can help you re-enroll.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "reenrollment after renewal lapse"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-14T20:32:41.875Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "UAC dual complete KY HMO POSD SMP",
+    "drugs": "diabetes medication (generic and brand name drugs mentioned with copays)",
+    "providers": "Doctor Shao (primary care physician), internal medicine specialist at 2025 Corporate Drive, Richmond, KY",
+    "zip": "40475",
+    "state_processed": "KY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67540541777922512",
+    "question": "Would I have to renew this plan every year?",
+    "answer": "You don't necessarily have to renew the plan as it automatically rolls over, but it is recommended to review it annually to ensure it still meets your needs.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-04T19:29:45.257Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "SC-**** PPO dual special needs plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "29732",
+    "state_processed": "SC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67572631775070277",
+    "question": "Do I need to renew my plan every year?",
+    "answer": "The agent explained that plans typically renew automatically unless they are discontinued.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-01T19:11:32.137Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage from UHC SC-0004",
+    "drugs": NaN,
+    "providers": "Robert Fulmer",
+    "zip": "321",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67651611776627635",
+    "question": "How do I renew my UnitedHealthcare Medicaid plan? It says that it had ended.",
+    "answer": "You need to contact the UnitedHealthcare community plan department during weekdays between 8:00 AM and 5:00 PM for assistance with renewing your Medicaid plan.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "medicaid renewal requirements",
+      "renewal lapse explanation",
+      "reenrollment after renewal lapse"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-19T19:43:01.518Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare community plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68037081776456259",
+    "question": "They told me my United Healthcare has expired or something like that.",
+    "answer": "I checked your account and see an active plan, the Dual Complete North Carolina HMO.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal status verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T20:11:30.754Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete North Carolina ** HMO",
+    "drugs": NaN,
+    "providers": "nurse (house call)",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68028201777919226",
+    "question": "Do I need to re-enroll in the plan every year?",
+    "answer": "No, you will automatically be rolled over to the same plan as long as it is being offered in the following year.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "automatic renewal verification",
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-05-04T18:35:10.671Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care O-18 HMO POS",
+    "drugs": "tamoxifen, Anastrozole, Lupron",
+    "providers": "Margaret O'Donnell (McConnell) at Cleveland Clinic, Doctor Sameer Abraxia (hematologist), cancer doctor",
+    "zip": "4132",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68111251777331475",
+    "question": "And then do we have to do like a whole renewal or how does that work?",
+    "answer": "The process is simple; the person who calls you will review the details with you and put everything into effect.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal required actions"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-27T23:18:40.573Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "14612",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "68129891776299368",
+    "question": "Do I have to re-enroll or is there something wrong with my plan?",
+    "answer": "There is nothing wrong with your plan. Your Medicaid is still active, and your plan is the best available in your area with the highest benefits, including over-the-counter credits and dental coverage.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "medicaid renewal requirements",
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T00:31:56.312Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete plan",
+    "drugs": "Sudafed",
+    "providers": NaN,
+    "zip": "98155",
+    "state_processed": "WA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "68129891776299368",
+    "question": "Did the letter or notification say what the issue was?",
+    "answer": "The notification might have been triggered due to an address mismatch in the system, but there is no issue with your plan, and everything is in order.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal notice confusion"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T00:31:56.312Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete plan",
+    "drugs": "Sudafed",
+    "providers": NaN,
+    "zip": "98155",
+    "state_processed": "WA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "68154931776284486",
+    "question": "Is my Medicaid renewal date coming soon? Is everything okay with my Medicaid?",
+    "answer": "That is just a reminder to check with the state Department of Social Services to see if it is time for you to renew your state Medicaid because you are in a dual plan that coordinates Medicare and Medicaid.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "medicaid renewal requirements",
+      "renewal deadline timeline"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T20:24:04.901Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68155241777581294",
+    "question": "Is it true that my husband's insurance is about to expire?",
+    "answer": "Yes, unfortunately, it is true.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "renewal status verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-30T20:37:07.196Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "68205921777408956",
+    "question": "So basically you're just renewing the same policy you had that you let expire by mistake?",
+    "answer": "Correct, the plan was terminated because the chronic verification form was not received, but we are re-enrolling you in the same plan.",
+    "topic": "member renewal",
+    "sub_topic": [
+      "reenrollment after renewal lapse",
+      "keeping current plan"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-28T20:50:39.467Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "chronic special needs plan",
+    "drugs": "Metformin",
+    "providers": "Doctor Sharma, Cheryl Miller, Saint Mary's Hospital",
+    "zip": "53511",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  }
+]

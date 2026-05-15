@@ -1,0 +1,3852 @@
+[
+  {
+    "Ucid": "66603611775589709",
+    "question": "Why are my claims from my doctor's office being denied?",
+    "answer": "The agent attempted to determine the type of health insurance the customer has and identified it as Medicaid, then proceeded to transfer the customer to the appropriate department for further assistance.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T19:24:36.336Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Healthy First Steps",
+    "drugs": NaN,
+    "providers": "doctor's office",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66339491775592154",
+    "question": "Can you provide me with a list of OB-GYN doctors covered by my insurance and send it to my email?",
+    "answer": "Yes, I will send you a list of OB-GYN doctors covered by your insurance to your email. You can also find this information on your member portal.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T20:05:29.605Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "OBGYN doctors, dermatologists",
+    "zip": "817",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66339491775592154",
+    "question": "Can you also send me a list of dermatologists covered by my insurance?",
+    "answer": "Yes, I will send you a list of dermatologists covered by your insurance.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T20:05:29.605Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "OBGYN doctors, dermatologists",
+    "zip": "817",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66027081777551797",
+    "question": "How can I get my referral approved since it is pending United Healthcare review?",
+    "answer": "The sales department cannot approve referrals, but I will transfer you to a customer service advocate who can assist with this matter.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral approval or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-30T12:25:09.827Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "20020",
+    "state_processed": "DC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66027081777551797",
+    "question": "Can they approve the referral?",
+    "answer": "The customer service advocate will handle the referral approval process.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral approval or denial"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-30T12:25:09.827Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "20020",
+    "state_processed": "DC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66475871777503406",
+    "question": "I am just trying to find an occupational therapist for my son and I went online and looked at the available providers, and there's only two that are covered that I found listed. One never got back to me, and the second one looks like it's no longer in business. What should I do?",
+    "answer": "Let me place you on a small hold and get you connected with the right place to assist you further.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers",
+      "provider system mismatch or inactive status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-29T22:59:34.787Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66580001775674284",
+    "question": "Why is the doctor coming up inactive for this plan and not the other plan that he's involved with under United Healthcare?",
+    "answer": "The agent clarified that the doctor is active at the specified location and there is no termination date listed for the provider, suggesting the termination information might be incorrect.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider system mismatch or inactive status",
+      "provider network discrepancy"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T18:53:15.638Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plan",
+    "drugs": NaN,
+    "providers": "Doctor Vikas Aurora, office at 1223 Brentwood Rd, Washington DC",
+    "zip": "20018",
+    "state_processed": "DC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66580001775674284",
+    "question": "Who can I speak to regarding the actual doctor's enrollment and eligibility?",
+    "answer": "The agent directed the customer to the provider relations department for assistance with the doctor's enrollment and eligibility.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T18:53:15.638Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plan",
+    "drugs": NaN,
+    "providers": "Doctor Vikas Aurora, office at 1223 Brentwood Rd, Washington DC",
+    "zip": "20018",
+    "state_processed": "DC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66580001775674284",
+    "question": "What is the right number to reach out to for provider relations?",
+    "answer": "The agent provided two phone numbers for provider relations, one for general inquiries and another specifically for Medicaid-related issues.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider contact information"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T18:53:15.638Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plan",
+    "drugs": NaN,
+    "providers": "Doctor Vikas Aurora, office at 1223 Brentwood Rd, Washington DC",
+    "zip": "20018",
+    "state_processed": "DC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66580001775674284",
+    "question": "Can you connect me to the provider relations department?",
+    "answer": "The agent confirmed they would transfer the customer to the provider relations department for further assistance.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T18:53:15.638Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plan",
+    "drugs": NaN,
+    "providers": "Doctor Vikas Aurora, office at 1223 Brentwood Rd, Washington DC",
+    "zip": "20018",
+    "state_processed": "DC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66304991775682025",
+    "question": "I had that PPO and if I went to a doctor out of network, y'all would go ahead and pay for it. Has that changed?",
+    "answer": "Yes, with the HMO plan, the coverage rules are different, and out-of-network benefits may not apply as they did with the PPO.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T21:15:46.742Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "42003",
+    "state_processed": "KY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66218291775595197",
+    "question": "Does the plan cover my current doctor?",
+    "answer": "Yes, the UNC Faculty Physicians at 101 Manning Drive is in-network with this plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T20:58:33.389Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care NC-28",
+    "drugs": "metformin",
+    "providers": "Miles McCormick, UNC Faculty Physicians",
+    "zip": "27510",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66218291775595197",
+    "question": "Do I need to switch doctors for this plan?",
+    "answer": "No, your current provider at UNC Faculty Physicians is in-network with this plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T20:58:33.389Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care NC-28",
+    "drugs": "metformin",
+    "providers": "Miles McCormick, UNC Faculty Physicians",
+    "zip": "27510",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66564731775600319",
+    "question": "Are you going to contact Northern Navajo Medical Center to verify my condition?",
+    "answer": "Yes, we will contact Northern Navajo Medical Center to verify your condition, and if you can provide a specific doctor's name, it will make the process easier.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T22:21:10.811Z",
+    "Is_Digital": true,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care NM-2A PPO CSMP MAPD",
+    "drugs": "Tylenol",
+    "providers": "Northern Navajo Medical Center, Doctor Partida",
+    "zip": "6406",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66410621775826544",
+    "question": "Do they have emergency dental offices that I could go to?",
+    "answer": "Yes, I found a dental office on Riverdale Rd in Memphis, TN that accepts Blue Care Plus. They do not have appointments available but accept walk-ins from 8:00 AM to 12:00 PM.",
+    "topic": "providers",
+    "sub_topic": [
+      "dental provider coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T13:12:27.073Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Blue Care Plus",
+    "drugs": NaN,
+    "providers": "Global Dental Center",
+    "zip": "38141",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67312291775692054",
+    "question": "Why do I need a referral to see a specialist when I have been seeing them for a long time?",
+    "answer": "Your current plan, which is an HMO, requires referrals for specialists. This is a regulation to ensure that primary care doctors assess your condition first before referring you to a specialist.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T23:50:33.85Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Dual complete NCS 3 Hmos dual plan",
+    "drugs": NaN,
+    "providers": "family doctor, specialist doctor",
+    "zip": "28052",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67312291775692054",
+    "question": "What do I need to do to get a referral for my specialist?",
+    "answer": "You need to call your primary care doctor and request a referral for the specialist. Once the referral is written, it will be sent to the specialist and processed automatically.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T23:50:33.85Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Dual complete NCS 3 Hmos dual plan",
+    "drugs": NaN,
+    "providers": "family doctor, specialist doctor",
+    "zip": "28052",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67312291775692054",
+    "question": "Why didn\u2019t I need a referral before, but now I do?",
+    "answer": "Previously, you were on a PPO plan that did not require referrals, but now you are on an HMO plan which has stricter regulations requiring referrals for specialists.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T23:50:33.85Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Dual complete NCS 3 Hmos dual plan",
+    "drugs": NaN,
+    "providers": "family doctor, specialist doctor",
+    "zip": "28052",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67312291775692054",
+    "question": "Can my specialist already have a referral on file?",
+    "answer": "Yes, your specialist might already have a referral on file, especially if you have been seeing them for a while. You can check with their office to confirm.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T23:50:33.85Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Dual complete NCS 3 Hmos dual plan",
+    "drugs": NaN,
+    "providers": "family doctor, specialist doctor",
+    "zip": "28052",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67312291775692054",
+    "question": "What happens after my primary care doctor sends the referral?",
+    "answer": "Once your primary care doctor sends the referral, it is processed automatically, and you can continue seeing your specialist without further action.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral submission issues",
+      "referral approval or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T23:50:33.85Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Dual complete NCS 3 Hmos dual plan",
+    "drugs": NaN,
+    "providers": "family doctor, specialist doctor",
+    "zip": "28052",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66141101775748763",
+    "question": "When you go to the doctor's, do you present your red, white, and blue card to them?",
+    "answer": "Yes, I present my Medicare card, and that is the only card they ask for.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-09T15:39:32.993Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": "insulin",
+    "providers": NaN,
+    "zip": "75904",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "3064171100374166",
+    "question": "Do you have a primary care doctor yet?",
+    "answer": "You don't have to put a primary care doctor on file, but the one currently listed is Megan Garcia, who is close to you at HSC Neighborhood Health.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T20:05:25.14Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete Connecticut PPO DSMP",
+    "drugs": "Prilosec",
+    "providers": "Doctor Heather Bauer, Megan Garcia, HSC Neighborhood Health",
+    "zip": "0678",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "3064171100374166",
+    "question": "What happens if I don't have transportation to see a doctor?",
+    "answer": "You don't need to see a doctor in-network as long as they work with the plan, and we can help find a provider close to you.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T20:05:25.14Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete Connecticut PPO DSMP",
+    "drugs": "Prilosec",
+    "providers": "Doctor Heather Bauer, Megan Garcia, HSC Neighborhood Health",
+    "zip": "0678",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66418391775679663",
+    "question": "Will my primary care doctor still be in-network with the new plan?",
+    "answer": "The agent confirmed that the customer's primary care doctor, Dr. Jerome Merkel, is in-network with the new plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T20:22:12.74Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage from UHC FG-0001 PPO",
+    "drugs": NaN,
+    "providers": "Doctor Jerome Merkel",
+    "zip": "55369",
+    "state_processed": "MN",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66455001775685560",
+    "question": "How can I check if my doctors are in the network for a Medicare Advantage plan?",
+    "answer": "You can check online by entering your doctors' information to see if they are covered.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T22:01:08.35Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Saver RX",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "63343",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66072691775746405",
+    "question": "Will ECU Health drop United Healthcare if they don't reach an agreement?",
+    "answer": "It appears ECU Health is still in the network, but if they don't reach an agreement, they may drop United Healthcare.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider changes or leaving network"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T15:12:00.486Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "ECU Health",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66111761775829928",
+    "question": "Is my primary care doctor, Dr. Ken Park, covered under the plan?",
+    "answer": "Yes, Dr. Ken Park is covered in-network, and you will pay a $0 copay for visits.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T14:13:47.199Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Texas 3P",
+    "drugs": "Metformin",
+    "providers": "Dr. Ken Park",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66197521775682752",
+    "question": "Do you guys have therapists there?",
+    "answer": "We can help you find in-network therapists and send you a list via email. However, I do not personally know the therapists in your area.",
+    "topic": "providers",
+    "sub_topic": [
+      "mental health provider coverage",
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T21:14:16.674Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "CTS 001 PPO",
+    "drugs": "Gabapentin, Clonidine",
+    "providers": "CHC (Community Health Center)",
+    "zip": "06106",
+    "state_processed": "CT",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66197521775682752",
+    "question": "Do you have a therapist that's actually been through it?",
+    "answer": "I do not personally know the therapists in your area, but I can send you a list of in-network behavioral health providers.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers",
+      "mental health provider coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T21:14:16.674Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "CTS 001 PPO",
+    "drugs": "Gabapentin, Clonidine",
+    "providers": "CHC (Community Health Center)",
+    "zip": "06106",
+    "state_processed": "CT",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66113021775572158",
+    "question": "Hi, I need to call to see what my doctor's number is on my insurance card because it's not the doctor that I told you all I wanted to buy.",
+    "answer": "The agent is working to verify the correct doctor and may need assistance to resolve the issue.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification",
+      "primary care provider change request",
+      "provider contact information"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T14:32:47.597Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Nicola from Smithson Valley",
+    "zip": "78133",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66487481775842096",
+    "question": "Does my plan require a referral to see a specialist?",
+    "answer": "Yes, your plan requires a referral from your primary care doctor to ensure the visit is covered.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T17:29:32.415Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plan",
+    "drugs": NaN,
+    "providers": "Sage dentist",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66437461775588774",
+    "question": "Does my primary care doctor, Dr. Okoroba, accept United Healthcare?",
+    "answer": "Dr. Okoroba's office confirmed they accept United Healthcare, but I could not find them in the HMO network; they may be covered under a PPO plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification",
+      "provider network discrepancy"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T19:08:05.339Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare dual complete",
+    "drugs": NaN,
+    "providers": "Doctor Okoroba, nephrologist Dr. Zafar",
+    "zip": "31901",
+    "state_processed": "GA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66437461775588774",
+    "question": "Does my nephrologist, Dr. Zafar, accept the plan?",
+    "answer": "Yes, Dr. Zafar is in-network and accepts the plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T19:08:05.339Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare dual complete",
+    "drugs": NaN,
+    "providers": "Doctor Okoroba, nephrologist Dr. Zafar",
+    "zip": "31901",
+    "state_processed": "GA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66148011775759807",
+    "question": "Will my doctors still be covered under the United Healthcare plan?",
+    "answer": "Yes, your doctors will still be covered under the United Healthcare plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T18:40:40.265Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare Dual Complete Plan",
+    "drugs": NaN,
+    "providers": "Rachel Picone",
+    "zip": "04843",
+    "state_processed": "ME",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66148011775759807",
+    "question": "Who is your current primary care physician?",
+    "answer": "My current primary care physician is Dr. Rachel Picone, located at Glencoe Drive in Rockport.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-09T18:40:40.265Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UnitedHealthcare Dual Complete Plan",
+    "drugs": NaN,
+    "providers": "Rachel Picone",
+    "zip": "04843",
+    "state_processed": "ME",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66444731775833528",
+    "question": "Are these doctors in the network: Natalie Bazoi, Ashley Delcambre, Matthew Rice, Jenny Coleman, Richard Abben, Justin Timmy, Ross Thibodeaux, and Jay Talluri?",
+    "answer": "Doctors Matthew Rice, Jenny Coleman, Richard Abben, Justin Timmy, Ross Thibodeaux, and Jay Talluri are in the network, while Natalie Bazoi and Ashley Delcambre are not.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:07:25.828Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna dual care",
+    "drugs": NaN,
+    "providers": "Dr. Natalie Bazoi (hypnologist at Ochsner), Dr. Ashley Delcambre (optometrist at Clearview), Dr. Matthew Rice (gastroenterologist at main campus 1516 Jefferson Highway), Dr. Jenny Ginny Coleman Kullman (corneal specialist), Dr. Richard Abben (cardiologist at CIS Cardiovascular Institute of the Sound), Dr. Justin Timmy (ENT at Southern E&T), Dr. Ross Thibodeaux (rheumatologist in Thibodaux), Dr. Talluri (primary care doctor)",
+    "zip": "70363",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66444731775833528",
+    "question": "Can I see out-of-network doctors under my plan?",
+    "answer": "Under an HMO plan, you can only see doctors in the network, but under a PPO plan, you can see both in-network and out-of-network doctors as long as they accept the insurance.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:07:25.828Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna dual care",
+    "drugs": NaN,
+    "providers": "Dr. Natalie Bazoi (hypnologist at Ochsner), Dr. Ashley Delcambre (optometrist at Clearview), Dr. Matthew Rice (gastroenterologist at main campus 1516 Jefferson Highway), Dr. Jenny Ginny Coleman Kullman (corneal specialist), Dr. Richard Abben (cardiologist at CIS Cardiovascular Institute of the Sound), Dr. Justin Timmy (ENT at Southern E&T), Dr. Ross Thibodeaux (rheumatologist in Thibodaux), Dr. Talluri (primary care doctor)",
+    "zip": "70363",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66444731775833528",
+    "question": "What should I do if a doctor is not in the network?",
+    "answer": "You can call the doctor's office to check if they accept your insurance or see if there are other providers within the office who are contracted with your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:07:25.828Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna dual care",
+    "drugs": NaN,
+    "providers": "Dr. Natalie Bazoi (hypnologist at Ochsner), Dr. Ashley Delcambre (optometrist at Clearview), Dr. Matthew Rice (gastroenterologist at main campus 1516 Jefferson Highway), Dr. Jenny Ginny Coleman Kullman (corneal specialist), Dr. Richard Abben (cardiologist at CIS Cardiovascular Institute of the Sound), Dr. Justin Timmy (ENT at Southern E&T), Dr. Ross Thibodeaux (rheumatologist in Thibodaux), Dr. Talluri (primary care doctor)",
+    "zip": "70363",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66444731775833528",
+    "question": "Why do some doctors at a hospital accept my insurance while others do not?",
+    "answer": "Doctors can opt out of accepting certain insurance plans even if the hospital they are affiliated with accepts the insurance.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification",
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:07:25.828Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna dual care",
+    "drugs": NaN,
+    "providers": "Dr. Natalie Bazoi (hypnologist at Ochsner), Dr. Ashley Delcambre (optometrist at Clearview), Dr. Matthew Rice (gastroenterologist at main campus 1516 Jefferson Highway), Dr. Jenny Ginny Coleman Kullman (corneal specialist), Dr. Richard Abben (cardiologist at CIS Cardiovascular Institute of the Sound), Dr. Justin Timmy (ENT at Southern E&T), Dr. Ross Thibodeaux (rheumatologist in Thibodaux), Dr. Talluri (primary care doctor)",
+    "zip": "70363",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66444731775833528",
+    "question": "Can I keep my primary care doctor, Jay Talluri, under my current plan?",
+    "answer": "Yes, Jay Talluri is in the network and can accept your insurance.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:07:25.828Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna dual care",
+    "drugs": NaN,
+    "providers": "Dr. Natalie Bazoi (hypnologist at Ochsner), Dr. Ashley Delcambre (optometrist at Clearview), Dr. Matthew Rice (gastroenterologist at main campus 1516 Jefferson Highway), Dr. Jenny Ginny Coleman Kullman (corneal specialist), Dr. Richard Abben (cardiologist at CIS Cardiovascular Institute of the Sound), Dr. Justin Timmy (ENT at Southern E&T), Dr. Ross Thibodeaux (rheumatologist in Thibodaux), Dr. Talluri (primary care doctor)",
+    "zip": "70363",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66444731775833528",
+    "question": "What happens if I see a doctor who is out of network?",
+    "answer": "If you see a doctor who is out of network under an HMO plan, you may have to pay out of pocket unless they accept your insurance under a PPO plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:07:25.828Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna dual care",
+    "drugs": NaN,
+    "providers": "Dr. Natalie Bazoi (hypnologist at Ochsner), Dr. Ashley Delcambre (optometrist at Clearview), Dr. Matthew Rice (gastroenterologist at main campus 1516 Jefferson Highway), Dr. Jenny Ginny Coleman Kullman (corneal specialist), Dr. Richard Abben (cardiologist at CIS Cardiovascular Institute of the Sound), Dr. Justin Timmy (ENT at Southern E&T), Dr. Ross Thibodeaux (rheumatologist in Thibodaux), Dr. Talluri (primary care doctor)",
+    "zip": "70363",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66444731775833528",
+    "question": "What should I do if I need to see a liver specialist at Ochsner and they are not in the network?",
+    "answer": "You can contact the office to check if they accept your insurance or explore other providers within the office who may be contracted with your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules",
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:07:25.828Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna dual care",
+    "drugs": NaN,
+    "providers": "Dr. Natalie Bazoi (hypnologist at Ochsner), Dr. Ashley Delcambre (optometrist at Clearview), Dr. Matthew Rice (gastroenterologist at main campus 1516 Jefferson Highway), Dr. Jenny Ginny Coleman Kullman (corneal specialist), Dr. Richard Abben (cardiologist at CIS Cardiovascular Institute of the Sound), Dr. Justin Timmy (ENT at Southern E&T), Dr. Ross Thibodeaux (rheumatologist in Thibodaux), Dr. Talluri (primary care doctor)",
+    "zip": "70363",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66444731775833528",
+    "question": "Does the hospital at Ochsner accept People's Health insurance?",
+    "answer": "Yes, the hospital accepts People's Health insurance, but individual doctors may opt out of accepting it.",
+    "topic": "providers",
+    "sub_topic": [
+      "facility network status",
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T15:07:25.828Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna dual care",
+    "drugs": NaN,
+    "providers": "Dr. Natalie Bazoi (hypnologist at Ochsner), Dr. Ashley Delcambre (optometrist at Clearview), Dr. Matthew Rice (gastroenterologist at main campus 1516 Jefferson Highway), Dr. Jenny Ginny Coleman Kullman (corneal specialist), Dr. Richard Abben (cardiologist at CIS Cardiovascular Institute of the Sound), Dr. Justin Timmy (ENT at Southern E&T), Dr. Ross Thibodeaux (rheumatologist in Thibodaux), Dr. Talluri (primary care doctor)",
+    "zip": "70363",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66037671775680012",
+    "question": "Can you confirm if my new doctor has all my medical history?",
+    "answer": "Yes, we can list your new doctor, Dr. Jalisa Carroll, as your primary care provider and verify your diabetes condition with her.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T20:38:18.555Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "chronic special needs plan",
+    "drugs": "Omeprazole, Metoprolol, Linzess, Allopurinol",
+    "providers": "Doctor Jalisa Carroll",
+    "zip": "2916",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66559251775572649",
+    "question": "I want to add my primary care doctor to my insurance.",
+    "answer": "You need to contact the correct department to update your doctor information. I will provide you with the phone number to call.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider change request",
+      "provider contact information"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T14:40:06.382Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66218601775768354",
+    "question": "I need to find a doctor.",
+    "answer": "The agent provided multiple doctors who accept the customer's plan, including their names, locations, and phone numbers.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers",
+      "provider contact information"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T21:01:35.661Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "M 01",
+    "drugs": "Lantus",
+    "providers": "Dr. Tonya Renee, Dr. Catherine Allenbaug, Katie Fry, Stephanie Hastings",
+    "zip": "64014",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66218601775768354",
+    "question": "I need one that takes Medicaid.",
+    "answer": "The agent confirmed that the customer needs a doctor who accepts both Medicare and Medicaid and provided options accordingly.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T21:01:35.661Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "M 01",
+    "drugs": "Lantus",
+    "providers": "Dr. Tonya Renee, Dr. Catherine Allenbaug, Katie Fry, Stephanie Hastings",
+    "zip": "64014",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66176181775742320",
+    "question": "OK, so if he's not in your network, that means that you would not cover any of the services?",
+    "answer": "If you switch to an HMO plan, services from out-of-network providers will not be covered. You would need to confirm with the provider if they have a direct contract with Medicare.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T14:05:10.804Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage from UHC FL-0019 PPO",
+    "drugs": NaN,
+    "providers": "Doctor Dennis Dario, Bradford Allen, Theodore Fotopoulos, Richard Rabinowitz",
+    "zip": "34655",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66176181775742320",
+    "question": "OK, I see two specialists right now: a urologist and a dermatologist.",
+    "answer": "I will verify if both specialists are in the network. Your dermatologist is in-network, but I could not find your urologist in our system.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "provider system mismatch or inactive status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T14:05:10.804Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage from UHC FL-0019 PPO",
+    "drugs": NaN,
+    "providers": "Doctor Dennis Dario, Bradford Allen, Theodore Fotopoulos, Richard Rabinowitz",
+    "zip": "34655",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66176181775742320",
+    "question": "Can I request a referral in advance for a specialist appointment?",
+    "answer": "Yes, with an HMO plan, you can request a referral in advance from your PCP for a specialist appointment.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification",
+      "referral submission issues"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-09T14:05:10.804Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage from UHC FL-0019 PPO",
+    "drugs": NaN,
+    "providers": "Doctor Dennis Dario, Bradford Allen, Theodore Fotopoulos, Richard Rabinowitz",
+    "zip": "34655",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66320651775759264",
+    "question": "Are my providers, like Dr. Gill and the Lake Country periodontist, covered under my plan?",
+    "answer": "Dr. Gill and the Lake Country periodontist should be covered if they have accepted your plan in the past, as dental services are typically covered in or out of network.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification",
+      "dental provider coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T18:30:12.308Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "V 001",
+    "drugs": NaN,
+    "providers": "Christina Panga, Ryan Burch, Maya Merriman, Doctor Gill, Jeffrey Ganzman",
+    "zip": "53072",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66320651775759264",
+    "question": "Do I need referrals for specialty providers?",
+    "answer": "Yes, referrals are required for specialty providers, but this is consistent with your previous plan requirements.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T18:30:12.308Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "V 001",
+    "drugs": NaN,
+    "providers": "Christina Panga, Ryan Burch, Maya Merriman, Doctor Gill, Jeffrey Ganzman",
+    "zip": "53072",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67013351775676571",
+    "question": "What happens if my mom goes to a doctor or provider out of network?",
+    "answer": "As long as the provider accepts Medicare and Medicaid and the plan, your mom will not have to pay anything.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T20:08:02.008Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete Plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "84119",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67124581775678262",
+    "question": "Does the plan cover my primary care doctor and specialists?",
+    "answer": "Yes, your primary care doctor, Dr. Steven Green, is in-network with a $0.00 copay. Specialist visits are covered with a $55 copay in-network, and referrals are required through your primary care doctor.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T19:59:22.556Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage Extras from United Healthcare WA-14",
+    "drugs": "Metformin, Amlodipine, Lisinopril, Tibalal eye drops, Litanapril eye drops",
+    "providers": "Primary care doctor Steven Greeny, Vancouver Eye Care (Doctor Lee)",
+    "zip": "98683",
+    "state_processed": "WA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "67124581775678262",
+    "question": "What happens if I need urgent or emergency care?",
+    "answer": "Urgent care visits have a $50 copay, and emergency room visits have a $130 copay. If you are admitted to the hospital within 24 hours, the emergency room copay is waived, and only the hospitalization charges apply.",
+    "topic": "providers",
+    "sub_topic": [
+      "urgent care and emergency care coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T19:59:22.556Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage Extras from United Healthcare WA-14",
+    "drugs": "Metformin, Amlodipine, Lisinopril, Tibalal eye drops, Litanapril eye drops",
+    "providers": "Primary care doctor Steven Greeny, Vancouver Eye Care (Doctor Lee)",
+    "zip": "98683",
+    "state_processed": "WA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66030141775567186",
+    "question": "Does a Medicare supplement plan allow me to see any doctor that accepts Medicare?",
+    "answer": "Yes, Medicare supplement plans allow you to see any doctor that accepts Medicare.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T13:08:05.478Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Plan G",
+    "drugs": "drug plan",
+    "providers": "Paula Stingle",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66308631775510304",
+    "question": "Can I still attend my doctor appointments before the new plan starts?",
+    "answer": "You can still attend doctor appointments using Original Medicare Part A and Part B, but you may want to check with your doctor\u2019s office about the copay under Original Medicare.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T21:22:06.219Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "dual completes plan, Chronic Special Needs plan",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "98383",
+    "state_processed": "WA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66088161775580078",
+    "question": "I did want to make sure that I started going to Gastro One in Memphis. And I wanted to make sure that they take it.",
+    "answer": "The specialist, Dr. Sarah Morad, is in-network, so your copayment to see her will be $20.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T16:58:09.376Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care Arkansas #5 PPO Chronic Special Needs Plan",
+    "drugs": "pantoprazole, pregabalin, levothyroxine, Croziva, Tresiba, Strattera, Lantus",
+    "providers": "Primary care doctor Stacy Miller, Gastroenterologist Sarah Morad",
+    "zip": "72450",
+    "state_processed": "AR",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66522931775508412",
+    "question": "Can I use my existing doctors and medications with the new plan?",
+    "answer": "Yes, your doctors and medications remain the same under the new plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T20:52:05.509Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare North Carolina 26 Medicare Advantage plan",
+    "drugs": NaN,
+    "providers": "Marshall Locker",
+    "zip": "28358",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66426001775567364",
+    "question": "Will my current doctor be in the network for the new plan?",
+    "answer": "Yes, your current doctor, Dr. Abdulrahman Al Houth, is in the network for the new plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T13:17:30.179Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage from UHC RI 0002",
+    "drugs": NaN,
+    "providers": "Doctor Hooch HOUT (Abdulrahman Al Houth)",
+    "zip": "02888",
+    "state_processed": "RI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66503501775580832",
+    "question": "Will the primary care doctor remain the same, or does he need a new one?",
+    "answer": "If he continues seeing a VA doctor, the benefits remain aligned. However, if he chooses a civilian specialist or hospital, the plan will accommodate those visits.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "primary care provider selection"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T17:12:44.723Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "VA doctor",
+    "zip": "78109",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66203161775488221",
+    "question": "She received a letter in the mail stating that her WellMed provider will not be in network as of ***********. Would you be able to assist her?",
+    "answer": "Yes, of course, definitely.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider changes or leaving network"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T15:51:56.348Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "integrated dual plan",
+    "drugs": NaN,
+    "providers": "Dr. Shashi Mittal, Medfirst Primary Care",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66135891775495800",
+    "question": "Hi Daniel, my doctor's office just said when they try to validate my insurance it's not showing as active or current and I'm wondering if you could help me figure that out.",
+    "answer": "I would have to connect you over to the correct department for private insurance, and they will be able to assist you further.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider system mismatch or inactive status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T17:19:09.766Z",
+    "Is_Digital": true,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66511991775506384",
+    "question": "Does Medicare cover home doctor visits?",
+    "answer": "Yes, Medicare covers home health visits if they are recommended by a doctor and meet specific guidelines, such as being less than a certain number of hours per day or week.",
+    "topic": "providers",
+    "sub_topic": [
+      "home health and nursing facility coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T20:15:03.559Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "doctor",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66370951775569923",
+    "question": "If he goes to a doctor right now, can he just show this member ID number and be attended?",
+    "answer": "Yes, he can provide the member ID number and inform the receptionist that he has new insurance from United Healthcare. If needed, the doctor's office can call to verify his coverage.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T13:59:12.633Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete D 007",
+    "drugs": NaN,
+    "providers": "Barnes Hill Hospital",
+    "zip": "78040",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66370951775569923",
+    "question": "What number should the doctor's office call to verify his coverage?",
+    "answer": "The doctor's office can call customer service at 866-944-4983 to verify his coverage.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T13:59:12.633Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete D 007",
+    "drugs": NaN,
+    "providers": "Barnes Hill Hospital",
+    "zip": "78040",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66556411775608921",
+    "question": "I was calling to ask about submitting my own claims. I am seeing a new provider for mental health benefits and they don't accept insurance. So I know that there's something that she can give me to be able to submit a claim on my own behalf. I just was curious with the reimbursement.",
+    "answer": "You will need to contact the group insurance department for your employer's plan, as they can assist with claim submission and reimbursement details.",
+    "topic": "providers",
+    "sub_topic": [
+      "mental health provider coverage",
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T00:44:53.771Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66138401775516652",
+    "question": "What does it mean that my doctors need to be in the preferred care network?",
+    "answer": "It means your doctors must be part of the network approved by your plan to avoid additional costs.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T23:05:40.797Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "preferred dual plan",
+    "drugs": "Eliquis",
+    "providers": "Jennifer Bartsack, Eras Jose Diaz, Memorial Hospital",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66179781775575556",
+    "question": "Is Hutchinson an insurance broker or a physician?",
+    "answer": "Hutchinson is a primary care physician, and I am a licensed insurance agent, so you do not need a broker.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T15:36:04.696Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Hutchinson Timothy, primary care physician at Village View Dr.",
+    "zip": "30506",
+    "state_processed": "GA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66179781775575556",
+    "question": "Do you already have like a doctor in that service area or a primary care physician?",
+    "answer": "We can leave the provider PCP field open, and once you find one you feel comfortable with, you can call in and add it to your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider selection"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T15:36:04.696Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Hutchinson Timothy, primary care physician at Village View Dr.",
+    "zip": "30506",
+    "state_processed": "GA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66254161775577671",
+    "question": "Can I use Tiffany Flaherty as my primary care physician under my current plan?",
+    "answer": "Yes, Tiffany Flaherty is an in-network primary care physician for your current plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T16:17:56.22Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials plan",
+    "drugs": "mesalamine",
+    "providers": "Brandy St., Robert McDonald, Tiffany Flaherty",
+    "zip": "172",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66254161775577671",
+    "question": "What is the process to change my primary care physician?",
+    "answer": "You can change your primary care physician by contacting customer service, and they will update your records to reflect the new provider.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider change request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T16:17:56.22Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials plan",
+    "drugs": "mesalamine",
+    "providers": "Brandy St., Robert McDonald, Tiffany Flaherty",
+    "zip": "172",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66243551775573999",
+    "question": "Why did the guy recommend a PPO?",
+    "answer": "The PPO was recommended because of the doctors you have, but note that PPO plans may involve out-of-network costs.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T15:02:26.105Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Plan G, Plan G+ Wellness, Plan N, Plan N+ Wellness, AAIP Medicare Advantage (United Healthcare Illinois PPO)",
+    "drugs": NaN,
+    "providers": "Primary care doctor (mentioned as out-of-network or in-network), hospital (inpatient and emergency room mentioned)",
+    "zip": "60302",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66334291775570650",
+    "question": "Will I need to change my doctor or get a new card for the new plan?",
+    "answer": "Your primary care provider will still be covered, but you will receive a new card for the new plan. The member ID number may or may not change.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T14:16:11.332Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Dual Complete Florida Dash Wi-five",
+    "drugs": NaN,
+    "providers": "AJ Bisht (primary care physician)",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66334291775570650",
+    "question": "Can I see any physician under the new card?",
+    "answer": "Under the new plan, you must see in-network physicians, and referrals will be required for specialists, unlike your previous PPO plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T14:16:11.332Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Dual Complete Florida Dash Wi-five",
+    "drugs": NaN,
+    "providers": "AJ Bisht (primary care physician)",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66170631775661845",
+    "question": "Can you provide the names of any treatment centers covered by United Healthcare for alcohol and drug admission?",
+    "answer": "Let me get you over to member services, and they can provide you with a list of some places.",
+    "topic": "providers",
+    "sub_topic": [
+      "mental health provider coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T15:25:12.625Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "54056501679294564",
+    "question": "Who is my primary care provider?",
+    "answer": "Your primary care provider is listed as Doctor Emma Davis.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T18:40:10.855Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Doctor Emma Davis",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66214821775579716",
+    "question": "I need to make sure this specialist is covered, but I can't reach them. Can you check?",
+    "answer": "Yes, I can check to ensure your specialist is in-network and covered under your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T16:37:08.206Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Chronic Special Needs Plan",
+    "drugs": "Lantus, lisinopril, Humalog, clopidogrel",
+    "providers": "Doctor Roland, Specialist Cronan (vascular surgeon), Wellmont Cardiology Services",
+    "zip": "4234340642",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66214821775579716",
+    "question": "Can you confirm if my primary care doctor and vascular surgeon are in-network?",
+    "answer": "Yes, I have confirmed that both your primary care doctor and vascular surgeon are in-network under your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T16:37:08.206Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Chronic Special Needs Plan",
+    "drugs": "Lantus, lisinopril, Humalog, clopidogrel",
+    "providers": "Doctor Roland, Specialist Cronan (vascular surgeon), Wellmont Cardiology Services",
+    "zip": "4234340642",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66614871775746956",
+    "question": "Would they have to have like the doctor's permission first?",
+    "answer": "Yes, your doctor needs to send the information to the company, and then the company will send the collected information to us for approval.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T15:05:03.771Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "doctor",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66614871775746956",
+    "question": "The number that the lady gave me was not a fax number. They said it won't work.",
+    "answer": "You need to have your doctor send the required documents to the company, and they will forward the information to us for approval.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T15:05:03.771Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "doctor",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66202651775503692",
+    "question": "Are my doctors at U of M covered under this plan?",
+    "answer": "Your specialist at U of M is out of network, but since this is a PPO plan, you can still see her with a $45 copay if she accepts the plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T19:33:19.614Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "UHC Dual Complete, Chronic Special Needs Plan (PPO)",
+    "drugs": "metformin, levothyroxine, potassium chloride, furosemide, losartan, montelukast, camzyos",
+    "providers": "Dr. Sarah Saberi (specialist), Primary care doctor Andrew",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66202651775503692",
+    "question": "Will my primary care doctor be covered under this plan?",
+    "answer": "Yes, your primary care doctor is in-network with the Chronic Special Needs Plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T19:33:19.614Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "UHC Dual Complete, Chronic Special Needs Plan (PPO)",
+    "drugs": "metformin, levothyroxine, potassium chloride, furosemide, losartan, montelukast, camzyos",
+    "providers": "Dr. Sarah Saberi (specialist), Primary care doctor Andrew",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66072351775579617",
+    "question": "Why did my doctor say they no longer accept my insurance?",
+    "answer": "The doctor likely does not accept your previous plan anymore, which may have changed due to your move or plan termination.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider changes or leaving network"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-07T16:37:27.423Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Aetna Medicare Signature PPO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "54601",
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67008801775753055",
+    "question": "Why is my appointment with the eye doctor not being accepted under my new insurance plan?",
+    "answer": "The eye center is not in-network with your current plan under Optum Health Network, even though it was previously covered under Intermountain Health Network.",
+    "topic": "providers",
+    "sub_topic": [
+      "vision provider coverage",
+      "provider network status check",
+      "provider changes or leaving network"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T17:09:21.345Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "UH Shepard Eye Clinic",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67008801775753055",
+    "question": "Why is my husband still covered for the same eye doctor while I am not?",
+    "answer": "The agent confirmed that the eye center is out-of-network for both your husband's and your plans, but your husband's appointment was not canceled, possibly due to differences in plan administration.",
+    "topic": "providers",
+    "sub_topic": [
+      "vision provider coverage",
+      "provider network status check",
+      "provider network discrepancy"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T17:09:21.345Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "UH Shepard Eye Clinic",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67008801775753055",
+    "question": "Is the Shepherd Eye Center in-network for my husband's plan?",
+    "answer": "The agent confirmed that the Shepherd Eye Center is out-of-network for your husband's plan as well.",
+    "topic": "providers",
+    "sub_topic": [
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T17:09:21.345Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "UH Shepard Eye Clinic",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67008801775753055",
+    "question": "Why was my appointment canceled while my husband's appointment was not?",
+    "answer": "The agent could not provide a specific reason but reiterated that the eye center is out-of-network for both plans.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T17:09:21.345Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "UH Shepard Eye Clinic",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66541421775849799",
+    "question": "Now I need a provider because my doctor said I could get dizzy and have a cardiac arrest. So now I'm going to have to make another appointment with a provider here. Now I'm looking for a provider that'll take it here in Illinois around Waukegan, IL.",
+    "answer": "I am so sorry for the whole situation. Let me assist you in finding a provider in Illinois around Waukegan, IL who accepts your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T19:48:49.507Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Completes",
+    "drugs": NaN,
+    "providers": "heart specialist cardiologist in Gurnee, IL",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66274341775849945",
+    "question": "I need to find out if my provider is in network.",
+    "answer": "Yes, your provider is in network based on the information we have on file.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T19:41:25.55Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Complete Care Plan Chronic special needs",
+    "drugs": NaN,
+    "providers": "Shayla Eborn, Jennifer Gutierrez (Physical therapy)",
+    "zip": "84106",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66274341775849945",
+    "question": "Does it affect the fact that she's in network if she has moved to another company?",
+    "answer": "No, it does not affect her network status unless she has notified you that she will no longer accept the plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T19:41:25.55Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Complete Care Plan Chronic special needs",
+    "drugs": NaN,
+    "providers": "Shayla Eborn, Jennifer Gutierrez (Physical therapy)",
+    "zip": "84106",
+    "state_processed": "UT",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66551491775655520",
+    "question": "Does the new plan cover my current primary care doctor, Chelsea Willis?",
+    "answer": "Yes, your primary care doctor, Chelsea Willis, is in-network with the new plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T13:58:13.458Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage extras from UHC, KC2, HMO, POS",
+    "drugs": NaN,
+    "providers": "Doctor Chelsea Willis, Melissa Coosler (eye doctor), Doctor Zachariah (nurse practitioner in Missouri)",
+    "zip": "66097",
+    "state_processed": "KS",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66551491775655520",
+    "question": "Does the new plan cover my eye doctor, Melissa Coosler?",
+    "answer": "Yes, your eye doctor, Melissa Coosler, is also in-network with the new plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "vision provider coverage",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T13:58:13.458Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage extras from UHC, KC2, HMO, POS",
+    "drugs": NaN,
+    "providers": "Doctor Chelsea Willis, Melissa Coosler (eye doctor), Doctor Zachariah (nurse practitioner in Missouri)",
+    "zip": "66097",
+    "state_processed": "KS",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66551491775655520",
+    "question": "Do I need to find a new dentist for the new plan?",
+    "answer": "You will need to research and find a dentist on your own, but the agent can assist in checking if specific dentists are in-network.",
+    "topic": "providers",
+    "sub_topic": [
+      "dental provider coverage",
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T13:58:13.458Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage extras from UHC, KC2, HMO, POS",
+    "drugs": NaN,
+    "providers": "Doctor Chelsea Willis, Melissa Coosler (eye doctor), Doctor Zachariah (nurse practitioner in Missouri)",
+    "zip": "66097",
+    "state_processed": "KS",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66550191775850130",
+    "question": "Can I go out of network with the Complete Care plan?",
+    "answer": "The Complete Care plan is an in-network-only plan, but it works nationwide as long as the providers are in the network.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T19:43:52.035Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "United Healthcare Complete Care Policy",
+    "drugs": NaN,
+    "providers": "cardiologist",
+    "zip": "37398",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67026581775492700",
+    "question": "Does my current plan still cover my primary care provider and other doctors?",
+    "answer": "Yes, your current plan still lists your primary care provider and other doctors as covered, but this may change if your plan is terminated due to Medicaid ineligibility.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T16:35:13.347Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage from United Healthcare 0006 PPO",
+    "drugs": NaN,
+    "providers": "Catherine Green (Nurse Practitioner, Holdenville General Hospital Medical Group), Doctor Patrick O'Neill (Total Health and Wellness Center)",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66117781775656395",
+    "question": "Does my doctor accept this plan?",
+    "answer": "We need to verify if your doctor works with United Healthcare and accepts the plan you are considering.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T13:54:55.679Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "Individual UHC Dual Complete North Carolina HMO POS MAPD",
+    "drugs": "metformin, atorvastatin, calcium tablets",
+    "providers": "Doctor Gajani (primary care doctor, Westchester Dr., High Point, NC)",
+    "zip": "27260",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66117781775656395",
+    "question": "Do I need referrals for specialists?",
+    "answer": "Yes, this plan requires referrals from your primary care doctor for specialist visits.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T13:54:55.679Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "Individual UHC Dual Complete North Carolina HMO POS MAPD",
+    "drugs": "metformin, atorvastatin, calcium tablets",
+    "providers": "Doctor Gajani (primary care doctor, Westchester Dr., High Point, NC)",
+    "zip": "27260",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66117781775656395",
+    "question": "Can you contact my doctor to verify my chronic condition?",
+    "answer": "Yes, we can contact your doctor to verify your chronic condition, but we need your permission to release your health information for this purpose.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T13:54:55.679Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "Individual UHC Dual Complete North Carolina HMO POS MAPD",
+    "drugs": "metformin, atorvastatin, calcium tablets",
+    "providers": "Doctor Gajani (primary care doctor, Westchester Dr., High Point, NC)",
+    "zip": "27260",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66328281775859007",
+    "question": "I received a bill from Virginia Mason Franciscan Health and I don't know why I got this bill because I'm supposed to be on United Healthcare Dual Complete. Is there any way you could help me look into this?",
+    "answer": "I will check if the doctor and hospital are in the network. If they are, I will transfer you to the claims department to see if the bill can be resubmitted.",
+    "topic": "providers",
+    "sub_topic": [
+      "facility network status",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T22:13:13.394Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": "Virginia Mason Franciscan Health, Doctor Lawrence Tsai",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66328281775859007",
+    "question": "Was this like an emergency room visit at all?",
+    "answer": "No, this was my primary care visit.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-10T22:13:13.394Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": "Virginia Mason Franciscan Health, Doctor Lawrence Tsai",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66328281775859007",
+    "question": "Do you need the account number of the bill?",
+    "answer": "I don't know yet; I am just making sure the doctor and hospital are in the network.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "facility network status"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-10T22:13:13.394Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "United Healthcare Dual Complete",
+    "drugs": NaN,
+    "providers": "Virginia Mason Franciscan Health, Doctor Lawrence Tsai",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66000841775491365",
+    "question": "Can my mother keep her current primary provider, Dr. Adera Francis, if we switch plans?",
+    "answer": "Yes, Dr. Adera Francis is in-network even with the regular plans.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T16:05:19.266Z",
+    "Is_Digital": true,
+    "Is_Enrollment": true,
+    "plan_name": "UHC complete care SC1 PPO chronic special needs plan",
+    "drugs": "amitriptyline, amlodipine, famotidine, hydrochlorothiazide, Juluca",
+    "providers": "Dara Francis at Roper Saint Francis",
+    "zip": "29485",
+    "state_processed": "SC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67153631775657095",
+    "question": "Can you help me find eye doctors and dentists?",
+    "answer": "Finding eye doctors and dentists depends on your plan's network and coverage; you may need to check with your plan or specific providers.",
+    "topic": "providers",
+    "sub_topic": [
+      "dental provider coverage",
+      "vision provider coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-08T14:18:15.073Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage PPO",
+    "drugs": NaN,
+    "providers": "foot doctor, eye doctors, dentists",
+    "zip": "33916",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66341141775851992",
+    "question": "Can you verify if the clinic Desarter Medical Plaza is covered under United Healthcare?",
+    "answer": "Yes, I am verifying if your plan covers the Desarter Medical Plaza clinic. Please allow me a moment to confirm.",
+    "topic": "providers",
+    "sub_topic": [
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:15:40.154Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "California Cerro 0543",
+    "drugs": NaN,
+    "providers": "Clinica Desarter Medical Plaza",
+    "zip": "95829",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66341141775851992",
+    "question": "Is the clinic on Laguna Blvd covered under United Healthcare?",
+    "answer": "Yes, I am checking if the clinic on Laguna Blvd is covered under your United Healthcare plan. Please hold while I verify.",
+    "topic": "providers",
+    "sub_topic": [
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:15:40.154Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "California Cerro 0543",
+    "drugs": NaN,
+    "providers": "Clinica Desarter Medical Plaza",
+    "zip": "95829",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66341141775851992",
+    "question": "Can I register with the clinic under my United Healthcare HMO plan?",
+    "answer": "Yes, you can register with the clinic under your United Healthcare HMO plan if it is within the network. I will confirm the details for you.",
+    "topic": "providers",
+    "sub_topic": [
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:15:40.154Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "California Cerro 0543",
+    "drugs": NaN,
+    "providers": "Clinica Desarter Medical Plaza",
+    "zip": "95829",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66370451775492892",
+    "question": "Why was I dropped from my PCP, and what should I do now?",
+    "answer": "It seems your previous PCP is no longer accepting patients under your plan. I will connect you with an agent to assist in finding an in-network doctor.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider change request",
+      "keeping current provider",
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T16:29:42.604Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care Texas 24 HMO POS",
+    "drugs": NaN,
+    "providers": "Doctor Gagadd Am at Conviva Medical Center",
+    "zip": "78244",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66370451775492892",
+    "question": "Why did the new PCP tell me they don't accept my insurance?",
+    "answer": "The new PCP might have misunderstood your plan's network status. I will verify their network status and assist you further.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T16:29:42.604Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care Texas 24 HMO POS",
+    "drugs": NaN,
+    "providers": "Doctor Gagadd Am at Conviva Medical Center",
+    "zip": "78244",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66370451775492892",
+    "question": "Is the doctor at Conviva Medical Center in my network?",
+    "answer": "Yes, the doctor at Conviva Medical Center is in-network with your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T16:29:42.604Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care Texas 24 HMO POS",
+    "drugs": NaN,
+    "providers": "Doctor Gagadd Am at Conviva Medical Center",
+    "zip": "78244",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66370451775492892",
+    "question": "What should I do if I am out of medication and need a doctor?",
+    "answer": "I will connect you with an agent who can help you find an in-network doctor to address your medication needs.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T16:29:42.604Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care Texas 24 HMO POS",
+    "drugs": NaN,
+    "providers": "Doctor Gagadd Am at Conviva Medical Center",
+    "zip": "78244",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66370451775492892",
+    "question": "Can you help me change my doctor?",
+    "answer": "Yes, I will transfer you to an agent who can assist with changing your doctor.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider change request"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-06T16:29:42.604Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care Texas 24 HMO POS",
+    "drugs": NaN,
+    "providers": "Doctor Gagadd Am at Conviva Medical Center",
+    "zip": "78244",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66191911775854219",
+    "question": "I found a doctor and they said once I find a doctor, call back and give him the doctor name and the NPI number.",
+    "answer": "We can assist you with adding the new doctor to your plan and ensure everything is updated accordingly.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider selection",
+      "provider demographic or npi errors"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:53:31.817Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete",
+    "drugs": NaN,
+    "providers": "new doctor (name not specified)",
+    "zip": "75702",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66191911775854219",
+    "question": "Can you help me change the doctor on my card?",
+    "answer": "Yes, we can assist with updating your doctor information on your card.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider change request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:53:31.817Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete",
+    "drugs": NaN,
+    "providers": "new doctor (name not specified)",
+    "zip": "75702",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66581711775746777",
+    "question": "Will the Cancer Treatment Centers of America in Illinois be covered under my plan?",
+    "answer": "Yes, the Cancer Treatment Centers of America in Illinois are in-network for your dual complete plan in Wisconsin.",
+    "topic": "providers",
+    "sub_topic": [
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T15:11:24.885Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Dsmith, New Mexico plan; dual complete plan; AARP advantage plan",
+    "drugs": NaN,
+    "providers": "Cancer Treatment Centers of America; City of Hope Cancer Center",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66581711775746777",
+    "question": "Will my current plan cover treatments in Wisconsin or Illinois?",
+    "answer": "Your current plan will not cover treatments in Illinois but will cover treatments in Wisconsin.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T15:11:24.885Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Dsmith, New Mexico plan; dual complete plan; AARP advantage plan",
+    "drugs": NaN,
+    "providers": "Cancer Treatment Centers of America; City of Hope Cancer Center",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66453481775747565",
+    "question": "Can I use my UCard for my primary care physician?",
+    "answer": "Yes, you can use your UCard for your primary care physician, and it will be $0.00 when you visit them.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T15:15:16.987Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "U card",
+    "drugs": NaN,
+    "providers": "Patricia Hall, Anna Memorial",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66214211775502435",
+    "question": "I still want doctor Contractor.",
+    "answer": "The agent confirmed that Dr. Hina Contractor is in-network and works with the new plan at the specified location.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T19:08:57.351Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage Give Back",
+    "drugs": NaN,
+    "providers": "Hina Contractor",
+    "zip": "90240",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66542191775759457",
+    "question": "Do y'all take his family coverage, Doctor Lee?",
+    "answer": "This is just a prescription drug plan; we don't provide medical coverage through this plan.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-09T18:33:11.261Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Jefferson Hospital",
+    "zip": "*****",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66071691775847686",
+    "question": "Can physical therapy be scheduled before the new plan becomes effective?",
+    "answer": "Yes, physical therapy can be scheduled under the current plan, but it will need to be coordinated with the appropriate department.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T19:13:53.084Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66399061775850936",
+    "question": "Can I keep my current doctors with the PPO plan?",
+    "answer": "Yes, the PPO plan allows you to keep your current doctors without needing referrals, and all your listed doctors are in-network.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:10:21.649Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Texas 0006 PPO",
+    "drugs": NaN,
+    "providers": "Doctor Rakesh Patel (Endocrinologist), Doctor David Parikh (Pain Management Specialist), Doctor Tia Atiyah Khan (Primary Care), Doctor Baig (Cardiologist, Northwest Heart Care Specialist)",
+    "zip": "77375",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66399061775850936",
+    "question": "Can I get a referral in time for my upcoming doctor's appointment?",
+    "answer": "Referrals typically take 7 business days, and it is recommended to contact your primary care doctor to expedite the process.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral submission issues",
+      "referral approval or denial"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:10:21.649Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Texas 0006 PPO",
+    "drugs": NaN,
+    "providers": "Doctor Rakesh Patel (Endocrinologist), Doctor David Parikh (Pain Management Specialist), Doctor Tia Atiyah Khan (Primary Care), Doctor Baig (Cardiologist, Northwest Heart Care Specialist)",
+    "zip": "77375",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66399061775850936",
+    "question": "What can I do if I cannot get a referral in time for my appointment?",
+    "answer": "You can consider visiting an emergency clinic to get a prescription or assistance for your immediate needs.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral submission issues"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:10:21.649Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Texas 0006 PPO",
+    "drugs": NaN,
+    "providers": "Doctor Rakesh Patel (Endocrinologist), Doctor David Parikh (Pain Management Specialist), Doctor Tia Atiyah Khan (Primary Care), Doctor Baig (Cardiologist, Northwest Heart Care Specialist)",
+    "zip": "77375",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66385391775852519",
+    "question": "Is my doctor, Dr. Jaleel, in-network?",
+    "answer": "Yes, the location at 26237 Southfield Rd is in-network for your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:24:15.27Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete MI HMOD SNAP plan",
+    "drugs": "Losartan, Procardia (nifedipine), spironolactone, hydrochlorothiazide, aspirin, vitamin D",
+    "providers": "Doctor Quindar Jaleel, Doctor Darwish (orthopedic)",
+    "zip": "48076",
+    "state_processed": "MI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66562681775492438",
+    "question": "Can you tell if I live in a certain service area?",
+    "answer": "Yes, based on your address in Maricopa County, there are individual plans available with very low costs, including $0 premiums and deductibles. However, availability and costs may vary if you move to another county.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-06T16:22:31.112Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Arizona State Retirement HMO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "11725",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66026781775852718",
+    "question": "What should I do if I want to change my primary care doctor?",
+    "answer": "You can change your primary care doctor at any time, and we can help you find available doctors in your area.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider change request",
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-10T20:27:26.242Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "UHC Dual Complete",
+    "drugs": NaN,
+    "providers": "Hader Saleh, Envision Surgery Center",
+    "zip": NaN,
+    "state_processed": "WI",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66636931776433751",
+    "question": "Hi, I was just wondering if this particular dental clinic is in service with United Healthcare?",
+    "answer": "Let me connect you to the current department to the marketplace with customer service.",
+    "topic": "providers",
+    "sub_topic": [
+      "dental provider coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T13:51:32.188Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66505921776458755",
+    "question": "I want to know the specialists that take the insurance for heart and gynecology.",
+    "answer": "Let me find your information here and I can get you over to customer service for assistance.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T20:48:29.778Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66279301776108357",
+    "question": "Do you need the surgeon's name or just his primary care doctor?",
+    "answer": "No, we only need the name of his primary care doctor.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T19:39:56.845Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care Support TC-6",
+    "drugs": NaN,
+    "providers": "Terry Belial",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67065831776447246",
+    "question": "Do you need all of my doctors' names to make sure they are covered by the policy?",
+    "answer": "Yes, I need the names of all your doctors to verify if they are covered under the policy.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T17:38:28.656Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": "metformin, gunvia, atorvastatin, bupropion XL, lisinopril, aspirin (St. Joseph), hydrochlorothiazide",
+    "providers": "Doctor Leslie Elezi Agron, Virgo Dr. Naffouje, Lydian Mentzelopoulos, Psychiatrist Holding, Heart doctor Elmore Murdoch, Eye doctor Balaji Gupta",
+    "zip": "872",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67065831776447246",
+    "question": "Is my psychiatrist, Dr. Holding, covered under the plan?",
+    "answer": "Dr. Holding is out of network, but you do have out-of-network coverage; however, he would need to agree to bill us and accept Medicaid coverage.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "out of network coverage rules",
+      "mental health provider coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T17:38:28.656Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": "metformin, gunvia, atorvastatin, bupropion XL, lisinopril, aspirin (St. Joseph), hydrochlorothiazide",
+    "providers": "Doctor Leslie Elezi Agron, Virgo Dr. Naffouje, Lydian Mentzelopoulos, Psychiatrist Holding, Heart doctor Elmore Murdoch, Eye doctor Balaji Gupta",
+    "zip": "872",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67065831776447246",
+    "question": "Do you see Dr. Gupta in Lombard or Darien?",
+    "answer": "Dr. Gupta is listed as practicing in Lombard.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T17:38:28.656Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": "metformin, gunvia, atorvastatin, bupropion XL, lisinopril, aspirin (St. Joseph), hydrochlorothiazide",
+    "providers": "Doctor Leslie Elezi Agron, Virgo Dr. Naffouje, Lydian Mentzelopoulos, Psychiatrist Holding, Heart doctor Elmore Murdoch, Eye doctor Balaji Gupta",
+    "zip": "872",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67065831776447246",
+    "question": "Do you see Dr. Naffouje off of East Brush Hill?",
+    "answer": "Yes, Dr. Naffouje is listed at 177 E Brush Hill in Helmholtz.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider contact information"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T17:38:28.656Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": "metformin, gunvia, atorvastatin, bupropion XL, lisinopril, aspirin (St. Joseph), hydrochlorothiazide",
+    "providers": "Doctor Leslie Elezi Agron, Virgo Dr. Naffouje, Lydian Mentzelopoulos, Psychiatrist Holding, Heart doctor Elmore Murdoch, Eye doctor Balaji Gupta",
+    "zip": "872",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67065831776447246",
+    "question": "Do you see Dr. Elmor in Elmhurst or Naperville?",
+    "answer": "Dr. Elmor is listed as practicing in Elmhurst.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T17:38:28.656Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": "metformin, gunvia, atorvastatin, bupropion XL, lisinopril, aspirin (St. Joseph), hydrochlorothiazide",
+    "providers": "Doctor Leslie Elezi Agron, Virgo Dr. Naffouje, Lydian Mentzelopoulos, Psychiatrist Holding, Heart doctor Elmore Murdoch, Eye doctor Balaji Gupta",
+    "zip": "872",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67065831776447246",
+    "question": "Do you see Dr. Mentzelopoulos on South York Street or Lake Street?",
+    "answer": "Dr. Mentzelopoulos is listed as practicing on South York Street in Elmhurst.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider contact information"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T17:38:28.656Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": "metformin, gunvia, atorvastatin, bupropion XL, lisinopril, aspirin (St. Joseph), hydrochlorothiazide",
+    "providers": "Doctor Leslie Elezi Agron, Virgo Dr. Naffouje, Lydian Mentzelopoulos, Psychiatrist Holding, Heart doctor Elmore Murdoch, Eye doctor Balaji Gupta",
+    "zip": "872",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67065831776447246",
+    "question": "Do you see Dr. Balaji Gupta in Lombard or Darien?",
+    "answer": "Dr. Balaji Gupta is listed as practicing in Lombard.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T17:38:28.656Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": "metformin, gunvia, atorvastatin, bupropion XL, lisinopril, aspirin (St. Joseph), hydrochlorothiazide",
+    "providers": "Doctor Leslie Elezi Agron, Virgo Dr. Naffouje, Lydian Mentzelopoulos, Psychiatrist Holding, Heart doctor Elmore Murdoch, Eye doctor Balaji Gupta",
+    "zip": "872",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66150001776431611",
+    "question": "Can I get a primary care doctor in Florida while keeping my plan in Indiana?",
+    "answer": "You would need to select a primary care doctor in Indiana for the plan to remain valid, as the plan is tied to your primary address in Indiana.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider selection",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T13:38:43.811Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "AARP Medicare Advantage Essentials from UHC IN-12",
+    "drugs": NaN,
+    "providers": "Timothy Gatewood, KEYUR KURANI",
+    "zip": "46074",
+    "state_processed": "IN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66221451776442637",
+    "question": "Can I see my doctor in Florida as well as a doctor in New Jersey under the PPO plan?",
+    "answer": "Yes, the PPO plan gives you the flexibility to see your doctor in Florida as well as a doctor in New Jersey.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T16:18:30.533Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Humana Policy 0 premium PPO",
+    "drugs": "Synthroid, Crestor",
+    "providers": "Dermatologist, GYN",
+    "zip": "33176",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67004681776454376",
+    "question": "Who is my primary care physician?",
+    "answer": "Your primary care physician is Dr. Claudine Caesar, who is a nurse practitioner.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T19:41:33.858Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Chronic Special Needs plan",
+    "drugs": NaN,
+    "providers": "Doctor Claudine Caesar, hematology oncologist, pulmonologist, cardiologist",
+    "zip": "30294",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67004681776454376",
+    "question": "Are my specialists still in-network with my plan?",
+    "answer": "I will check to ensure your specialists are still in-network with your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T19:41:33.858Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Chronic Special Needs plan",
+    "drugs": NaN,
+    "providers": "Doctor Claudine Caesar, hematology oncologist, pulmonologist, cardiologist",
+    "zip": "30294",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67004681776454376",
+    "question": "What is the name of the pulmonologist I was referred to?",
+    "answer": "You mentioned you were given a pulmonologist's contact but do not recall the name; you can check your paperwork for details.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider contact information"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T19:41:33.858Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Chronic Special Needs plan",
+    "drugs": NaN,
+    "providers": "Doctor Claudine Caesar, hematology oncologist, pulmonologist, cardiologist",
+    "zip": "30294",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67004681776454376",
+    "question": "What is the name of the heart doctor I need to see?",
+    "answer": "You referred to a cardiologist you see every six months, and you have the contact information to make an appointment.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider contact information"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-17T19:41:33.858Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Chronic Special Needs plan",
+    "drugs": NaN,
+    "providers": "Doctor Claudine Caesar, hematology oncologist, pulmonologist, cardiologist",
+    "zip": "30294",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66440581776429228",
+    "question": "Does the Florida plan include hospital coverage?",
+    "answer": "Yes, the Florida plan includes hospital coverage.",
+    "topic": "providers",
+    "sub_topic": [
+      "hospital coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T12:52:34.458Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Preferred Medicare Advantage",
+    "drugs": NaN,
+    "providers": "La Colonia Skilled Nursing Facility",
+    "zip": "90278",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66440581776429228",
+    "question": "Can I verify the clinic address for my plan?",
+    "answer": "Yes, the clinic address can be verified for your plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider contact information"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T12:52:34.458Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "United Healthcare Preferred Medicare Advantage",
+    "drugs": NaN,
+    "providers": "La Colonia Skilled Nursing Facility",
+    "zip": "90278",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66025871776453472",
+    "question": "Are my doctors in-network with this plan?",
+    "answer": "Yes, your primary care doctor and specialists, including your cardiologist and OBGYN, are in-network with this plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T19:19:36.05Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "NC HN0P 0S plan",
+    "drugs": NaN,
+    "providers": "Doctor Cutterpaw, Cardiologist Boondock Kumar Patel, Dr. Lori Spezak",
+    "zip": "27534",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66249741776091867",
+    "question": "I need to find a primary care doctor, pain doctor, neurologist, and cardiologist in New Mexico. Can you help?",
+    "answer": "Yes, I can assist with finding these doctors and getting you started right away.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T14:52:58.982Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials plan",
+    "drugs": NaN,
+    "providers": "primary care doctor, pain doctor, neurologist, cardiologist, eye doctor",
+    "zip": "88011",
+    "state_processed": "NM",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66249741776091867",
+    "question": "Do I need referrals to see specialists under the new plan?",
+    "answer": "No, you do not need referrals to see specialists under this plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T14:52:58.982Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials plan",
+    "drugs": NaN,
+    "providers": "primary care doctor, pain doctor, neurologist, cardiologist, eye doctor",
+    "zip": "88011",
+    "state_processed": "NM",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66125221776435756",
+    "question": "Why is my chronic needs doctor\u2019s assistant having trouble getting paid?",
+    "answer": "The agent suggested that the issue might be related to incorrect filing by the assistant and confirmed the customer\u2019s current plan details to ensure proper coverage.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T14:54:51.651Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage plan",
+    "drugs": NaN,
+    "providers": "chronic needs doctor",
+    "zip": "1639",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66573281776461066",
+    "question": "Would switching to the other dual plan affect my ability to see my current doctors?",
+    "answer": "The other dual plan requires using only in-network doctors, unlike your current plan, which allows out-of-network providers. We would need to verify if your current doctors are in-network under the new plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "provider network status check",
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T21:26:29.116Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "MOS 002",
+    "drugs": NaN,
+    "providers": "United Healthcare doctors",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66573281776461066",
+    "question": "Is my physician under UnitedHealthcare's network?",
+    "answer": "Yes, it is likely that your physician is in-network with UnitedHealthcare, as most people use in-network providers.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T21:26:29.116Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "MOS 002",
+    "drugs": NaN,
+    "providers": "United Healthcare doctors",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66651781776444171",
+    "question": "Are my doctors still in the network?",
+    "answer": "Yes, your primary care doctor and specialists, including your pain management doctor and rheumatologist, are in the network. However, one dentist at the office you mentioned does not have the correct address listed, but the others are in the network.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "provider demographic or npi errors"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T16:59:30.188Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete TX-**",
+    "drugs": NaN,
+    "providers": "Doctor Michael Jackson, Doctor Stefan Gilthorpe, Rheumatologist Imran Mohammed, Dentist at High Dental",
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66195251776093595",
+    "question": "Do I still need a referral from my primary care doctor for a mammogram?",
+    "answer": "No, you do not need a referral for a mammogram as it falls under OBGYN services, which do not require referrals.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T16:12:32.162Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Peoples Health Medicare Advantage Give Back LA-4 HMO POS, Peoples Health choices 65 HMO POS MAPD",
+    "drugs": "acid reflux medication, high blood pressure medication, multivitamin (over the counter)",
+    "providers": "Doctor Tamisha Nixon (primary care physician), Doctor Cecilia Kunst (specialist)",
+    "zip": "70802",
+    "state_processed": "LA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66583931776104437",
+    "question": "I need to go to the dentist and I need to make appointments for my doctor over here, and the doctor that I have, for some reason they're charging me.",
+    "answer": "You have coverage and should not be incurring any costs. We may need to contact the provider to clarify your coverage and resolve the issue.",
+    "topic": "providers",
+    "sub_topic": [
+      "dental provider coverage",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T18:23:37.861Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHD dual complete",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66226011776092848",
+    "question": "I'm still going to be able to go see all my doctors that I see now, right?",
+    "answer": "From what I'm seeing here, you're not going to have any changes as far as with your doctors. You can continue with all your doctors and you're no longer going to need a referral, so you can just go on your own if you have to.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T15:33:12.852Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plans",
+    "drugs": "arthritis medication (unspecified)",
+    "providers": "Lena Dunn, Whitney White, Mark Eisenberg, Doctor Elliot, Finkelman",
+    "zip": "3100",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66226011776092848",
+    "question": "What is the name of my primary doctor?",
+    "answer": "Your primary doctor is Lena Dunn, and she is located on W Jackson St.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T15:33:12.852Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plans",
+    "drugs": "arthritis medication (unspecified)",
+    "providers": "Lena Dunn, Whitney White, Mark Eisenberg, Doctor Elliot, Finkelman",
+    "zip": "3100",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66226011776092848",
+    "question": "Will I need a referral to see my doctors?",
+    "answer": "You will no longer need a referral, so you can visit your doctors directly if needed.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T15:33:12.852Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plans",
+    "drugs": "arthritis medication (unspecified)",
+    "providers": "Lena Dunn, Whitney White, Mark Eisenberg, Doctor Elliot, Finkelman",
+    "zip": "3100",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66226011776092848",
+    "question": "What is the name of my podiatrist?",
+    "answer": "Your podiatrist is Dr. Mark Eisenberg, located on North Davis Highway.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider contact information"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T15:33:12.852Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "dual complete plans",
+    "drugs": "arthritis medication (unspecified)",
+    "providers": "Lena Dunn, Whitney White, Mark Eisenberg, Doctor Elliot, Finkelman",
+    "zip": "3100",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66605471776105186",
+    "question": "I tried calling the doctor's office and they said it still hasn't changed. Why hasn't my primary care doctor been updated?",
+    "answer": "It seems like you're having an issue with your primary care doctor change. I'll connect you with a Member Services advocate to assist you further.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider change request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T18:36:02.748Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "28570",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207681776093906",
+    "question": "Are my doctors in-network under this plan?",
+    "answer": "The agent confirmed that both the customer's primary doctor and podiatrist are in-network under the selected plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T15:26:49.139Z",
+    "Is_Digital": true,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage Essentials from United Healthcare Texas 11 HMO",
+    "drugs": "lisinopril, lisinopril HCTZ, nebivolol, levothyroxine",
+    "providers": "Doctor Harvey, Nurse Practitioner Hermalinda Fitz, podiatrist Neil Campbell, Parkside Clinic",
+    "zip": "77954",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66026891776097640",
+    "question": "What do I do if my old primary care physician won't provide a referral because I'm no longer with them, and my new primary care physician can't see me until later?",
+    "answer": "The best recommendation is to contact member services to help you find another primary care physician who can see you sooner and provide the necessary referral.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification",
+      "primary care provider change request"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T16:29:29.765Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Center Well senior chronic special needs plan",
+    "drugs": NaN,
+    "providers": "Center Well senior care, Dr. Kaufman (or Hoffman), Center Well senior primary care in Lebanon Pike",
+    "zip": "37076",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66026891776097640",
+    "question": "Does CenterWell Senior Primary Care take the dual special needs plan?",
+    "answer": "CenterWell Senior Primary Care does not take the dual special needs plan but does accept the chronic special needs plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T16:29:29.765Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Center Well senior chronic special needs plan",
+    "drugs": NaN,
+    "providers": "Center Well senior care, Dr. Kaufman (or Hoffman), Center Well senior primary care in Lebanon Pike",
+    "zip": "37076",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66026891776097640",
+    "question": "Can you transfer me to member services to help find a primary care physician?",
+    "answer": "Yes, I can transfer you to member services, and they can assist in finding a primary care physician who can see you sooner.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers",
+      "primary care provider selection"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T16:29:29.765Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "Center Well senior chronic special needs plan",
+    "drugs": NaN,
+    "providers": "Center Well senior care, Dr. Kaufman (or Hoffman), Center Well senior primary care in Lebanon Pike",
+    "zip": "37076",
+    "state_processed": "TN",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66115681776101856",
+    "question": "Who is your primary care provider?",
+    "answer": "I was using Jenny Bruce at Katy Trail, but I\u2019m open to any doctor because I don\u2019t currently have a primary doctor.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider selection"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:42:22.548Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Aim Better",
+    "drugs": NaN,
+    "providers": "Jenny Bruce, Bothwell",
+    "zip": "65301",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66115681776101856",
+    "question": "Do you have specialists that you go to or need to keep?",
+    "answer": "Not yet, but I will need to see someone about my liver and other health concerns.",
+    "topic": "providers",
+    "sub_topic": [
+      "find in network providers",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:42:22.548Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Aim Better",
+    "drugs": NaN,
+    "providers": "Jenny Bruce, Bothwell",
+    "zip": "65301",
+    "state_processed": "MO",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "21085012500223031",
+    "question": "If I need a doctor, do I still call this number?",
+    "answer": "Yes, you can still call this number. However, with the current Virginia plan, some doctors in California may not accept it, but urgent care and emergency rooms will be covered.",
+    "topic": "providers",
+    "sub_topic": [
+      "urgent care and emergency care coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-15T22:02:48.578Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66430241776003583",
+    "question": "Are my current doctors, like Dr. Aqua and Dr. Patel, still in-network?",
+    "answer": "Yes, Dr. Aqua and Dr. Patel are still in-network under the UHC Complete Care plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-12T14:22:31.421Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care Pennsylvania 17",
+    "drugs": "metformin, pravastatin, gabapentin, pantoprazole, Celebrex (generic), tamsulosin",
+    "providers": "Doctor Aqua, Doctor Patel, York Hospital",
+    "zip": "1744",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66430241776003583",
+    "question": "What about the doctor I go to now through York Hospital? I can't think of his name.",
+    "answer": "I would need the name of the doctor to verify if they are in-network, but I can look up York Hospital to check its network status.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-12T14:22:31.421Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care Pennsylvania 17",
+    "drugs": "metformin, pravastatin, gabapentin, pantoprazole, Celebrex (generic), tamsulosin",
+    "providers": "Doctor Aqua, Doctor Patel, York Hospital",
+    "zip": "1744",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66430241776003583",
+    "question": "What about my diabetes monitoring supplies? I used to get them from Dr. Aqua's office, but I don't have them now since I changed doctors.",
+    "answer": "We can make you a patient with Dr. Aqua's office again, which should resolve the issue of not having your diabetes monitoring supplies.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider change request",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-12T14:22:31.421Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care Pennsylvania 17",
+    "drugs": "metformin, pravastatin, gabapentin, pantoprazole, Celebrex (generic), tamsulosin",
+    "providers": "Doctor Aqua, Doctor Patel, York Hospital",
+    "zip": "1744",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66074081776432624",
+    "question": "How would it work if I decided to get my hip replacement outside the VA?",
+    "answer": "You could choose any specialist as the plan is a PPO, and for outpatient hospital services, including surgery, your responsibility would be $550.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules",
+      "hospital coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T13:32:18.974Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage Patriot Plan",
+    "drugs": NaN,
+    "providers": "Doctor Thomas Lee, Silver Cross Blvd",
+    "zip": "60432",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66074081776432624",
+    "question": "Do I need to see civilian doctors, and how does that work?",
+    "answer": "You don't have to see civilian doctors, but a primary doctor will be listed on your file for convenience; you can choose any doctor if needed.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider selection"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T13:32:18.974Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage Patriot Plan",
+    "drugs": NaN,
+    "providers": "Doctor Thomas Lee, Silver Cross Blvd",
+    "zip": "60432",
+    "state_processed": "IL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66083321776353269",
+    "question": "I'm trying to see what pharmacy that do medical equipment take my insurance.",
+    "answer": "The agent attempted to clarify the request and later transferred the customer to Member Services for assistance with finding a DME company for a rollator.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T15:30:20.546Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "14212",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66445911776454854",
+    "question": "I recently have an insurance with Humana and my doctors aren't taking them anymore and there's no doctors within 30 miles of my house that takes them. I really didn't want to switch doctors.",
+    "answer": "The agent acknowledged the issue and mentioned they would check if there are any options to address the situation, including potential plan changes.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider",
+      "find in network providers",
+      "provider changes or leaving network"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T19:42:37.454Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Humana",
+    "drugs": NaN,
+    "providers": "Optum, Community Alliance facility",
+    "zip": "92346",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66445911776454854",
+    "question": "I see on this plan with you guys that my doctor is still on there, so he takes your insurance. I don't know what's going on with that Humana.",
+    "answer": "The agent mentioned that sometimes providers are in negotiations with insurance companies, and it might not be a finalized decision yet.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network discrepancy",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T19:42:37.454Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Humana",
+    "drugs": NaN,
+    "providers": "Optum, Community Alliance facility",
+    "zip": "92346",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66445911776454854",
+    "question": "Can you verify if my doctor is still covered under this plan?",
+    "answer": "The agent stated they would verify the provider's status and check if there are any options to address the issue.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-17T19:42:37.454Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "Humana",
+    "drugs": NaN,
+    "providers": "Optum, Community Alliance facility",
+    "zip": "92346",
+    "state_processed": "CA",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66160691776098907",
+    "question": "Do you want me to only look at a PPO?",
+    "answer": "The agent explained that PPO plans allow customers to go in and out of network without referrals, which might be preferable for those undergoing cancer treatment.",
+    "topic": "providers",
+    "sub_topic": [
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T16:50:55.43Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "AARP Medicare Advantage from UHC PPO",
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "23320",
+    "state_processed": "VA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66534761776347045",
+    "question": "Do I need to make sure my provider is in-network?",
+    "answer": "Yes, you need to ensure your provider is in-network because your plan does not have any out-of-network benefits.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T13:46:27.579Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66534761776347045",
+    "question": "Can you send me a list of dentists?",
+    "answer": "Yes, we can send you a list of dentists. I will pull up the information and send it to your updated cell phone number.",
+    "topic": "providers",
+    "sub_topic": [
+      "dental provider coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T13:46:27.579Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": NaN,
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "66073521776103931",
+    "question": "Can Arturo still see a doctor before the new plan takes effect?",
+    "answer": "Yes, Arturo can see a doctor under Medicaid, but if there is a copay involved, United Healthcare will not cover it until the new dual plan takes effect.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T18:13:51.908Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Dual Complete TX-**** HMO POS",
+    "drugs": "amlodipine",
+    "providers": "Doctor Stephanie Foster",
+    "zip": "76010",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66514981776104738",
+    "question": "The reason I chose this plan is because my family doctor is covered. Is he still covered?",
+    "answer": "The agent confirmed that the customer's family doctor is still covered under the current plan.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T18:51:49.022Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage from UHC",
+    "drugs": NaN,
+    "providers": "family doctor",
+    "zip": "33771",
+    "state_processed": "FL",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66225541776099417",
+    "question": "My doctor, my PCP, will be Doctor Julia Garcia. Is she in the network?",
+    "answer": "Yes, Dr. Julia Garcia is in the network. The address listed for her is **** Shields Rd, Dalton, Georgia, 30720.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification",
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:08:55.3Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "UHC Dual Complete GA S PPO Dual Special Needs Plan",
+    "drugs": NaN,
+    "providers": "Doctor Julia Garcia",
+    "zip": "30720",
+    "state_processed": "GA",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207031776100752",
+    "question": "I want to make sure all my doctors are still under my plan. Are they?",
+    "answer": "Yes, all your doctors except for one neurologist, Dr. Susan Evans, are still under your plan. You can continue seeing your primary care doctor and other specialists.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:26:37.498Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Dr. Susan Evans (neurologist), Dr. Alexander (neurologist), Dr. Matthew Drake (primary care, no longer seen), Family Medicine (practice), ECU Health Medical (hospital), Biden Hospital (no longer in network), Renee Pearson (psychologist/counseling)",
+    "zip": "27834",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207031776100752",
+    "question": "What about the hospital? Can I still go to the hospital?",
+    "answer": "The hospital, Vidant, will no longer be taking United Healthcare, but ECU Health Medical is still in-network and available for you. Both hospitals are located in Greenville and are near each other.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider changes or leaving network",
+      "facility network status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:26:37.498Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Dr. Susan Evans (neurologist), Dr. Alexander (neurologist), Dr. Matthew Drake (primary care, no longer seen), Family Medicine (practice), ECU Health Medical (hospital), Biden Hospital (no longer in network), Renee Pearson (psychologist/counseling)",
+    "zip": "27834",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207031776100752",
+    "question": "So you're saying everything else is fine?",
+    "answer": "Yes, everything else is fine. Only one neurologist and one hospital are no longer in-network.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider changes or leaving network"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-13T17:26:37.498Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Dr. Susan Evans (neurologist), Dr. Alexander (neurologist), Dr. Matthew Drake (primary care, no longer seen), Family Medicine (practice), ECU Health Medical (hospital), Biden Hospital (no longer in network), Renee Pearson (psychologist/counseling)",
+    "zip": "27834",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207031776100752",
+    "question": "What if something happens? Are you saying I can't go to the hospital anymore?",
+    "answer": "You wouldn't be able to use Vidant Hospital, but you can use ECU Health Medical, which is still in-network.",
+    "topic": "providers",
+    "sub_topic": [
+      "facility network status",
+      "hospital coverage"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:26:37.498Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Dr. Susan Evans (neurologist), Dr. Alexander (neurologist), Dr. Matthew Drake (primary care, no longer seen), Family Medicine (practice), ECU Health Medical (hospital), Biden Hospital (no longer in network), Renee Pearson (psychologist/counseling)",
+    "zip": "27834",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207031776100752",
+    "question": "Where is the ECU Health Medical hospital located?",
+    "answer": "The ECU Health Medical hospital is located on Stanton Solberg Rd in Greenville.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider contact information"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:26:37.498Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Dr. Susan Evans (neurologist), Dr. Alexander (neurologist), Dr. Matthew Drake (primary care, no longer seen), Family Medicine (practice), ECU Health Medical (hospital), Biden Hospital (no longer in network), Renee Pearson (psychologist/counseling)",
+    "zip": "27834",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207031776100752",
+    "question": "I want to know what's going on with my counseling doctor. They said there are problems with it.",
+    "answer": "It sounds like there is a claims issue with your counseling doctor. I will connect you with the claims department to resolve it.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:26:37.498Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Dr. Susan Evans (neurologist), Dr. Alexander (neurologist), Dr. Matthew Drake (primary care, no longer seen), Family Medicine (practice), ECU Health Medical (hospital), Biden Hospital (no longer in network), Renee Pearson (psychologist/counseling)",
+    "zip": "27834",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207031776100752",
+    "question": "Can you make sure they have the right address for my counseling doctor? They keep mixing it up.",
+    "answer": "Yes, I will check and ensure the correct address is updated for your counseling doctor.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider demographic or npi errors"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:26:37.498Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Dr. Susan Evans (neurologist), Dr. Alexander (neurologist), Dr. Matthew Drake (primary care, no longer seen), Family Medicine (practice), ECU Health Medical (hospital), Biden Hospital (no longer in network), Renee Pearson (psychologist/counseling)",
+    "zip": "27834",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66207031776100752",
+    "question": "Do I need to find another primary doctor?",
+    "answer": "No, your primary doctor is still in-network, and you do not need to find another one.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:26:37.498Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": "Dr. Susan Evans (neurologist), Dr. Alexander (neurologist), Dr. Matthew Drake (primary care, no longer seen), Family Medicine (practice), ECU Health Medical (hospital), Biden Hospital (no longer in network), Renee Pearson (psychologist/counseling)",
+    "zip": "27834",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "66537971776086770",
+    "question": "I don't have a primary care doctor right now. What should I do?",
+    "answer": "We can assign a primary care doctor for you temporarily, and you can try them out to see if you like them. If not, we can send you a list of other doctors in your area.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider selection",
+      "find in network providers"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T13:27:50.012Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials from United Healthcare TX-21, HMO, POS",
+    "drugs": NaN,
+    "providers": "Dr. Catherine Villarreal, 5210 Thousand Oaks Drive, Suite 1203, San Antonio, TX 78233",
+    "zip": "78217",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66537971776086770",
+    "question": "Is the place called Covina eligible?",
+    "answer": "I would need the name of the doctor to check eligibility, as I search by doctor names and their addresses.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider eligibility verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T13:27:50.012Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "AARP Medicare Advantage Essentials from United Healthcare TX-21, HMO, POS",
+    "drugs": NaN,
+    "providers": "Dr. Catherine Villarreal, 5210 Thousand Oaks Drive, Suite 1203, San Antonio, TX 78233",
+    "zip": "78217",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66205471776102279",
+    "question": "Would my current PCP, Stephanie Myers, still be covered under the previous plan?",
+    "answer": "Yes, Stephanie Myers would be covered under the previous plan with a $0 copay.",
+    "topic": "providers",
+    "sub_topic": [
+      "keeping current provider"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:58:56.639Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care AC-3B HML POS, AARP Medicare Advantage Essentials",
+    "drugs": "lisinopril, simvastatin, Xarelto, Clindamycin phosphate topical lotion, Miconazole, Metro Nidosolve",
+    "providers": "Stephanie Myers (nurse practitioner at UMM Fountain Plaza)",
+    "zip": "85716",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66205471776102279",
+    "question": "Would I need written referrals if I switch back to the AARP Essentials plan?",
+    "answer": "Yes, you would need written referrals with the AARP Essentials plan as it is still an HMO.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:58:56.639Z",
+    "Is_Digital": false,
+    "Is_Enrollment": true,
+    "plan_name": "UHC Complete Care AC-3B HML POS, AARP Medicare Advantage Essentials",
+    "drugs": "lisinopril, simvastatin, Xarelto, Clindamycin phosphate topical lotion, Miconazole, Metro Nidosolve",
+    "providers": "Stephanie Myers (nurse practitioner at UMM Fountain Plaza)",
+    "zip": "85716",
+    "state_processed": "AZ",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66545881776100315",
+    "question": "They're only supposed to ask for that request letter to a different doctor once a year, right?",
+    "answer": "Yes, if your primary care provider fills out the referral paperwork correctly and specifies the number of visits, you should not need a new referral for each visit to the same specialist.",
+    "topic": "providers",
+    "sub_topic": [
+      "referral requirement clarification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-13T17:14:13.003Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": NaN,
+    "drugs": NaN,
+    "providers": NaN,
+    "zip": "75440",
+    "state_processed": "TX",
+    "region_processed": "WEST"
+  },
+  {
+    "Ucid": "66000231776348559",
+    "question": "How do I check if my kidney doctor is in the network?",
+    "answer": "If you can provide the correct spelling of the doctor's name, customer service can check their network status for you.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T14:17:42.995Z",
+    "Is_Digital": NaN,
+    "Is_Enrollment": NaN,
+    "plan_name": "United Healthcare Complete Care TC-005 HMO Planar Service Chronic Special Needs Plan",
+    "drugs": NaN,
+    "providers": "Alicia Shoemaker, Rachel Lynn Holloway, Sean (foot doctor), Lori Yancey Ellis, Madison Truman (physician assistant), Barry Michaelson (cardiologist), Doctor McCoy (cardiologist), Robert Martin (retired), Kyle McCoy, Mutasami, Maryn Merkel, Christopher Bowen, Amanda Ergen, Leland Smith, Brandon Breeden, William Norris, Tyler Bogle, Adam Buzzard, Kidney doctor (name uncertain), Doctor Ramsey (cancer doctor), Doctor Sharp (deceased)",
+    "zip": "423",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67088081776344572",
+    "question": "If I go with the HMO plan, are my current doctors in-network?",
+    "answer": "Your psychiatrist is in-network, but your nurse practitioner is not listed in the system. I was unable to find a doctor above her in the network.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check",
+      "provider system mismatch or inactive status"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T13:04:38.14Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Dual Complete NC-**** PPO",
+    "drugs": "Sertraline, Quetiapine fumarate, Clonazepam, Rexulti, Lisinopril, Docusate Sodium",
+    "providers": "Shirley Warner (primary care doctor), David Branion (psychiatrist, Damark Recovery Services)",
+    "zip": "28694",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67088081776344572",
+    "question": "Can my primary care doctor file Medicaid instead of using my United Healthcare plan?",
+    "answer": "Sometimes providers can bill Medicaid instead of your United Healthcare plan if they are out of network, but this depends on the state and specific circumstances.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification",
+      "out of network coverage rules"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T13:04:38.14Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Dual Complete NC-**** PPO",
+    "drugs": "Sertraline, Quetiapine fumarate, Clonazepam, Rexulti, Lisinopril, Docusate Sodium",
+    "providers": "Shirley Warner (primary care doctor), David Branion (psychiatrist, Damark Recovery Services)",
+    "zip": "28694",
+    "state_processed": "NC",
+    "region_processed": "EAST"
+  },
+  {
+    "Ucid": "67140101776349425",
+    "question": "Who did you want me to list as your primary care doctor?",
+    "answer": "The doctor listed is Dr. Obrad, and we confirmed the correct provider as part of Optum Medical Group.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T14:27:55.382Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care NV 4 HMO POS",
+    "drugs": NaN,
+    "providers": "Doctor O Brand, Optum Medical Group",
+    "zip": "011",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67140101776349425",
+    "question": "Were there any specialists you need me to check on, see if they're still in network?",
+    "answer": "No specialists were requested to be checked for network status.",
+    "topic": "providers",
+    "sub_topic": [
+      "provider network status check"
+    ],
+    "is_useful": "no",
+    "StartTime": "2026-04-16T14:27:55.382Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care NV 4 HMO POS",
+    "drugs": NaN,
+    "providers": "Doctor O Brand, Optum Medical Group",
+    "zip": "011",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67140101776349425",
+    "question": "Would your primary care doctor be the best one to verify the diabetes with?",
+    "answer": "Yes, the primary care doctor, Dr. Obrad, was listed as the contact for verifying diabetes.",
+    "topic": "providers",
+    "sub_topic": [
+      "primary care provider verification"
+    ],
+    "is_useful": "yes",
+    "StartTime": "2026-04-16T14:27:55.382Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "UHC Complete Care NV 4 HMO POS",
+    "drugs": NaN,
+    "providers": "Doctor O Brand, Optum Medical Group",
+    "zip": "011",
+    "state_processed": NaN,
+    "region_processed": NaN
+  },
+  {
+    "Ucid": "67024131776351474",
+    "question": "What pharmacy do you use?",
+    "answer": "The customer confirmed they use SB Pharmacy on 124 Madison Ave.",
+    "topic": "providers",
+    "sub_topic": [],
+    "is_useful": "no",
+    "StartTime": "2026-04-16T14:59:36.211Z",
+    "Is_Digital": false,
+    "Is_Enrollment": false,
+    "plan_name": "dual complete NYS 02",
+    "drugs": "metformin, Jardiance, sonoprene, atorvastatin, omeprazole",
+    "providers": "Samantha Glass, Doctor Wisner",
+    "zip": "10035",
+    "state_processed": "NY",
+    "region_processed": "EAST"
+  }
+]

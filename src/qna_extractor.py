@@ -774,7 +774,7 @@ class qna_extractor:
         async with semaphore:  # Limit concurrent processing
             max_retries = 5
             text = row['Text']
-            ucid = row['Ucid']
+            ucid = str(row['Ucid'])
             project = input_dict["project"]
 
             if text is None or text.strip() == "":
